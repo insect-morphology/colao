@@ -1,0 +1,455 @@
+Level	Rule Name	Subject	Property	Value
+ERROR	duplicate_label	root node	rdfs:label	root node@en
+ERROR	duplicate_label	root node	rdfs:label	root node@en
+ERROR	multiple_definitions	has part	definition	<Q1 has_part Q2 if and only if: every instance of Q1 is a quality_of an entity that has_quality some Q2.>
+ERROR	multiple_definitions	has part	definition	a core relation that holds between a whole and its part@en
+ERROR	multiple_definitions	preceded_by	definition	<X preceded_by Y iff: end(Y) before_or_simultaneous_with start(X)>
+ERROR	multiple_definitions	preceded_by	definition	<x is preceded by y if and only if the time point at which y ends is before or equivalent to the time point at which x starts. Formally: x preceded by y iff ω(y) <= α(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point.@en>
+ERROR	multiple_definitions	anterior_to	definition	x anterior to y iff x is further along the antero-posterior axis than y, towards the head. An antero-posterior axis is an axis that extends through an organism from head end to opposite end of body or tail.
+ERROR	multiple_definitions	anterior_to	definition	<x anterior_to y iff x is further along the antero-posterior axis than y, towards the head. An antero-posterior axis is an axis that bisects an organism from head end to opposite end of body or tail: bearer>
+ERROR	multiple_definitions	distal_to	definition	x distal to y iff x is further along the proximo-distal axis than y, towards the appendage tip. A proximo-distal axis extends from tip of an appendage (distal) to where it joins the body (proximal).
+ERROR	multiple_definitions	distal_to	definition	x distal_to y iff x is further along the proximo-distal axis than y, towards the appendage tip. A proximo-distal axis extends from tip of an appendage (distal) to where it joins the body (proximal).
+ERROR	multiple_definitions	dorsal_to	definition	x dorsal to y iff x is further along the dorso-ventral axis than y, towards the back. A dorso-ventral axis is an axis that extends through an organism from back (e.g. spinal column) to front (e.g. belly).
+ERROR	multiple_definitions	dorsal_to	definition	x dorsal_to y iff x is further along the dorso-ventral axis than y, towards the back. A dorso-ventral axis is an axis that bisects an organism from back (e.g. spinal column) to front (e.g. belly).
+ERROR	multiple_definitions	posterior to	definition	x posterior to y iff x is further along the antero-posterior axis than y, towards the body/tail. An antero-posterior axis is an axis that extends through an organism from head end to opposite end of body or tail.
+ERROR	multiple_definitions	posterior to	definition	x posterior_to y iff x is further along the antero-posterior axis than y, towards the body/tail. An antero-posterior axis is an axis that bisects an organism from head end to opposite end of body or tail.
+ERROR	multiple_definitions	proximal_to	definition	x proximal to y iff x is closer to the point of attachment with the body than y.
+ERROR	multiple_definitions	proximal_to	definition	x proximal_to y iff x is closer to the point of attachment with the body than y.
+ERROR	multiple_definitions	ventral_to	definition	x ventral to y iff x is further along the dorso-ventral axis than y, towards the front. A dorso-ventral axis is an axis that extends through an organism from back (e.g. spinal column) to front (e.g. belly).
+ERROR	multiple_definitions	ventral_to	definition	x ventral_to y iff x is further along the dorso-ventral axis than y, towards the front. A dorso-ventral axis is an axis that bisects an organism from back (e.g. spinal column) to front (e.g. belly).
+ERROR	multiple_definitions	overlaps	definition	x overlaps y if and only if there exists some z such that x has part z and z part of y
+ERROR	multiple_definitions	overlaps	definition	x overlaps y iff they have some part in common.
+ERROR	multiple_definitions	only_in_taxon	definition	<S only_in_taxon T iff: S SubClassOf in_taxon only T>
+ERROR	multiple_definitions	only_in_taxon	definition	<U only_in_taxon T: U is a feature found in only in organisms of species of taxon T. The feature cannot be found in an organism of any species outside of (not subsumed by) that taxon. Down-propagates in U hierarchy, up-propagates in T hierarchy (species taxonomy). Implies applicable_to_taxon.>
+ERROR	multiple_definitions	only_in_taxon	definition	x only in taxon y if and only if x is in taxon y, and there is no other organism z such that y!=z a and x is in taxon z.
+ERROR	multiple_definitions	connected to	definition	<Binary relationship: x connected_to y if and only if there exists some z such that z connects x and y in a ternary connected_to(x,y,z) relationship.>
+ERROR	multiple_definitions	connected to	definition	a is connected to b if and only if a and b are discrete structure, and there exists some connecting structure c, such that c connects a and b
+ERROR	multiple_definitions	surrounded by	definition	x surrounded_by y if and only if (1) x is adjacent to y and for every region r that is adjacent to x, r overlaps y (2) the shared boundary between x and y occupies the majority of the outermost boundary of x
+ERROR	multiple_definitions	surrounded by	definition	<x surrounded_by y iff: x is adjacent to y and for every region r adjacent to x, r overlaps y>
+ERROR	multiple_definitions	adjacent_to	definition	x adjacent to y if and only if x and y share a boundary.
+ERROR	multiple_definitions	adjacent_to	definition	<x adjacent_to y iff: x and y share a boundary>
+ERROR	multiple_definitions	surrounds	definition	inverse of surrounded by
+ERROR	multiple_definitions	surrounds	definition	inverse of surrounded_by
+ERROR	multiple_definitions	has potential to developmentally contribute to	definition	x has potential to developmentrally contribute to y iff x developmentally contributes to y or x is capable of developmentally contributing to y
+ERROR	multiple_definitions	has potential to developmentally contribute to	definition	x has potential to developmentrally contribute to y iff x developmentally contributes to y or x is capable of developmentally contributing to y@en
+ERROR	multiple_definitions	has potential to develop into	definition	x has the potential to develop into y iff x develops into y or if x is capable of developing into y
+ERROR	multiple_definitions	has potential to develop into	definition	x has the potential to develop into y iff x develops into y or if x is capable of developing into y@en
+ERROR	multiple_labels	part_of	rdfs:label	part of
+ERROR	multiple_labels	part_of	rdfs:label	part of@en
+ERROR	multiple_labels	part_of	rdfs:label	part_of
+ERROR	multiple_labels	has part	rdfs:label	has part
+ERROR	multiple_labels	has part	rdfs:label	has part@en
+ERROR	multiple_labels	has part	rdfs:label	has_part
+ERROR	multiple_labels	preceded_by	rdfs:label	preceded by@en
+ERROR	multiple_labels	preceded_by	rdfs:label	preceded_by
+ERROR	multiple_labels	precedes	rdfs:label	precedes
+ERROR	multiple_labels	precedes	rdfs:label	precedes@en
+ERROR	multiple_labels	occurs in	rdfs:label	occurs in
+ERROR	multiple_labels	occurs in	rdfs:label	occurs in@en
+ERROR	multiple_labels	anterior_to	rdfs:label	anterior to
+ERROR	multiple_labels	anterior_to	rdfs:label	anterior_to
+ERROR	multiple_labels	distal_to	rdfs:label	distal to
+ERROR	multiple_labels	distal_to	rdfs:label	distal_to
+ERROR	multiple_labels	dorsal_to	rdfs:label	dorsal to
+ERROR	multiple_labels	dorsal_to	rdfs:label	dorsal_to
+ERROR	multiple_labels	posterior to	rdfs:label	posterior to
+ERROR	multiple_labels	posterior to	rdfs:label	posterior_to
+ERROR	multiple_labels	proximal_to	rdfs:label	proximal to
+ERROR	multiple_labels	proximal_to	rdfs:label	proximal_to
+ERROR	multiple_labels	ventral_to	rdfs:label	ventral to
+ERROR	multiple_labels	ventral_to	rdfs:label	ventral_to
+ERROR	multiple_labels	definition	rdfs:label	definition
+ERROR	multiple_labels	definition	rdfs:label	definition@en
+ERROR	multiple_labels	curator notes	rdfs:label	curator note
+ERROR	multiple_labels	curator notes	rdfs:label	curator note@en
+ERROR	multiple_labels	curator notes	rdfs:label	curator notes
+ERROR	multiple_labels	bearer of	rdfs:label	bearer of
+ERROR	multiple_labels	bearer of	rdfs:label	bearer of@en
+ERROR	multiple_labels	participates in	rdfs:label	participates in
+ERROR	multiple_labels	participates in	rdfs:label	participates in@en
+ERROR	multiple_labels	participates in	rdfs:label	participates_in
+ERROR	multiple_labels	location_of	rdfs:label	location of@en
+ERROR	multiple_labels	location_of	rdfs:label	location_of
+ERROR	multiple_labels	contains	rdfs:label	contains
+ERROR	multiple_labels	contains	rdfs:label	contains@en
+ERROR	multiple_labels	located in	rdfs:label	located in@en
+ERROR	multiple_labels	located in	rdfs:label	located_in
+ERROR	multiple_labels	boundary of	rdfs:label	2D boundary of@en
+ERROR	multiple_labels	boundary of	rdfs:label	boundary of
+ERROR	multiple_labels	has 2D boundary	rdfs:label	has 2D boundary@en
+ERROR	multiple_labels	has 2D boundary	rdfs:label	has boundary
+ERROR	multiple_labels	immediately preceded by	rdfs:label	immediately preceded by@en
+ERROR	multiple_labels	immediately preceded by	rdfs:label	immediately_preceded_by
+ERROR	multiple_labels	overlaps	rdfs:label	overlaps
+ERROR	multiple_labels	overlaps	rdfs:label	overlaps@en
+ERROR	multiple_labels	continuous with	rdfs:label	continuous with@en
+ERROR	multiple_labels	continuous with	rdfs:label	continuous_with
+ERROR	multiple_labels	only_in_taxon	rdfs:label	only in taxon
+ERROR	multiple_labels	only_in_taxon	rdfs:label	only_in_taxon
+ERROR	multiple_labels	connected to	rdfs:label	connected to
+ERROR	multiple_labels	connected to	rdfs:label	connected to@en
+ERROR	multiple_labels	has component	rdfs:label	has component
+ERROR	multiple_labels	has component	rdfs:label	has component@en
+ERROR	multiple_labels	has component	rdfs:label	has_component
+ERROR	multiple_labels	develops from	rdfs:label	develops from@en
+ERROR	multiple_labels	develops from	rdfs:label	develops_from
+ERROR	multiple_labels	develops_into	rdfs:label	develops into@en
+ERROR	multiple_labels	develops_into	rdfs:label	develops_into
+ERROR	multiple_labels	regulates	rdfs:label	regulates
+ERROR	multiple_labels	regulates	rdfs:label	regulates@en
+ERROR	multiple_labels	negatively regulates	rdfs:label	negatively regulates
+ERROR	multiple_labels	negatively regulates	rdfs:label	negatively regulates@en
+ERROR	multiple_labels	positively regulates	rdfs:label	positively regulates
+ERROR	multiple_labels	positively regulates	rdfs:label	positively regulates@en
+ERROR	multiple_labels	capable_of	rdfs:label	capable of
+ERROR	multiple_labels	capable_of	rdfs:label	capable of@en
+ERROR	multiple_labels	capable_of	rdfs:label	capable_of
+ERROR	multiple_labels	capable of part of	rdfs:label	capable of part of
+ERROR	multiple_labels	capable of part of	rdfs:label	capable of part of@en
+ERROR	multiple_labels	surrounded by	rdfs:label	surrounded by@en
+ERROR	multiple_labels	surrounded by	rdfs:label	surrounded_by
+ERROR	multiple_labels	adjacent_to	rdfs:label	adjacent to
+ERROR	multiple_labels	adjacent_to	rdfs:label	adjacent to@en
+ERROR	multiple_labels	adjacent_to	rdfs:label	adjacent_to
+ERROR	multiple_labels	surrounds	rdfs:label	surrounds
+ERROR	multiple_labels	surrounds	rdfs:label	surrounds@en
+ERROR	multiple_labels	has developmental contribution from	rdfs:label	has developmental contribution from
+ERROR	multiple_labels	has developmental contribution from	rdfs:label	has developmental contribution from@en
+ERROR	multiple_labels	developmentally contributes to	rdfs:label	developmentally contributes to@en
+ERROR	multiple_labels	developmentally contributes to	rdfs:label	developmentally_contributes_to
+ERROR	multiple_labels	functionally related to	rdfs:label	functionally related to
+ERROR	multiple_labels	functionally related to	rdfs:label	functionally related to@en
+ERROR	multiple_labels	part of structure that is capable of	rdfs:label	part of structure that is capable of
+ERROR	multiple_labels	part of structure that is capable of	rdfs:label	part of structure that is capable of@en
+ERROR	multiple_labels	has potential to developmentally contribute to	rdfs:label	has potential to developmentally contribute to
+ERROR	multiple_labels	has potential to developmentally contribute to	rdfs:label	has potential to developmentally contribute to@en
+ERROR	multiple_labels	has potential to develop into	rdfs:label	has potential to develop into
+ERROR	multiple_labels	has potential to develop into	rdfs:label	has potential to develop into@en
+ERROR	multiple_labels	produces	rdfs:label	produces
+ERROR	multiple_labels	produces	rdfs:label	produces@en
+ERROR	multiple_labels	produced_by	rdfs:label	produced by@en
+ERROR	multiple_labels	produced_by	rdfs:label	produced_by
+WARN	annotation_whitespace	definition	IAO:0000116	<2012-04-05: Barry SmithThe official OBI definition, explaining the meaning of a class or property: 'Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions' is terrible.Can you fix to something like:A statement of necessary and sufficient conditions explaining the meaning of an expression referring to a class or property.Alan RuttenbergYour proposed definition is a reasonable candidate, except that it is very common that necessary and sufficient conditions are not given. Mostly they are necessary, occasionally they are necessary and sufficient or just sufficient. Often they use terms that are not themselves defined and so they effectively can't be evaluated by those criteria. On the specifics of the proposed definition:We don't have definitions of 'meaning' or 'expression' or 'property'. For 'reference' in the intended sense I think we use the term 'denotation'. For 'expression', I think we you mean symbol, or identifier. For 'meaning' it differs for class and property. For class we want documentation that let's the intended reader determine whether an entity is instance of the class, or not. For property we want documentation that let's the intended reader determine, given a pair of potential relata, whether the assertion that the relation holds is true. The 'intended reader' part suggests that we also specify who, we expect, would be able to understand the definition, and also generalizes over human and computer reader to include textual and logical definition. Personally, I am more comfortable weakening definition to documentation, with instructions as to what is desirable. We also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with. @en>
+WARN	annotation_whitespace	contained in	IAO:0000116	<Intended meaning:domain: material entityrange: spatial region or site (immaterial continuant) @en>
+WARN	annotation_whitespace	spatially disjoint from	IAO:0000116	There are two ways to encode this as a shortcut relation. The other possibility to use an annotation assertion between two classes, and expand this to a disjointness axiom. @en
+WARN	annotation_whitespace	capable_of	definition	A relation between a material entity (such as a cell) and a process, in which the material entity has the ability to carry out the process. 
+WARN	duplicate_label_synonym	cranial muscle	oboInOwl:hasRelatedSynonym	cranial muscle
+WARN	missing_definition	root node	definition	
+WARN	missing_definition	elastic cuticle	definition	
+WARN	missing_definition	lateral_to	definition	
+WARN	missing_definition	medial_to	definition	
+WARN	missing_definition	evaginated	definition	
+WARN	missing_definition	cranio-mandibular articulation	definition	
+WARN	missing_definition	cranio-cardinal articulation	definition	
+WARN	missing_definition	head-cervical articulation	definition	
+WARN	missing_definition	cardo	definition	
+WARN	missing_definition	cranium	definition	
+WARN	missing_definition	dorsal second axillary sclerite	definition	
+WARN	missing_definition	first abdominal tergite	definition	
+WARN	missing_definition	first axillary sclerite	definition	
+WARN	missing_definition	galea	definition	
+WARN	missing_definition	labial palpus	definition	
+WARN	missing_definition	lacinia	definition	
+WARN	missing_definition	solid cuticular protrusion	definition	
+WARN	missing_definition	leg	definition	
+WARN	missing_definition	antenna	definition	
+WARN	missing_definition	wing	definition	
+WARN	missing_definition	fore leg	definition	
+WARN	missing_definition	mid leg	definition	
+WARN	missing_definition	hind leg	definition	
+WARN	missing_definition	fore wing	definition	
+WARN	missing_definition	hind wing	definition	
+WARN	missing_definition	seta	definition	
+WARN	missing_definition	scale	definition	
+WARN	missing_definition	labrum	definition	
+WARN	missing_definition	mandible	definition	
+WARN	missing_definition	maxilla	definition	
+WARN	missing_definition	second valvifer	definition	
+WARN	missing_definition	second valvula	definition	
+WARN	missing_definition	pretarsus	definition	
+WARN	missing_definition	ligula	definition	
+WARN	missing_definition	glossa	definition	
+WARN	missing_definition	paraglossa	definition	
+WARN	missing_definition	maxillary palpus	definition	
+WARN	missing_definition	mesonotum	definition	
+WARN	missing_definition	mesopectus	definition	
+WARN	missing_definition	mesotrochantin	definition	
+WARN	missing_definition	protrochantin	definition	
+WARN	missing_definition	metatrochantin	definition	
+WARN	missing_definition	prementum	definition	
+WARN	missing_definition	prepectus	definition	
+WARN	missing_definition	pronotum	definition	
+WARN	missing_definition	propeluron	definition	
+WARN	missing_definition	prosternum	definition	
+WARN	missing_definition	ring sclerite	definition	
+WARN	missing_definition	appendage segment	definition	
+WARN	missing_definition	mesocoxa	definition	
+WARN	missing_definition	metacoxa	definition	
+WARN	missing_definition	procoxa	definition	
+WARN	missing_definition	protibia	definition	
+WARN	missing_definition	mesotibia	definition	
+WARN	missing_definition	metatibia	definition	
+WARN	missing_definition	profemur	definition	
+WARN	missing_definition	mesofemur	definition	
+WARN	missing_definition	metafemur	definition	
+WARN	missing_definition	mere	definition	
+WARN	missing_definition	tarsomere	definition	
+WARN	missing_definition	tibia	definition	
+WARN	missing_definition	femur	definition	
+WARN	missing_definition	coxa	definition	
+WARN	missing_definition	encircles	definition	
+WARN	missing_definition	encircled by	definition	
+WARN	missing_definition	cranial muscle	definition	
+WARN	missing_definition	cranio-antennal muscle	definition	
+WARN	missing_definition	cranio-mandibular muscle	definition	
+WARN	missing_definition	cranio-labial muscle	definition	
+WARN	missing_definition	cranio-labral muscle	definition	
+WARN	missing_definition	mesocoxal muscle	definition	
+WARN	missing_definition	coxal muscle	definition	
+WARN	missing_definition	labium	definition	
+WARN	missing_definition	eye cuticle	definition	
+WARN	missing_definition	ligament	definition	
+WARN	missing_definition	hypopharynx	definition	
+WARN	missing_definition	mesopleuro-metapleural conjunctiva	definition	
+WARN	missing_definition	mesopostnoto-mesonotal conjunctiva	definition	
+WARN	missing_definition	mesosterno-mesopleural conjunctiva	definition	
+WARN	missing_definition	metanoto-mesopostnotal conjunctiva	definition	
+WARN	missing_definition	neck membrane	definition	
+WARN	missing_definition	oral foraminal conjunctiva	definition	
+WARN	missing_definition	pronoto-mesonotal conjunctiva	definition	
+WARN	missing_definition	pronoto-mesopectal conjunctiva	definition	
+WARN	missing_definition	ring conjunctiva	definition	
+WARN	missing_definition	basal metacoxal conjunctiva	definition	
+WARN	missing_definition	epipharynx	definition	
+WARN	missing_definition	basal procoxal conjunctiva	definition	
+WARN	missing_definition	stipito-cardinal conjunctiva	definition	
+WARN	missing_definition	stipes	definition	
+WARN	missing_definition	scape	definition	
+WARN	missing_definition	scapal-pedicel conjunctiva	definition	
+WARN	missing_definition	pedicel	definition	
+WARN	missing_definition	flagellomere	definition	
+WARN	missing_definition	first flagellomere	definition	
+WARN	missing_definition	pedicel-first flagellomere conjunctiva	definition	
+WARN	missing_definition	metapleuron	definition	
+WARN	missing_definition	pronoto-procoxal conjunctiva	definition	
+WARN	missing_definition	pronoto-propleural conjunctiva	definition	
+WARN	missing_definition	basal profemoral conjunctiva	definition	
+WARN	missing_definition	basal mesofemoral conjunctiva	definition	
+WARN	missing_definition	basal metafemoral conjunctiva	definition	
+WARN	missing_definition	socket membrane	definition	
+WARN	missing_definition	unicellular cuticular evagination	definition	
+WARN	missing_definition	multicellular cuticular evagination	definition	
+WARN	missing_definition	uniporous sensillum	definition	
+WARN	missing_definition	multiporous sensillum	definition	
+WARN	missing_definition	placoid	definition	
+WARN	missing_definition	multiporous plate	definition	
+WARN	missing_definition	exocrine gland duct	definition	
+WARN	missing_definition	spiracle	definition	
+WARN	missing_definition	branching cuticular invagination	definition	
+WARN	missing_definition	malphigian tube	definition	
+WARN	missing_definition	apophysis	definition	
+WARN	missing_definition	taenidium	definition	
+WARN	missing_definition	mesofurca	definition	
+WARN	missing_definition	metafurca	definition	
+WARN	missing_definition	profurca	definition	
+WARN	missing_definition	furca	definition	
+WARN	missing_definition	procoxal muscle	definition	
+WARN	missing_definition	metacoxal muscle	definition	
+WARN	missing_definition	femoral muscle	definition	
+WARN	missing_definition	tibial muscle	definition	
+WARN	missing_definition	profemoral muscle	definition	
+WARN	missing_definition	mesofemoral muscle	definition	
+WARN	missing_definition	metafemoral muscle	definition	
+WARN	missing_definition	protibial muscle	definition	
+WARN	missing_definition	mesotibial muscle	definition	
+WARN	missing_definition	metatibial muscle	definition	
+WARN	missing_definition	salivarium	definition	
+WARN	missing_definition	mouthpart	definition	
+WARN	missing_definition	propleuro-procoxal artiulation	definition	
+WARN	missing_definition	articular surface	definition	
+WARN	missing_definition	salivary sclerite	definition	
+WARN	missing_definition	metanotum	definition	
+WARN	missing_definition	metapectus	definition	
+WARN	missing_definition	finishes axis	definition	
+WARN	missing_definition	starts axis	definition	
+WARN	missing_definition	root node	definition	
+WARN	missing_definition	has_quality	definition	
+WARN	missing_definition	contained in	definition	
+WARN	missing_definition	contains	definition	
+WARN	missing_definition	bounding layer of	definition	
+WARN	missing_definition	has component activity	definition	
+WARN	missing_definition	directly regulated by	definition	
+WARN	missing_definition	ends after	definition	
+WARN	missing_definition	immediately precedes	definition	
+WARN	missing_definition	attaches_to_part_of	definition	
+WARN	missing_definition	drains	definition	
+WARN	missing_definition	temporally related to	definition	
+WARN	missing_definition	starts with	definition	
+WARN	missing_definition	ends with	definition	
+WARN	missing_definition	developmentally_replaces	definition	
+WARN	missing_definition	causally upstream of, positive effect	definition	
+WARN	missing_definition	causally upstream of, negative effect	definition	
+WARN	missing_definition	enables	definition	
+WARN	missing_definition	member of	definition	
+WARN	missing_definition	has member	definition	
+WARN	missing_definition	output_of	definition	
+WARN	missing_definition	attaches_to	definition	
+WARN	missing_definition	tributary_of	definition	
+WARN	missing_definition	branching_part_of	definition	
+WARN	missing_definition	immediately causally downstream of	definition	
+WARN	missing_definition	contributes to morphology of	definition	
+WARN	missing_definition	phosphorylates	definition	
+WARN	missing_definition	helper property (not for use in curation)	definition	
+WARN	missing_definition	is kinase activity	definition	
+WARN	missing_definition	existence starts and ends during	definition	
+WARN	missing_definition	transformation of	definition	
+WARN	missing_definition	immediate transformation of	definition	
+WARN	missing_definition	existence starts during or after	definition	
+WARN	missing_definition	existence ends during or before	definition	
+WARN	missing_definition	depends on	definition	
+WARN	missing_definition	causal relation between entities	definition	
+WARN	missing_definition	causally influenced by	definition	
+WARN	missing_definition	interaction relation helper property	definition	
+WARN	missing_definition	molecular interaction relation helper property	definition	
+WARN	missing_definition	has branching part	definition	
+WARN	missing_definition	luminal space of	definition	
+WARN	missing_definition	skeleton of	definition	
+WARN	missing_definition	acts upstream of or within, positive effect	definition	
+WARN	missing_definition	acts upstream of or within, negative effect	definition	
+WARN	missing_definition	causally upstream of or within, negative effect	definition	
+WARN	missing_definition	causally upstream of or within, positive effect	definition	
+WARN	missing_definition	has_gene_template	definition	
+WARN	missing_definition	channel for	definition	
+WARN	missing_definition	channels_from	definition	
+WARN	missing_definition	protects	definition	
+WARN	missing_definition	subdivision of	definition	
+WARN	missing_definition	transitively_connected to	definition	
+WARN	missing_definition	contributor	definition	
+WARN	missing_definition	description	definition	
+WARN	missing_definition	title	definition	
+WARN	missing_definition	license	definition	
+WARN	missing_definition	subset_property	definition	
+WARN	duplicate_scoped_synonym	immediately preceded by	IAO:0000118	starts_at_end_of
+WARN	duplicate_scoped_synonym	immediately preceded by	oboInOwl:hasExactSynonym	starts_at_end_of
+INFO	lowercase_definition	trachea	definition	"\""The ivagination of the cuticle that is tubular and contains taenidia.\"""
+INFO	lowercase_definition	part_of	definition	a core relation that holds between a part and its whole@en
+INFO	lowercase_definition	has part	definition	a core relation that holds between a whole and its part@en
+INFO	lowercase_definition	preceded_by	definition	<x is preceded by y if and only if the time point at which y ends is before or equivalent to the time point at which x starts. Formally: x preceded by y iff ω(y) <= α(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point.@en>
+INFO	lowercase_definition	precedes	definition	<x precedes y if and only if the time point at which x ends is before or equivalent to the time point at which y starts. Formally: x precedes y iff ω(x) <= α(y), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point.@en>
+INFO	lowercase_definition	occurs in	definition	b occurs_in c =def b is a process and c is a material entity or immaterial entity& there exists a spatiotemporal region r and b occupies_spatiotemporal_region r.& forall(t) if b exists_at t then c exists_at t & there exist spatial regions s and s’ where & b spatially_projects_onto s at t& c is occupies_spatial_region s’ at t& s is a proper_continuant_part_of s’ at t@en
+INFO	lowercase_definition	contains process	definition	[copied from inverse property 'occurs in'] b occurs_in c =def b is a process and c is a material entity or immaterial entity& there exists a spatiotemporal region r and b occupies_spatiotemporal_region r.& forall(t) if b exists_at t then c exists_at t & there exist spatial regions s and s’ where & b spatially_projects_onto s at t& c is occupies_spatial_region s’ at t& s is a proper_continuant_part_of s’ at t@en
+INFO	lowercase_definition	anterior_to	definition	x anterior to y iff x is further along the antero-posterior axis than y, towards the head. An antero-posterior axis is an axis that extends through an organism from head end to opposite end of body or tail.
+INFO	lowercase_definition	anterior_to	definition	<x anterior_to y iff x is further along the antero-posterior axis than y, towards the head. An antero-posterior axis is an axis that bisects an organism from head end to opposite end of body or tail: bearer>
+INFO	lowercase_definition	distal_to	definition	x distal to y iff x is further along the proximo-distal axis than y, towards the appendage tip. A proximo-distal axis extends from tip of an appendage (distal) to where it joins the body (proximal).
+INFO	lowercase_definition	distal_to	definition	x distal_to y iff x is further along the proximo-distal axis than y, towards the appendage tip. A proximo-distal axis extends from tip of an appendage (distal) to where it joins the body (proximal).
+INFO	lowercase_definition	dorsal_to	definition	x dorsal to y iff x is further along the dorso-ventral axis than y, towards the back. A dorso-ventral axis is an axis that extends through an organism from back (e.g. spinal column) to front (e.g. belly).
+INFO	lowercase_definition	dorsal_to	definition	x dorsal_to y iff x is further along the dorso-ventral axis than y, towards the back. A dorso-ventral axis is an axis that bisects an organism from back (e.g. spinal column) to front (e.g. belly).
+INFO	lowercase_definition	posterior to	definition	x posterior to y iff x is further along the antero-posterior axis than y, towards the body/tail. An antero-posterior axis is an axis that extends through an organism from head end to opposite end of body or tail.
+INFO	lowercase_definition	posterior to	definition	x posterior_to y iff x is further along the antero-posterior axis than y, towards the body/tail. An antero-posterior axis is an axis that bisects an organism from head end to opposite end of body or tail.
+INFO	lowercase_definition	proximal_to	definition	x proximal to y iff x is closer to the point of attachment with the body than y.
+INFO	lowercase_definition	proximal_to	definition	x proximal_to y iff x is closer to the point of attachment with the body than y.
+INFO	lowercase_definition	ventral_to	definition	x ventral to y iff x is further along the dorso-ventral axis than y, towards the front. A dorso-ventral axis is an axis that extends through an organism from back (e.g. spinal column) to front (e.g. belly).
+INFO	lowercase_definition	ventral_to	definition	x ventral_to y iff x is further along the dorso-ventral axis than y, towards the front. A dorso-ventral axis is an axis that bisects an organism from back (e.g. spinal column) to front (e.g. belly).
+INFO	lowercase_definition	orthogonal to	definition	crossing at right angles
+INFO	lowercase_definition	denoted by	definition	inverse of the relation 'denotes'@en
+INFO	lowercase_definition	inheres in	definition	a relation between a specifically dependent continuant (the dependent) and an independent continuant (the bearer), in which the dependent specifically depends on the bearer for its existence@en
+INFO	lowercase_definition	bearer of	definition	a relation between an independent continuant (the bearer) and a specifically dependent continuant (the dependent), in which the dependent specifically depends on the bearer for its existence@en
+INFO	lowercase_definition	participates in	definition	a relation between a continuant and a process, in which the continuant is somehow involved in the process@en
+INFO	lowercase_definition	has participant	definition	a relation between a process and a continuant, in which the continuant is somehow involved in the process@en
+INFO	lowercase_definition	location_of	definition	a relation between two independent continuants, the location and the target, in which the target is entirely within the location@en
+INFO	lowercase_definition	located in	definition	a relation between two independent continuants, the target and the location, in which the target is entirely within the location@en
+INFO	lowercase_definition	boundary of	definition	a relation between a 2D immaterial entity (the boundary) and a material entity, in which the boundary delimits the material entity@en
+INFO	lowercase_definition	has 2D boundary	definition	a relation between a material entity and a 2D immaterial entity (the boundary), in which the boundary delimits the material entity@en
+INFO	lowercase_definition	has component process	definition	w 'has process component' p if p and w are processes,  w 'has part' p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type.
+INFO	lowercase_definition	overlaps	definition	x overlaps y if and only if there exists some z such that x has part z and z part of y
+INFO	lowercase_definition	overlaps	definition	x overlaps y iff they have some part in common.
+INFO	lowercase_definition	only_in_taxon	definition	x only in taxon y if and only if x is in taxon y, and there is no other organism z such that y!=z a and x is in taxon z.
+INFO	lowercase_definition	in taxon	definition	<x is in taxon y if an only if y is an organism, and the relationship between x and y is one of: part of (reflexive), developmentally preceded by, derives from, secreted by, expressed.>
+INFO	lowercase_definition	connected to	definition	a is connected to b if and only if a and b are discrete structure, and there exists some connecting structure c, such that c connects a and b
+INFO	lowercase_definition	has component	definition	w 'has component' p if w 'has part' p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type.
+INFO	lowercase_definition	develops from	definition	x develops from y if and only if either (a) x directly develops from y or (b) there exists some z such that x directly develops from z and z develops from y
+INFO	lowercase_definition	develops_into	definition	inverse of develops from
+INFO	lowercase_definition	regulates	definition	<process(P1) regulates process(P2) iff: P1 results in the initiation or termination of P2 OR affects the frequency of its initiation or termination OR affects the magnitude or rate of output of P2.>
+INFO	lowercase_definition	capable of part of	definition	c stands in this relationship to p if and only if there exists some p' such that c is capable_of p', and p' is part_of p.
+INFO	lowercase_definition	surrounded by	definition	x surrounded_by y if and only if (1) x is adjacent to y and for every region r that is adjacent to x, r overlaps y (2) the shared boundary between x and y occupies the majority of the outermost boundary of x
+INFO	lowercase_definition	surrounded by	definition	<x surrounded_by y iff: x is adjacent to y and for every region r adjacent to x, r overlaps y>
+INFO	lowercase_definition	adjacent_to	definition	x adjacent to y if and only if x and y share a boundary.
+INFO	lowercase_definition	adjacent_to	definition	<x adjacent_to y iff: x and y share a boundary>
+INFO	lowercase_definition	surrounds	definition	inverse of surrounded by
+INFO	lowercase_definition	surrounds	definition	inverse of surrounded_by
+INFO	lowercase_definition	has input	definition	<p has input c iff: p is a process, c is a material entity, c is a participant in p, c is present at the start of p, and the state of c is modified during p.>
+INFO	lowercase_definition	has developmental contribution from	definition	x has developmental contribution from y iff x has some part z such that z develops from y@en
+INFO	lowercase_definition	developmentally contributes to	definition	inverse of has developmental contribution from
+INFO	lowercase_definition	developmentally_induced_by	definition	<t1 developmentally_induced_by t2 if there is a process of organ induction (GO:0001759) with t1 and t2 as interacting participants. t2 causes t1 to change its fate from a precursor tissue type T to T', where T' develops_from T.>
+INFO	lowercase_definition	acts upstream of	definition	c acts upstream of p if and only if c enables some f that is involved in p' and p' occurs chronologically before p, is not part of p, and affects the execution of p. c is a material entity and f, p, p' are processes.
+INFO	lowercase_definition	acts upstream of or within	definition	c acts upstream of or within p if c is enables f, and f is causally upstream of or within p. c is a material entity and p is an process.
+INFO	lowercase_definition	inheres in part of	definition	q inheres in part of w if and only if there exists some p such that q inheres in p and p part of w.
+INFO	lowercase_definition	part of structure that is capable of	definition	this relation holds between c and p when c is part of some c', and c' is capable of p.
+INFO	lowercase_definition	involved in	definition	c involved_in p if and only if c enables some process p', and p' is part of p
+INFO	lowercase_definition	enabled by	definition	inverse of enables
+INFO	lowercase_definition	regulated by	definition	inverse of regulates
+INFO	lowercase_definition	negatively regulated by	definition	inverse of negatively regulates
+INFO	lowercase_definition	positively regulated by	definition	inverse of positively regulates
+INFO	lowercase_definition	input of	definition	inverse of has input
+INFO	lowercase_definition	has_muscle_insertion	definition	m has_muscle_insertion s iff m is attaches_to s, and it is the case that when m contracts, s moves. Insertions are usually connections of muscle via tendon to bone.
+INFO	lowercase_definition	spatially coextensive with	definition	x spatially_coextensive_with y if and inly if x and y have the same location
+INFO	lowercase_definition	has developmental potential involving	definition	x has developmental potential involving y iff x is capable of a developmental process with output y. y may be the successor of x, or may be a different structure in the vicinity (as for example in the case of developmental induction).@en
+INFO	lowercase_definition	has potential to developmentally contribute to	definition	x has potential to developmentrally contribute to y iff x developmentally contributes to y or x is capable of developmentally contributing to y
+INFO	lowercase_definition	has potential to developmentally contribute to	definition	x has potential to developmentrally contribute to y iff x developmentally contributes to y or x is capable of developmentally contributing to y@en
+INFO	lowercase_definition	has potential to develop into	definition	x has the potential to develop into y iff x develops into y or if x is capable of developing into y
+INFO	lowercase_definition	has potential to develop into	definition	x has the potential to develop into y iff x develops into y or if x is capable of developing into y@en
+INFO	lowercase_definition	has potential to directly develop into	definition	x has potential to directly develop into y iff x directly develops into y or x is capable of directly developing into y@en
+INFO	lowercase_definition	causally downstream of	definition	inverse of upstream of
+INFO	lowercase_definition	causally upstream of	definition	p is causally upstream of q if and only if p precedes q and p and q are linked in a causal chain
+INFO	lowercase_definition	immediately causally upstream of	definition	p is immediately causally upstream of q iff both (a) p immediately precedes q and (b) p is causally upstream of q. In addition, the output of p  must be an input of q.
+INFO	lowercase_definition	causally upstream of or within	definition	p 'causally upstream or within' q iff (1) the end of p is before the end of q and (2) the execution of p exerts some causal influence over the outputs of q; i.e. if p was abolished or the outputs of p were to be modified, this would necessarily affect q.
+INFO	lowercase_definition	causally downstream of or within	definition	inverse of causally upstream of or within
+INFO	lowercase_definition	involved in regulation of	definition	c involved in regulation of p if c is involved in some p' and p' regulates some p
+INFO	lowercase_definition	involved in positive regulation of	definition	c involved in regulation of p if c is involved in some p' and p' positively regulates some p
+INFO	lowercase_definition	involved in negative regulation of	definition	c involved in regulation of p if c is involved in some p' and p' negatively regulates some p
+INFO	lowercase_definition	involved in or involved in regulation of	definition	c involved in or regulates p if and only if either (i) c is involved in p or (ii) c is involved in regulation of p
+INFO	lowercase_definition	is active in	definition	c executes activity in d if and only if c enables p and p occurs_in d.  Assuming no action at a distance by gene products, if a gene product enables (is capable of) a process that occurs in some structure, it must have at least some part in that structure.
+INFO	lowercase_definition	composed primarily of	definition	<x composed_primarily_of y iff: more than half of the mass of x is made from parts of y>
+INFO	lowercase_definition	has part that occurs in	definition	p has part that occurs in c if and only if there exists some p1, such that p has_part p1, and p1 occurs in c.
+INFO	lowercase_definition	causal relation between processes	definition	p is causally related to q if and only if p or any part of p and q or any part of q are linked by a chain of events where each event pair is one of direct activation or direct inhibition. p may be upstream, downstream, part of or a container of q.
+INFO	lowercase_definition	has part structure that is capable of	definition	s 'has part structure that is capable of' p if and only if there exists some part x such that s 'has part' x and x 'capable of' p
+INFO	lowercase_definition	produces	definition	<a produces b if some process that occurs_in a has_output b, where a and b are material entities. Examples: hybridoma cell line produces monoclonal antibody reagent; chondroblast produces avascular GAG-rich matrix.>
+INFO	lowercase_definition	produced_by	definition	a produced_by b iff some process that occurs_in b has_output a.
+INFO	lowercase_definition	acts upstream of, positive effect	definition	c 'acts upstream of, positive effect' p if c is enables f, and f is causally upstream of p, and the direction of f is positive
+INFO	lowercase_definition	acts upstream of, negative effect	definition	c 'acts upstream of, negative effect' p if c is enables f, and f is causally upstream of p, and the direction of f is negative
+INFO	lowercase_definition	parallel to	definition	x is parallel t y iff x and y are lines or planes which when extended indefinitely do not cross.
+INFO	lowercase_definition	decreased_in_magnitude_relative_to	definition	q1 decreased_in_magnitude_relative_to q2 if and only if magnitude(q1) < magnitude(q2). Here, magnitude(q) is a function that maps a quality to a unit-invariant scale.
+INFO	lowercase_definition	different_in_magnitude_relative_to	definition	q1 different_in_magnitude_relative_to q2 if and only if magnitude(q1) NOT =~ magnitude(q2). Here, magnitude(q) is a function that maps a quality to a unit-invariant scale.
+INFO	lowercase_definition	has_cross_section	definition	<s3 has_cross_section s3 if and only if : there exists some 2d plane that intersects the bearer of s3, and the impression of s3 upon that plane has shape quality s2.>
+INFO	lowercase_definition	increased_in_magnitude_relative_to	definition	q1 increased_in_magnitude_relative_to q2 if and only if magnitude(q1) > magnitude(q2). Here, magnitude(q) is a function that maps a quality to a unit-invariant scale.
+INFO	lowercase_definition	similar_in_magnitude_relative_to	definition	q1 similar_in_magnitude_relative_to q2 if and only if magnitude(q1) =~ magnitude(q2). Here, magnitude(q) is a function that maps a quality to a unit-invariant scale.
+INFO	lowercase_definition	anteriorly connected to	definition	x anteriorly_connected_to y iff the anterior part of x is connected to y. i.e. x connected_to y and x posterior_to y.
+INFO	lowercase_definition	conduit for	definition	x is a conduit for y iff y passes through the lumen of x.
+INFO	lowercase_definition	posteriorly connected to	definition	x posteriorly_connected_to y iff the posterior part of x is connected to y. i.e. x connected_to y and x anterior_to y.
+INFO	lowercase_definition	transitively anteriorly connected to	definition	.
+INFO	missing_superclass	resilin (fruit fly)	rdfs:subClassOf	
+INFO	missing_superclass	root node	rdfs:subClassOf	
+INFO	missing_superclass	anatomical region	rdfs:subClassOf	
+INFO	missing_superclass	sagittal plane	rdfs:subClassOf	
+INFO	missing_superclass	epithelial cell	rdfs:subClassOf	
+INFO	missing_superclass	root node	rdfs:subClassOf	
+INFO	missing_superclass	branched	rdfs:subClassOf	
+INFO	missing_superclass	coiled	rdfs:subClassOf	
+INFO	missing_superclass	circular	rdfs:subClassOf	
+INFO	missing_superclass	increased thickness	rdfs:subClassOf	
+INFO	missing_superclass	decreased thickness	rdfs:subClassOf	
+INFO	missing_superclass	transparent	rdfs:subClassOf	
+INFO	missing_superclass	elasticity	rdfs:subClassOf	
+INFO	missing_superclass	elongated	rdfs:subClassOf	
+INFO	missing_superclass	convex	rdfs:subClassOf	
+INFO	missing_superclass	raised	rdfs:subClassOf	
+INFO	missing_superclass	flexibility	rdfs:subClassOf	
+INFO	missing_superclass	concave	rdfs:subClassOf	
+INFO	missing_superclass	flattened	rdfs:subClassOf	
+INFO	missing_superclass	ring shaped	rdfs:subClassOf	
+INFO	missing_superclass	chitin-based cuticle	rdfs:subClassOf	
+INFO	missing_superclass	skeletal muscle tissue	rdfs:subClassOf	
+INFO	missing_superclass	cranium	rdfs:subClassOf	
+INFO	missing_superclass	epithelial fold	rdfs:subClassOf	
+INFO	missing_superclass	anatomical surface	rdfs:subClassOf	
+INFO	missing_superclass	insect region of integument	rdfs:subClassOf	
