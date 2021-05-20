@@ -1,23 +1,21 @@
-
 Prefix(:=<http://purl.obolibrary.org/obo/colao.owl#>)
+Prefix(dce:=<http://purl.org/dc/elements/1.1/>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
 Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
 Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
 Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
 Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
-Prefix(dce:=<http://purl.org/dc/elements/1.1/>)
 Prefix(dcterms:=<http://purl.org/dc/terms/>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/colao.owl>
-
 Import(<http://purl.obolibrary.org/obo/colao/imports/aism_import.owl>)
-
-
-
-Annotation(dce:title "Coleoptera anatomy ontology")
-Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
-Annotation(dce:description "None")
+Annotation(dce:contributor "Aaron Smith (asmith) https://orcid.org/0000-0002-1286-950X")
+Annotation(dce:contributor "Jennifer C. Girón (jgiron) https://orcid.org/0000-0002-0851-6883")
+Annotation(dce:contributor "Ryan Lumen (rlumen) https://orcid.org/0000-0002-3958-7596")
+Annotation(dce:description "The Coleoptera Anatomy Ontology contains terms used for describing the anatomy and phenotype of beetles in biodiversity research."@en)
+Annotation(dce:title "Coleoptera Anatomy Ontology")
+Annotation(dcterms:license <https://creativecommons.org/licenses/by/4.0/>)
 
 Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_00000000>))
 
@@ -26,10 +24,9 @@ Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_00000000>))
 #   Classes
 ############################
 
-# Class: <http://purl.obolibrary.org/obo/COLAO_00000000>
+# Class: <http://purl.obolibrary.org/obo/COLAO_00000000> (root node)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/COLAO_00000000> "root node"@en)
 
 
 )
-

@@ -4,8 +4,8 @@ idspace: COLAO
 base_url: /obo/colao
 
 products:
-- colao.owl: https://raw.githubusercontent.com/JCGiron/colao/master/colao.owl
-- colao.obo: https://raw.githubusercontent.com/JCGiron/colao/master/colao.obo
+- colao.owl: https://raw.githubusercontent.com/JCGiron/colao/main/colao.owl
+- colao.obo: https://raw.githubusercontent.com/JCGiron/colao/main/colao.obo
 
 term_browser: ontobee
 example_terms:
@@ -24,4 +24,4 @@ entries:
 
 ## generic fall-through, serve direct from github by default
 - prefix: /
-  replacement: https://raw.githubusercontent.com/JCGiron/colao/master/
+  replacement: https://raw.githubusercontent.com/JCGiron/colao/main/

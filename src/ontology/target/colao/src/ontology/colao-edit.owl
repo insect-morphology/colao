@@ -15,7 +15,7 @@ Import(<http://purl.obolibrary.org/obo/colao/imports/aism_import.owl>)
 
 
 
-Annotation(dce:title "Coleoptera anatomy ontology")
+Annotation(dce:title "Coleoptera Anatomy Ontology")
 Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
 Annotation(dce:description "None")
 

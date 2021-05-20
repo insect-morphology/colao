@@ -1,25 +1,16 @@
-[![Build Status](https://travis-ci.org/JCGiron/colao.svg?branch=master)](https://travis-ci.org/JCGiron/colao)
-[![DOI](https://zenodo.org/badge/13996/JCGiron/colao.svg)](https://zenodo.org/badge/latestdoi/13996/JCGiron/colao)
 
+![Build Status](https://github.com/JCGiron/colao/workflows/CI/badge.svg)
 # Coleoptera Anatomy Ontology
 
-This is an AISM-based ontology created using the [Ontology Development Kit](https://github.com/INCATools/ontology-development-kit).
+This ontology... YOUR DESCRIPTION HERE
 
 More information can be found at http://obofoundry.org/ontology/colao
 
 ## Versions
 
-The first version of this ontology was released on January 19 2021 and only contains the initial import from AISM terms.
-
 ### Stable release versions
 
 The latest version of the ontology can always be found at:
-
-https://github.com/insect-morphology/colao
-
-This ontology is a work in progress and has not yet been submitted to the OBO Foundry.
-
-In the future, amore developed version of the ontology will be available at
 
 http://purl.obolibrary.org/obo/colao.owl
 
