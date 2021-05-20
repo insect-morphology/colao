@@ -13,3 +13,4 @@ imports/aism_import.owl: mirror/aism.owl tmp/seed_aism_base.txt
 	@if [ $(IMP) = true ]; then $(ROBOT) remove -i $< -T tmp/seed_aism_base.txt --select complement --select "classes individuals" \
 		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@; fi
 .PRECIOUS: aism_import.owl
+

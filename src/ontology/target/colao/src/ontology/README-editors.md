@@ -61,7 +61,7 @@ All import modules are in the [imports/](imports/) folder.
 There are two ways to include new classes in an import module
 
  1. Reference an external ontology class in the edit ontology. In Protege: "add new entity", then paste in the PURL
- 2. Add to the imports/colao_terms.txt file
+ 2. Add to the imports/ont_terms.txt file, for example imports/go_terms.txt
 
 After doing this, you can run
 
@@ -69,43 +69,8 @@ After doing this, you can run
 
 to regenerate imports.
 
-Note: the colao_terms.txt file may include 'starter' classes seeded from
+Note: the ont_terms.txt file may include 'starter' classes seeded from
 the ontology starter kit. It is safe to remove these.
-
-## Design patterns
-
-You can automate (class) term generation from design patterns by placing DOSDP
-yaml file and tsv files under src/patterns. Any pair of files in this
-folder that share a name (apart from the extension) are assumed to be
-a DOSDP design pattern and a corresponding tsv specifying terms to
-add.
-
-Design patterns can be used to maintain and generate complete terms
-(names, definitions, synonyms etc) or to generate logical axioms
-only, with other axioms being maintained in editors file.  This can be
-specified on a per-term basis in the TSV file.
-
-Design pattern docs are checked for validity via Travis, but can be
-tested locally using
-
-`./run.sh make patterns`
-
-In addition to running standard tests, this command generates an owl
-file (`src/patterns/pattern.owl`), which demonstrates the relationships
-between design patterns.
-
-(At the time of writing, the following import statements need to be
-added to `src/patterns/pattern.owl` for all imports generated in
-`src/imports/*_import.owl`.   This will be automated in a future release.')
-
-To compile design patterns to terms run:
-
-`./run.sh make ../patterns/definitions.owl`
-
-This generates a file (`src/patterns/definitions.owl`).  You then need
-to add an import statement to the editor's file to import the
-definitions file.
-
 
 ## Release Manager notes
 
@@ -125,11 +90,11 @@ first type
 to make sure you are on master
 
     cd src/ontology
-    ./build.sh
+    sh run.sh make all
 
 If this looks good type:
 
-    ./prepare_release.sh
+    sh run.sh make prepare_release
 
 This generates derived files such as colao.owl and colao.obo and places
 them in the top level (../..).

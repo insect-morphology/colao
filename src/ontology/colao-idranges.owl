@@ -33,10 +33,11 @@ AnnotationProperty: allocatedto:
 Datatype: idrange:1
 
     Annotations: 
-        allocatedto: "ONTOLOGY-CREATOR"
+        allocatedto: "Jennifer C. Girón"
+        ORCID: "https://orcid.org/0000-0002-0851-6883"
     
     EquivalentTo: 
-        xsd:integer[>= 0 , <= 999999]
+        xsd:integer[>= COLAO:0000000 , <= AISM:0000499]
 
     
 Datatype: idrange:2

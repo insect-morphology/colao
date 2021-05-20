@@ -1,7 +1,6 @@
-[![Build Status](https://travis-ci.org/JCGiron/colao.svg?branch=master)](https://travis-ci.org/JCGiron/colao)
-[![DOI](https://zenodo.org/badge/13996/JCGiron/colao.svg)](https://zenodo.org/badge/latestdoi/13996/JCGiron/colao)
 
-# Coleoptera anatomy ontology
+![Build Status](https://github.com/JCGiron/colao/workflows/CI/badge.svg)
+# Coleoptera Anatomy Ontology
 
 This ontology... YOUR DESCRIPTION HERE
 

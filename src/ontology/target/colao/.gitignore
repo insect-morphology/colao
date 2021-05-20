@@ -9,6 +9,7 @@ bin/
 
 src/ontology/mirror
 src/ontology/mirror/*
+src/ontology/reports/*
 src/ontology/colao.owl
 src/ontology/colao.obo
 src/ontology/colao.json
