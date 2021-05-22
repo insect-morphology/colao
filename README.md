@@ -31,9 +31,10 @@ Editors of this ontology should use the edit version, [src/ontology/colao-edit.o
 
 Please use this GitHub repository's [Issue tracker](https://github.com/insect-morphology/colao/issues) to request new terms/classes or report errors or specific concerns related to the ontology. You can also fork this repository to start contributing. Follow the instructions for contributors, specifically for editors, in the [How to create AISM-based insect anatomy ontologies using the Ontology Development Kit (ODK) and edit them in Protégé](https://github.com/insect-morphology/Manual).
 
-## Contributors
-
-
+## Collaborators
+[István Mikó](https://github.com/teleaslamellatus)
+[Sergei Tarasov](https://github.com/sergeitarasov)
+Patrice Bouchard
 
 ## Acknowledgements
 
