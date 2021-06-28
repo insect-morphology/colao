@@ -1,0 +1,17 @@
+http://purl.org/dc/elements/1.1/title
+http://purl.org/dc/elements/1.1/description
+http://purl.org/dc/terms/license
+http://purl.org/dc/elements/1.1/contributor
+http://www.geneontology.org/formats/oboInOwl#creation_date
+http://purl.obolibrary.org/obo/IAO_0000232
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+http://purl.obolibrary.org/obo/AISM_0000171
+http://xmlns.com/foaf/0.1/depicted_by
+http://xmlns.com/foaf/0.1/depiction
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+http://purl.obolibrary.org/obo/ncbitaxon#has_rank
+http://www.geneontology.org/formats/oboInOwl#hasAlternativeId
+http://www.geneontology.org/formats/oboInOwl#hasDbXref
+http://www.geneontology.org/formats/oboInOwl#taxon
+http://www.geneontology.org/formats/oboInOwl#version

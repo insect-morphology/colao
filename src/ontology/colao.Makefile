@@ -14,3 +14,7 @@ imports/aism_import.owl: mirror/aism.owl tmp/seed_aism_base.txt
 		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@; fi
 .PRECIOUS: aism_import.owl
 
+	robot remove --input colao-edit.owl \
+  --include-terms target_rm_terms.txt \
+  --select annotation-properties \
+  --output colao-removed.owl
