@@ -1,5 +1,5 @@
 
-![Build Status](https://github.com/JCGiron/colao/workflows/CI/badge.svg)
+![Build Status](https://github.com/JCGiron/False/workflows/CI/badge.svg)
 # Coleoptera Anatomy Ontology
 
 This ontology... YOUR DESCRIPTION HERE
@@ -22,7 +22,7 @@ Editors of this ontology should use the edit version, [src/ontology/colao-edit.o
 
 ## Contact
 
-Please use this GitHub repository's [Issue tracker](https://github.com/JCGiron/colao/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
+Please use this GitHub repository's [Issue tracker](https://github.com/JCGiron/False/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
 
 ## Acknowledgements
 

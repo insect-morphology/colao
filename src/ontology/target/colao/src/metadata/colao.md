@@ -3,10 +3,10 @@ layout: ontology_detail
 id: colao
 title: Coleoptera Anatomy Ontology
 jobs:
-  - id: https://travis-ci.org/JCGiron/colao
+  - id: https://travis-ci.org/JCGiron/False
     type: travis-ci
 build:
-  checkout: git clone https://github.com/JCGiron/colao.git
+  checkout: git clone https://github.com/JCGiron/False.git
   system: git
   path: "."
 contact:
@@ -15,7 +15,7 @@ contact:
   github: 
 description: Coleoptera Anatomy Ontology is an ontology...
 domain: stuff
-homepage: https://github.com/JCGiron/colao
+homepage: https://github.com/JCGiron/False
 products:
   - id: colao.owl
     name: "Coleoptera Anatomy Ontology main release in OWL format"
@@ -32,7 +32,7 @@ products:
 dependencies:
 - id: aism
 
-tracker: https://github.com/JCGiron/colao/issues
+tracker: https://github.com/JCGiron/False/issues
 license:
   url: http://creativecommons.org/licenses/by/3.0/
   label: CC-BY
