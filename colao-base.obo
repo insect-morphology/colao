@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: colao/releases/2021-05-20/colao-base.owl
+data-version: colao/releases/2021-07-03/colao-base.owl
 ontology: colao/colao-base
 property_value: http://purl.org/dc/elements/1.1/contributor "Aaron Smith (asmith) https://orcid.org/0000-0002-1286-950X" xsd:string
 property_value: http://purl.org/dc/elements/1.1/contributor "Jennifer C. Girón (jgiron) https://orcid.org/0000-0002-0851-6883" xsd:string
@@ -8,9 +8,12 @@ property_value: http://purl.org/dc/elements/1.1/description "The Coleoptera Anat
 property_value: http://purl.org/dc/elements/1.1/title "Coleoptera Anatomy Ontology" xsd:string
 property_value: http://purl.org/dc/elements/1.1/type IAO:8000001
 property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/by/4.0/
-property_value: owl:versionInfo "2021-05-20" xsd:string
+property_value: owl:versionInfo "2021-07-03" xsd:string
 
 [Term]
-id: COLAO:00000000
-name: root node
+id: COLAO:0000000
+name: elytron {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. \n\nhttps://www.publish.csiro.au/book/6466/\n\n\"modified fore- or mesothoracic wings, which are characteristically rigid, fitting over the abdomen when at rest with their inner, posterior edges in contact\""}
+def: "The sclerotized fore wing of beetles." [] {creation_date="2021-07-02", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+is_a: AISM:0000003 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+is_a: AISM:0000037 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
 

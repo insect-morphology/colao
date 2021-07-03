@@ -2,14 +2,16 @@
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/colao/colao-base.owl#"
      xml:base="http://purl.obolibrary.org/obo/colao/colao-base.owl"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:terms="http://purl.org/dc/terms/">
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/colao/colao-base.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/colao/releases/2021-05-20/colao-base.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/colao/releases/2021-07-03/colao-base.owl"/>
         <dc:contributor>Aaron Smith (asmith) https://orcid.org/0000-0002-1286-950X</dc:contributor>
         <dc:contributor>Jennifer C. Girón (jgiron) https://orcid.org/0000-0002-0851-6883</dc:contributor>
         <dc:contributor>Ryan Lumen (rlumen) https://orcid.org/0000-0002-3958-7596</dc:contributor>
@@ -17,8 +19,43 @@
         <dc:title>Coleoptera Anatomy Ontology</dc:title>
         <dc:type rdf:resource="http://purl.obolibrary.org/obo/IAO_8000001"/>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-05-20</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-07-03</owl:versionInfo>
     </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/AISM_0000171 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/AISM_0000171"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#creation_date -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
     
 
 
@@ -33,11 +70,55 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/COLAO_00000000 -->
+    <!-- http://purl.obolibrary.org/obo/AISM_0000003 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COLAO_00000000">
-        <rdfs:label xml:lang="en">root node</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/AISM_0000003"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/AISM_0000037 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/AISM_0000037"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/COLAO_0000000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COLAO_0000000">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/AISM_0000003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/AISM_0000037"/>
+        <obo:IAO_0000115 xml:lang="en">The sclerotized fore wing of beetles.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">elytron</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000000"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/AISM_0000003"/>
+        <dc:contributor>jgiron https://orcid.org/0000-0002-0851-6883</dc:contributor>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000000"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/AISM_0000037"/>
+        <dc:contributor>jgiron https://orcid.org/0000-0002-0851-6883</dc:contributor>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000000"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The sclerotized fore wing of beetles.</owl:annotatedTarget>
+        <dc:contributor>jgiron https://orcid.org/0000-0002-0851-6883</dc:contributor>
+        <oboInOwl:creation_date>2021-07-02</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000000"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget xml:lang="en">elytron</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. 
+
+https://www.publish.csiro.au/book/6466/
+
+&quot;modified fore- or mesothoracic wings, which are characteristically rigid, fitting over the abdomen when at rest with their inner, posterior edges in contact&quot;</obo:AISM_0000171>
+    </owl:Axiom>
 </rdf:RDF>
 
 

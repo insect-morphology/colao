@@ -24,7 +24,7 @@ The editors version is [colao-edit.owl](colao-edit.owl)
 
 [../../colao.owl](../../colao.owl) is the release version
 
-To edit, open the file in Protege. First make sure you have the repository cloned, see [the GitHub project](https://github.com/JCGiron/colao) for details.
+To edit, open the file in Protege. First make sure you have the repository cloned, see [the GitHub project](https://github.com/JCGiron/False) for details.
 
 You should discuss the git workflow you should use with the maintainer
 of this repo, who should document it here. If you are the maintainer,
@@ -114,8 +114,8 @@ Finally type:
 
 IMMEDIATELY AFTERWARDS (do *not* make further modifications) go here:
 
- * https://github.com/JCGiron/colao/releases
- * https://github.com/JCGiron/colao/releases/new
+ * https://github.com/JCGiron/False/releases
+ * https://github.com/JCGiron/False/releases/new
 
 __IMPORTANT__: The value of the "Tag version" field MUST be
 
@@ -147,12 +147,12 @@ For questions on this contact Chris Mungall or email obo-admin AT obofoundry.org
 
 # Travis Continuous Integration System
 
-Check the build status here: [![Build Status](https://travis-ci.org/JCGiron/colao.svg?branch=master)](https://travis-ci.org/JCGiron/colao)
+Check the build status here: [![Build Status](https://travis-ci.org/JCGiron/False.svg?branch=master)](https://travis-ci.org/JCGiron/False)
 
 Note: if you have only just created this project you will need to authorize travis for this repo.
 
  1. Go to [https://travis-ci.org/profile/JCGiron](https://travis-ci.org/profile/JCGiron)
  2. click the "Sync account" button
- 3. Click the tick symbol next to colao
+ 3. Click the tick symbol next to False
 
 Travis builds should now be activated
