@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: colao/releases/2021-07-03/colao-base.owl
+data-version: colao/releases/2021-11-15/colao-base.owl
 ontology: colao/colao-base
 property_value: http://purl.org/dc/elements/1.1/contributor "Aaron Smith (asmith) https://orcid.org/0000-0002-1286-950X" xsd:string
 property_value: http://purl.org/dc/elements/1.1/contributor "Jennifer C. Girón (jgiron) https://orcid.org/0000-0002-0851-6883" xsd:string
@@ -8,7 +8,26 @@ property_value: http://purl.org/dc/elements/1.1/description "The Coleoptera Anat
 property_value: http://purl.org/dc/elements/1.1/title "Coleoptera Anatomy Ontology" xsd:string
 property_value: http://purl.org/dc/elements/1.1/type IAO:8000001
 property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/by/4.0/
-property_value: owl:versionInfo "2021-07-03" xsd:string
+property_value: owl:versionInfo "2021-11-15" xsd:string
+
+[Term]
+id: AISM:0000501
+synonym: "keel" EXACT []
+
+[Term]
+id: BSPO:0000006
+name: anatomical margin
+is_a: BSPO:0000070
+
+[Term]
+id: BSPO:0000010
+name: anatomical axis
+is_a: CARO:0000008
+
+[Term]
+id: BSPO:0000017
+name: left-right axis
+is_a: BSPO:0000010 ! anatomical axis
 
 [Term]
 id: COLAO:0000000
@@ -16,4 +35,315 @@ name: elytron {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence J, Ślipiń
 def: "The sclerotized fore wing of beetles." [] {creation_date="2021-07-02", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
 is_a: AISM:0000003 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
 is_a: AISM:0000037 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+
+[Term]
+id: COLAO:0000001
+name: lateral pronotal carina {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence JF, Beutel RG, Leschen RA, Ślipiński A (2010) Glossary of morphological terms. Handbuch der Zoologie/Handbook of Zoology. Band 4: 9–20. \n\nhttps://doi.org/10.1515/9783110911213.9 \n\n\"distinct edge separating the pronotal disc from the pronotal hypomeron on each side; the lateral carina (not always) may be raised to form a margin or bead\"", http://purl.obolibrary.org/obo/AISM_0000171="Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. \n\nhttps://www.publish.csiro.au/book/6466/\n\n\"the pronotal disc is usually separated on each side by the lateral pronotal carina from the hypomeron\""}
+def: "The carina of the pronotum that separates the pronotal disc from the hypomeron." [] {creation_date="2021-08-16", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+is_a: AISM:0000501 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+relationship: BFO:0000050 AISM:0000059 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+
+[Term]
+id: COLAO:0000002
+name: pronotal disc {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. \n\nhttps://www.publish.csiro.au/book/6466/\n\n\"the main, dorsal portion of the pronotum\""}
+def: "The medial region of the pronotum." [] {creation_date="2021-08-16", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+is_a: AISM:0000174 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+
+[Term]
+id: COLAO:0000003
+name: hypomeron {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. \n\nhttps://www.publish.csiro.au/book/6466/\n\n\"deflexed portion of the pronotum limited by the lateral pronotal carina and adjacent to the pleuron or sternum\""}
+def: "The lateral region of the pronotum that is deflexed and laterally limited by the lateral pronotal carina." [] {creation_date="2021-08-16", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+is_a: AISM:0000174 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+relationship: RO:0000053 COLAO:0000004 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! deflexed
+relationship: RO:0002220 COLAO:0000001 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! lateral pronotal carina
+
+[Term]
+id: COLAO:0000004
+name: deflexed {http://purl.obolibrary.org/obo/AISM_0000171="https://www.merriam-webster.com/dictionary/deflexed\n\n\"turned abruptly downward\""}
+is_a: PATO:0000052 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+
+[Term]
+id: COLAO:0000005
+name: notopleural sulcus
+def: "The sulcus that separates the dorsal region of the pleuron from the lateral region of the notum." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2021-08-20"}
+synonym: "notopleural suture" EXACT [] {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. \n\nhttps://www.publish.csiro.au/book/6466/\n\n\"separates the pleuron from the notum\""}
+is_a: AISM:0000162 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+
+[Term]
+id: COLAO:0000006
+name: pleurosternal sulcus
+def: "The sulcus that separates the ventral region of the pleuron from the lateral region of the sternum." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2021-08-20"}
+synonym: "pleurosternal suture" EXACT [] {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. \n\nhttps://www.publish.csiro.au/book/6466/\n\n\"separates the pleuron from the prosternum (or proventrite)\""}
+is_a: AISM:0000162 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+
+[Term]
+id: COLAO:0000007
+name: notosternal sulcus
+def: "The sulcus separating the lateral region of the notum and the lateral region of the sternum." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2021-08-20"}
+synonym: "notosternal suture" EXACT [] {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. \n\nhttps://www.publish.csiro.au/book/6466/\n\n\"separates notum from sternum in groups where the propleuron ends at least slightly before the anterior edge of the prothorax\""}
+is_a: AISM:0000162 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+
+[Term]
+id: COLAO:0000008
+name: prosternal process {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. \n\nhttps://www.publish.csiro.au/book/6466/\n\n\"part of the prosternum lying between the procoxae\""}
+def: "The part of the prosternum that is medial to the procoxae." [] {creation_date="2021-08-23", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+is_a: AISM:0004130 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+relationship: BFO:0000050 AISM:0000061 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+
+[Term]
+id: COLAO:0000009
+name: procoxal cavity {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. \n\nhttps://www.publish.csiro.au/book/6466/\n\n\"countersunk cuticular housing for the procoxa\""}
+def: "The concave part of the prosternum that receives the procoxa." [] {creation_date="2021-08-24", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+is_a: AISM:0000174 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+relationship: BFO:0000050 AISM:0000061 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+relationship: RO:0000053 PATO:0001857 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+relationship: RO:0001015 AISM:0000066 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+
+[Term]
+id: COLAO:0000010
+name: mesoscutellum {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. \n\nhttps://www.publish.csiro.au/book/6466/\n\n\"subdivision of the dorsal surface of the mesothorax\""}
+def: "The scutellum of the mesothorax." [] {creation_date="2021-08-24", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+is_a: AISM:0004146 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+relationship: BFO:0000050 AISM:0004126 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+
+[Term]
+id: COLAO:0000011
+name: scutellar shield {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence JF, Beutel RG, Leschen RA, Ślipiński A (2010) Glossary of morphological terms. Handbuch der Zoologie/Handbook of Zoology. Band 4: 9–20.\n\nhttps://doi.org/10.1515/9783110911213.9\n\n\"Exposed portion of the mesoscutellum which lies between the bases of elytra\""}
+def: "The region of the cuticle on the posterior region of the mesoscutellum." [] {creation_date="2021-08-24", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+is_a: AISM:0000174 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+
+[Term]
+id: COLAO:0000012
+name: sutural margin
+def: "The medial margin of the elytron." [] {creation_date="2021-08-27", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+synonym: "elytral suture" EXACT [] {http://purl.obolibrary.org/obo/AISM_0000171="Hansen M (1991) The hydrophiloid beetles. Phylogeny, classification and a revision of the genera (Coleoptera: Hydrophilidae). Biologiske Skrifter 40: 1–367. \n\n[Fig. 150]"}
+synonym: "sutural edge" EXACT [] {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. \n\nhttps://www.publish.csiro.au/book/6466/\n\n\"mesal edge of an elytron, which meets the corresponding edge of the opposite elytron\""}
+is_a: BSPO:0000683 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+relationship: BFO:0000050 COLAO:0000000 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! elytron
+
+[Term]
+id: COLAO:0000013
+name: elytral disc {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. \n\nhttps://www.publish.csiro.au/book/6466/\n\n\"general dorsal surface of an elytron\""}
+def: "The region of the cuticle on the dorsal region of an elytron." [] {creation_date="2021-08-27", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+is_a: AISM:0000174 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+
+[Term]
+id: COLAO:0000014
+name: elytral epipleuron {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. \n\nhttps://www.publish.csiro.au/book/6466/\n\n\"incurved lateral portion of the elytron which may be separated from the disc by a sharp ridge or carina\""}
+def: "The region of cuticle on the lateral region of the elytron." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2021-08-30"}
+is_a: AISM:0000174 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+
+[Term]
+id: COLAO:0000015
+name: elytral humerus {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. \n\nhttps://www.publish.csiro.au/book/6466/\n\n\"the anterolateral portion of the [elytral] disc; usually somewhat elevated and angulate; embraces the mesopleuron\""}
+def: "The region of cuticle on the antero-lateral region of the elytron." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2021-08-30"}
+is_a: AISM:0000174 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+
+[Term]
+id: COLAO:0000016
+name: elytral puncture {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. \n\nhttps://www.publish.csiro.au/book/6466/\n\n\"puncture marked on the elytral disc, usually as part of a longitudinal series that may be contained in elytral striae; correspond to sclerotised pillars connecting the upper and lower surfaces of the elytron\""}
+def: "A puncture on an elytron." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2021-08-30"}
+is_a: AISM:0000524 {comment="jgiron https://orcid.org/0000-0002-0851-6883"}
+relationship: BFO:0000050 COLAO:0000000 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! elytron
+
+[Term]
+id: COLAO:0000017
+name: elytral stria {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. \n\nhttps://www.publish.csiro.au/book/6466/\n\n\"impressed longitudinal groove along elytral disc\""}
+def: "The groove on an elytron that is longitidinal (parallel to the anterior-posterior axis)." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2021-08-30"}
+is_a: AISM:0000157 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+relationship: BFO:0000050 COLAO:0000000 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! elytron
+relationship: parallel_to BSPO:0000013 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+
+[Term]
+id: COLAO:0000018
+name: elytral interstria {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. \n\nhttps://www.publish.csiro.au/book/6466/\n\n\"the surface of the elytral disc between elytral striae\""}
+def: "The region of the cuticle of the elytral disc that is adjacent to an elytral stria." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2021-08-30"}
+synonym: "elytral interstice" EXACT [] {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. \n\nhttps://www.publish.csiro.au/book/6466/\n\n\"the surface of the elytral disc between elytral striae\""}
+synonym: "elytral interval" EXACT [] {comment="Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. \n\nhttps://www.publish.csiro.au/book/6466/\n\n\"the surface of the elytral disc between elytral striae\""}
+is_a: AISM:0000174 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+relationship: BFO:0000050 COLAO:0000013 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! elytral disc
+relationship: RO:0002220 COLAO:0000017 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! elytral stria
+
+[Term]
+id: COLAO:0000019
+name: mesoventrite {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence JF, Beutel RG, Leschen RA, Ślipiński A (2010) Glossary of morphological terms. Handbuch der Zoologie/Handbook of Zoology. Band 4: 9–20. \n\nhttps://doi.org/10.1515/9783110911213.9 \n\n\"Applies to the ventral plate lying in front of and between the mesocoxal cavities; delimited laterally by the mesothoracic pleurosternal sutures. Although called the mesosternum in most earlier works on Coleoptera, this sclerite is equivalent to the paired mesothoracic preepisterna and paired mesokatepisterna, the true mesosternum having been largely invaginated and represented only by the area in the immediate vicinity of the bases of the mesendosternites). The transverse suture separating the katepisterna from the preepisterna is never complete in the mesothorax of beetles (indicated by an internal transverse ridge in a few Archostemata) and the discrimen, representing the invagination of the original mesosternum, is present in most Archostemata, Gyrinidae, most Scirtoidea, most Buprestidae, a number of byrrhoid families and the elateroid family Artematopodidae.\""}
+def: "The sclerite on the ventral region of the mesothorax, limited by the pleurosternal sulci and medial to the mesanepisternum and mesepimeron." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2021-09-01"}
+is_a: AISM:0000003 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+relationship: RO:0002150 COLAO:0000006 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! pleurosternal sulcus
+
+[Term]
+id: COLAO:0000020
+name: metaventrite {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence JF, Beutel RG, Leschen RA, Ślipiński A (2010) Glossary of morphological terms. Handbuch der Zoologie/Handbook of Zoology. Band 4: 9–20. \n\nhttps://doi.org/10.1515/9783110911213.9 \n\n\"Ventral plate lying behind and between the mesocoxal cavities and delimited laterally by the metanepisterna. Although called the metasternum in most earlier works on Coleoptera, this sclerite is equivalent to the paired metapreepisterna and paired metakatepisterna, the true metasternum having been invaginated along the midline.  The transverse suture separating the katepisterna from the preepisterna is often complete, but may be shortened (extending for a short distance on either side of the discrimen) or absent, and the discrimen, representing the invagination of the original metasternum, is often very long, sometimes completely dividing the metaventrite into halves, but may be shortened or absent in various taxa.\""}
+def: "The sclerite on the ventral region of the metathorax, limited by the pleurosternal sulci and medial to the metanepisternum and metepimeron." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2021-09-01"}
+is_a: AISM:0000003 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+relationship: RO:0002150 COLAO:0000006 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! pleurosternal sulcus
+
+[Term]
+id: COLAO:0000021
+name: mesanepisternum {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence JF, Beutel RG, Leschen RA, Ślipiński A (2010) Glossary of morphological terms. Handbuch der Zoologie/Handbook of Zoology. Band 4: 9–20. \n\nhttps://doi.org/10.1515/9783110911213.9 \n\n\"Anterior pleural sclerite of the mesothorax.\""}
+def: "The anepisternum on the anterior region of the mesopleuron and lateral to the mesoventrite." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2021-08-31"}
+is_a: AISM:0004154 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+relationship: AISM:0000011 COLAO:0000019 ! mesoventrite
+
+[Term]
+id: COLAO:0000022
+name: metanepisternum {source="Lawrence JF, Beutel RG, Leschen RA, Ślipiński A (2010) Glossary of morphological terms. Handbuch der Zoologie/Handbook of Zoology. Band 4: 9–20. \n\nhttps://doi.org/10.1515/9783110911213.9 \n\n\"Anterior pleural sclerite of the metathorax, which in Coleoptera is laterad of the metaventrite and mesoventrad of the metepimeron. Because the lateral (dorsal) portion of the metanepisternum is often concealed beneath the elytral epipleura, its shape in descriptions is based on the visible portion only.\""}
+def: "The anepisternum on the anterior region of the metapleuron and lateral to the metaventrite." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2021-08-31"}
+is_a: AISM:0004154 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+relationship: AISM:0000011 COLAO:0000020 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! metaventrite
+
+[Term]
+id: COLAO:0000023
+name: mesepimeron {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence JF, Beutel RG, Leschen RA, Ślipiński A (2010) Glossary of morphological terms. Handbuch der Zoologie/Handbook of Zoology. Band 4: 9–20. \n\nhttps://doi.org/10.1515/9783110911213.9 \n\n\"Posterior pleural sclerite of the mesothorax\""}
+def: "The epimeron on the posterior region of the mesopleuron." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2021-09-01"}
+is_a: AISM:0004134 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+relationship: AISM:0000011 COLAO:0000019 {comment="jgiron https://orcid.org/0000-0002-0851-6883"} ! mesoventrite
+
+[Term]
+id: COLAO:0000024
+name: metepimeron {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence JF, Beutel RG, Leschen RA, Ślipiński A (2010) Glossary of morphological terms. Handbuch der Zoologie/Handbook of Zoology. Band 4: 9–20. \n\nhttps://doi.org/10.1515/9783110911213.9 \n\n\"Posterior pleural sclerite of the metathorax, which in Coleoptera is located laterad of and above the metanepisternum and mostly concealed by the elytral epipleuron. In most beetle groups a small portion of this sclerite is visible near the lateral edge of the metacoxa.\""}
+def: "The epimeron on the posterior region of the metapleuron and lateral to the metaventrite." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2021-09-01"}
+is_a: AISM:0004134 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+relationship: AISM:0000011 COLAO:0000020 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! metaventrite
+
+[Term]
+id: COLAO:0000025
+name: mesothoracic discrimen {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence JF, Beutel RG, Leschen RA, Ślipiński A (2010) Glossary of morphological terms. Handbuch der Zoologie/Handbook of Zoology. Band 4: 9–20. \n\nhttps://doi.org/10.1515/9783110911213.9 \n\n\"Median line on the mesoventrite representing the invagination of the true mesosternum. This line is rarely complete and often absent in the mesothorax, where the single invagination or furca is replaced by well separated endosternal apodemes.\""}
+def: "The discrimen of the mesoventrite." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2021-09-01"}
+is_a: AISM:0000163 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+relationship: BFO:0000050 COLAO:0000019 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! mesoventrite
+
+[Term]
+id: COLAO:0000026
+name: metathorcic discrimen {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence JF, Beutel RG, Leschen RA, Ślipiński A (2010) Glossary of morphological terms. Handbuch der Zoologie/Handbook of Zoology. Band 4: 9–20. \n\nhttps://doi.org/10.1515/9783110911213.9 \n\n\"Median line extending forward from the posterior edge of the metaventrite, internally corresponding with a more or less high median ridge representing the invagination of the true metasternum. The ridge is usually connected with the metendosternite. The discrimen is often relatively long and may extend anteriorly to or beyond the base of the metaventral process, but it is reduced or absent in a number of groups.\""}
+def: "The discrimen of the metaventrite." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2021-09-01"}
+is_a: AISM:0000163 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+relationship: BFO:0000050 COLAO:0000020 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! metaventrite
+
+[Term]
+id: COLAO:0000027
+name: mesocoxal cavity {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence JF, Beutel RG, Leschen RA, Ślipiński A (2010) Glossary of morphological terms. Handbuch der Zoologie/Handbook of Zoology. Band 4: 9–20. \n\nhttps://doi.org/10.1515/9783110911213.9 \n\n\"Countersunk pterothoracic housing into which the mesocoxa fits. Formed by portions of the mesoventrite and metaventrite, often with the addition of mesopleural sclerites and less commonly the metanepisternum. This autapomorphy of the order Coleoptera is secondarily reduced in a number of soft-bodied beetles.\""}
+def: "The concave part of the ventral region of the pterothorax that receives the mesocoxa." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2021-09-01"}
+is_a: AISM:0000174 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+relationship: RO:0000053 PATO:0001857 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+relationship: RO:0001015 AISM:0000064 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+
+[Term]
+id: COLAO:0000028
+name: mesoventral process {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence JF, Beutel RG, Leschen RA, Ślipiński A (2010) Glossary of morphological terms. Handbuch der Zoologie/Handbook of Zoology. Band 4: 9–20. \n\nhttps://doi.org/10.1515/9783110911213.9 \n\n\"Mesal lobe at the posterior edge of the mesoventrite which usually extends between the mesocoxal cavities and meets the metaventral process\""}
+def: "The postero-medial region of the mesoventrite in contact with the metaventral process." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2021-09-01"}
+is_a: AISM:0000174 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+relationship: RO:0002220 COLAO:0000029 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! metaventral process
+
+[Term]
+id: COLAO:0000029
+name: metaventral process {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence JF, Beutel RG, Leschen RA, Ślipiński A (2010) Glossary of morphological terms. Handbuch der Zoologie/Handbook of Zoology. Band 4: 9–20. \n\nhttps://doi.org/10.1515/9783110911213.9 \n\n\"Mesal lobe at the anterior end of the metaventrite which often extends forward between the mesocoxae and meets the mesoventral process.\""}
+def: "The antero-medial region of the metaventrite in contact with the mesoventral process." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2021-09-01"}
+is_a: AISM:0000174 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+relationship: RO:0002220 COLAO:0000028 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! mesoventral process
+
+[Term]
+id: COLAO:0000030
+name: metacoxal cavity {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence JF, Beutel RG, Leschen RA, Ślipiński A (2010) Glossary of morphological terms. Handbuch der Zoologie/Handbook of Zoology. Band 4: 9–20. \n\nhttps://doi.org/10.1515/9783110911213.9\n\n\"Countersunk abdominal housing into which the metacoxa fits. Usually formed by abdominal sternites II and III combined with the posterior wall of the metaventrite. This autapomorphy of the order Coleoptera is secondarily reduced in a number of soft-bodied beetles.\""}
+def: "The concave region of abdominal sternites II and III that receive the metacoxa." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2021-09-01"}
+is_a: AISM:0000174 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+relationship: RO:0000053 PATO:0001857 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+relationship: RO:0001015 AISM:0000065 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+
+[Term]
+id: COLAO:0000031
+name: metakatepisternal sulcus
+def: "The sulcus of the metaventrite that is transverse (parallel to the left-right axis)." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2021-09-01"}
+synonym: "metakatepisternal suture" EXACT [] {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence JF, Beutel RG, Leschen RA, Ślipiński A (2010) Glossary of morphological terms. Handbuch der Zoologie/Handbook of Zoology. Band 4: 9–20. \n\nhttps://doi.org/10.1515/9783110911213.9 \n\n\"Transverse suture on the metaventrite which separates the paired metathoracic preepisterna from the paired metakatepisterna. Although a complete suture, extending from the discrimen to the lateral edges of the mesoventrite on each side, is part of the groundplan of Coleoptera, it is often shortened so that it extends for only a short distance on either side of the discrimen.\""}
+is_a: AISM:0000162 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+relationship: BFO:0000050 COLAO:0000020 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! metaventrite
+relationship: parallel_to BSPO:0000017 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! left-right axis
+
+[Term]
+id: COLAO:0000032
+name: canthus {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. \n\nhttps://www.publish.csiro.au/book/6466/\n\n\"lobe anteriorly emarginating the eyes, or partly or completely dividing them\""}
+is_a: AISM:0000174 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+relationship: BSPO:0000096 AISM:0004052 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+property_value: AISM:0000171 "The region of cuticle that is anterior to the compound eye" xsd:string {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2021-09-15"}
+
+[Term]
+id: COLAO:0000033
+name: frontal carina
+def: "The carina on the frons that is dorsal to the antennal foramen" [] {creation_date="2021-09-15", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+synonym: "frontal ridge" EXACT [] {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. \n\nhttps://www.publish.csiro.au/book/6466/\n\n\"conceal antennal insertions from above; may extend mesally and unite at midline or extend posteriorly as supraorbital ridges\""}
+is_a: AISM:0000501 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+relationship: BFO:0000050 AISM:0004020 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+relationship: BSPO:0000098 AISM:0000198 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+
+[Term]
+id: COLAO:0000034
+name: subantennal groove {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence JF, Beutel RG, Leschen RA, Ślipiński A (2010) Glossary of morphological terms. Handbuch der Zoologie/Handbook of Zoology. Band 4: 9–20. \n\nhttps://doi.org/10.1515/9783110911213.9 \n\n\"Groove or concavity lying below the antennal insertion and housing the base of the antenna. Placed between the eye (if present) and the mandibular articulation, and sometimes extends below or behind the eye.\""}
+def: "The concave region of the cuticle on the lateral or ventral region of the head capsule that is adjacent to the antennal foramen." [] {creation_date="2021-09-15", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+is_a: AISM:0000174 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+relationship: RO:0000053 PATO:0001857 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+relationship: RO:0002220 AISM:0000198 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+
+[Term]
+id: COLAO:0000035
+name: rostrum {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. \n\nhttps://www.publish.csiro.au/book/6466/\n\n\"forward, long and slender projection of the frontoclypeal region of some Curculionoidea\""}
+def: "The region of cuticle of the insect head that is proximal to the mouthparts and composed of frons and clypeus." [] {creation_date="2021-09-24", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+is_a: AISM:0000174 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+relationship: BFO:0000050 AISM:0000107 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+relationship: BSPO:0000100 AISM:0000165 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+
+[Term]
+id: COLAO:0000036
+name: scrobe {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. \n\nhttps://www.publish.csiro.au/book/6466/\n\n\"subantennal grooves on the rostrum, lying posterior to the antennal socket\""}
+def: "The subantennal groove on the rostrum that is posterior to the antennal foramen." [] {creation_date="2021-09-24", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+is_a: COLAO:0000034 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! subantennal groove
+relationship: BFO:0000050 COLAO:0000035 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! rostrum
+relationship: BSPO:0000099 AISM:0000198 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+
+[Term]
+id: COLAO:0000037
+name: tibial spur {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. \n\nhttps://www.publish.csiro.au/book/6466/\n\n\"enlarged articulated spine at the apex of the tibia\""}
+def: "The spur on the distal margin of the tibia." [] {creation_date="2021-11-09", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+is_a: AISM:0000040 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+
+[Term]
+id: COLAO:0000038
+name: uncus {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. \n\nhttps://www.publish.csiro.au/book/6466/\n\n\"outwardly directed tooth or spinose lobe, and curved tibial processes\""}
+def: "The spine on the distal margin of the tibia." [] {creation_date="2021-11-09", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+is_a: AISM:0000527 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+
+[Term]
+id: COLAO:0000039
+name: spiculum
+def: "The apodeme on the anterior margin of abdominal sternite VIII." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2021-11-12"}
+is_a: AISM:0000188 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+
+[Term]
+id: COLAO:0000040
+name: flagellum {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. \n\nhttps://www.publish.csiro.au/book/6466/\n\n\"long and sclerotised structure of the endophallus\""}
+def: "The endophallite that is elongated." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2021-11-12"}
+is_a: AISM:0004066 {comment="jgiron https://orcid.org/0000-0002-0851-6883"}
+relationship: RO:0000053 PATO:0001154 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+
+[Term]
+id: COLAO:0000041
+name: tegmen {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. \n\nhttps://www.publish.csiro.au/book/6466/\n\n\"the phallobase forms a tubular structure enveloping the penis and the parameres are usually reduced and often fused to the phallobase\""}
+def: "The phallobase that is fused to the parameres." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+is_a: AISM:0004065 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+relationship: BFO:0000051 AISM:0004064 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+
+[Term]
+id: COLAO:0000042
+name: manubrium {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. \n\nhttps://www.publish.csiro.au/book/6466/\n\n\"the anterior edge of the tegmen or phallobase often bears an anterior strut or apodeme\""}
+def: "The apodeme on the anterior margin of the tegmen." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", comment="2021-11-12"}
+synonym: "tegminal strut" EXACT [] {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. \n\nhttps://www.publish.csiro.au/book/6466/\n\n\"the anterior edge of the tegmen or phallobase often bears an anterior strut or apodeme\""}
+synonym: "trabes" EXACT [] {http://purl.obolibrary.org/obo/AISM_0000171="Gordon RD (1985) The Coccinellidae (Coleoptera) of America North of Mexico. Journal of the New York Entomological Society 93: i–912.\n\nhttps://www.jstor.org/stable/25009452\n\n\"strut posterior to basal piece of male genitalia, connected by muscular attachment to basal piece\""}
+is_a: AISM:0000188 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+
+[Term]
+id: COLAO:0000043
+name: baculum {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. \n\nhttps://www.publish.csiro.au/book/6466/\n\n[adjusted] long, paired sclerotized rods that strengthen the proctiger and the paraprocts."}
+def: "The sclerite of the paraproct that is elongated." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2021-11-12"}
+is_a: AISM:0000003 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+relationship: BFO:0000050 AISM:0004061 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+relationship: RO:0000053 PATO:0001154 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
 
