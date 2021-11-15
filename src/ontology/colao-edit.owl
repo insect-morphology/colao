@@ -17,12 +17,78 @@ Annotation(dce:description "The Coleoptera Anatomy Ontology contains terms used 
 Annotation(dce:title "Coleoptera Anatomy Ontology")
 Annotation(dcterms:license <https://creativecommons.org/licenses/by/4.0/>)
 
+Declaration(Class(<http://purl.obolibrary.org/obo/BSPO_0000006>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BSPO_0000010>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BSPO_0000017>))
 Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000000>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000002>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000003>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000004>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000005>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000006>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000007>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000008>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000009>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000010>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000011>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000012>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000013>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000014>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000015>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000016>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000017>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000018>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000019>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000020>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000021>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000022>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000023>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000024>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000025>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000026>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000027>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000028>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000029>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000030>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000031>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000032>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000033>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000034>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000035>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000036>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000037>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000038>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000039>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000040>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000041>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000042>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000043>))
+
 
 
 ############################
 #   Classes
 ############################
+
+# Class: <http://purl.obolibrary.org/obo/AISM_0000501> (carina)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000501> "keel"@en)
+
+# Class: <http://purl.obolibrary.org/obo/BSPO_0000006> (anatomical margin)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSPO_0000006> "anatomical margin"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/BSPO_0000006> <http://purl.obolibrary.org/obo/BSPO_0000070>)
+
+# Class: <http://purl.obolibrary.org/obo/BSPO_0000010> (anatomical axis)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSPO_0000010> "anatomical axis"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/BSPO_0000010> <http://purl.obolibrary.org/obo/CARO_0000008>)
+
+# Class: <http://purl.obolibrary.org/obo/BSPO_0000017> (left-right axis)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSPO_0000017> "left-right axis"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/BSPO_0000017> <http://purl.obolibrary.org/obo/BSPO_0000010>)
 
 # Class: <http://purl.obolibrary.org/obo/COLAO_0000000> (elytron)
 
@@ -35,5 +101,573 @@ https://www.publish.csiro.au/book/6466/
 SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000000> <http://purl.obolibrary.org/obo/AISM_0000003>)
 SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000000> <http://purl.obolibrary.org/obo/AISM_0000037>)
 
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000001> (lateral pronotal carina)
 
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-08-16") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000001> "The carina of the pronotum that separates the pronotal disc from the hypomeron."@en)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. 
+
+https://www.publish.csiro.au/book/6466/
+
+\"the pronotal disc is usually separated on each side by the lateral pronotal carina from the hypomeron\""@en) Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Lawrence JF, Beutel RG, Leschen RA, Ślipiński A (2010) Glossary of morphological terms. Handbuch der Zoologie/Handbook of Zoology. Band 4: 9–20. 
+
+https://doi.org/10.1515/9783110911213.9 
+
+\"distinct edge separating the pronotal disc from the pronotal hypomeron on each side; the lateral carina (not always) may be raised to form a margin or bead\""@en) rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000001> "lateral pronotal carina"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000001> <http://purl.obolibrary.org/obo/AISM_0000501>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0000059>))
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002220> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000682> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/COLAO_0000002>))))
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002220> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000682> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/COLAO_0000003>))))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000002> (pronotal disc)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-08-16") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000002> "The medial region of the pronotum."@en)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. 
+
+https://www.publish.csiro.au/book/6466/
+
+\"the main, dorsal portion of the pronotum\""@en) rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000002> "pronotal disc"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000002> <http://purl.obolibrary.org/obo/AISM_0000174>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000002> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000083> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0000059>)))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000003> (hypomeron)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-08-16") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000003> "The lateral region of the pronotum that is deflexed and laterally limited by the lateral pronotal carina."@en)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. 
+
+https://www.publish.csiro.au/book/6466/
+
+\"deflexed portion of the pronotum limited by the lateral pronotal carina and adjacent to the pleuron or sternum\""@en) rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000003> "hypomeron"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000003> <http://purl.obolibrary.org/obo/AISM_0000174>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000003> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000082> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0000059>)))
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/COLAO_0000004>))
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002220> <http://purl.obolibrary.org/obo/COLAO_0000001>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000004> (deflexed)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "https://www.merriam-webster.com/dictionary/deflexed
+
+\"turned abruptly downward\""@en) rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000004> "deflexed"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000004> <http://purl.obolibrary.org/obo/PATO_0000052>)
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000005> (notopleural sulcus)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-08-20") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000005> "The sulcus that separates the dorsal region of the pleuron from the lateral region of the notum."@en)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. 
+
+https://www.publish.csiro.au/book/6466/
+
+\"separates the pleuron from the notum\""@en) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/COLAO_0000005> "notopleural suture"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000005> "notopleural sulcus"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000005> <http://purl.obolibrary.org/obo/AISM_0000162>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000005> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002150> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000079> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0004129>))))
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000005> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002150> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000082> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0004128>))))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000006> (pleurosternal sulcus)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-08-20") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000006> "The sulcus that separates the ventral region of the pleuron from the lateral region of the sternum."@en)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. 
+
+https://www.publish.csiro.au/book/6466/
+
+\"separates the pleuron from the prosternum (or proventrite)\""@en) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/COLAO_0000006> "pleurosternal suture"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000006> "pleurosternal sulcus"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000006> <http://purl.obolibrary.org/obo/AISM_0000162>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000006> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002150> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000082> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0004130>))))
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000006> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002150> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000084> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0004129>))))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000007> (notosternal sulcus)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-08-20") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000007> "The sulcus separating the lateral region of the notum and the lateral region of the sternum."@en)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. 
+
+https://www.publish.csiro.au/book/6466/
+
+\"separates notum from sternum in groups where the propleuron ends at least slightly before the anterior edge of the prothorax\""@en) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/COLAO_0000007> "notosternal suture"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000007> "notosternal sulcus"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000007> <http://purl.obolibrary.org/obo/AISM_0000162>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000007> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002150> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000082> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0004128>))))
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000007> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002150> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000082> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0004130>))))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000008> (prosternal process)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-08-23") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000008> "The part of the prosternum that is medial to the procoxae."@en)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. 
+
+https://www.publish.csiro.au/book/6466/
+
+\"part of the prosternum lying between the procoxae\""@en) rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000008> "prosternal process"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000008> <http://purl.obolibrary.org/obo/AISM_0004130>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000008> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0000061>))
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000008> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002220> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000683> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0000066>))))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000009> (procoxal cavity)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-08-24") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000009> "The concave part of the prosternum that receives the procoxa."@en)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. 
+
+https://www.publish.csiro.au/book/6466/
+
+\"countersunk cuticular housing for the procoxa\""@en) rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000009> "procoxal cavity"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000009> <http://purl.obolibrary.org/obo/AISM_0000174>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000009> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0000061>))
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000009> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/PATO_0001857>))
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000009> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001015> <http://purl.obolibrary.org/obo/AISM_0000066>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000010> (mesoscutellum)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-08-24") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000010> "The scutellum of the mesothorax."@en)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. 
+
+https://www.publish.csiro.au/book/6466/
+
+\"subdivision of the dorsal surface of the mesothorax\""@en) rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000010> "mesoscutellum"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000010> <http://purl.obolibrary.org/obo/AISM_0004146>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000010> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0004126>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000011> (scutellar shield)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-08-24") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000011> "The region of the cuticle on the posterior region of the mesoscutellum."@en)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Lawrence JF, Beutel RG, Leschen RA, Ślipiński A (2010) Glossary of morphological terms. Handbuch der Zoologie/Handbook of Zoology. Band 4: 9–20.
+
+https://doi.org/10.1515/9783110911213.9
+
+\"Exposed portion of the mesoscutellum which lies between the bases of elytra\""@en) rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000011> "scutellar shield"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000011> <http://purl.obolibrary.org/obo/AISM_0000174>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000011> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000072> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/COLAO_0000010>)))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000012> (sutural margin)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-08-27") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000012> "The medial margin of the elytron."@en)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Hansen M (1991) The hydrophiloid beetles. Phylogeny, classification and a revision of the genera (Coleoptera: Hydrophilidae). Biologiske Skrifter 40: 1–367. 
+
+[Fig. 150]"@en) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/COLAO_0000012> "elytral suture"@en)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. 
+
+https://www.publish.csiro.au/book/6466/
+
+\"mesal edge of an elytron, which meets the corresponding edge of the opposite elytron\""@en) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/COLAO_0000012> "sutural edge"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000012> "sutural margin"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000012> <http://purl.obolibrary.org/obo/BSPO_0000683>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000012> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/COLAO_0000000>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000013> (elytral disc)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-08-27") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000013> "The region of the cuticle on the dorsal region of an elytron."@en)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. 
+
+https://www.publish.csiro.au/book/6466/
+
+\"general dorsal surface of an elytron\""@en) rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000013> "elytral disc"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000013> <http://purl.obolibrary.org/obo/AISM_0000174>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000013> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000079> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/COLAO_0000000>)))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000014> (elytral epipleuron)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-08-30") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000014> "The region of cuticle on the lateral region of the elytron."@en)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. 
+
+https://www.publish.csiro.au/book/6466/
+
+\"incurved lateral portion of the elytron which may be separated from the disc by a sharp ridge or carina\""@en) rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000014> "elytral epipleuron"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000014> <http://purl.obolibrary.org/obo/AISM_0000174>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000014> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000082> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/COLAO_0000000>)))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000015> (elytral humerus)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-08-30") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000015> "The region of cuticle on the antero-lateral region of the elytron."@en)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. 
+
+https://www.publish.csiro.au/book/6466/
+
+\"the anterolateral portion of the [elytral] disc; usually somewhat elevated and angulate; embraces the mesopleuron\""@en) rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000015> "elytral humerus"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000015> <http://purl.obolibrary.org/obo/AISM_0000174>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000015> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000071> <http://purl.obolibrary.org/obo/BSPO_0000082> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/COLAO_0000000>)))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000016> (elytral puncture)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-08-30") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000016> "A puncture on an elytron."@en)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. 
+
+https://www.publish.csiro.au/book/6466/
+
+\"puncture marked on the elytral disc, usually as part of a longitudinal series that may be contained in elytral striae; correspond to sclerotised pillars connecting the upper and lower surfaces of the elytron\""@en) rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000016> "elytral puncture"@en)
+SubClassOf(Annotation(rdfs:comment "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000016> <http://purl.obolibrary.org/obo/AISM_0000524>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000016> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/COLAO_0000000>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000017> (elytral stria)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-08-30") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000017> "The groove on an elytron that is longitidinal (parallel to the anterior-posterior axis)."@en)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. 
+
+https://www.publish.csiro.au/book/6466/
+
+\"impressed longitudinal groove along elytral disc\""@en) rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000017> "elytral stria"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000017> <http://purl.obolibrary.org/obo/AISM_0000157>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000017> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/COLAO_0000000>))
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000017> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/bspo#parallel_to> <http://purl.obolibrary.org/obo/BSPO_0000013>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000018> (elytral interstria)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-08-30") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000018> "The region of the cuticle of the elytral disc that is adjacent to an elytral stria."@en)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. 
+
+https://www.publish.csiro.au/book/6466/
+
+\"the surface of the elytral disc between elytral striae\""@en) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/COLAO_0000018> "elytral interstice"@en)
+AnnotationAssertion(Annotation(rdfs:comment "Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. 
+
+https://www.publish.csiro.au/book/6466/
+
+\"the surface of the elytral disc between elytral striae\""@en) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/COLAO_0000018> "elytral interval"@en)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. 
+
+https://www.publish.csiro.au/book/6466/
+
+\"the surface of the elytral disc between elytral striae\""@en) rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000018> "elytral interstria"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000018> <http://purl.obolibrary.org/obo/AISM_0000174>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000018> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/COLAO_0000013>))
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000018> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002220> <http://purl.obolibrary.org/obo/COLAO_0000017>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000019> (mesoventrite)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-09-01") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000019> "The sclerite on the ventral region of the mesothorax, limited by the pleurosternal sulci and medial to the mesanepisternum and mesepimeron."@en)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Lawrence JF, Beutel RG, Leschen RA, Ślipiński A (2010) Glossary of morphological terms. Handbuch der Zoologie/Handbook of Zoology. Band 4: 9–20. 
+
+https://doi.org/10.1515/9783110911213.9 
+
+\"Applies to the ventral plate lying in front of and between the mesocoxal cavities; delimited laterally by the mesothoracic pleurosternal sutures. Although called the mesosternum in most earlier works on Coleoptera, this sclerite is equivalent to the paired mesothoracic preepisterna and paired mesokatepisterna, the true mesosternum having been largely invaginated and represented only by the area in the immediate vicinity of the bases of the mesendosternites). The transverse suture separating the katepisterna from the preepisterna is never complete in the mesothorax of beetles (indicated by an internal transverse ridge in a few Archostemata) and the discrimen, representing the invagination of the original mesosternum, is present in most Archostemata, Gyrinidae, most Scirtoidea, most Buprestidae, a number of byrrhoid families and the elateroid family Artematopodidae.\""@en) rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000019> "mesoventrite"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000019> <http://purl.obolibrary.org/obo/AISM_0000003>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000019> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000084> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0004126>)))
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000019> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AISM_0000012> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/COLAO_0000021> <http://purl.obolibrary.org/obo/COLAO_0000023>)))
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000019> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002150> <http://purl.obolibrary.org/obo/COLAO_0000006>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000020> (metaventrite)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-09-01") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000020> "The sclerite on the ventral region of the metathorax, limited by the pleurosternal sulci and medial to the metanepisternum and metepimeron."@en)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Lawrence JF, Beutel RG, Leschen RA, Ślipiński A (2010) Glossary of morphological terms. Handbuch der Zoologie/Handbook of Zoology. Band 4: 9–20. 
+
+https://doi.org/10.1515/9783110911213.9 
+
+\"Ventral plate lying behind and between the mesocoxal cavities and delimited laterally by the metanepisterna. Although called the metasternum in most earlier works on Coleoptera, this sclerite is equivalent to the paired metapreepisterna and paired metakatepisterna, the true metasternum having been invaginated along the midline.  The transverse suture separating the katepisterna from the preepisterna is often complete, but may be shortened (extending for a short distance on either side of the discrimen) or absent, and the discrimen, representing the invagination of the original metasternum, is often very long, sometimes completely dividing the metaventrite into halves, but may be shortened or absent in various taxa.\""@en) rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000020> "metaventrite"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000020> <http://purl.obolibrary.org/obo/AISM_0000003>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000020> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000084> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0004127>)))
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000020> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AISM_0000012> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/COLAO_0000022> <http://purl.obolibrary.org/obo/COLAO_0000024>)))
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000020> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002150> <http://purl.obolibrary.org/obo/COLAO_0000006>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000021> (mesanepisternum)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-08-31") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000021> "The anepisternum on the anterior region of the mesopleuron and lateral to the mesoventrite."@en)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Lawrence JF, Beutel RG, Leschen RA, Ślipiński A (2010) Glossary of morphological terms. Handbuch der Zoologie/Handbook of Zoology. Band 4: 9–20. 
+
+https://doi.org/10.1515/9783110911213.9 
+
+\"Anterior pleural sclerite of the mesothorax.\""@en) rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000021> "mesanepisternum"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000021> <http://purl.obolibrary.org/obo/AISM_0004154>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000021> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000071> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0004186>)))
+SubClassOf(<http://purl.obolibrary.org/obo/COLAO_0000021> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AISM_0000011> <http://purl.obolibrary.org/obo/COLAO_0000019>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000022> (metanepisternum)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-08-31") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000022> "The anepisternum on the anterior region of the metapleuron and lateral to the metaventrite."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#source> "Lawrence JF, Beutel RG, Leschen RA, Ślipiński A (2010) Glossary of morphological terms. Handbuch der Zoologie/Handbook of Zoology. Band 4: 9–20. 
+
+https://doi.org/10.1515/9783110911213.9 
+
+\"Anterior pleural sclerite of the metathorax, which in Coleoptera is laterad of the metaventrite and mesoventrad of the metepimeron. Because the lateral (dorsal) portion of the metanepisternum is often concealed beneath the elytral epipleura, its shape in descriptions is based on the visible portion only.\""@en) rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000022> "metanepisternum"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000022> <http://purl.obolibrary.org/obo/AISM_0004154>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000022> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000071> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0000119>)))
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000022> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AISM_0000011> <http://purl.obolibrary.org/obo/COLAO_0000020>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000023> (mesepimeron)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-09-01") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000023> "The epimeron on the posterior region of the mesopleuron."@en)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Lawrence JF, Beutel RG, Leschen RA, Ślipiński A (2010) Glossary of morphological terms. Handbuch der Zoologie/Handbook of Zoology. Band 4: 9–20. 
+
+https://doi.org/10.1515/9783110911213.9 
+
+\"Posterior pleural sclerite of the mesothorax\""@en) rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000023> "mesepimeron"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000023> <http://purl.obolibrary.org/obo/AISM_0004134>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000023> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000072> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0004186>)))
+SubClassOf(Annotation(rdfs:comment "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000023> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AISM_0000011> <http://purl.obolibrary.org/obo/COLAO_0000019>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000024> (metepimeron)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-09-01") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000024> "The epimeron on the posterior region of the metapleuron and lateral to the metaventrite."@en)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Lawrence JF, Beutel RG, Leschen RA, Ślipiński A (2010) Glossary of morphological terms. Handbuch der Zoologie/Handbook of Zoology. Band 4: 9–20. 
+
+https://doi.org/10.1515/9783110911213.9 
+
+\"Posterior pleural sclerite of the metathorax, which in Coleoptera is located laterad of and above the metanepisternum and mostly concealed by the elytral epipleuron. In most beetle groups a small portion of this sclerite is visible near the lateral edge of the metacoxa.\""@en) rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000024> "metepimeron"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000024> <http://purl.obolibrary.org/obo/AISM_0004134>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000024> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000072> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0000119>)))
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000024> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AISM_0000011> <http://purl.obolibrary.org/obo/COLAO_0000020>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000025> (mesothoracic discrimen)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-09-01") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000025> "The discrimen of the mesoventrite."@en)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Lawrence JF, Beutel RG, Leschen RA, Ślipiński A (2010) Glossary of morphological terms. Handbuch der Zoologie/Handbook of Zoology. Band 4: 9–20. 
+
+https://doi.org/10.1515/9783110911213.9 
+
+\"Median line on the mesoventrite representing the invagination of the true mesosternum. This line is rarely complete and often absent in the mesothorax, where the single invagination or furca is replaced by well separated endosternal apodemes.\""@en) rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000025> "mesothoracic discrimen"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000025> <http://purl.obolibrary.org/obo/AISM_0000163>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000025> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/COLAO_0000019>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000026> (metathorcic discrimen)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-09-01") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000026> "The discrimen of the metaventrite."@en)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Lawrence JF, Beutel RG, Leschen RA, Ślipiński A (2010) Glossary of morphological terms. Handbuch der Zoologie/Handbook of Zoology. Band 4: 9–20. 
+
+https://doi.org/10.1515/9783110911213.9 
+
+\"Median line extending forward from the posterior edge of the metaventrite, internally corresponding with a more or less high median ridge representing the invagination of the true metasternum. The ridge is usually connected with the metendosternite. The discrimen is often relatively long and may extend anteriorly to or beyond the base of the metaventral process, but it is reduced or absent in a number of groups.\""@en) rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000026> "metathorcic discrimen"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000026> <http://purl.obolibrary.org/obo/AISM_0000163>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/COLAO_0000020>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000027> (mesocoxal cavity)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-09-01") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000027> "The concave part of the ventral region of the pterothorax that receives the mesocoxa."@en)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Lawrence JF, Beutel RG, Leschen RA, Ślipiński A (2010) Glossary of morphological terms. Handbuch der Zoologie/Handbook of Zoology. Band 4: 9–20. 
+
+https://doi.org/10.1515/9783110911213.9 
+
+\"Countersunk pterothoracic housing into which the mesocoxa fits. Formed by portions of the mesoventrite and metaventrite, often with the addition of mesopleural sclerites and less commonly the metanepisternum. This autapomorphy of the order Coleoptera is secondarily reduced in a number of soft-bodied beetles.\""@en) rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000027> "mesocoxal cavity"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000027> <http://purl.obolibrary.org/obo/AISM_0000174>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000027> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000084> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0004166>)))
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/PATO_0001857>))
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001015> <http://purl.obolibrary.org/obo/AISM_0000064>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000028> (mesoventral process)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-09-01") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000028> "The postero-medial region of the mesoventrite in contact with the metaventral process."@en)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Lawrence JF, Beutel RG, Leschen RA, Ślipiński A (2010) Glossary of morphological terms. Handbuch der Zoologie/Handbook of Zoology. Band 4: 9–20. 
+
+https://doi.org/10.1515/9783110911213.9 
+
+\"Mesal lobe at the posterior edge of the mesoventrite which usually extends between the mesocoxal cavities and meets the metaventral process\""@en) rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000028> "mesoventral process"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000028> <http://purl.obolibrary.org/obo/AISM_0000174>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000028> ObjectIntersectionOf(ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000072> <http://purl.obolibrary.org/obo/BSPO_0000083>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/COLAO_0000019>)))
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000028> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002220> <http://purl.obolibrary.org/obo/COLAO_0000029>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000029> (metaventral process)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-09-01") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000029> "The antero-medial region of the metaventrite in contact with the mesoventral process."@en)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Lawrence JF, Beutel RG, Leschen RA, Ślipiński A (2010) Glossary of morphological terms. Handbuch der Zoologie/Handbook of Zoology. Band 4: 9–20. 
+
+https://doi.org/10.1515/9783110911213.9 
+
+\"Mesal lobe at the anterior end of the metaventrite which often extends forward between the mesocoxae and meets the mesoventral process.\""@en) rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000029> "metaventral process"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000029> <http://purl.obolibrary.org/obo/AISM_0000174>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000029> ObjectIntersectionOf(ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000071> <http://purl.obolibrary.org/obo/BSPO_0000083>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/COLAO_0000020>)))
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000029> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002220> <http://purl.obolibrary.org/obo/COLAO_0000028>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000030> (metacoxal cavity)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-09-01") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000030> "The concave region of abdominal sternites II and III that receive the metacoxa."@en)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Lawrence JF, Beutel RG, Leschen RA, Ślipiński A (2010) Glossary of morphological terms. Handbuch der Zoologie/Handbook of Zoology. Band 4: 9–20. 
+
+https://doi.org/10.1515/9783110911213.9
+
+\"Countersunk abdominal housing into which the metacoxa fits. Usually formed by abdominal sternites II and III combined with the posterior wall of the metaventrite. This autapomorphy of the order Coleoptera is secondarily reduced in a number of soft-bodied beetles.\""@en) rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000030> "metacoxal cavity"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000030> <http://purl.obolibrary.org/obo/AISM_0000174>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000030> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/AISM_0004104> <http://purl.obolibrary.org/obo/AISM_0004105>)))
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000030> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/PATO_0001857>))
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000030> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001015> <http://purl.obolibrary.org/obo/AISM_0000065>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000031> (metakatepisternal sulcus)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-09-01") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000031> "The sulcus of the metaventrite that is transverse (parallel to the left-right axis)."@en)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Lawrence JF, Beutel RG, Leschen RA, Ślipiński A (2010) Glossary of morphological terms. Handbuch der Zoologie/Handbook of Zoology. Band 4: 9–20. 
+
+https://doi.org/10.1515/9783110911213.9 
+
+\"Transverse suture on the metaventrite which separates the paired metathoracic preepisterna from the paired metakatepisterna. Although a complete suture, extending from the discrimen to the lateral edges of the mesoventrite on each side, is part of the groundplan of Coleoptera, it is often shortened so that it extends for only a short distance on either side of the discrimen.\""@en) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/COLAO_0000031> "metakatepisternal suture"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000031> "metakatepisternal sulcus"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000031> <http://purl.obolibrary.org/obo/AISM_0000162>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000031> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/COLAO_0000020>))
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000031> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/bspo#parallel_to> <http://purl.obolibrary.org/obo/BSPO_0000017>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000032> (canthus)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-09-15") <http://purl.obolibrary.org/obo/AISM_0000171> <http://purl.obolibrary.org/obo/COLAO_0000032> "The region of cuticle that is anterior to the compound eye"@en)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. 
+
+https://www.publish.csiro.au/book/6466/
+
+\"lobe anteriorly emarginating the eyes, or partly or completely dividing them\""@en) rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000032> "canthus"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000032> <http://purl.obolibrary.org/obo/AISM_0000174>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000032> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSPO_0000096> <http://purl.obolibrary.org/obo/AISM_0004052>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000033> (frontal carina)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-09-15") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000033> "The carina on the frons that is dorsal to the antennal foramen"@en)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. 
+
+https://www.publish.csiro.au/book/6466/
+
+\"conceal antennal insertions from above; may extend mesally and unite at midline or extend posteriorly as supraorbital ridges\""@en) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/COLAO_0000033> "frontal ridge"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000033> "frontal carina"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000033> <http://purl.obolibrary.org/obo/AISM_0000501>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000033> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0004020>))
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000033> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSPO_0000098> <http://purl.obolibrary.org/obo/AISM_0000198>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000034> (subantennal groove)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-09-15") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000034> "The concave region of the cuticle on the lateral or ventral region of the head capsule that is adjacent to the antennal foramen."@en)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Lawrence JF, Beutel RG, Leschen RA, Ślipiński A (2010) Glossary of morphological terms. Handbuch der Zoologie/Handbook of Zoology. Band 4: 9–20. 
+
+https://doi.org/10.1515/9783110911213.9 
+
+\"Groove or concavity lying below the antennal insertion and housing the base of the antenna. Placed between the eye (if present) and the mandibular articulation, and sometimes extends below or behind the eye.\""@en) rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000034> "subantennal groove"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000034> <http://purl.obolibrary.org/obo/AISM_0000174>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000034> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> ObjectIntersectionOf(ObjectUnionOf(<http://purl.obolibrary.org/obo/BSPO_0000082> <http://purl.obolibrary.org/obo/BSPO_0000084>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0000019>))))
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000034> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/PATO_0001857>))
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000034> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002220> <http://purl.obolibrary.org/obo/AISM_0000198>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000035> (rostrum)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-09-24") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000035> "The region of cuticle of the insect head that is proximal to the mouthparts and composed of frons and clypeus."@en)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. 
+
+https://www.publish.csiro.au/book/6466/
+
+\"forward, long and slender projection of the frontoclypeal region of some Curculionoidea\""@en) rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000035> "rostrum"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000035> <http://purl.obolibrary.org/obo/AISM_0000174>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000035> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0000107>))
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000035> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/AISM_0004019> <http://purl.obolibrary.org/obo/AISM_0004020>)))
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000035> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSPO_0000100> <http://purl.obolibrary.org/obo/AISM_0000165>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000036> (scrobe)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-09-24") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000036> "The subantennal groove on the rostrum that is posterior to the antennal foramen."@en)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. 
+
+https://www.publish.csiro.au/book/6466/
+
+\"subantennal grooves on the rostrum, lying posterior to the antennal socket\""@en) rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000036> "scrobe"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000036> <http://purl.obolibrary.org/obo/COLAO_0000034>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000036> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/COLAO_0000035>))
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000036> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSPO_0000099> <http://purl.obolibrary.org/obo/AISM_0000198>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000037> (tibial spur)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-11-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000037> "The spur on the distal margin of the tibia."@en)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. 
+
+https://www.publish.csiro.au/book/6466/
+
+\"enlarged articulated spine at the apex of the tibia\""@en) rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000037> "tibial spur"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000037> <http://purl.obolibrary.org/obo/AISM_0000040>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000037> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000678> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0000075>))))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000038> (uncus)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-11-09") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000038> "The spine on the distal margin of the tibia."@en)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. 
+
+https://www.publish.csiro.au/book/6466/
+
+\"outwardly directed tooth or spinose lobe, and curved tibial processes\""@en) rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000038> "uncus"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000038> <http://purl.obolibrary.org/obo/AISM_0000527>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000038> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000678> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0000075>))))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000039> (spiculum)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-11-12") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000039> "The apodeme on the anterior margin of abdominal sternite VIII."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000039> "spiculum"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000039> <http://purl.obolibrary.org/obo/AISM_0000188>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000039> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000671> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0004110>))))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000040> (flagellum)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-11-12") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000040> "The endophallite that is elongated."@en)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. 
+
+https://www.publish.csiro.au/book/6466/
+
+\"long and sclerotised structure of the endophallus\""@en) rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000040> "flagellum"@en)
+SubClassOf(Annotation(rdfs:comment "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000040> <http://purl.obolibrary.org/obo/AISM_0004066>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/PATO_0001154>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000041> (tegmen)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000041> "The phallobase that is fused to the parameres."@en)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. 
+
+https://www.publish.csiro.au/book/6466/
+
+\"the phallobase forms a tubular structure enveloping the penis and the parameres are usually reduced and often fused to the phallobase\""@en) rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000041> "tegmen"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000041> <http://purl.obolibrary.org/obo/AISM_0004065>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000041> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/AISM_0004064>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000042> (manubrium)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(rdfs:comment "2021-11-12") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000042> "The apodeme on the anterior margin of the tegmen."@en)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. 
+
+https://www.publish.csiro.au/book/6466/
+
+\"the anterior edge of the tegmen or phallobase often bears an anterior strut or apodeme\""@en) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/COLAO_0000042> "tegminal strut"@en)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Gordon RD (1985) The Coccinellidae (Coleoptera) of America North of Mexico. Journal of the New York Entomological Society 93: i–912.
+
+https://www.jstor.org/stable/25009452
+
+\"strut posterior to basal piece of male genitalia, connected by muscular attachment to basal piece\""@en) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/COLAO_0000042> "trabes"@en)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. 
+
+https://www.publish.csiro.au/book/6466/
+
+\"the anterior edge of the tegmen or phallobase often bears an anterior strut or apodeme\""@en) rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000042> "manubrium"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000042> <http://purl.obolibrary.org/obo/AISM_0000188>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000042> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000671> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/COLAO_0000041>))))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000043> (baculum)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-11-12") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000043> "The sclerite of the paraproct that is elongated."@en)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. 
+
+https://www.publish.csiro.au/book/6466/
+
+[adjusted] long, paired sclerotized rods that strengthen the proctiger and the paraprocts."@en) rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000043> "baculum"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000043> <http://purl.obolibrary.org/obo/AISM_0000003>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000043> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0004061>))
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000043> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/PATO_0001154>))
+
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Lawrence JF, Beutel RG, Leschen RA, Ślipiński A (2010) Glossary of morphological terms. Handbuch der Zoologie/Handbook of Zoology. Band 4: 9–20. 
+
+https://doi.org/10.1515/9783110911213.9 
+
+\"A pair of internal apodemes formed by invaginations within the mesocoxal cavities and representing the original furca.\""@en) rdfs:label <http://purl.obolibrary.org/obo/AISM_0000141> "mesendosternite"@en)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Lawrence JF, Beutel RG, Leschen RA, Ślipiński A (2010) Glossary of morphological terms. Handbuch der Zoologie/Handbook of Zoology. Band 4: 9–20. 
+
+https://doi.org/10.1515/9783110911213.9 
+
+\"Complex internal apodeme equivalent to the metafurca. Arises at or near the posterior edge of the metaventrite usually at the junction of the discrimen and the metakatepisternal suture and projecting anterodorsally. It usually consists of a median stalk, two short to long lateral arms and an anterior process from which a pair of tendons arise; however a lamina may be associated with each of the lateral arms and a pair of anteroventral processes may arise from the point where the lateral arms meet the stalk. In some taxa the stalk may be short or absent and the anterior tendons often arise on the arms [Crowson 1938, 1944, 1955].\""@en) rdfs:label <http://purl.obolibrary.org/obo/AISM_0000142> "metendosternite"@en)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. 
+
+https://www.publish.csiro.au/book/6466/
+
+[adjusted] distal subdivision of the gonocoxites.") rdfs:label <http://purl.obolibrary.org/obo/AISM_0000200> "distal gonocoxite"@en)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. 
+
+https://www.publish.csiro.au/book/6466/
+
+\"longitudinal suture occasionally attached to frontoclypeal suture\""@en) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0004030> "midcranial suture"@en)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Gordon RD (1985) The Coccinellidae (Coleoptera) of America North of Mexico. Journal of the New York Entomological Society 93: i–912. 
+
+https://www.jstor.org/stable/25009452
+
+\"sclerotized, curved rod which is inserted through the basal lobe and into the female bursa copulatrix during copulation, corresponds to aedeagus or penis.\""@en) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0004062> "sipho"@en)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. 
+
+https://www.publish.csiro.au/book/6466/
+
+[adjusted] proximal division of the gonocoxites"@en) rdfs:label <http://purl.obolibrary.org/obo/AISM_0004068> "proximal gonocoxite"@en)
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/IAO_0000232> <http://purl.obolibrary.org/obo/AISM_0004145> "In Coleoptera the scutum is divided into two lateral scuta."@en)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. 
+
+https://www.publish.csiro.au/book/6466/
+
+[adjusted] articulated to the distal gonocoxites."@en) rdfs:label <http://purl.obolibrary.org/obo/AISM_0004198> "stylus"@en)
 )
