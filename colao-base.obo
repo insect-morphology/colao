@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: colao/releases/2021-11-15/colao-base.owl
+data-version: colao/releases/2021-11-19/colao-base.owl
 ontology: colao/colao-base
 property_value: http://purl.org/dc/elements/1.1/contributor "Aaron Smith (asmith) https://orcid.org/0000-0002-1286-950X" xsd:string
 property_value: http://purl.org/dc/elements/1.1/contributor "Jennifer C. Girón (jgiron) https://orcid.org/0000-0002-0851-6883" xsd:string
@@ -8,7 +8,7 @@ property_value: http://purl.org/dc/elements/1.1/description "The Coleoptera Anat
 property_value: http://purl.org/dc/elements/1.1/title "Coleoptera Anatomy Ontology" xsd:string
 property_value: http://purl.org/dc/elements/1.1/type IAO:8000001
 property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/by/4.0/
-property_value: owl:versionInfo "2021-11-15" xsd:string
+property_value: owl:versionInfo "2021-11-19" xsd:string
 
 [Term]
 id: AISM:0000501
@@ -262,9 +262,9 @@ relationship: parallel_to BSPO:0000017 {http://purl.org/dc/elements/1.1/contribu
 [Term]
 id: COLAO:0000032
 name: canthus {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. \n\nhttps://www.publish.csiro.au/book/6466/\n\n\"lobe anteriorly emarginating the eyes, or partly or completely dividing them\""}
+def: "The region of cuticle that is anterior to the compound eye" [] {creation_date="2021-09-15", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
 is_a: AISM:0000174 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
 relationship: BSPO:0000096 AISM:0004052 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
-property_value: AISM:0000171 "The region of cuticle that is anterior to the compound eye" xsd:string {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2021-09-15"}
 
 [Term]
 id: COLAO:0000033

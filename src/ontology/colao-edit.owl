@@ -489,7 +489,7 @@ SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6
 
 # Class: <http://purl.obolibrary.org/obo/COLAO_0000032> (canthus)
 
-AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-09-15") <http://purl.obolibrary.org/obo/AISM_0000171> <http://purl.obolibrary.org/obo/COLAO_0000032> "The region of cuticle that is anterior to the compound eye"@en)
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-09-15") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000032> "The region of cuticle that is anterior to the compound eye"@en)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. 
 
 https://www.publish.csiro.au/book/6466/
