@@ -16,5 +16,4 @@ WARN	missing_definition	anatomical margin	IAO:0000115
 WARN	missing_definition	anatomical axis	IAO:0000115	
 WARN	missing_definition	left-right axis	IAO:0000115	
 WARN	missing_definition	deflexed	IAO:0000115	
-WARN	missing_definition	canthus	IAO:0000115	
 INFO	missing_superclass	obo:AISM_0000501	rdfs:subClassOf	
