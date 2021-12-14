@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: colao/releases/2021-11-19/colao-base.owl
+data-version: colao/releases/2021-12-14/colao-base.owl
 ontology: colao/colao-base
 property_value: http://purl.org/dc/elements/1.1/contributor "Aaron Smith (asmith) https://orcid.org/0000-0002-1286-950X" xsd:string
 property_value: http://purl.org/dc/elements/1.1/contributor "Jennifer C. Girón (jgiron) https://orcid.org/0000-0002-0851-6883" xsd:string
@@ -8,7 +8,7 @@ property_value: http://purl.org/dc/elements/1.1/description "The Coleoptera Anat
 property_value: http://purl.org/dc/elements/1.1/title "Coleoptera Anatomy Ontology" xsd:string
 property_value: http://purl.org/dc/elements/1.1/type IAO:8000001
 property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/by/4.0/
-property_value: owl:versionInfo "2021-11-19" xsd:string
+property_value: owl:versionInfo "2021-12-14" xsd:string
 
 [Term]
 id: AISM:0000501
