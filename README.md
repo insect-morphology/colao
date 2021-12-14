@@ -21,15 +21,22 @@ The latest version of the ontology can always be found at:
 
 https://github.com/insect-morphology/colao
 
-When it is submitted, approved and incrporated by the [OBO Foundry](http://www.obofoundry.org/), it will be available at http://purl.obolibrary.org/obo/colao.owl. As of May 20, 2021 the submission process has not been initiated.
+This ontology was submitted for [OBO Foundry](http://www.obofoundry.org/) approval on [November 17, 2021](https://github.com/OBOFoundry/OBOFoundry.github.io/issues/1665). Once it is approved and ingesteded by the OBO Foundry, it will be available at http://purl.obolibrary.org/obo/colao.owl.
 
-### Editors' version
+### How to contribute
 
-Editors of this ontology should use the edit version, [src/ontology/colao-edit.owl](src/ontology/colao-edit.owl)
+There are three main ways to contribute:
+1. **As an editor**: It requires some familiarity with GitHub, learning how to use [Protégé](https://protege.stanford.edu/), and understanding how the terms are organized, defined, and annotated. This link provides general instructions on [how to edit AISM-based ontologies](https://github.com/insect-morphology/Manual#ontology-editor-tasks). Editors of this ontology should use the edit version: [src/ontology/colao-edit.owl](src/ontology/colao-edit.owl).
+
+2. **As a reviewer and content provider**: The Coleoptera Anatomy Ontology is currently available via [BioPortal](https://bioportal.bioontology.org/ontologies/COLAO), where terms can be searched and annotations for each term can be found. Check for correctness and completeness, and provide information regarding new terms or additional definitions or sources. Then [create an issue in this repository](https://github.com/insect-morphology/colao/issues) or email Jennifer Girón at entiminae@gmail.com providing that information.
+
+4. **As an image contributor**: Share with us links to annotated, openly available images illustrating anatomical terms in your group of study. These links can be used for annotating terms and will be credited to the image provider. Instructions for image annotation will be provided.
+
 
 ## Contact
 
-Please use this GitHub repository's [Issue tracker](https://github.com/insect-morphology/colao/issues) to request new terms/classes or report errors or specific concerns related to the ontology. You can also fork this repository to start contributing. Follow the instructions for contributors, specifically for editors, in the [How to create AISM-based insect anatomy ontologies using the Ontology Development Kit (ODK) and edit them in Protégé](https://github.com/insect-morphology/Manual).
+Please use this GitHub repository's [Issue tracker](https://github.com/insect-morphology/colao/issues) to request new terms/classes or report errors or specific concerns related to the ontology. You can also contact the ontology manager: [Jennifer C. Girón](https://github.com/JCGiron).
+
 
 ## Collaborators
 - [István Mikó](https://github.com/teleaslamellatus)
