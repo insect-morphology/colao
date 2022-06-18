@@ -1,11 +1,11 @@
 
 Prefix(:=<http://purl.obolibrary.org/obo/colao.owl#>)
+Prefix(dce:=<http://purl.org/dc/elements/1.1/>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
 Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
 Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
 Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
 Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
-Prefix(dce:=<http://purl.org/dc/elements/1.1/>)
 Prefix(dcterms:=<http://purl.org/dc/terms/>)
 
 
@@ -14,21 +14,31 @@ Ontology(<http://purl.obolibrary.org/obo/colao.owl>
 Import(<http://purl.obolibrary.org/obo/colao/imports/aism_import.owl>)
 
 
-
-Annotation(dce:title "Coleoptera Anatomy Ontology")
+Annotation(dcterms:description "None")
 Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
-Annotation(dce:description "None")
+Annotation(dcterms:title "Coleoptera Anatomy Ontology")
 
-Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_00000000>))
 
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000000>))
+Declaration(AnnotationProperty(dcterms:description))
+Declaration(AnnotationProperty(dcterms:license))
+Declaration(AnnotationProperty(dcterms:title))
+
+############################
+#   Annotation Properties
+############################
+
+AnnotationAssertion(rdfs:label dcterms:description "description")
+AnnotationAssertion(rdfs:label dcterms:license "license")
+AnnotationAssertion(rdfs:label dcterms:title "title")
 
 ############################
 #   Classes
 ############################
 
-# Class: <http://purl.obolibrary.org/obo/COLAO_00000000>
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000000> (root node)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/COLAO_00000000> "root node"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000000> "root node"@en)
 
 
 )

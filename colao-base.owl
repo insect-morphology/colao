@@ -11,7 +11,7 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/colao/colao-base.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/colao/releases/2021-12-14/colao-base.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/colao/releases/2022-06-18/colao-base.owl"/>
         <dc:contributor>Aaron Smith (asmith) https://orcid.org/0000-0002-1286-950X</dc:contributor>
         <dc:contributor>Jennifer C. Girón (jgiron) https://orcid.org/0000-0002-0851-6883</dc:contributor>
         <dc:contributor>Ryan Lumen (rlumen) https://orcid.org/0000-0002-3958-7596</dc:contributor>
@@ -19,7 +19,7 @@
         <dc:title>Coleoptera Anatomy Ontology</dc:title>
         <dc:type rdf:resource="http://purl.obolibrary.org/obo/IAO_8000001"/>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-12-14</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-06-18</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -56,6 +56,15 @@
     <!-- http://purl.org/dc/elements/1.1/contributor -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/isReferencedBy -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/isReferencedBy">
+        <obo:IAO_0000115 xml:lang="en">A related resource that references, cites, or otherwise points to the described resource.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">isReferencedBy</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
@@ -237,6 +246,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/AISM_0000088 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/AISM_0000088"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/AISM_0000107 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/AISM_0000107"/>
@@ -270,6 +285,12 @@
     <!-- http://purl.obolibrary.org/obo/AISM_0000165 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/AISM_0000165"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/AISM_0000167 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/AISM_0000167"/>
     
 
 
@@ -311,6 +332,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/AISM_0004005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/AISM_0004005"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/AISM_0004019 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/AISM_0004019"/>
@@ -320,6 +347,24 @@
     <!-- http://purl.obolibrary.org/obo/AISM_0004020 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/AISM_0004020"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/AISM_0004025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/AISM_0004025"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/AISM_0004042 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/AISM_0004042"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/AISM_0004049 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/AISM_0004049"/>
     
 
 
@@ -431,6 +476,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/AISM_0004239 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/AISM_0004239"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/AISM_0004262 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/AISM_0004262"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/BSPO_0000006 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSPO_0000006">
@@ -460,6 +517,24 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSPO_0000017">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000010"/>
         <rdfs:label xml:lang="en">left-right axis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSPO_0000028">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000082"/>
+        <rdfs:label xml:lang="en">postero-lateral region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000064 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSPO_0000064">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000083"/>
+        <rdfs:label xml:lang="en">postero-medial region</rdfs:label>
     </owl:Class>
     
 
@@ -3837,6 +3912,754 @@ https://www.publish.csiro.au/book/6466/
     
 
 
+    <!-- http://purl.obolibrary.org/obo/COLAO_0000044 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COLAO_0000044">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BSPO_0000079"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0000088"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The dorsal region of the eye cuticle.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">dorsal lobe of eye</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000044"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BSPO_0000079"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0000088"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:annotatedTarget>
+        <dc:contributor>jgiron https://orcid.org/0000-0002-0851-6883</dc:contributor>
+        <oboInOwl:creation_date>2021-12-16</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000044"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The dorsal region of the eye cuticle.</owl:annotatedTarget>
+        <dc:contributor>jgiron https://orcid.org/0000-0002-0851-6883</dc:contributor>
+        <oboInOwl:creation_date>2021-12-16</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000044"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget xml:lang="en">dorsal lobe of eye</owl:annotatedTarget>
+        <terms:isReferencedBy xml:lang="en">Doyen JT (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5: 103–150.</terms:isReferencedBy>
+        <oboInOwl:creation_date>2021-12-16</oboInOwl:creation_date>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/COLAO_0000045 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COLAO_0000045">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BSPO_0000084"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0000088"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The ventral region of the eye cuticle.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">ventral lobe of eye</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000045"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BSPO_0000084"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0000088"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:annotatedTarget>
+        <dc:contributor>jgiron https://orcid.org/0000-0002-0851-6883</dc:contributor>
+        <oboInOwl:creation_date>2021-12-16</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000045"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The ventral region of the eye cuticle.</owl:annotatedTarget>
+        <dc:contributor>jgiron https://orcid.org/0000-0002-0851-6883</dc:contributor>
+        <oboInOwl:creation_date>2021-12-16</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000045"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget xml:lang="en">ventral lobe of eye</owl:annotatedTarget>
+        <terms:isReferencedBy xml:lang="en">Doyen JT (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5: 103–150.</terms:isReferencedBy>
+        <oboInOwl:creation_date>2021-12-16</oboInOwl:creation_date>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/COLAO_0000046 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COLAO_0000046">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/AISM_0000162"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BSPO_0000082"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0004262"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The cuticular sulcus that is the lateral region of the frontoclypeal sulcus.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">genoclypeal sutures</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">genoclypeal sulcus</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000046"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/AISM_0000162"/>
+        <dc:contributor>jgiron https://orcid.org/0000-0002-0851-6883</dc:contributor>
+        <oboInOwl:creation_date>2022-02-21</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000046"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BSPO_0000082"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0004262"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:annotatedTarget>
+        <dc:contributor>jgiron https://orcid.org/0000-0002-0851-6883</dc:contributor>
+        <oboInOwl:creation_date>2022-02-21</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000046"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The cuticular sulcus that is the lateral region of the frontoclypeal sulcus.</owl:annotatedTarget>
+        <dc:contributor>jgiron https://orcid.org/0000-0002-0851-6883</dc:contributor>
+        <oboInOwl:creation_date>2022-02-21</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000046"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">genoclypeal sutures</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Doyen, J. T. (1966). The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America, 5, 103–150.
+
+&quot;The epistoma includes the clypeus medially and the genae laterally, separated by the oblique genoclypeal sutures&quot;</obo:AISM_0000171>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000046"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget xml:lang="en">genoclypeal sulcus</owl:annotatedTarget>
+        <oboInOwl:creation_date>2022-02-21</oboInOwl:creation_date>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/COLAO_0000047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COLAO_0000047">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/AISM_0000167"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BSPO_0000084"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000048"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0000019"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The articular surface of the head capsule on the ventral region of the clypealia</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">precoila</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">dorsal cranio-mandibular articulation</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000047"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/AISM_0000167"/>
+        <dc:contributor>jgiron https://orcid.org/0000-0002-0851-6883</dc:contributor>
+        <oboInOwl:creation_date>2022-06-16</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000047"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BSPO_0000084"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000048"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:annotatedTarget>
+        <dc:contributor>jgiron https://orcid.org/0000-0002-0851-6883</dc:contributor>
+        <oboInOwl:creation_date>2022-06-16</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000047"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0000019"/>
+            </owl:Restriction>
+        </owl:annotatedTarget>
+        <dc:contributor>jgiron https://orcid.org/0000-0002-0851-6883</dc:contributor>
+        <oboInOwl:creation_date>2022-06-16</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000047"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The articular surface of the head capsule on the ventral region of the clypealia</owl:annotatedTarget>
+        <dc:contributor>jgiron https://orcid.org/0000-0002-0851-6883</dc:contributor>
+        <oboInOwl:creation_date>2022-06-16</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000047"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">precoila</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Stickney, F.S. (1923) The head-capsule of Coleoptera. Contributions from the Entomological Labratories of the University of Illinois. Urbana, Illinois, USA, 172 pp.
+
+https://www.biodiversitylibrary.org/bibliography/49937
+
+&quot;The rounded condyle on the ventral surface of each clypealia, against which the preartis of the mandible articulates&quot;</obo:AISM_0000171>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000047"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget xml:lang="en">dorsal cranio-mandibular articulation</owl:annotatedTarget>
+        <dc:contributor>jgiron https://orcid.org/0000-0002-0851-6883</dc:contributor>
+        <oboInOwl:creation_date>2022-06-16</oboInOwl:creation_date>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/COLAO_0000048 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COLAO_0000048">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/AISM_0000174"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BSPO_0000028"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0004049"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The region of the cuticle corresponding to the postero-lateral region of the postclypeus</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">clypealia</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000048"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/AISM_0000174"/>
+        <dc:contributor>jgiron https://orcid.org/0000-0002-0851-6883</dc:contributor>
+        <oboInOwl:creation_date>2022-06-16</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000048"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BSPO_0000028"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0004049"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:annotatedTarget>
+        <dc:contributor>jgiron https://orcid.org/0000-0002-0851-6883</dc:contributor>
+        <oboInOwl:creation_date>2022-06-16</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000048"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The region of the cuticle corresponding to the postero-lateral region of the postclypeus</owl:annotatedTarget>
+        <dc:contributor>jgiron https://orcid.org/0000-0002-0851-6883</dc:contributor>
+        <oboInOwl:creation_date>2022-06-16</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000048"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget xml:lang="en">clypealia</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Stickney, F.S. (1923) The head-capsule of Coleoptera. Contributions from the Entomological Labratories of the University of Illinois. Urbana, Illinois, USA, 172 pp.
+
+https://www.biodiversitylibrary.org/bibliography/49937
+
+&quot;The caudo-lateral projection or lobe of the postclypeus&quot;</obo:AISM_0000171>
+        <dc:contributor>jgiron https://orcid.org/0000-0002-0851-6883</dc:contributor>
+        <oboInOwl:creation_date>2022-06-16</oboInOwl:creation_date>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/COLAO_0000049 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COLAO_0000049">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/AISM_0000167"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BSPO_0000071"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0004042"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0000019"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The articular surface of the head capsule at the anterior region of the postgena</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">postcoila</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">ventral cranio-mandibular articulation</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000049"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/AISM_0000167"/>
+        <dc:contributor>jgiron https://orcid.org/0000-0002-0851-6883</dc:contributor>
+        <oboInOwl:creation_date>2022-06-16</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000049"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BSPO_0000071"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0004042"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:annotatedTarget>
+        <dc:contributor>jgiron https://orcid.org/0000-0002-0851-6883</dc:contributor>
+        <oboInOwl:creation_date>2022-06-16</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000049"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0000019"/>
+            </owl:Restriction>
+        </owl:annotatedTarget>
+        <dc:contributor>jgiron https://orcid.org/0000-0002-0851-6883</dc:contributor>
+        <oboInOwl:creation_date>2022-06-16</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000049"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The articular surface of the head capsule at the anterior region of the postgena</owl:annotatedTarget>
+        <dc:contributor>jgiron https://orcid.org/0000-0002-0851-6883</dc:contributor>
+        <oboInOwl:creation_date>2022-06-16</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000049"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">postcoila</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Stickney, F.S. (1923) The head-capsule of Coleoptera. Contributions from the Entomological Labratories of the University of Illinois. Urbana, Illinois, USA, 172 pp.
+
+https://www.biodiversitylibrary.org/bibliography/49937
+
+&quot;At the cephalic end of a postgena is always found a distinct crescent-shaped acetabulum, against which the postartis of the mandible articulates&quot;</obo:AISM_0000171>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000049"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget xml:lang="en">ventral cranio-mandibular articulation</owl:annotatedTarget>
+        <dc:contributor>jgiron https://orcid.org/0000-0002-0851-6883</dc:contributor>
+        <oboInOwl:creation_date>2022-06-16</oboInOwl:creation_date>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/COLAO_0000050 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COLAO_0000050">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/AISM_0000167"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BSPO_0000064"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0004042"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0000019"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The articular surface of the head capsule at the postero-medial region of the postgena</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">maxillary fossa</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">paracoila</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">cranio-maxillar articulation</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000050"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/AISM_0000167"/>
+        <dc:contributor>jgiron https://orcid.org/0000-0002-0851-6883</dc:contributor>
+        <oboInOwl:creation_date>2022-06-16</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000050"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BSPO_0000064"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0004042"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:annotatedTarget>
+        <dc:contributor>jgiron https://orcid.org/0000-0002-0851-6883</dc:contributor>
+        <oboInOwl:creation_date>2022-06-16</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000050"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0000019"/>
+            </owl:Restriction>
+        </owl:annotatedTarget>
+        <dc:contributor>jgiron https://orcid.org/0000-0002-0851-6883</dc:contributor>
+        <oboInOwl:creation_date>2022-06-16</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000050"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The articular surface of the head capsule at the postero-medial region of the postgena</owl:annotatedTarget>
+        <dc:contributor>jgiron https://orcid.org/0000-0002-0851-6883</dc:contributor>
+        <oboInOwl:creation_date>2022-06-16</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000050"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">maxillary fossa</owl:annotatedTarget>
+        <terms:isReferencedBy xml:lang="en">Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150.</terms:isReferencedBy>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000050"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">paracoila</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Stickney, F.S. (1923) The head-capsule of Coleoptera. Contributions from the Entomological Labratories of the University of Illinois. Urbana, Illinois, USA, 172 pp.
+
+https://www.biodiversitylibrary.org/bibliography/49937
+
+&quot;The small rather concave projection at the caudo-mesal margin of the postgena against which the maxilla articulate&quot;</obo:AISM_0000171>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000050"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget xml:lang="en">cranio-maxillar articulation</owl:annotatedTarget>
+        <dc:contributor>jgiron https://orcid.org/0000-0002-0851-6883</dc:contributor>
+        <oboInOwl:creation_date>2022-06-16</oboInOwl:creation_date>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/COLAO_0000051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COLAO_0000051">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/AISM_0000501"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bspo#parallel_to"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BSPO_0000683"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0000088"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The cuticular carina that is parallel to the medial margin of the eye</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">supraorbital crest</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000051"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/AISM_0000501"/>
+        <dc:contributor>jgiron https://orcid.org/0000-0002-0851-6883</dc:contributor>
+        <oboInOwl:creation_date>2022-06-17</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000051"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bspo#parallel_to"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BSPO_0000683"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0000088"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:annotatedTarget>
+        <dc:contributor>jgiron https://orcid.org/0000-0002-0851-6883</dc:contributor>
+        <oboInOwl:creation_date>2022-06-17</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000051"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The cuticular carina that is parallel to the medial margin of the eye</owl:annotatedTarget>
+        <dc:contributor>jgiron https://orcid.org/0000-0002-0851-6883</dc:contributor>
+        <oboInOwl:creation_date>2022-06-17</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000051"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget xml:lang="en">supraorbital crest</owl:annotatedTarget>
+        <terms:isReferencedBy xml:lang="en">Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150.</terms:isReferencedBy>
+        <oboInOwl:creation_date>2022-06-17</oboInOwl:creation_date>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/COLAO_0000052 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COLAO_0000052">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/AISM_0000157"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0004025"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0004239"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0000019"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bspo#parallel_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The cuticular groove of the head capsule that runs parallel to the left-right axis, adjacent to the vertex and the occiput</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">posterior cranial transverse groove</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000052"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/AISM_0000157"/>
+        <dc:contributor>jgiron https://orcid.org/0000-0002-0851-6883</dc:contributor>
+        <oboInOwl:creation_date>2022-05-17</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000052"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0004025"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0004239"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:annotatedTarget>
+        <dc:contributor>jgiron https://orcid.org/0000-0002-0851-6883</dc:contributor>
+        <oboInOwl:creation_date>2022-06-17</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000052"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0000019"/>
+            </owl:Restriction>
+        </owl:annotatedTarget>
+        <dc:contributor>jgiron https://orcid.org/0000-0002-0851-6883</dc:contributor>
+        <oboInOwl:creation_date>2022-06-17</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000052"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bspo#parallel_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000017"/>
+            </owl:Restriction>
+        </owl:annotatedTarget>
+        <dc:contributor>jgiron https://orcid.org/0000-0002-0851-6883</dc:contributor>
+        <oboInOwl:creation_date>2022-06-17</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000052"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The cuticular groove of the head capsule that runs parallel to the left-right axis, adjacent to the vertex and the occiput</owl:annotatedTarget>
+        <dc:contributor>jgiron https://orcid.org/0000-0002-0851-6883</dc:contributor>
+        <oboInOwl:creation_date>2022-06-17</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000052"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget xml:lang="en">posterior cranial transverse groove</owl:annotatedTarget>
+        <terms:isReferencedBy xml:lang="en">Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150.
+[as posterior transverse groove]</terms:isReferencedBy>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/COLAO_0000053 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COLAO_0000053">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/AISM_0000162"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0004005"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0004042"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The cuticular sulcus between the submentum and the postgena</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">submental sutures</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">submental sulcus</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000053"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/AISM_0000162"/>
+        <dc:contributor>jgiron https://orcid.org/0000-0002-0851-6883</dc:contributor>
+        <oboInOwl:creation_date>2022-06-17</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000053"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0004005"/>
+            </owl:Restriction>
+        </owl:annotatedTarget>
+        <dc:contributor>jgiron https://orcid.org/0000-0002-0851-6883</dc:contributor>
+        <oboInOwl:creation_date>2022-06-17</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000053"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002220"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0004042"/>
+            </owl:Restriction>
+        </owl:annotatedTarget>
+        <dc:contributor>jgiron https://orcid.org/0000-0002-0851-6883</dc:contributor>
+        <oboInOwl:creation_date>2022-06-17</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000053"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The cuticular sulcus between the submentum and the postgena</owl:annotatedTarget>
+        <dc:contributor>jgiron https://orcid.org/0000-0002-0851-6883</dc:contributor>
+        <oboInOwl:creation_date>2022-06-17</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000053"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">submental sutures</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150.</obo:AISM_0000171>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000053"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget xml:lang="en">submental sulcus</owl:annotatedTarget>
+        <terms:isReferencedBy xml:lang="en">Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150.
+[as submental sutures]</terms:isReferencedBy>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PATO_0000052 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000052"/>
@@ -3863,6 +4686,18 @@ https://www.publish.csiro.au/book/6466/
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/AISM_0000041">
+        <rdfs:label xml:lang="en">squama</rdfs:label>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/AISM_0000041"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget xml:lang="en">squama</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Oberprieler, R. G., &amp; Zimmerman, E. C. (2020). Australian Weevils (Coleoptera: Curculionoidea). Volume IV. Curculionidae: Entiminae Part I. CSIRO Publishing. https://www.publish.csiro.au/book/202
+
+&quot;squamae (scales)&quot; p. 49</obo:AISM_0000171>
+        <oboInOwl:creation_date>2022-03-03</oboInOwl:creation_date>
+    </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/AISM_0000141">
         <rdfs:label xml:lang="en">mesendosternite</rdfs:label>
     </rdf:Description>
@@ -3901,6 +4736,20 @@ https://doi.org/10.1515/9783110911213.9
 https://www.publish.csiro.au/book/6466/
 
 [adjusted] distal subdivision of the gonocoxites.</obo:AISM_0000171>
+    </owl:Axiom>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/AISM_0004029">
+        <oboInOwl:hasExactSynonym xml:lang="en">epicranial arms</oboInOwl:hasExactSynonym>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/AISM_0004029"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget xml:lang="en">epicranial arms</owl:annotatedTarget>
+        <obo:AISM_0000171 xml:lang="en">Stickney FS (1923) The head-capsule of Coleoptera. Urbana, Illinois, USA, 172 pp. 
+
+https://doi.org/10.5962/bhl.title.49937
+
+&quot;The epicranial stem extends to a transverse line drawn through the middle of the compound eyes. Branching here the epicranial arms continue to the margin of the head cephalad of the compound eyes.&quot;</obo:AISM_0000171>
+        <terms:isReferencedBy xml:lang="en">Doyen JT (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5: 103–150.</terms:isReferencedBy>
     </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/AISM_0004030">
         <oboInOwl:hasExactSynonym xml:lang="en">midcranial suture</oboInOwl:hasExactSynonym>
