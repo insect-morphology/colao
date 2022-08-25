@@ -37,16 +37,17 @@ Datatype: idrange:1
         ORCID: "https://orcid.org/0000-0002-0851-6883"
     
     EquivalentTo: 
-        xsd:integer[>= COLAO:0000000 , <= AISM:0000499]
+        xsd:integer[>= COLAO:0000000 , <= COLAO:0000199]
 
     
 Datatype: idrange:2
 
     Annotations: 
-        allocatedto: "ADDITIONAL EDITOR"
+        allocatedto: "Sergei Tarasov"
+        ORCID: "https://orcid.org/0000-0001-5237-2330"
     
     EquivalentTo: 
-        xsd:integer[>= 1000000 , <= 1999999]
+        xsd:integer[>= COLAO:0000200 , <= COLAO:0000299]
     
     
 Datatype: xsd:integer

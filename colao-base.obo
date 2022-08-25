@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: colao/releases/2022-06-18/colao-base.owl
+data-version: colao/releases/2022-08-25/colao-base.owl
 ontology: colao/colao-base
 property_value: http://purl.org/dc/elements/1.1/contributor "Aaron Smith (asmith) https://orcid.org/0000-0002-1286-950X" xsd:string
 property_value: http://purl.org/dc/elements/1.1/contributor "Jennifer C. Girón (jgiron) https://orcid.org/0000-0002-0851-6883" xsd:string
@@ -8,11 +8,15 @@ property_value: http://purl.org/dc/elements/1.1/description "The Coleoptera Anat
 property_value: http://purl.org/dc/elements/1.1/title "Coleoptera Anatomy Ontology" xsd:string
 property_value: http://purl.org/dc/elements/1.1/type IAO:8000001
 property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/by/4.0/
-property_value: owl:versionInfo "2022-06-18" xsd:string
+property_value: owl:versionInfo "2022-08-25" xsd:string
 
 [Term]
 id: AISM:0000501
 synonym: "keel" EXACT []
+
+[Term]
+id: AISM:0002019
+synonym: "hypopharyngeal bridge" EXACT [] {http://purl.org/dc/terms/isReferencedBy="Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150."}
 
 [Term]
 id: BSPO:0000006
@@ -91,11 +95,13 @@ id: COLAO:0000007
 name: notosternal sulcus
 def: "The sulcus separating the lateral region of the notum and the lateral region of the sternum." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2021-08-20"}
 synonym: "notosternal suture" EXACT [] {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. \n\nhttps://www.publish.csiro.au/book/6466/\n\n\"separates notum from sternum in groups where the propleuron ends at least slightly before the anterior edge of the prothorax\""}
+synonym: "tergosternal suture" EXACT [] {http://purl.org/dc/terms/isReferencedBy="Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150."}
 is_a: AISM:0000162 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+relationship: RO:0002008 COLAO:0000082 ! notosternal ridge
 
 [Term]
 id: COLAO:0000008
-name: prosternal process {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. \n\nhttps://www.publish.csiro.au/book/6466/\n\n\"part of the prosternum lying between the procoxae\""}
+name: prosternal process {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. \n\nhttps://www.publish.csiro.au/book/6466/\n\n\"part of the prosternum lying between the procoxae\"", http://purl.org/dc/terms/isReferencedBy="Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150."}
 def: "The part of the prosternum that is medial to the procoxae." [] {creation_date="2021-08-23", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
 is_a: AISM:0004130 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
 relationship: BFO:0000050 AISM:0000061 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
@@ -377,9 +383,9 @@ is_a: AISM:0000162 {http://purl.org/dc/elements/1.1/contributor="jgiron https://
 [Term]
 id: COLAO:0000047
 name: dorsal cranio-mandibular articulation {creation_date="2022-06-16", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
-def: "The articular surface of the head capsule on the ventral region of the clypealia" [] {creation_date="2022-06-16", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+def: "The cranio-mandibular articulation of the head capsule on the ventral region of the clypealia" [] {creation_date="2022-06-16", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
 synonym: "precoila" EXACT [] {http://purl.obolibrary.org/obo/AISM_0000171="Stickney, F.S. (1923) The head-capsule of Coleoptera. Contributions from the Entomological Labratories of the University of Illinois. Urbana, Illinois, USA, 172 pp.\n\nhttps://www.biodiversitylibrary.org/bibliography/49937\n\n\"The rounded condyle on the ventral surface of each clypealia, against which the preartis of the mandible articulates\""}
-is_a: AISM:0000167 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2022-06-16"}
+is_a: AISM:0000014 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2022-06-16"}
 relationship: BFO:0000050 AISM:0000019 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2022-06-16"}
 
 [Term]
@@ -391,18 +397,18 @@ is_a: AISM:0000174 {http://purl.org/dc/elements/1.1/contributor="jgiron https://
 [Term]
 id: COLAO:0000049
 name: ventral cranio-mandibular articulation {creation_date="2022-06-16", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
-def: "The articular surface of the head capsule at the anterior region of the postgena" [] {creation_date="2022-06-16", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+def: "The cranio-mandibular articulation of the head capsule at the anterior region of the postgena" [] {creation_date="2022-06-16", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
 synonym: "postcoila" EXACT [] {http://purl.obolibrary.org/obo/AISM_0000171="Stickney, F.S. (1923) The head-capsule of Coleoptera. Contributions from the Entomological Labratories of the University of Illinois. Urbana, Illinois, USA, 172 pp.\n\nhttps://www.biodiversitylibrary.org/bibliography/49937\n\n\"At the cephalic end of a postgena is always found a distinct crescent-shaped acetabulum, against which the postartis of the mandible articulates\""}
-is_a: AISM:0000167 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2022-06-16"}
+is_a: AISM:0000014 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2022-06-16"}
 relationship: BFO:0000050 AISM:0000019 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2022-06-16"}
 
 [Term]
 id: COLAO:0000050
 name: cranio-maxillar articulation {creation_date="2022-06-16", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
-def: "The articular surface of the head capsule at the postero-medial region of the postgena" [] {creation_date="2022-06-16", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+def: "The insect articulation of the head capsule at the postero-medial region of the postgena" [] {creation_date="2022-06-16", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
 synonym: "maxillary fossa" EXACT [] {http://purl.org/dc/terms/isReferencedBy="Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150."}
 synonym: "paracoila" EXACT [] {http://purl.obolibrary.org/obo/AISM_0000171="Stickney, F.S. (1923) The head-capsule of Coleoptera. Contributions from the Entomological Labratories of the University of Illinois. Urbana, Illinois, USA, 172 pp.\n\nhttps://www.biodiversitylibrary.org/bibliography/49937\n\n\"The small rather concave projection at the caudo-mesal margin of the postgena against which the maxilla articulate\""}
-is_a: AISM:0000167 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2022-06-16"}
+is_a: AISM:0000002 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2022-06-16"}
 relationship: BFO:0000050 AISM:0000019 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2022-06-16"}
 
 [Term]
@@ -429,4 +435,202 @@ synonym: "submental sutures" EXACT [] {http://purl.obolibrary.org/obo/AISM_00001
 is_a: AISM:0000162 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2022-06-17"}
 relationship: RO:0002220 AISM:0004005 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2022-06-17"}
 relationship: RO:0002220 AISM:0004042 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2022-06-17"}
+
+[Term]
+id: COLAO:0000054
+name: labral seta
+def: "The cuticular seta on the dorsal region the cuticle of the labrum." [] {creation_date="2022-06-20", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+synonym: "labral bristle" EXACT [] {http://purl.org/dc/terms/isReferencedBy="Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150."}
+is_a: AISM:0000039 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2022-06-20"}
+
+[Term]
+id: COLAO:0000055
+name: medial tormal process {creation_date="2022-06-20", http://purl.obolibrary.org/obo/AISM_0000171="Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150.\n\n\"long transverse bar, separated from the labrum by a narrow cleft and nearly reaching the midline. The mesal end is enlarged and bent posteriorly as a narrow pointed arm, which has no muscle attchments but is embedded in the epipharynx\""}
+def: "The region of the cuticle of the torma that is elongated and parallel to the left-right axis." [] {creation_date="2022-06-20", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+is_a: AISM:0000174 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2022-06-20"}
+relationship: BFO:0000050 AISM:0002012 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2022-06-20"}
+relationship: parallel_to BSPO:0000017 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2022-06-20"} ! left-right axis
+relationship: RO:0000053 PATO:0001154 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2022-06-20"}
+
+[Term]
+id: COLAO:0000056
+name: posterior tormal process {creation_date="2022-06-20", http://purl.obolibrary.org/obo/AISM_0000171="Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150.\n\n\"a short arm to which the long labral retractor tendon is attached\""}
+def: "The region of the cuticle on the postero-lateral region of the torma." [] {creation_date="2022-06-20", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+is_a: AISM:0000174 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2022-06-20"}
+
+[Term]
+id: COLAO:0000057
+name: epipharyngeal sclerite {http://purl.org/dc/elements/1.1/contributor="2022-06-20", http://purl.org/dc/terms/isReferencedBy="Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150."}
+def: "The sclerite of the epipharynx." [] {creation_date="2022-06-20", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+is_a: AISM:0000003 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2022-06-20"}
+relationship: BFO:0000050 AISM:0000105 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2022-06-20"}
+
+[Term]
+id: COLAO:0000058
+name: anterior epipharyngeal sclerite {creation_date="2022-06-20", http://purl.org/dc/terms/isReferencedBy="Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150."}
+def: "The epipharyngeal sclerite on the anterior region of the epipharynx." [] {creation_date="2022-06-20", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+is_a: COLAO:0000057 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2022-06-20"} ! epipharyngeal sclerite
+
+[Term]
+id: COLAO:0000059
+name: posterior epipharyngeal sclerite {creation_date="2022-06-20", http://purl.org/dc/terms/isReferencedBy="Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150."}
+def: "The epipharyngeal sclerite on the posterior region of the epipharynx." [] {creation_date="2022-06-20", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+is_a: COLAO:0000057 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2022-06-20"} ! epipharyngeal sclerite
+
+[Term]
+id: COLAO:0000060
+name: epipharyngeal process {creation_date="2022-06-20"}
+def: "The setose cuticle of the epipharynx that is posterior to the anterior epipharyngeal sclerite." [] {creation_date="2022-06-20", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+is_a: AISM:0000530 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2022-06-20"}
+relationship: BFO:0000050 AISM:0000105 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2022-06-20"}
+relationship: BSPO:0000099 COLAO:0000058 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2022-06-20"} ! anterior epipharyngeal sclerite
+
+[Term]
+id: COLAO:0000061
+name: mandibular dorsolateral socket {creation_date="2022-06-20", http://purl.obolibrary.org/obo/AISM_0000171="Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. \n\nhttps://www.publish.csiro.au/book/6466/\n\n\"The mandible is usually in the form of a tetrahedron,with dorsal, ventral and external faces, a triangular base, and articulations with the head capsule consisting of a dorsolateral socket and ventrolateral condyle.\""}
+def: "The insect articulation on the dorso-lateral region of the cuticle of the insect mandible." [] {creation_date="2022-06-20", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+synonym: "articulatory fossa" EXACT [] {http://purl.obolibrary.org/obo/AISM_0000171="Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150."}
+is_a: AISM:0000002 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2022-06-20"}
+
+[Term]
+id: COLAO:0000062
+name: mandibular ventrolateral condyle {creation_date="2022-06-20", http://purl.obolibrary.org/obo/AISM_0000171="Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. \n\nhttps://www.publish.csiro.au/book/6466/\n\n\"The mandible is usually in the form of a tetrahedron,with dorsal, ventral and external faces, a triangular base, and articulations with the head capsule consisting of a dorsolateral socket and ventrolateral condyle.\""}
+def: "The insect articulation on the ventro-lateral region of the cuticle of the insect mandible." [] {creation_date="2022-06-20", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+synonym: "articulatory condyle" EXACT [] {http://purl.obolibrary.org/obo/AISM_0000171="Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150."}
+is_a: AISM:0000002 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2022-06-20"}
+
+[Term]
+id: COLAO:0000063
+name: mandibular abductor apodeme {creation_date="2022-06-22"}
+def: "The apodeme adjacent to the proximo-lateral region of the cuticle of the insect mandible." [] {creation_date="2022-06-22", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+is_a: AISM:0000188 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2022-06-22"}
+property_value: http://purl.org/dc/terms/isReferencedBy "Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150." xsd:string {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2022-06-22"}
+
+[Term]
+id: COLAO:0000064
+name: mandibular adductor apodeme {creation_date="2022-06-22"}
+def: "The apodeme adjacent to the proximo-medial region of the cuticle of the insect mandible." [] {creation_date="2022-06-22", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+is_a: AISM:0000188 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2022-06-22"}
+property_value: http://purl.org/dc/terms/isReferencedBy "Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150." xsd:string {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2022-06-22"}
+
+[Term]
+id: COLAO:0000065
+name: cardo process {creation_date="2022-06-22"}
+def: "The apodeme that is adjacent to the proximo-dorsal region of the cuticle of the cardo." [] {creation_date="2022-06-22", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+is_a: AISM:0000188 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2022-06-22"}
+property_value: http://purl.org/dc/terms/isReferencedBy "Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150." xsd:string
+
+[Term]
+id: COLAO:0000066
+name: mesal cardo process {creation_date="2022-06-22"}
+def: "The cardo process of the medial region." [] {creation_date="2022-06-22", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+is_a: COLAO:0000065 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2022-06-22"} ! cardo process
+relationship: BFO:0000050 BSPO:0000083 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2022-06-22"}
+property_value: http://purl.org/dc/terms/isReferencedBy "Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150." xsd:string {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2022-06-22"}
+
+[Term]
+id: COLAO:0000067
+name: lateral cardo process {creation_date="2022-06-22"}
+def: "The cardo process of the lateral region." [] {creation_date="2022-06-22", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+is_a: COLAO:0000065 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2022-06-22"} ! cardo process
+relationship: BFO:0000050 BSPO:0000082 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2022-06-22"}
+property_value: http://purl.org/dc/terms/isReferencedBy "Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150." xsd:string {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2022-06-22"}
+
+[Term]
+id: COLAO:0000068
+name: galeal seta {creation_date="2022-06-23", http://purl.org/dc/terms/isReferencedBy="Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150."}
+def: "The cuticular seta on the dorsal region the cuticle of the galea." [] {creation_date="2022-06-23", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+is_a: AISM:0000039 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2022-06-23"}
+
+[Term]
+id: COLAO:0000069
+name: lacinial seta {creation_date="2022-06-23", http://purl.org/dc/terms/isReferencedBy="Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150."}
+def: "The cuticular seta on the dorsal region the cuticle of the lacinia." [] {creation_date="2022-06-23", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+is_a: AISM:0000039 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2022-06-23"}
+
+[Term]
+id: COLAO:0000070
+name: lacinial digitus
+def: "The sclerite on the lateral margin the cuticle of the lacinia." [] {creation_date="2022-06-23", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+is_a: AISM:0000003 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2022-06-23"}
+
+[Term]
+id: COLAO:0000071
+name: paraglossal seta {creation_date="2022-06-26", http://purl.org/dc/terms/isReferencedBy="Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150."}
+def: "The cuticular seta on the ventral region of the cuticle of the paraglossa." [] {creation_date="2022-06-26", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+is_a: AISM:0000039 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2022-06-26"}
+
+[Term]
+id: COLAO:0000072
+name: pronotal sulcus {creation_date="2022-06-27"}
+def: "The bilaterally paired cuticular sulcus on the posterior region of the pronotum." [] {creation_date="2022-06-27", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+is_a: AISM:0000162 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2022-06-27"}
+relationship: RO:0000053 PATO:0040024 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2022-06-27"}
+
+[Term]
+id: COLAO:0000073
+name: hypopharyngeal brush {http://purl.org/dc/terms/isReferencedBy="Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150."}
+def: "The setose cuticle on the medial region of the hypopharynx." [] {creation_date="2022-06-27", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+is_a: AISM:0000530 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2022-06-27"}
+
+[Term]
+id: COLAO:0000074
+name: struts of hypopharyngeal suspensorium {creation_date="2022-06-27", http://purl.org/dc/terms/isReferencedBy="Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150."}
+def: "The bilaterally paired sclerites composing the ventral region of the hypopharyngeal suspensorium." [] {creation_date="2022-06-27", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+is_a: AISM:0000003 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2022-06-27"}
+relationship: RO:0000053 PATO:0040024 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2022-06-27"}
+
+[Term]
+id: COLAO:0000075
+name: anterolateral hypopharyngeal sclerite {creation_date="2022-06-27", http://purl.org/dc/terms/isReferencedBy="Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150."}
+def: "Each of the bilaterally paired hypopharyngeal sclerites on the antero-lateral region of the hypopharynx." [] {creation_date="2022-06-27", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+is_a: AISM:0004275 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2022-06-27"}
+relationship: RO:0000053 PATO:0040024 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2022-06-27"}
+
+[Term]
+id: COLAO:0000076
+name: anteromedial hypopharyngeal sclerite {creation_date="2022-06-27", http://purl.org/dc/terms/isReferencedBy="Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150."}
+def: "The hypopharyngeal sclerite on the antero-medial region of the hypopharynx." [] {creation_date="2022-06-27", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+is_a: AISM:0004275 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2022-06-27"}
+
+[Term]
+id: COLAO:0000077
+name: arms of hypopharyngeal suspensorium {http://purl.org/dc/terms/isReferencedBy="Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150."}
+def: "The bilaterally paired sclerites on the antero-dorsal region of the hypopharyngeal suspensorium." [] {creation_date="2022-06-27", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+is_a: AISM:0000003 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2022-06-27"}
+relationship: RO:0000053 PATO:0040024 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2022-06-27"}
+
+[Term]
+id: COLAO:0000078
+name: basigalea {creation_date="2022-06-27", http://purl.org/dc/terms/isReferencedBy="Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150."}
+def: "The proximal region of the cuticle of the galea that is adjacent to the distal margin of the mediostipes." [] {creation_date="2022-06-27", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+
+[Term]
+id: COLAO:0000079
+name: distigalea {creation_date="2022-06-27", http://purl.org/dc/terms/isReferencedBy="Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150."}
+def: "The distal region of the cuticle of the galea that is adjacent to the distal margin of the basigalea." [] {creation_date="2022-06-27", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+
+[Term]
+id: COLAO:0000080
+name: medial hypopharyngeal sclerite {creation_date="2022-06-27"}
+def: "Each of the bilaterally paired hypopharyngeal sclerites on the medial region of the hypopharynx." [] {creation_date="2022-06-27", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+is_a: AISM:0004275 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2022-06-27"}
+relationship: RO:0000053 PATO:0040024
+
+[Term]
+id: COLAO:0000082
+name: notosternal ridge
+def: "The cuticular ridge on the cuticle of the prothorax that coincides with the notosternal sulcus." [] {creation_date="2022-06-27", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+is_a: AISM:0000158 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2022-06-27"}
+relationship: BFO:0000050 AISM:0004125 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2022-06-27"}
+relationship: RO:0002008 COLAO:0000007 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2022-06-27"} ! notosternal sulcus
+
+[Term]
+id: COLAO:0000083
+name: postcoxal process of hypomeron {creation_date="2022-06-27", http://purl.org/dc/terms/isReferencedBy="Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. \n\nhttps://www.publish.csiro.au/book/6466/"}
+def: "Each of the bilaterally paired regions of cuticle on the postero-medial region of the hypomeron." [] {creation_date="2022-06-27", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+synonym: "postcoxal bridge" EXACT [] {creation_date="2022-06-27", http://purl.org/dc/terms/isReferencedBy="Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150."}
+synonym: "posterior tergal extensions" EXACT [] {creation_date="2022-06-27", http://purl.org/dc/terms/isReferencedBy="Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150."}
+is_a: AISM:0000174 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2022-06-27"}
+relationship: RO:0000053 PATO:0040024 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2022-06-27"}
 

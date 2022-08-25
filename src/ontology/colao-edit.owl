@@ -76,6 +76,35 @@ Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000050>))
 Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000051>))
 Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000052>))
 Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000053>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000054>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000055>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000056>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000057>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000058>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000059>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000060>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000061>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000062>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000063>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000064>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000065>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000066>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000067>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000068>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000069>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000070>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000071>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000072>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000073>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000074>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000075>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000076>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000077>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000078>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000079>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000080>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000082>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000083>))
 Declaration(AnnotationProperty(dcterms:isReferencedBy))
 ############################
 #   Annotation Properties
@@ -96,6 +125,10 @@ AnnotationAssertion(rdfs:label dcterms:isReferencedBy "isReferencedBy"@en)
 # Class: <http://purl.obolibrary.org/obo/AISM_0000501> (cuticular carina)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0000501> "keel"@en)
+
+# Class: <http://purl.obolibrary.org/obo/AISM_0002019> (hypopharyngeal suspensorium)
+
+AnnotationAssertion(Annotation(dcterms:isReferencedBy "Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150."@en) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/AISM_0002019> "hypopharyngeal bridge"@en)
 
 # Class: <http://purl.obolibrary.org/obo/BSPO_0000006> (anatomical margin)
 
@@ -215,8 +248,10 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "La
 https://www.publish.csiro.au/book/6466/
 
 \"separates notum from sternum in groups where the propleuron ends at least slightly before the anterior edge of the prothorax\""@en) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/COLAO_0000007> "notosternal suture"@en)
+AnnotationAssertion(Annotation(dcterms:isReferencedBy "Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150."@en) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/COLAO_0000007> "tergosternal suture"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000007> "notosternal sulcus"@en)
 SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000007> <http://purl.obolibrary.org/obo/AISM_0000162>)
+SubClassOf(<http://purl.obolibrary.org/obo/COLAO_0000007> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002008> <http://purl.obolibrary.org/obo/COLAO_0000082>))
 SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000007> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002150> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000082> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0004128>))))
 SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000007> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002150> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000082> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0004130>))))
 
@@ -227,7 +262,7 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "La
 
 https://www.publish.csiro.au/book/6466/
 
-\"part of the prosternum lying between the procoxae\""@en) rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000008> "prosternal process"@en)
+\"part of the prosternum lying between the procoxae\""@en) Annotation(dcterms:isReferencedBy "Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150."@en) rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000008> "prosternal process"@en)
 SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000008> <http://purl.obolibrary.org/obo/AISM_0004130>)
 SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000008> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0000061>))
 SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000008> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002220> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000683> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0000066>))))
@@ -689,14 +724,14 @@ SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6
 
 # Class: <http://purl.obolibrary.org/obo/COLAO_0000047> (dorsal cranio-mandibular articulation)
 
-AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-16") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000047> "The articular surface of the head capsule on the ventral region of the clypealia"@en)
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-16") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000047> "The cranio-mandibular articulation of the head capsule on the ventral region of the clypealia"@en)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Stickney, F.S. (1923) The head-capsule of Coleoptera. Contributions from the Entomological Labratories of the University of Illinois. Urbana, Illinois, USA, 172 pp.
 
 https://www.biodiversitylibrary.org/bibliography/49937
 
 \"The rounded condyle on the ventral surface of each clypealia, against which the preartis of the mandible articulates\""@en) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/COLAO_0000047> "precoila"@en)
 AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-16") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000047> "dorsal cranio-mandibular articulation"@en)
-SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-16") <http://purl.obolibrary.org/obo/COLAO_0000047> <http://purl.obolibrary.org/obo/AISM_0000167>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-16") <http://purl.obolibrary.org/obo/COLAO_0000047> <http://purl.obolibrary.org/obo/AISM_0000014>)
 SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-16") <http://purl.obolibrary.org/obo/COLAO_0000047> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000084> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/COLAO_0000048>)))
 SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-16") <http://purl.obolibrary.org/obo/COLAO_0000047> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0000019>))
 
@@ -713,20 +748,20 @@ SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6
 
 # Class: <http://purl.obolibrary.org/obo/COLAO_0000049> (ventral cranio-mandibular articulation)
 
-AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-16") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000049> "The articular surface of the head capsule at the anterior region of the postgena"@en)
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-16") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000049> "The cranio-mandibular articulation of the head capsule at the anterior region of the postgena"@en)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Stickney, F.S. (1923) The head-capsule of Coleoptera. Contributions from the Entomological Labratories of the University of Illinois. Urbana, Illinois, USA, 172 pp.
 
 https://www.biodiversitylibrary.org/bibliography/49937
 
 \"At the cephalic end of a postgena is always found a distinct crescent-shaped acetabulum, against which the postartis of the mandible articulates\""@en) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/COLAO_0000049> "postcoila"@en)
 AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-16") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000049> "ventral cranio-mandibular articulation"@en)
-SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-16") <http://purl.obolibrary.org/obo/COLAO_0000049> <http://purl.obolibrary.org/obo/AISM_0000167>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-16") <http://purl.obolibrary.org/obo/COLAO_0000049> <http://purl.obolibrary.org/obo/AISM_0000014>)
 SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-16") <http://purl.obolibrary.org/obo/COLAO_0000049> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000071> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0004042>)))
 SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-16") <http://purl.obolibrary.org/obo/COLAO_0000049> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0000019>))
 
 # Class: <http://purl.obolibrary.org/obo/COLAO_0000050> (cranio-maxillar articulation)
 
-AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-16") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000050> "The articular surface of the head capsule at the postero-medial region of the postgena"@en)
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-16") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000050> "The insect articulation of the head capsule at the postero-medial region of the postgena"@en)
 AnnotationAssertion(Annotation(dcterms:isReferencedBy "Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150."@en) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/COLAO_0000050> "maxillary fossa"@en)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Stickney, F.S. (1923) The head-capsule of Coleoptera. Contributions from the Entomological Labratories of the University of Illinois. Urbana, Illinois, USA, 172 pp.
 
@@ -734,7 +769,7 @@ https://www.biodiversitylibrary.org/bibliography/49937
 
 \"The small rather concave projection at the caudo-mesal margin of the postgena against which the maxilla articulate\""@en) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/COLAO_0000050> "paracoila"@en)
 AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-16") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000050> "cranio-maxillar articulation"@en)
-SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-16") <http://purl.obolibrary.org/obo/COLAO_0000050> <http://purl.obolibrary.org/obo/AISM_0000167>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-16") <http://purl.obolibrary.org/obo/COLAO_0000050> <http://purl.obolibrary.org/obo/AISM_0000002>)
 SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-16") <http://purl.obolibrary.org/obo/COLAO_0000050> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000064> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0004042>)))
 SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-16") <http://purl.obolibrary.org/obo/COLAO_0000050> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0000019>))
 
@@ -764,6 +799,249 @@ AnnotationAssertion(Annotation(dcterms:isReferencedBy "Doyen, J.T. (1966) The sk
 SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-17") <http://purl.obolibrary.org/obo/COLAO_0000053> <http://purl.obolibrary.org/obo/AISM_0000162>)
 SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-17") <http://purl.obolibrary.org/obo/COLAO_0000053> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002220> <http://purl.obolibrary.org/obo/AISM_0004005>))
 SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-17") <http://purl.obolibrary.org/obo/COLAO_0000053> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002220> <http://purl.obolibrary.org/obo/AISM_0004042>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000054> (labral seta)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-20") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000054> "The cuticular seta on the dorsal region the cuticle of the labrum."@en)
+AnnotationAssertion(Annotation(dcterms:isReferencedBy "Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150."@en) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/COLAO_0000054> "labral bristle"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000054> "labral seta"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-20") <http://purl.obolibrary.org/obo/COLAO_0000054> <http://purl.obolibrary.org/obo/AISM_0000039>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-20") <http://purl.obolibrary.org/obo/COLAO_0000054> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002220> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000079> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0000042>))))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000055> (medial tormal process)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-20") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000055> "The region of the cuticle of the torma that is elongated and parallel to the left-right axis."@en)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150.
+
+\"long transverse bar, separated from the labrum by a narrow cleft and nearly reaching the midline. The mesal end is enlarged and bent posteriorly as a narrow pointed arm, which has no muscle attchments but is embedded in the epipharynx\""@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-20") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000055> "medial tormal process"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-20") <http://purl.obolibrary.org/obo/COLAO_0000055> <http://purl.obolibrary.org/obo/AISM_0000174>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-20") <http://purl.obolibrary.org/obo/COLAO_0000055> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0002012>))
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-20") <http://purl.obolibrary.org/obo/COLAO_0000055> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/PATO_0001154>))
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-20") <http://purl.obolibrary.org/obo/COLAO_0000055> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/bspo#parallel_to> <http://purl.obolibrary.org/obo/BSPO_0000017>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000056> (posterior tormal process)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-20") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000056> "The region of the cuticle on the postero-lateral region of the torma."@en)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150.
+
+\"a short arm to which the long labral retractor tendon is attached\""@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-20") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000056> "posterior tormal process"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-20") <http://purl.obolibrary.org/obo/COLAO_0000056> <http://purl.obolibrary.org/obo/AISM_0000174>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-20") <http://purl.obolibrary.org/obo/COLAO_0000056> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000028> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0002012>))))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000057> (epipharyngeal sclerite)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-20") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000057> "The sclerite of the epipharynx."@en)
+AnnotationAssertion(Annotation(dce:contributor "2022-06-20") Annotation(dcterms:isReferencedBy "Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150."@en) rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000057> "epipharyngeal sclerite"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-20") <http://purl.obolibrary.org/obo/COLAO_0000057> <http://purl.obolibrary.org/obo/AISM_0000003>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-20") <http://purl.obolibrary.org/obo/COLAO_0000057> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0000105>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000058> (anterior epipharyngeal sclerite)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-20") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000058> "The epipharyngeal sclerite on the anterior region of the epipharynx."@en)
+AnnotationAssertion(Annotation(dcterms:isReferencedBy "Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150."@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-20") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000058> "anterior epipharyngeal sclerite"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-20") <http://purl.obolibrary.org/obo/COLAO_0000058> <http://purl.obolibrary.org/obo/COLAO_0000057>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-20") <http://purl.obolibrary.org/obo/COLAO_0000058> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000071> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0000105>))))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000059> (posterior epipharyngeal sclerite)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-20") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000059> "The epipharyngeal sclerite on the posterior region of the epipharynx."@en)
+AnnotationAssertion(Annotation(dcterms:isReferencedBy "Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150."@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-20") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000059> "posterior epipharyngeal sclerite"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-20") <http://purl.obolibrary.org/obo/COLAO_0000059> <http://purl.obolibrary.org/obo/COLAO_0000057>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-20") <http://purl.obolibrary.org/obo/COLAO_0000059> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000072> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0000105>))))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000060> (epipharyngeal process)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-20") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000060> "The setose cuticle of the epipharynx that is posterior to the anterior epipharyngeal sclerite."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-20") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000060> "epipharyngeal process"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-20") <http://purl.obolibrary.org/obo/COLAO_0000060> <http://purl.obolibrary.org/obo/AISM_0000530>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-20") <http://purl.obolibrary.org/obo/COLAO_0000060> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0000105>))
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-20") <http://purl.obolibrary.org/obo/COLAO_0000060> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSPO_0000099> <http://purl.obolibrary.org/obo/COLAO_0000058>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000061> (mandibular dorsolateral socket)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-20") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000061> "The insect articulation on the dorso-lateral region of the cuticle of the insect mandible."@en)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150."@en) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/COLAO_0000061> "articulatory fossa"@en)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. 
+
+https://www.publish.csiro.au/book/6466/
+
+\"The mandible is usually in the form of a tetrahedron,with dorsal, ventral and external faces, a triangular base, and articulations with the head capsule consisting of a dorsolateral socket and ventrolateral condyle.\""@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-20") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000061> "mandibular dorsolateral socket"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-20") <http://purl.obolibrary.org/obo/COLAO_0000061> <http://purl.obolibrary.org/obo/AISM_0000002>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-20") <http://purl.obolibrary.org/obo/COLAO_0000061> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000080> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0000043>)))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000062> (mandibular ventrolateral condyle)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-20") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000062> "The insect articulation on the ventro-lateral region of the cuticle of the insect mandible."@en)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150."@en) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/COLAO_0000062> "articulatory condyle"@en)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. 
+
+https://www.publish.csiro.au/book/6466/
+
+\"The mandible is usually in the form of a tetrahedron,with dorsal, ventral and external faces, a triangular base, and articulations with the head capsule consisting of a dorsolateral socket and ventrolateral condyle.\""@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-20") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000062> "mandibular ventrolateral condyle"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-20") <http://purl.obolibrary.org/obo/COLAO_0000062> <http://purl.obolibrary.org/obo/AISM_0000002>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-20") <http://purl.obolibrary.org/obo/COLAO_0000062> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000085> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0000043>)))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000063> (mandibular abductor apodeme)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-22") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000063> "The apodeme adjacent to the proximo-lateral region of the cuticle of the insect mandible."@en)
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-22") dcterms:isReferencedBy <http://purl.obolibrary.org/obo/COLAO_0000063> "Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-22") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000063> "mandibular abductor apodeme"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-22") <http://purl.obolibrary.org/obo/COLAO_0000063> <http://purl.obolibrary.org/obo/AISM_0000188>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-22") <http://purl.obolibrary.org/obo/COLAO_0000063> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002220> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000082> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0000043>))))
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-22") <http://purl.obolibrary.org/obo/COLAO_0000063> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002220> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000677> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0000043>))))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000064> (mandibular adductor apodeme)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-22") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000064> "The apodeme adjacent to the proximo-medial region of the cuticle of the insect mandible."@en)
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-22") dcterms:isReferencedBy <http://purl.obolibrary.org/obo/COLAO_0000064> "Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-22") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000064> "mandibular adductor apodeme"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-22") <http://purl.obolibrary.org/obo/COLAO_0000064> <http://purl.obolibrary.org/obo/AISM_0000188>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-22") <http://purl.obolibrary.org/obo/COLAO_0000064> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002220> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000083> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0000043>))))
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-22") <http://purl.obolibrary.org/obo/COLAO_0000064> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002220> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000677> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0000043>))))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000065> (cardo process)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-22") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000065> "The apodeme that is adjacent to the proximo-dorsal region of the cuticle of the cardo."@en)
+AnnotationAssertion(dcterms:isReferencedBy <http://purl.obolibrary.org/obo/COLAO_0000065> "Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-22") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000065> "cardo process"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-22") <http://purl.obolibrary.org/obo/COLAO_0000065> <http://purl.obolibrary.org/obo/AISM_0000188>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-22") <http://purl.obolibrary.org/obo/COLAO_0000065> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002220> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000077> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0000018>))))
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-22") <http://purl.obolibrary.org/obo/COLAO_0000065> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002220> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000079> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0000018>))))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000066> (mesal cardo process)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-22") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000066> "The cardo process of the medial region."@en)
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-22") dcterms:isReferencedBy <http://purl.obolibrary.org/obo/COLAO_0000066> "Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-22") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000066> "mesal cardo process"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-22") <http://purl.obolibrary.org/obo/COLAO_0000066> <http://purl.obolibrary.org/obo/COLAO_0000065>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-22") <http://purl.obolibrary.org/obo/COLAO_0000066> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/BSPO_0000083>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000067> (lateral cardo process)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-22") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000067> "The cardo process of the lateral region."@en)
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-22") dcterms:isReferencedBy <http://purl.obolibrary.org/obo/COLAO_0000067> "Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-22") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000067> "lateral cardo process"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-22") <http://purl.obolibrary.org/obo/COLAO_0000067> <http://purl.obolibrary.org/obo/COLAO_0000065>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-22") <http://purl.obolibrary.org/obo/COLAO_0000067> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/BSPO_0000082>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000068> (galeal seta)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-23") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000068> "The cuticular seta on the dorsal region the cuticle of the galea."@en)
+AnnotationAssertion(Annotation(dcterms:isReferencedBy "Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150."@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-23") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000068> "galeal seta"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-23") <http://purl.obolibrary.org/obo/COLAO_0000068> <http://purl.obolibrary.org/obo/AISM_0000039>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-23") <http://purl.obolibrary.org/obo/COLAO_0000068> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002220> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000079> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0000023>))))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000069> (lacinial seta)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-23") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000069> "The cuticular seta on the dorsal region the cuticle of the lacinia."@en)
+AnnotationAssertion(Annotation(dcterms:isReferencedBy "Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150."@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-23") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000069> "lacinial seta"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-23") <http://purl.obolibrary.org/obo/COLAO_0000069> <http://purl.obolibrary.org/obo/AISM_0000039>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-23") <http://purl.obolibrary.org/obo/COLAO_0000069> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002220> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000079> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0000026>))))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000070> (lacinial digitus)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-23") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000070> "The sclerite on the lateral margin the cuticle of the lacinia."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000070> "lacinial digitus"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-23") <http://purl.obolibrary.org/obo/COLAO_0000070> <http://purl.obolibrary.org/obo/AISM_0000003>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-23") <http://purl.obolibrary.org/obo/COLAO_0000070> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002220> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000682> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0000026>))))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000071> (paraglossal seta)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-26") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000071> "The cuticular seta on the ventral region of the cuticle of the paraglossa."@en)
+AnnotationAssertion(Annotation(dcterms:isReferencedBy "Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150."@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-26") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000071> "paraglossal seta"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-26") <http://purl.obolibrary.org/obo/COLAO_0000071> <http://purl.obolibrary.org/obo/AISM_0000039>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-22") <http://purl.obolibrary.org/obo/COLAO_0000071> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002220> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000084> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0000050>))))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000072> (pronotal sulcus)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-27") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000072> "The bilaterally paired cuticular sulcus on the posterior region of the pronotum."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-27") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000072> "pronotal sulcus"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-27") <http://purl.obolibrary.org/obo/COLAO_0000072> <http://purl.obolibrary.org/obo/AISM_0000162>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-27") <http://purl.obolibrary.org/obo/COLAO_0000072> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000072> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0000059>))))
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-27") <http://purl.obolibrary.org/obo/COLAO_0000072> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/PATO_0040024>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000073> (hypopharyngeal brush)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-27") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000073> "The setose cuticle on the medial region of the hypopharynx."@en)
+AnnotationAssertion(Annotation(dcterms:isReferencedBy "Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150."@en) rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000073> "hypopharyngeal brush"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-27") <http://purl.obolibrary.org/obo/COLAO_0000073> <http://purl.obolibrary.org/obo/AISM_0000530>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-27") <http://purl.obolibrary.org/obo/COLAO_0000073> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000083> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0000093>))))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000074> (struts of hypopharyngeal suspensorium)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-27") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000074> "The bilaterally paired sclerites composing the ventral region of the hypopharyngeal suspensorium."@en)
+AnnotationAssertion(Annotation(dcterms:isReferencedBy "Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150."@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-27") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000074> "struts of hypopharyngeal suspensorium"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-27") <http://purl.obolibrary.org/obo/COLAO_0000074> <http://purl.obolibrary.org/obo/AISM_0000003>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-27") <http://purl.obolibrary.org/obo/COLAO_0000074> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000084> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0002019>)))
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-27") <http://purl.obolibrary.org/obo/COLAO_0000074> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/PATO_0040024>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000075> (anterolateral hypopharyngeal sclerite)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-27") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000075> "Each of the bilaterally paired hypopharyngeal sclerites on the antero-lateral region of the hypopharynx."@en)
+AnnotationAssertion(Annotation(dcterms:isReferencedBy "Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150."@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-27") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000075> "anterolateral hypopharyngeal sclerite"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-27") <http://purl.obolibrary.org/obo/COLAO_0000075> <http://purl.obolibrary.org/obo/AISM_0004275>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-27") <http://purl.obolibrary.org/obo/COLAO_0000075> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/PATO_0040024>))
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-27") <http://purl.obolibrary.org/obo/COLAO_0000075> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002150> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000071> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0000093>))))
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-27") <http://purl.obolibrary.org/obo/COLAO_0000075> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002150> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000082> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0000093>))))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000076> (anteromedial hypopharyngeal sclerite)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-27") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000076> "The hypopharyngeal sclerite on the antero-medial region of the hypopharynx."@en)
+AnnotationAssertion(Annotation(dcterms:isReferencedBy "Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150."@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-27") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000076> "anteromedial hypopharyngeal sclerite"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-27") <http://purl.obolibrary.org/obo/COLAO_0000076> <http://purl.obolibrary.org/obo/AISM_0004275>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-27") <http://purl.obolibrary.org/obo/COLAO_0000076> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002150> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000071> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0000093>))))
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-27") <http://purl.obolibrary.org/obo/COLAO_0000076> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002150> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000083> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0000093>))))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000077> (arms of hypopharyngeal suspensorium)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-27") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000077> "The bilaterally paired sclerites on the antero-dorsal region of the hypopharyngeal suspensorium."@en)
+AnnotationAssertion(Annotation(dcterms:isReferencedBy "Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150."@en) rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000077> "arms of hypopharyngeal suspensorium"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-27") <http://purl.obolibrary.org/obo/COLAO_0000077> <http://purl.obolibrary.org/obo/AISM_0000003>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-27") <http://purl.obolibrary.org/obo/COLAO_0000077> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000071> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0002019>)))
+SubClassOf(<http://purl.obolibrary.org/obo/COLAO_0000077> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000079> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0002019>)))
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-27") <http://purl.obolibrary.org/obo/COLAO_0000077> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/PATO_0040024>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000078> (basigalea)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-27") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000078> "The proximal region of the cuticle of the galea that is adjacent to the distal margin of the mediostipes."@en)
+AnnotationAssertion(Annotation(dcterms:isReferencedBy "Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150."@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-27") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000078> "basigalea"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-27") <http://purl.obolibrary.org/obo/COLAO_0000078> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000077> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0000023>)))
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-27") <http://purl.obolibrary.org/obo/COLAO_0000078> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002220> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000678> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0004273>))))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000079> (distigalea)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-27") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000079> "The distal region of the cuticle of the galea that is adjacent to the distal margin of the basigalea."@en)
+AnnotationAssertion(Annotation(dcterms:isReferencedBy "Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150."@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-27") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000079> "distigalea"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-27") <http://purl.obolibrary.org/obo/COLAO_0000079> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000078> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0000023>)))
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-27") <http://purl.obolibrary.org/obo/COLAO_0000079> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002220> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000678> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/COLAO_0000078>))))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000080> (medial hypopharyngeal sclerite)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-27") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000080> "Each of the bilaterally paired hypopharyngeal sclerites on the medial region of the hypopharynx."@en)
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-27") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000080> "medial hypopharyngeal sclerite"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-27") <http://purl.obolibrary.org/obo/COLAO_0000080> <http://purl.obolibrary.org/obo/AISM_0004275>)
+SubClassOf(<http://purl.obolibrary.org/obo/COLAO_0000080> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/PATO_0040024>))
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-27") <http://purl.obolibrary.org/obo/COLAO_0000080> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002150> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000083> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0000093>))))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000082> (notosternal ridge)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-27") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000082> "The cuticular ridge on the cuticle of the prothorax that coincides with the notosternal sulcus."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000082> "notosternal ridge"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-27") <http://purl.obolibrary.org/obo/COLAO_0000082> <http://purl.obolibrary.org/obo/AISM_0000158>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-27") <http://purl.obolibrary.org/obo/COLAO_0000082> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0004125>))
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-27") <http://purl.obolibrary.org/obo/COLAO_0000082> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002008> <http://purl.obolibrary.org/obo/COLAO_0000007>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000083> (postcoxal process of hypomeron)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-27") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000083> "Each of the bilaterally paired regions of cuticle on the postero-medial region of the hypomeron."@en)
+AnnotationAssertion(Annotation(dcterms:isReferencedBy "Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150."@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-27") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/COLAO_0000083> "postcoxal bridge"@en)
+AnnotationAssertion(Annotation(dcterms:isReferencedBy "Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150."@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-27") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/COLAO_0000083> "posterior tergal extensions"@en)
+AnnotationAssertion(Annotation(dcterms:isReferencedBy "Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. 
+
+https://www.publish.csiro.au/book/6466/"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-27") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000083> "postcoxal process of hypomeron"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-27") <http://purl.obolibrary.org/obo/COLAO_0000083> <http://purl.obolibrary.org/obo/AISM_0000174>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-27") <http://purl.obolibrary.org/obo/COLAO_0000083> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000064> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/COLAO_0000003>)))
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-27") <http://purl.obolibrary.org/obo/COLAO_0000083> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/PATO_0040024>))
 
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Oberprieler, R. G., & Zimmerman, E. C. (2020). Australian Weevils (Coleoptera: Curculionoidea). Volume IV. Curculionidae: Entiminae Part I. CSIRO Publishing. https://www.publish.csiro.au/book/202
