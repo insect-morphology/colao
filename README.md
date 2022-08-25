@@ -21,14 +21,21 @@ The latest version of the ontology can always be found at:
 
 https://github.com/insect-morphology/colao
 
-This ontology was submitted for [OBO Foundry](http://www.obofoundry.org/) approval on [November 17, 2021](https://github.com/OBOFoundry/OBOFoundry.github.io/issues/1665). Once it is approved and ingesteded by the OBO Foundry, it will be available at http://purl.obolibrary.org/obo/colao.owl.
+This ontology was submitted to the [OBO Foundry](http://www.obofoundry.org/) on [November 17, 2021](https://github.com/OBOFoundry/OBOFoundry.github.io/issues/1665). It was approved and ingesteded by the OBO Foundry on December 14, 2021 and is available at http://purl.obolibrary.org/obo/colao.owl.
+
+### Availability
+The Coleoptera Anatomy Ontology is currently available via 
+- [OBO Foundry](https://obofoundry.org/ontology/colao.html)
+- [OntoBee](https://ontobee.org/ontology/COLAO)
+- [OLS](https://www.ebi.ac.uk/ols/ontologies/colao)
+- [BioPortal](https://bioportal.bioontology.org/ontologies/COLAO)
 
 ### How to contribute
 
 There are three main ways to contribute:
 1. **As an editor**: It requires some familiarity with GitHub, learning how to use [Protégé](https://protege.stanford.edu/), and understanding how the terms are organized, defined, and annotated. This link provides general instructions on [how to edit AISM-based ontologies](https://github.com/insect-morphology/Manual#ontology-editor-tasks). Editors of this ontology should use the edit version: [src/ontology/colao-edit.owl](src/ontology/colao-edit.owl).
 
-2. **As a reviewer and content provider**: The Coleoptera Anatomy Ontology is currently available via [BioPortal](https://bioportal.bioontology.org/ontologies/COLAO), where terms can be searched and annotations for each term can be found. Check for correctness and completeness, and provide information regarding new terms or additional definitions or sources. Then [create an issue in this repository](https://github.com/insect-morphology/colao/issues) or email Jennifer Girón at entiminae@gmail.com providing that information.
+2. **As a reviewer and content provider**: In [BioPortal](https://bioportal.bioontology.org/ontologies/COLAO) terms can be searched and annotations for each term can be found. Check for correctness and completeness, and provide feedback, information regarding new terms or additional definitions or sources. Then [create an issue in this repository](https://github.com/insect-morphology/colao/issues) or email Jennifer Girón at entiminae@gmail.com providing that information.
 
 4. **As an image contributor**: Share with us links to annotated, openly available images illustrating anatomical terms in your group of study. These links can be used for annotating terms and will be credited to the image provider. Instructions for image annotation will be provided.
 
