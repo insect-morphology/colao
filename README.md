@@ -1,7 +1,7 @@
 
 ![Build Status](https://github.com/JCGiron/colao/workflows/CI/badge.svg)
 
-[![DOI](https://zenodo.org/badge/130903793.svg)](https://zenodo.org/badge/latestdoi/130903793)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4777299.svg)](https://doi.org/10.5281/zenodo.4777299)
 
 # Coleoptera Anatomy Ontology (COLAO)
 
@@ -11,7 +11,7 @@ More information can be found at https://github.com/insect-morphology/colao
 
 This repository is managed by [Jennifer C. Girón](https://github.com/JCGiron).
 
-**Suggested citation:** Girón, J. C., Lumen, R. & Smith, A. 2022. The Coleoptera Anatomy Ontology (COLAO) (Version v2022-06-17). GitHub repository. [http://doi.org/10.5281/zenodo.4777299](https://doi.org/10.5281/zenodo.4777299).
+**Suggested citation:** Girón, J. C., Lumen, R. & Smith, A. 2022. The Coleoptera Anatomy Ontology (COLAO) (Version v2022-08-25). GitHub repository. [http://doi.org/10.5281/zenodo.4777299](https://doi.org/10.5281/zenodo.4777299).
 
 ## Versions
 
