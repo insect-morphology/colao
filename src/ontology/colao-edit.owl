@@ -1,4 +1,4 @@
-Prefix(:=<http://purl.obolibrary.org/obo/colao.owl#>)
+Prefix(:=<http://purl.obolibrary.org/obo/colao.owl/>)
 Prefix(dce:=<http://purl.org/dc/elements/1.1/>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
 Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
@@ -10,9 +10,11 @@ Prefix(dcterms:=<http://purl.org/dc/terms/>)
 
 Ontology(<http://purl.obolibrary.org/obo/colao.owl>
 Import(<http://purl.obolibrary.org/obo/colao/imports/aism_import.owl>)
+Import(<http://purl.obolibrary.org/obo/ro/releases/2022-07-19/ro.owl>)
 Annotation(dce:contributor "Aaron Smith (asmith) https://orcid.org/0000-0002-1286-950X")
 Annotation(dce:contributor "Jennifer C. Girón (jgiron) https://orcid.org/0000-0002-0851-6883")
 Annotation(dce:contributor "Ryan Lumen (rlumen) https://orcid.org/0000-0002-3958-7596")
+Annotation(dce:contributor "Sergei Tarasov (starasov) https://orcid.org/0000-0001-5237-2330")
 Annotation(dce:description "The Coleoptera Anatomy Ontology contains terms used for describing the anatomy and phenotype of beetles in biodiversity research."@en)
 Annotation(dce:title "Coleoptera Anatomy Ontology")
 Annotation(dcterms:license <https://creativecommons.org/licenses/by/4.0/>)
@@ -105,6 +107,12 @@ Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000079>))
 Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000080>))
 Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000082>))
 Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000083>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000200>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000201>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000202>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000203>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000204>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000205>))
 Declaration(AnnotationProperty(dcterms:isReferencedBy))
 ############################
 #   Annotation Properties
@@ -1042,6 +1050,54 @@ https://www.publish.csiro.au/book/6466/"@en) Annotation(<http://www.geneontology
 SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-27") <http://purl.obolibrary.org/obo/COLAO_0000083> <http://purl.obolibrary.org/obo/AISM_0000174>)
 SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-27") <http://purl.obolibrary.org/obo/COLAO_0000083> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000064> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/COLAO_0000003>)))
 SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-06-27") <http://purl.obolibrary.org/obo/COLAO_0000083> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/PATO_0040024>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000200> (Helsinki_classes)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000200> "Helsinki_classes"@en)
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000201> (interpunctural distance)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000201> "The distance between two neighboring punctures.")
+AnnotationAssertion(dce:contributor <http://purl.obolibrary.org/obo/COLAO_0000201> "starasov")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/COLAO_0000201> "2022-09-06T11:39:03Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000201> "interpunctural distance"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/COLAO_0000201> <http://purl.obolibrary.org/obo/CARO_0000008>)
+SubClassOf(<http://purl.obolibrary.org/obo/COLAO_0000201> <http://purl.obolibrary.org/obo/COLAO_0000200>)
+SubClassOf(<http://purl.obolibrary.org/obo/COLAO_0000201> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CARO_0000008> ObjectExactCardinality(2 <http://purl.obolibrary.org/obo/RO_0002176> <http://purl.obolibrary.org/obo/AISM_0000524>)))
+SubClassOf(<http://purl.obolibrary.org/obo/COLAO_0000201> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001002>))
+SubClassOf(<http://purl.obolibrary.org/obo/COLAO_0000201> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002176> <http://purl.obolibrary.org/obo/AISM_0000524>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000202> (elytral stria 1)
+
+AnnotationAssertion(dce:contributor <http://purl.obolibrary.org/obo/COLAO_0000202> "starasov"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/COLAO_0000202> "2022-09-06T12:08:48Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000202> "elytral stria 1"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/COLAO_0000202> <http://purl.obolibrary.org/obo/COLAO_0000017>)
+SubClassOf(<http://purl.obolibrary.org/obo/COLAO_0000202> <http://purl.obolibrary.org/obo/COLAO_0000200>)
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000203> (elytral stria 2)
+
+AnnotationAssertion(dce:contributor <http://purl.obolibrary.org/obo/COLAO_0000203> "starasov"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/COLAO_0000203> "2022-09-06T12:10:00Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000203> "elytral stria 2"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/COLAO_0000203> <http://purl.obolibrary.org/obo/COLAO_0000017>)
+SubClassOf(<http://purl.obolibrary.org/obo/COLAO_0000203> <http://purl.obolibrary.org/obo/COLAO_0000200>)
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000204> (elytral stria 3)
+
+AnnotationAssertion(dce:contributor <http://purl.obolibrary.org/obo/COLAO_0000204> "starasov"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/COLAO_0000204> "2022-09-06T12:10:00Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000204> "elytral stria 3"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/COLAO_0000204> <http://purl.obolibrary.org/obo/COLAO_0000017>)
+SubClassOf(<http://purl.obolibrary.org/obo/COLAO_0000204> <http://purl.obolibrary.org/obo/COLAO_0000200>)
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000205> (lamella copulatrix)
+
+AnnotationAssertion(dce:contributor <http://purl.obolibrary.org/obo/COLAO_0000205> "starasov"^^xsd:string)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/COLAO_0000205> "2022-09-06T12:15:49Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000205> "lamella copulatrix"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/COLAO_0000205> <http://purl.obolibrary.org/obo/AISM_0004066>)
+SubClassOf(<http://purl.obolibrary.org/obo/COLAO_0000205> <http://purl.obolibrary.org/obo/COLAO_0000200>)
 
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Oberprieler, R. G., & Zimmerman, E. C. (2020). Australian Weevils (Coleoptera: Curculionoidea). Volume IV. Curculionidae: Entiminae Part I. CSIRO Publishing. https://www.publish.csiro.au/book/202
