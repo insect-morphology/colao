@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: colao/releases/2022-08-25/colao-base.owl
+data-version: colao/releases/2023-02-06/colao-base.owl
 ontology: colao/colao-base
 property_value: http://purl.org/dc/elements/1.1/contributor "Aaron Smith (asmith) https://orcid.org/0000-0002-1286-950X" xsd:string
 property_value: http://purl.org/dc/elements/1.1/contributor "Jennifer C. Girón (jgiron) https://orcid.org/0000-0002-0851-6883" xsd:string
@@ -8,7 +8,19 @@ property_value: http://purl.org/dc/elements/1.1/description "The Coleoptera Anat
 property_value: http://purl.org/dc/elements/1.1/title "Coleoptera Anatomy Ontology" xsd:string
 property_value: http://purl.org/dc/elements/1.1/type IAO:8000001
 property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/by/4.0/
-property_value: owl:versionInfo "2022-08-25" xsd:string
+property_value: IAO:0000700 http://purl.obolibrary.org/obo/AISM_0000174 xsd:string
+property_value: IAO:0000700 http://purl.obolibrary.org/obo/PATO_0000001 xsd:string
+property_value: IAO:0000700 http://purl.obolibrary.org/obo/UBERON_0001062 xsd:string
+property_value: owl:versionInfo "2023-02-06" xsd:string
+
+[Term]
+id: AISM:0000141
+name: mesendosternite {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence JF, Beutel RG, Leschen RA, Ślipiński A (2010) Glossary of morphological terms. Handbuch der Zoologie/Handbook of Zoology. Band 4: 9–20. \n\nhttps://doi.org/10.1515/9783110911213.9 \n\n\"A pair of internal apodemes formed by invaginations within the mesocoxal cavities and representing the original furca.\""}
+relationship: RO:0000053 PATO:0040024 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-20"}
+
+[Term]
+id: AISM:0000142
+name: metendosternite {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence JF, Beutel RG, Leschen RA, Ślipiński A (2010) Glossary of morphological terms. Handbuch der Zoologie/Handbook of Zoology. Band 4: 9–20. \n\nhttps://doi.org/10.1515/9783110911213.9 \n\n\"Complex internal apodeme equivalent to the metafurca. Arises at or near the posterior edge of the metaventrite usually at the junction of the discrimen and the metakatepisternal suture and projecting anterodorsally. It usually consists of a median stalk, two short to long lateral arms and an anterior process from which a pair of tendons arise; however a lamina may be associated with each of the lateral arms and a pair of anteroventral processes may arise from the point where the lateral arms meet the stalk. In some taxa the stalk may be short or absent and the anterior tendons often arise on the arms [Crowson 1938, 1944, 1955].\""}
 
 [Term]
 id: AISM:0000501
@@ -34,6 +46,13 @@ name: left-right axis
 is_a: BSPO:0000010 ! anatomical axis
 
 [Term]
+id: BSPO:0000026
+name: antero-dorsal region
+def: "Anatomical region that overlaps the anterior and dorsal regions of a body or body part. [ BSPO : wd ]" []
+is_a: BSPO:0000071
+is_a: BSPO:0000079
+
+[Term]
 id: BSPO:0000028
 name: postero-lateral region
 is_a: BSPO:0000082
@@ -42,6 +61,16 @@ is_a: BSPO:0000082
 id: BSPO:0000064
 name: postero-medial region
 is_a: BSPO:0000083
+
+[Term]
+id: BSPO:0000070
+is_a: UBERON:0001062 ! anatomical entity
+
+[Term]
+id: BSPO:0000073
+name: apical region
+def: "Anatomical region located on the apical end on the body or body part. [ BSPO : wd ]" []
+is_a: BSPO:0000070
 
 [Term]
 id: COLAO:0000000
@@ -231,7 +260,7 @@ relationship: BFO:0000050 COLAO:0000019 {http://purl.org/dc/elements/1.1/contrib
 
 [Term]
 id: COLAO:0000026
-name: metathorcic discrimen {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence JF, Beutel RG, Leschen RA, Ślipiński A (2010) Glossary of morphological terms. Handbuch der Zoologie/Handbook of Zoology. Band 4: 9–20. \n\nhttps://doi.org/10.1515/9783110911213.9 \n\n\"Median line extending forward from the posterior edge of the metaventrite, internally corresponding with a more or less high median ridge representing the invagination of the true metasternum. The ridge is usually connected with the metendosternite. The discrimen is often relatively long and may extend anteriorly to or beyond the base of the metaventral process, but it is reduced or absent in a number of groups.\""}
+name: metathoracic discrimen {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence JF, Beutel RG, Leschen RA, Ślipiński A (2010) Glossary of morphological terms. Handbuch der Zoologie/Handbook of Zoology. Band 4: 9–20. \n\nhttps://doi.org/10.1515/9783110911213.9 \n\n\"Median line extending forward from the posterior edge of the metaventrite, internally corresponding with a more or less high median ridge representing the invagination of the true metasternum. The ridge is usually connected with the metendosternite. The discrimen is often relatively long and may extend anteriorly to or beyond the base of the metaventral process, but it is reduced or absent in a number of groups.\"", http://purl.obolibrary.org/obo/IAO_0000232="Modified 2023-01-20: corrected typo on label to 'metathoracic'.\njgiron https://orcid.org/0000-0002-0851-6883"}
 def: "The discrimen of the metaventrite." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2021-09-01"}
 is_a: AISM:0000163 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
 relationship: BFO:0000050 COLAO:0000020 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! metaventrite
@@ -460,7 +489,7 @@ is_a: AISM:0000174 {http://purl.org/dc/elements/1.1/contributor="jgiron https://
 
 [Term]
 id: COLAO:0000057
-name: epipharyngeal sclerite {http://purl.org/dc/elements/1.1/contributor="2022-06-20", http://purl.org/dc/terms/isReferencedBy="Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150."}
+name: epipharyngeal sclerite {creation_date="2022-06-20", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", http://purl.org/dc/terms/isReferencedBy="Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150."}
 def: "The sclerite of the epipharynx." [] {creation_date="2022-06-20", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
 is_a: AISM:0000003 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2022-06-20"}
 relationship: BFO:0000050 AISM:0000105 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2022-06-20"}
@@ -618,6 +647,15 @@ is_a: AISM:0004275 {http://purl.org/dc/elements/1.1/contributor="jgiron https://
 relationship: RO:0000053 PATO:0040024
 
 [Term]
+id: COLAO:0000081
+name: frontoclypeus {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence, J.F., Ślipiński, A., Seago, A.E., Thayer, M.K., Newton, A.F. & Marvaldi, A.E. (2011) Phylogeny of the Coleoptera based on morphological characters of adults and larvae. Annales Zoologici 61, 1–217. \n\nhttps://doi.org/10.3161/000345411X576725", http://purl.obolibrary.org/obo/IAO_0000232="Not quite defined, but used in Lawrence et al. 2011 in characters 2 and 31 for adults, character 369 for larvae.", creation_date="2023-01-20", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+is_a: AISM:0000174 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+relationship: BFO:0000050 AISM:0000019 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-20"}
+relationship: BFO:0000051 AISM:0004019 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-20"}
+relationship: BFO:0000051 AISM:0004020 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+relationship: BSPO:0000099 AISM:0000042 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-20"}
+
+[Term]
 id: COLAO:0000082
 name: notosternal ridge
 def: "The cuticular ridge on the cuticle of the prothorax that coincides with the notosternal sulcus." [] {creation_date="2022-06-27", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
@@ -633,4 +671,611 @@ synonym: "postcoxal bridge" EXACT [] {creation_date="2022-06-27", http://purl.or
 synonym: "posterior tergal extensions" EXACT [] {creation_date="2022-06-27", http://purl.org/dc/terms/isReferencedBy="Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150."}
 is_a: AISM:0000174 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2022-06-27"}
 relationship: RO:0000053 PATO:0040024 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2022-06-27"}
+
+[Term]
+id: COLAO:0000084
+name: periarticular groove {creation_date="2023-01-20", http://purl.obolibrary.org/obo/AISM_0000171="Antunes-Carvalho, C., Yavorskaya, M., Gnaspini, P., Ribera, I., Hammel, J.U. & Beutel, R.G. (2017) Cephalic anatomy and three-dimensional reconstruction of the head of Catops ventricosus (Weise, 1877) (Coleoptera: Leiodidae: Cholevinae). Organisms Diversity & Evolution 17, 199–212.\n\nhttps://doi.org/10.1007/s13127-016-0305-3\n\n\"A distal periarticular gutter bearing sensilla is present on antennomeres 7, 9, and 10, visible through a narrow slit-like opening on the apical surface of these segments\"", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+synonym: "periarticular gutter" EXACT [] {http://purl.obolibrary.org/obo/AISM_0000171="Antunes-Carvalho, C., Ribera, I., Beutel, R.G. & Gnaspini, P. (2019) Morphology-based phylogenetic reconstruction of Cholevinae (Coleoptera: Leiodidae): a new view on higher-level relationships. Cladistics 35, 1–41. \n\nhttps://doi.org/10.1111/cla.12230\n\n\"A periarticular gutter bearing sensilla is usually present on antennomeres 7, 9 and 10, but it is lacking on the reduced antennomere 8\""}
+is_a: AISM:0000157 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-20"}
+relationship: BFO:0000050 AISM:0004266 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-20"}
+relationship: BFO:0000050 BSPO:0000062 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-20"}
+relationship: RO:0000053 AISM:0004304 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-20"}
+property_value: http://purl.org/dc/elements/1.1/description "The cuticular groove on the distal side of the cuticle of an antennomere that bears cuticular sensillae." xsd:string {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-20"}
+
+[Term]
+id: COLAO:0000085
+name: cuticle of cupule {creation_date="2023-01-20", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+synonym: "cupule" EXACT [] {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence, J.F., Ślipiński, A., Seago, A.E., Thayer, M.K., Newton, A.F. & Marvaldi, A.E. (2011) Phylogeny of the Coleoptera based on morphological characters of adults and larvae. Annales Zoologici 61, 1–217.\n\nhttps://doi.org/10.3161/000345411X576725\n\n\"The cupule, as used here, includes but is not restricted to the functional\ncupule playing a role in the respiration of aquatic hydrophilids and hydraenids. Any cup-like antennomere immediately preceding the club (e.g. that in Silphidae) is also considered to be a cupule.\""}
+is_a: AISM:0004266 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-20"}
+relationship: RO:0000053 PATO:0002227 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-20"} ! cup-shaped
+
+[Term]
+id: COLAO:0000086
+name: cuticle of mala {creation_date="2023-01-20", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+def: "The cuticle of the mouthpart composed at leat by the cuticle of the galea." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05"}
+synonym: "mala" EXACT [] {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. \n\nhttps://www.publish.csiro.au/book/6466/\n\n\"The major evolutionary trends exhibited by the maxillary apex include: (1) loss of the basal segment of the galea and its basal articulation resulting in two fixed lobes; (2) loss of one lobe, usually the lacinia, resulting in a single process, often referred to as a mala; (3) basal fusion and then complete fusion of galea and lacinia, resulting in a combined structure, also called a mala; and (4) loss of both apical lobes, so that only the palp arises from the palpifer or apex of the stipes.\""}
+is_a: AISM:0000165 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-20"}
+relationship: BFO:0000051 AISM:0000023 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-20"}
+
+[Term]
+id: COLAO:0000087
+name: gulamentum {creation_date="2023-01-20", http://purl.obolibrary.org/obo/AISM_0000171="Lawrence, J.F., Ślipiński, A., Seago, A.E., Thayer, M.K., Newton, A.F. & Marvaldi, A.E. (2011) Phylogeny of the Coleoptera based on morphological characters of adults and larvae. Annales Zoologici 61, 1–217.\n\nhttps://doi.org/10.3161/000345411X576725\n\nCharacter 87: \"The gulamentum is defined as the gula combined with the submentum\"", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+def: "The insect sclerite that includes the gula and the submentum." [] {creation_date="2023-01-20", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+is_a: AISM:0000003 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-20"}
+relationship: BFO:0000051 AISM:0004005 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-20"}
+relationship: BFO:0000051 AISM:0004035 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-20"}
+
+[Term]
+id: COLAO:0000088
+name: median gular endocarina {creation_date="2023-01-10", http://purl.obolibrary.org/obo/AISM_0000171="Lawrence, J.F., Ślipiński, A., Seago, A.E., Thayer, M.K., Newton, A.F. & Marvaldi, A.E. (2011) Phylogeny of the Coleoptera based on morphological characters of adults and larvae. Annales Zoologici 61, 1–217.\n\nhttps://doi.org/10.3161/000345411X576725\n\n\"This endocarina lies between the gular sutures and is NOT homologous to the single gular invagination or fusion of the posterior tentorial arms when the gular sutures are fused together. It may also be very short and has been called a gular apodeme. This endocarina occurs mainly in Adephaga, but is also found in the hydraenid genera Hydraena and Ochthebius.\"", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+def: "The cuticular internal depression that is medial to the gular sulci." [] {creation_date="2023-01-20", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+is_a: AISM:0000000 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-20"}
+relationship: AISM:0000012 AISM:0004268 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-20"}
+
+[Term]
+id: COLAO:0000089
+name: propleurotrochantin {creation_date="2023-01-20", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", http://purl.obolibrary.org/obo/AISM_0000171="Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. \n\nhttps://www.publish.csiro.au/book/6466/\n\n\"In both Myxophaga and Polyphaga, the trochantin has apparently fused completely with the pleuron forming a pleurotrochantin.\""}
+def: "The protrochantin that is fused with the propleuron." [] {creation_date="2023-01-20", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+is_a: AISM:0000055 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-20"}
+relationship: RO:0002220 AISM:0004142 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-20"}
+
+[Term]
+id: COLAO:0000090
+name: postcoxal projections of propleuron {creation_date="2023-01-20", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", http://purl.obolibrary.org/obo/AISM_0000171="Lawrence, J.F., Ślipiński, A., Seago, A.E., Thayer, M.K., Newton, A.F. & Marvaldi, A.E. (2011) Phylogeny of the Coleoptera based on morphological characters of adults and larvae. Annales Zoologici 61, 1–217.\n\nhttps://doi.org/10.3161/000345411X576725\n\nSee character 141."}
+def: "The region of cuticle on the postero-lateral region of the propleuron." [] {creation_date="2023-01-20", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+is_a: AISM:0000174 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-20"}
+
+[Term]
+id: COLAO:0000091
+name: elytral window puncture {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence, J.F., Ślipiński, A., Seago, A.E., Thayer, M.K., Newton, A.F. & Marvaldi, A.E. (2011) Phylogeny of the Coleoptera based on morphological characters of adults and larvae. Annales Zoologici 61, 1–217.\n\nhttps://doi.org/10.3161/000345411X576725\n\n\"Window punctures are large, somewhat quadrate and deep with a translucent floor.\"", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-20"}
+def: "The elytral puncture that is relatively large, square, and transparent." [] {creation_date="2023-01-20", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+is_a: COLAO:0000016 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-20"} ! elytral puncture
+relationship: RO:0000053 PATO:0000413 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-20"} ! square
+relationship: RO:0000053 PATO:0000586 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-20"}
+relationship: RO:0000053 PATO:0000964 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-20"}
+
+[Term]
+id: COLAO:0000092
+name: mesokatepisternal sulcus
+def: "The sulcus of the mesoventrite that is transverse (parallel to the left-right axis)." [] {creation_date="2023-01-20", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+synonym: "mesokatepisternal suture" EXACT [] {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence, J.F., Ślipiński, A., Seago, A.E., Thayer, M.K., Newton, A.F. & Marvaldi, A.E. (2011) Phylogeny of the Coleoptera based on morphological characters of adults and larvae. Annales Zoologici 61, 1–217.\n\nhttps://doi.org/10.3161/000345411X576725\n\n\"This structure, which is serially homologous to the metakatepisternal suture, is apparently present in a few Archostemata and Adephaga, but it is not easy to see. There is rarely any external indication but there may be an internal ridge which does not appear to cross the discrimen like its counterpart in the metathorax.\""}
+is_a: AISM:0000162 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+relationship: BFO:0000050 COLAO:0000019 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-20"} ! mesoventrite
+relationship: parallel_to BSPO:0000017 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-20"} ! left-right axis
+
+[Term]
+id: COLAO:0000093
+name: mesendosternal arm {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-20", http://purl.obolibrary.org/obo/AISM_0000171="Lawrence, J.F., Ślipiński, A., Seago, A.E., Thayer, M.K., Newton, A.F. & Marvaldi, A.E. (2011) Phylogeny of the Coleoptera based on morphological characters of adults and larvae. Annales Zoologici 61, 1–217.\n\nhttps://doi.org/10.3161/000345411X576725\n\nSee character 182."}
+def: "The apodeme of the mesendosternite." [] {creation_date="2023-01-20", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+is_a: AISM:0000188 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-20"}
+relationship: BFO:0000050 AISM:0000141 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-20"} ! mesendosternite
+
+[Term]
+id: COLAO:0000094
+name: metendosternal stalk {creation_date="2023-01-20", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+def: "The region of cuticle that constitutes the ventro-medial region of the metendosternite." [] {creation_date="2023-01-20", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+is_a: AISM:0000174 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-20"}
+
+[Term]
+id: COLAO:0000095
+name: metendosternal arm {creation_date="2023-01-20", http://purl.obolibrary.org/obo/AISM_0000171="Lawrence, J.F., Ślipiński, A., Seago, A.E., Thayer, M.K., Newton, A.F. & Marvaldi, A.E. (2011) Phylogeny of the Coleoptera based on morphological characters of adults and larvae. Annales Zoologici 61, 1–217.\n\nhttps://doi.org/10.3161/000345411X576725\n\n\"The lateral arms of the metendosternite are usually moderately long and often extend anterolaterally.\"", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+def: "The bilaterally paired dorso-lateral apodeme of the metendosternite that is distal to the metendosternal lamina." [] {creation_date="2023-01-20", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+is_a: AISM:0000188 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-20"}
+relationship: BSPO:0000097 COLAO:0000096 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-20"} ! metendosternal lamina
+relationship: RO:0000053 PATO:0040024 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-20"}
+
+[Term]
+id: COLAO:0000096
+name: metendosternal lamina {creation_date="2023-01-20", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", http://purl.obolibrary.org/obo/AISM_0000171="Lawrence, J.F., Ślipiński, A., Seago, A.E., Thayer, M.K., Newton, A.F. & Marvaldi, A.E. (2011) Phylogeny of the Coleoptera based on morphological characters of adults and larvae. Annales Zoologici 61, 1–217.\n\nhttps://doi.org/10.3161/000345411X576725\n\n\"Laminae are flattened projections arising near the bases of the lateral arms; they are usually somewhat disc-like but may be slender in some taxa.\""}
+def: "The bilaterally paired region of cuticle on the dorso-lateral region of the metendosternite that is proximal to the metendosternal arm." [] {creation_date="2023-01-20", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+is_a: AISM:0000174 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-20"}
+relationship: BSPO:0000100 COLAO:0000095 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-20"} ! metendosternal arm
+relationship: RO:0000053 PATO:0040024 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-20"}
+
+[Term]
+id: COLAO:0000097
+name: anterior longitudinal flange of the metendosternite {creation_date="2023-01-21", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+def: "The cuticular carin on the anterior region of the metendosternite that is parallel to some anterior-posterior axis." []
+synonym: "ventral longitudinal flange" EXACT [] {creation_date="2023-01-21", http://purl.obolibrary.org/obo/AISM_0000171="Velázquez de Castro, A.J. (1998) Morphology and taxonomy of the genus Sitona Germar, 1817.(I): the metendosternite (Coleoptera: Curculionidae). Bollettino del Museo Regionale di Scienze Naturali, Torino XX I.C.E., 109–123.\n\nSee page 111.", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+is_a: AISM:0000501 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-21"}
+relationship: BFO:0000050 AISM:0000142 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-21"} ! metendosternite
+relationship: BFO:0000050 BSPO:0000071 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-21"}
+relationship: parallel_to BSPO:0000013 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-21"}
+
+[Term]
+id: COLAO:0000098
+name: anterior transverse flange of the metendosternite {creation_date="2023-01-21", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+def: "The cuticular carina on the anterior region of the metendosternite that is parallel to the left-right axis." [] {creation_date="2023-01-21", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+is_a: AISM:0000501 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-21"}
+relationship: BFO:0000050 AISM:0000142 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-21"} ! metendosternite
+relationship: BFO:0000050 BSPO:0000071 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-21"}
+relationship: parallel_to BSPO:0000017 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-21"} ! left-right axis
+
+[Term]
+id: COLAO:0000099
+name: ventro-lateral metendosternal process {creation_date="2023-01-21", http://purl.obolibrary.org/obo/AISM_0000171="Lawrence, J.F., Ślipiński, A., Seago, A.E., Thayer, M.K., Newton, A.F. & Marvaldi, A.E. (2011) Phylogeny of the Coleoptera based on morphological characters of adults and larvae. Annales Zoologici 61, 1–217.\n\nhttps://doi.org/10.3161/000345411X576725\n\n\"Ventrolateral processes arise from the junction of the stalk and lateral arms and project more or less posteriorly.\"", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+def: "The cuticular protrusion on the ventro-lateral region of the metendosternite that is distal to the metendosternal lamina and proximal to the metendosternal arm." [] {creation_date="2023-01-21", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+is_a: AISM:0000008 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-21"}
+relationship: BSPO:0000097 COLAO:0000096 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-21"} ! metendosternal lamina
+relationship: BSPO:0000100 COLAO:0000095 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-21"} ! metendosternal arm
+
+[Term]
+id: COLAO:0000100
+name: anterior tendon of the metendosternite {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", http://purl.obolibrary.org/obo/AISM_0000171="Lawrence, J.F., Ślipiński, A., Seago, A.E., Thayer, M.K., Newton, A.F. & Marvaldi, A.E. (2011) Phylogeny of the Coleoptera based on morphological characters of adults and larvae. Annales Zoologici 61, 1–217.\n\nhttps://doi.org/10.3161/000345411X576725\n\nSee character 207.", creation_date="2023-01-21"}
+def: "The cuticular tendon on the antero-dorsal regionof the metendosternal lamina." [] {creation_date="2023-01-21", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+is_a: AISM:0000090 {creation_date="2023-01-21"}
+relationship: BFO:0000050 BSPO:0000026 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-21"} ! antero-dorsal region
+relationship: BFO:0000050 COLAO:0000096 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-21"} ! metendosternal lamina
+
+[Term]
+id: COLAO:0000101
+name: apical field of the beetle wing {http://purl.obolibrary.org/obo/AISM_0000171="Kukalová-Peck, J. & Lawrence, J.F. (1993) Evolution of the hind wing in Coleoptera. The Canadian Entomologist 125, 181–258. \n\nhttps://doi.org/10.4039/Ent125181-2\n\n\"apical, the wing apex (often referred to as the \"wing membrane'') distal to the radial cell, r4, and the oblong cell or medial hook\"", creation_date="2023-01-21", http://purl.obolibrary.org/obo/AISM_0000171="Lawrence, J.F., Ślipiński, A., Seago, A.E., Thayer, M.K., Newton, A.F. & Marvaldi, A.E. (2011) Phylogeny of the Coleoptera based on morphological characters of adults and larvae. Annales Zoologici 61, 1–217.\n\nhttps://doi.org/10.3161/000345411X576725\n\n\"The apical field lies between the ends of the two wing struts and the wing apex; it almost always contains various folds and often contains apical extensions of RP and sometimes RA, but in some wings it may be entirely membranous or contain one or more non-homologizable sclerites only.\"", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", http://purl.obolibrary.org/obo/AISM_0000171="Lawrence, J.F., Beutel, R.G., Leschen, R.A. & Ślipiński, A. (2010) Glossary of morphological terms. Handbuch der Zoologie/Handbook of Zoology. Band 4, 9–20. \n\nhttps://doi.org/10.1515/9783110911213.9\n\n\"Apical Field. Portion of the wing membrane lying apicad of the radial cell (Polyphaga), cross-vein r4, the R-M loop (Polyphaga), the oblongum cell (most Archostemata, Myxophaga and Adephaga) and medial spur, and often containing terminal branches of RA and RP or the elateroid sclerites possibly derived from them.\""}
+def: "The region of the beetle wing that is distal to the central region of the beetle wing." [] {creation_date="2023-01-21", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+is_a: AISM:0004242 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-21"}
+relationship: BSPO:0000097 COLAO:0000103 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-20"} ! central field of the beetle wing
+
+[Term]
+id: COLAO:0000102
+name: radial cell of the beetle wing {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence, J.F., Beutel, R.G., Leschen, R.A. & Ślipiński, A. (2010) Glossary of morphological terms. Handbuch der Zoologie/Handbook of Zoology. Band 4, 9–20. \n\nhttps://doi.org/10.1515/9783110911213.9\n\n\"Radial Cell. Forking of RA into RA1+2 and RA3+4 and a subsequent rejoining of these two branches near the anterior wing margin in Polyphaga. Not homologous with cells formed by cross-veins between RA1+2 and RA3 or RA3+4 in Archostemata, Myxophaga and Adephaga.\"", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-22"}
+def: "The insect wing vein that is anterior to the central field of the beetle wing, distal to the radial bar of the beetle wing, and proximal to the apical field of the beetle wing." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-22"}
+is_a: AISM:0004243 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-22"}
+relationship: BSPO:0000096 COLAO:0000103 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-22"} ! central field of the beetle wing
+relationship: BSPO:0000097 COLAO:0000104 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-22"} ! radial bar of the beetle wing
+relationship: BSPO:0000100 COLAO:0000101 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-22"} ! apical field of the beetle wing
+
+[Term]
+id: COLAO:0000103
+name: central field of the beetle wing {creation_date="2023-01-21", http://purl.obolibrary.org/obo/AISM_0000171="Lawrence, J.F., Zhou, Y.-L., Lemann, C., Sinclair, B. & Ślipiński, A. (2021) The hind wing of Coleoptera (Insecta): morphology, nomenclature and phylogenetic significance. Part 1. General discussion and Archostemata–Elateroidea. Annales Zoologici 71, 421–606.\n\nhttps://doi.org/10.3161/00034541ANZ2021.71.3.001\n\n\"Central Field. This is a complex folding region containing various cells, cross-veins and folding areas in all suborders and the Radiomedial Loop in Polyphaga.\"", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", http://purl.obolibrary.org/obo/AISM_0000171="Kukalová-Peck, J. & Lawrence, J.F. (1993) Evolution of the hind wing in Coleoptera. The Canadian Entomologist 125, 181–258. \n\nhttps://doi.org/10.4039/Ent125181-2\n\n\"central, area just proximal to the radial cell and cross-vein r4 and containing or delimited by transverse or oblique folds (forming a triangle in more primitive wing types)\""}
+def: "The region of the beetle wing that is distal to the radial field of the insect wing, anterior to the medial field of the insect wing, and proximal to the apical field of the beetle wing." [] {creation_date="2023-01-21", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+is_a: AISM:0004242 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-21"}
+relationship: BSPO:0000096 AISM:0004312 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-21"}
+relationship: BSPO:0000097 AISM:0004310 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-21"}
+relationship: BSPO:0000100 COLAO:0000101 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-20"} ! apical field of the beetle wing
+
+[Term]
+id: COLAO:0000104
+name: radial bar of the beetle wing {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence, J.F., Ślipiński, A., Seago, A.E., Thayer, M.K., Newton, A.F. & Marvaldi, A.E. (2011) Phylogeny of the Coleoptera based on morphological characters of adults and larvae. Annales Zoologici 61, 1–217.\n\nhttps://doi.org/10.3161/000345411X576725\n\n\"The anterior wing strut or radial bar (ScP plus RA-RA1+2)\"", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-22"}
+synonym: "anterior wing strut" EXACT [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-22"}
+is_a: AISM:0004243 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-22"}
+relationship: BFO:0000051 AISM:0004257 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-22"}
+
+[Term]
+id: COLAO:0000105
+name: medial bar of the beetle wing {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence, J.F., Ślipiński, A., Seago, A.E., Thayer, M.K., Newton, A.F. & Marvaldi, A.E. (2011) Phylogeny of the Coleoptera based on morphological characters of adults and larvae. Annales Zoologici 61, 1–217.\n\nhttps://doi.org/10.3161/000345411X576725\n\n\"posterior wing strut or medial bar (MP1+2)\"", creation_date="2023-01-22", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+def: "The medial vein that is posterior to the radial posterior (RP) vein of the beetle wing." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"}
+synonym: "MP 1+2" EXACT [] {http://purl.obolibrary.org/obo/AISM_0000171="Kukalová-Peck, J. & Lawrence, J.F. (1993) Evolution of the hind wing in Coleoptera. The Canadian Entomologist 125, 181–258.\n\nhttps://doi.org/10.4039/Ent125181-2\n\n\"MP1+2 primitively is strong and mildly, concavely arched, ends in a spike, and does not reach the posterior margin of the wing. This branch functions as the medial bar and combines with rp-mp cross-veins to form part of the medial loop, which is engaged in apical folding.\"", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"}
+synonym: "posterior wing strut" EXACT [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-22"}
+is_a: AISM:0004252 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-22"}
+relationship: BSPO:0000099 COLAO:0000111 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"} ! radial posterior (RP) vein of the beetle wing
+
+[Term]
+id: COLAO:0000106
+name: triangular folding area of the beetle wing
+is_a: AISM:0004244
+
+[Term]
+id: COLAO:0000107
+name: humeral field of the beetle wing {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", http://purl.obolibrary.org/obo/AISM_0000171="Lawrence, J.F., Zhou, Y.-L., Lemann, C., Sinclair, B. & Ślipiński, A. (2021) The hind wing of Coleoptera (Insecta): morphology, nomenclature and phylogenetic significance. Part 1. General discussion and Archostemata–Elateroidea. Annales Zoologici 71, 421–606.\n\nhttps://doi.org/10.3161/00034541ANZ2021.71.3.001\n\n\"Humeral Field. This is a small area at the anterior part of the wing base.\"", http://purl.obolibrary.org/obo/AISM_0000171="Kukalová-Peck, J. & Lawrence, J.F. (1993) Evolution of the hind wing in Coleoptera. The Canadian Entomologist 125, 181–258. \n\nhttps://doi.org/10.4039/Ent125181-2\n\n\"humeral, the anterior part of the wing base in the vicinity of the humeral fold\"", creation_date="2023-01-22"}
+def: "The region of the beetle wing that is distal to the axillary region of the insect wing and proximal to the costal vein of the insect wing." [] {creation_date="2023-01-21", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+is_a: AISM:0004242 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-21"}
+relationship: BSPO:0000097 AISM:0004258 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-20"}
+relationship: BSPO:0000100 AISM:0004247 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-22"}
+
+[Term]
+id: COLAO:0000108
+name: subcosta anterior (ScA) of the beetle wing {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence, J.F., Zhou, Y.-L., Lemann, C., Sinclair, B. & Ślipiński, A. (2021) The hind wing of Coleoptera (Insecta): morphology, nomenclature and phylogenetic significance. Part 1. General discussion and Archostemata–Elateroidea. Annales Zoologici 71, 421–606. https://doi.org/10.3161/00034541ANZ2021.71.3.001\n\n\"The Subcosta Anterior (ScA) is restricted to the wing base\"", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-22"}
+def: "The anterior region of the subcostal vein of the insect wing." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-22"}
+is_a: AISM:0004257 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-22"}
+
+[Term]
+id: COLAO:0000109
+name: subcosta posterior (ScP) of the beetle wing {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", http://purl.obolibrary.org/obo/AISM_0000171="Lawrence, J.F., Zhou, Y.-L., Lemann, C., Sinclair, B. & Ślipiński, A. (2021) The hind wing of Coleoptera (Insecta): morphology, nomenclature and phylogenetic significance. Part 1. General discussion and Archostemata–Elateroidea. Annales Zoologici 71, 421–606.\n\nhttps://doi.org/10.3161/00034541ANZ2021.71.3.001\n\n\"Subcosta Posterior (ScP) extends apically just in front of the Radius Anterior and ends at about the same point as RA1+2, so that the two together form the anterior wing strut or the Radial Bar of Kukalová-Peck & Lawrence (1993, 2004).\"", creation_date="2023-01-22"}
+def: "The posterior region of the subcostal vein of the insect wing." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-22"}
+is_a: AISM:0004257 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-22"}
+
+[Term]
+id: COLAO:0000110
+name: radial anterior (RA) vein of the beetle wing {http://purl.obolibrary.org/obo/AISM_0000171="Kukalová-Peck, J. & Lawrence, J.F. (1993) Evolution of the hind wing in Coleoptera. The Canadian Entomologist 125, 181–258. \n\nhttps://doi.org/10.4039/Ent125181-2\n\n\"Radius Anterior (RA+). The coleopteran RA+ forks into RA1+2, and RA3+4, and a pigmented pterostigma occurs between the branches of the fork\"", http://purl.obolibrary.org/obo/AISM_0000171="Lawrence, J.F., Zhou, Y.-L., Lemann, C., Sinclair, B. & Ślipiński, A. (2021) The hind wing of Coleoptera (Insecta): morphology, nomenclature and phylogenetic significance. Part 1. General discussion and Archostemata–Elateroidea. Annales Zoologici 71, 421–606.\n\nhttps://doi.org/10.3161/00034541ANZ2021.71.3.001\n\n\"The Radius Anterior (RA) divides into RA1+2 and RA3+4 at about mid-wing in G01 to G03 but well beyond this in most other G groups.\"", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-22"}
+def: "The anterior region of the radial vein of the insect wing." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-22"}
+is_a: AISM:0004256 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-22"}
+
+[Term]
+id: COLAO:0000111
+name: radial posterior (RP) vein of the beetle wing {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", http://purl.obolibrary.org/obo/AISM_0000171="Lawrence, J.F., Zhou, Y.-L., Lemann, C., Sinclair, B. & Ślipiński, A. (2021) The hind wing of Coleoptera (Insecta): morphology, nomenclature and phylogenetic significance. Part 1. General discussion and Archostemata–Elateroidea. Annales Zoologici 71, 421–606.\n\nhttps://doi.org/10.3161/00034541ANZ2021.71.3.001\n\n\"The Radius Posterior (RP) separates from RA near the wing base close to the point of attachment of RA with MP1+2 and the formation of the Medial Bridge (MBR). RP is usually complete to the base in G01–G03, although sometimes interrupted by the triangular folding area, and apically it forms the anterior part of the Oblongum cell and subdivides into as many as three\nterminal branches, RP1, RP2 and RP3+4.\"", creation_date="2023-01-22"}
+def: "The posterior region of the radial vein of the insect wing." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-22"}
+is_a: AISM:0004256 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-22"}
+
+[Term]
+id: COLAO:0000112
+name: radial anterior branch 1+2 (RA1+2) of the beetle wing {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-22"}
+def: "The anterior branch of the beetle wing vein that is part of the radial anterior (RA) vein of the beetle wing." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-22"}
+is_a: COLAO:0000114 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-22"} ! anterior branch of the beetle wing vein
+relationship: BFO:0000050 COLAO:0000110 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-22"} ! radial anterior (RA) vein of the beetle wing
+
+[Term]
+id: COLAO:0000113
+name: precostal vein of the beetle wing {http://purl.obolibrary.org/obo/AISM_0000171="Kukalová-Peck, J. & Lawrence, J.F. (1993) Evolution of the hind wing in Coleoptera. The Canadian Entomologist 125, 181–258. \n\nhttps://doi.org/10.4039/Ent125181-2\n\n\"Precosta (PC). The coleopteran precosta primitively is not fully fused with the costa near the base, but forms a membranous strip or flap adjacent to C (Figs. 17, 22, 47, 80). In most Coleoptera, PC and C are completely fused beginning at HP.\"", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-23"}
+def: "The insect wing vein of the costal field that is anterior to the costal vein of the insect wing." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05"}
+is_a: AISM:0004243 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-23"}
+relationship: BSPO:0000096 AISM:0004247 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05"}
+relationship: RO:0001018 AISM:0004248 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05"}
+
+[Term]
+id: COLAO:0000114
+name: anterior branch of the beetle wing vein {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-23"}
+def: "The insect wing vein thet is anterior to the posterior branch of the beetle wing vein." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"}
+is_a: AISM:0004243 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-23"}
+relationship: BSPO:0000096 COLAO:0000115 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-23"} ! posterior branch of the beetle wing vein
+
+[Term]
+id: COLAO:0000115
+name: posterior branch of the beetle wing vein {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-23"}
+def: "The insect wing vein thet is posterior to the anterior branch of the beetle wing vein." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"}
+is_a: AISM:0004243 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-23"}
+relationship: BSPO:0000099 COLAO:0000114 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-23"} ! anterior branch of the beetle wing vein
+
+[Term]
+id: COLAO:0000116
+name: radial anterior branch 3+4 (RA3+4) of the beetle wing {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-22"}
+def: "The posterior branch of the beetle wing vein that is part of the radial anterior (RA) vein of the beetle wing." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-22"}
+is_a: COLAO:0000114 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-22"} ! anterior branch of the beetle wing vein
+relationship: BFO:0000050 COLAO:0000110 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-22"} ! radial anterior (RA) vein of the beetle wing
+
+[Term]
+id: COLAO:0000117
+name: radial posterior branch 1 (RP1) of the beetle wing {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-22"}
+def: "The posterior branch of the beetle wing vein that is part of the radial posterior (RP) vein of the beetle wing." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-22"}
+is_a: COLAO:0000115 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-22"} ! posterior branch of the beetle wing vein
+relationship: BFO:0000050 COLAO:0000111 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-22"} ! radial posterior (RP) vein of the beetle wing
+
+[Term]
+id: COLAO:0000118
+name: radial posterior branch 2 (RP2) of the beetle wing {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-22"}
+def: "The posterior branch of the beetle wing vein that is part of the radial posterior (RP) vein of the beetle wing and posterior to the radial posterior branch 1 (RP1) of the beetle wing." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-22"}
+is_a: COLAO:0000115 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-22"} ! posterior branch of the beetle wing vein
+relationship: BFO:0000050 COLAO:0000111 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-22"} ! radial posterior (RP) vein of the beetle wing
+relationship: BSPO:0000099 COLAO:0000117 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-22"} ! radial posterior branch 1 (RP1) of the beetle wing
+
+[Term]
+id: COLAO:0000119
+name: radial posterior branch 3+4 (RP3+4) of the beetle wing {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-22"}
+def: "The posterior branch of the beetle wing vein that is part of the radial posterior (RP) vein of the beetle wing." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-22"}
+is_a: COLAO:0000115 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-22"} ! posterior branch of the beetle wing vein
+relationship: BFO:0000050 COLAO:0000111 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-22"} ! radial posterior (RP) vein of the beetle wing
+
+[Term]
+id: COLAO:0000120
+name: cross-vein of the beetle wing {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"}
+def: "The insect wing vein that is adjacent to another insect wing vein." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"}
+is_a: AISM:0004243 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"}
+relationship: RO:0002220 AISM:0004243 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"}
+
+[Term]
+id: COLAO:0000121
+name: radial cross-vein r3 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", http://purl.obolibrary.org/obo/AISM_0000171="Lawrence, J.F., Beutel, R.G., Leschen, R.A. & Ślipiński, A. (2010) Glossary of morphological terms. Handbuch der Zoologie/Handbook of Zoology. Band 4, 9–20. \n\nhttps://doi.org/10.1515/9783110911213.9\n\n\"Cross-vein r3. Subapical cross-vein between RA3+4 and RP; transverse (perpendicular to long axis of wing) or strongly oblique in Archostemata, Myxophaga and Adephaga and often slightly oblique to longitudinal (parallel to long axis of wing) in Polyphaga; rarely complete and often absent. Termed the “radial recurrent vein” in some older systems of nomenclature.\"", creation_date="2023-02-04"}
+def: "The cross-vein of the beetle wing that is proximal to the radial cell of the beetle wing." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"}
+is_a: COLAO:0000120 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"} ! cross-vein of the beetle wing
+relationship: BSPO:0000100 COLAO:0000102 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"} ! radial cell of the beetle wing
+
+[Term]
+id: COLAO:0000122
+name: radial cross-vein r4 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", http://purl.obolibrary.org/obo/AISM_0000171="Lawrence, J.F., Beutel, R.G., Leschen, R.A. & Ślipiński, A. (2010) Glossary of morphological terms. Handbuch der Zoologie/Handbook of Zoology. Band 4, 9–20. \n\nhttps://doi.org/10.1515/9783110911213.9\n\n\"Cross-vein r4. Apical cross-vein between RA3+4 and RP; always more or less transverse and usually complete.\"", creation_date="2023-02-04"}
+def: "The cross-vein of the beetle wing that is adjacent to the postero-medial region of the radial cell of the beetle wing." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"}
+is_a: COLAO:0000120 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"} ! cross-vein of the beetle wing
+relationship: BFO:0000050 COLAO:0000102 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"} ! radial cell of the beetle wing
+relationship: RO:0002220 BSPO:0000064 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"} ! postero-medial region
+
+[Term]
+id: COLAO:0000123
+name: medial posterior branch 3+4 (MP3+4) of the beetle wing {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"}
+def: "The posterior branch of the beetle wing vein that is posterior to the medial bar of the beetle wing." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-22"}
+is_a: COLAO:0000115 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-22"} ! posterior branch of the beetle wing vein
+relationship: BSPO:0000099 COLAO:0000105 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-22"} ! medial bar of the beetle wing
+
+[Term]
+id: COLAO:0000124
+name: medial spur of the beetle wing {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", http://purl.obolibrary.org/obo/AISM_0000171="Lawrence, J.F., Beutel, R.G., Leschen, R.A. & Ślipiński, A. (2010) Glossary of morphological terms. Handbuch der Zoologie/Handbook of Zoology. Band 4, 9–20. \n\nhttps://doi.org/10.1515/9783110911213.9\n\n\"Medial Spur. Apical extension of MP1+2 beyond the R-M loop or oblongum cell. Very short and straight or absent in Archostemata, Myxophaga and Adephaga and usually longer and posteriorly curved in Polyphaga.\"", creation_date="2023-02-04"}
+def: "The medial vein that is distal to the medial bar of the beetle wing." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"}
+is_a: AISM:0004252 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"}
+relationship: BSPO:0000097 COLAO:0000105 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"} ! medial bar of the beetle wing
+
+[Term]
+id: COLAO:0000125
+name: medial corss-vein {creation_date="2023-02-04", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", http://purl.obolibrary.org/obo/AISM_0000171="Lawrence, J.F., Beutel, R.G., Leschen, R.A. & Ślipiński, A. (2010) Glossary of morphological terms. Handbuch der Zoologie/Handbook of Zoology. Band 4, 9–20. \n\nhttps://doi.org/10.1515/9783110911213.9\n\n\"Sub-basal cross-vein joining MP3+4 to MP1+2\""}
+def: "The cross-vein thet is adjacent to the medial bar and to the medial posterior branch 3+4 of the beetle wing." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"}
+is_a: COLAO:0000120 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"} ! cross-vein of the beetle wing
+relationship: RO:0002220 COLAO:0000105 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"} ! medial bar of the beetle wing
+relationship: RO:0002220 COLAO:0000123 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"} ! medial posterior branch 3+4 (MP3+4) of the beetle wing
+
+[Term]
+id: COLAO:0000126
+name: cubital anterior branch 1 (CuA1) of the beetle wing {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"}
+def: "The first anterior branch of the cubital vein, which is posterior to the medial posterior branch 3+4 (MP3+4) of the beetle wing." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"}
+is_a: AISM:0004249 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"}
+is_a: COLAO:0000114 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"} ! anterior branch of the beetle wing vein
+relationship: BSPO:0000099 COLAO:0000123 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"} ! medial posterior branch 3+4 (MP3+4) of the beetle wing
+
+[Term]
+id: COLAO:0000127
+name: cubital anterior branch 2 (CuA2) of the beetle wing {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"}
+def: "The second anterior branch of the cubital vein that is posterior to the first cubital anterior branch of the beetle wing (CuA1)." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"}
+is_a: AISM:0004249 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"}
+is_a: COLAO:0000114 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"} ! anterior branch of the beetle wing vein
+relationship: BSPO:0000099 COLAO:0000126 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"} ! cubital anterior branch 1 (CuA1) of the beetle wing
+
+[Term]
+id: COLAO:0000128
+name: cubital anterior branch 1+2 (CuA1+2) of the beetle wing {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"}
+def: "The anterior branch of the cubital vein that is composed of the first and second cubital anterior branches of the beetle wing." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"}
+is_a: AISM:0004249 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"}
+is_a: COLAO:0000114 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"} ! anterior branch of the beetle wing vein
+relationship: BFO:0000051 COLAO:0000126 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"} ! cubital anterior branch 1 (CuA1) of the beetle wing
+relationship: BFO:0000051 COLAO:0000127 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"} ! cubital anterior branch 2 (CuA2) of the beetle wing
+
+[Term]
+id: COLAO:0000129
+name: cubital anterior branch 3+4 (CuA3+4) of the beetle wing {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"}
+def: "The anterior branch of the cubital vein that is posterior to the cubital anterior branch 1+2 (CuA1+2) of the beetle wing." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"}
+is_a: AISM:0004249 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"}
+is_a: COLAO:0000114 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"} ! anterior branch of the beetle wing vein
+relationship: BSPO:0000099 COLAO:0000128 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"} ! cubital anterior branch 1+2 (CuA1+2) of the beetle wing
+
+[Term]
+id: COLAO:0000130
+name: anal anterior branch 1+2 (AA1+2) of the beetle wing {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"}
+def: "The anterior branch of the anal vein that is composed of the first and second anal anterior branches of the beetle wing." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"}
+is_a: AISM:0004246 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"}
+is_a: COLAO:0000114 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"} ! anterior branch of the beetle wing vein
+relationship: BSPO:0000099 AISM:0004249 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"}
+
+[Term]
+id: COLAO:0000131
+name: anal anterior branch 1+2 and cubital anterior branch 3+4 (AA1+2+CuA3+4) of the beetle wing {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"}
+def: "The anterior branch of the anal vein that is composed of the anal anterior branch 1+2 and the cubital anterior branch 3+4 of the beetle wing." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"}
+is_a: AISM:0004246 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"}
+is_a: COLAO:0000114 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"} ! anterior branch of the beetle wing vein
+relationship: BFO:0000051 COLAO:0000129 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"} ! cubital anterior branch 3+4 (CuA3+4) of the beetle wing
+relationship: BFO:0000051 COLAO:0000130 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"} ! anal anterior branch 1+2 (AA1+2) of the beetle wing
+
+[Term]
+id: COLAO:0000132
+name: anal anterior branch 3 (AA3) of the beetle wing {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"}
+def: "The anterior branch of the anal wing vein that is posterior to the anal anterior branch 1+2 and cubital anterior branch 3+4 (AA1+2+CuA3+4) of the beetle wing." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"}
+is_a: AISM:0004246 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"}
+is_a: COLAO:0000114 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"} ! anterior branch of the beetle wing vein
+relationship: BSPO:0000099 COLAO:0000131 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"} ! anal anterior branch 1+2 and cubital anterior branch 3+4 (AA1+2+CuA3+4) of the beetle wing
+
+[Term]
+id: COLAO:0000133
+name: anal anterior branch 4 (AA4) of the beetle wing {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"}
+def: "The anterior branch of the anal wing vein that is posterior to the anal anterior branch 3 (AA3) of the beetle wing." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"}
+is_a: AISM:0004246 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"}
+is_a: COLAO:0000114 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"} ! anterior branch of the beetle wing vein
+relationship: BSPO:0000099 COLAO:0000132 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"} ! anal anterior branch 3 (AA3) of the beetle wing
+
+[Term]
+id: COLAO:0000134
+name: anal anterior branch 3+4 (AA3+4) of the beetle wing {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"}
+def: "The anterior branch of the cubital vein that is composed of the third and fourth anal anterior branches of the beetle wing." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"}
+is_a: AISM:0004246 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"}
+is_a: COLAO:0000114 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"} ! anterior branch of the beetle wing vein
+relationship: BFO:0000051 COLAO:0000132 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"} ! anal anterior branch 3 (AA3) of the beetle wing
+relationship: BFO:0000051 COLAO:0000133 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"} ! anal anterior branch 4 (AA4) of the beetle wing
+
+[Term]
+id: COLAO:0000135
+name: radial-medial cross vein {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"}
+def: "The cross-vein of the beetle wing that is adjacent to the radial posterior vein and to the medial spur of the beetle wing." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"}
+is_a: COLAO:0000120 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"} ! cross-vein of the beetle wing
+relationship: RO:0002220 COLAO:0000111 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"} ! radial posterior (RP) vein of the beetle wing
+relationship: RO:0002220 COLAO:0000124 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"} ! medial spur of the beetle wing
+
+[Term]
+id: COLAO:0000136
+name: oblongum cell of the beetle wing {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence, J.F., Beutel, R.G., Leschen, R.A. & Ślipiński, A. (2010) Glossary of morphological terms. Handbuch der Zoologie/Handbook of Zoology. Band 4, 9–20. \n\nhttps://doi.org/10.1515/9783110911213.9\n\n\"Oblongum Cell. Cell in most Archostemata, Adephaga and Myxophaga formed between two R-M cross-veins.\"", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"}
+def: "The insect wing vein composed of the medial bar, the radial posterior branch 3+4, and the radial-medial cross vein." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"}
+is_a: AISM:0004243 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"}
+relationship: BFO:0000051 COLAO:0000105 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"} ! medial bar of the beetle wing
+relationship: BFO:0000051 COLAO:0000119 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"} ! radial posterior branch 3+4 (RP3+4) of the beetle wing
+relationship: BFO:0000051 COLAO:0000135 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"} ! radial-medial cross vein
+
+[Term]
+id: COLAO:0000137
+name: anal posterior branch 1+2 (AP1+2) of the beetle wing {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"}
+def: "The posterior branch of the anal vein that is composed of the first and second anal posterior branches of the beetle wing." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"}
+is_a: AISM:0004246 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"}
+is_a: COLAO:0000115 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"} ! posterior branch of the beetle wing vein
+relationship: BSPO:0000099 COLAO:0000134 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"} ! anal anterior branch 3+4 (AA3+4) of the beetle wing
+
+[Term]
+id: COLAO:0000138
+name: anal posterior branch 3 (AP3) of the beetle wing {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05"}
+def: "The posterior branch of the anal wing vein that is posterior to the anal anterior branch 3+4 (AA3+4) of the beetle wing." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"}
+is_a: AISM:0004246 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"}
+is_a: COLAO:0000115 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"} ! posterior branch of the beetle wing vein
+relationship: BSPO:0000099 COLAO:0000134 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"} ! anal anterior branch 3+4 (AA3+4) of the beetle wing
+
+[Term]
+id: COLAO:0000139
+name: anal posterior branch 4 (AP4) of the beetle wing {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05"}
+def: "The posterior branch of the anal wing vein that is posterior to the anal posterior branch 3 (AP3) of the beetle wing." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"}
+is_a: AISM:0004246 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"}
+is_a: COLAO:0000115 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"} ! posterior branch of the beetle wing vein
+relationship: BSPO:0000099 COLAO:0000138 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"} ! anal posterior branch 3 (AP3) of the beetle wing
+
+[Term]
+id: COLAO:0000140
+name: anal posterior branch 3+4 (AP3+4) of the beetle wing {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05"}
+def: "The posterior branch of the anal wing vein that is composed of the anal posterior branch 3 (AP3) and the anal posterior branch 4 (AP4) of the beetle wing." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"}
+is_a: AISM:0004246 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"}
+is_a: COLAO:0000115 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"} ! posterior branch of the beetle wing vein
+relationship: BFO:0000051 COLAO:0000138 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-04"} ! anal posterior branch 3 (AP3) of the beetle wing
+relationship: BFO:0000051 COLAO:0000139 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05"} ! anal posterior branch 4 (AP4) of the beetle wing
+
+[Term]
+id: COLAO:0000141
+name: post-radial sclerite of the beetle wing {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence, J.F., Ślipiński, A., Seago, A.E., Thayer, M.K., Newton, A.F. & Marvaldi, A.E. (2011) Phylogeny of the Coleoptera based on morphological characters of adults and larvae. Annales Zoologici 61, 1–217.\n\nhttps://doi.org/10.3161/000345411X576725\n\n\"The post-radial sclerite refers to a relatively small heavily pigmented sclerite located just beyond the radial cell in some Polyphaga. It occurs widely and almost exclusively in Cucujiformia, and its presence in Tropisternus and Heterocerus is probably homoplasious.\"", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05"}
+def: "The insect sclerite on the apical field of the beetle wing that is distal to the radial cell." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05"}
+is_a: AISM:0000003 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05"}
+relationship: BFO:0000050 COLAO:0000101 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05"} ! apical field of the beetle wing
+relationship: BSPO:0000097 COLAO:0000102 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05"} ! radial cell of the beetle wing
+
+[Term]
+id: COLAO:0000142
+name: abdominal ventrite {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05"}
+is_a: AISM:0000003 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+relationship: BFO:0000050 AISM:0000109 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+relationship: BFO:0000050 BSPO:0000083 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+relationship: BFO:0000050 BSPO:0000084 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+relationship: RO:0000053 PATO:0002425 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05"} ! exposed
+
+[Term]
+id: COLAO:0000143
+name: antennal sensorium {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence, J.F., Ślipiński, A., Seago, A.E., Thayer, M.K., Newton, A.F. & Marvaldi, A.E. (2011) Phylogeny of the Coleoptera based on morphological characters of adults and larvae. Annales Zoologici 61, 1–217.\n\nhttps://doi.org/10.3161/000345411X576725\n\n\"The antennal sensorium is a large sensillum or complex of sensilla normally located on the preapical antennomere of beetle larvae; it has also been called sensory appendage or sensory appendix. The sensorium may be located on the apical antennomere (S2) in those antennae which have lost the true apical antennomere and are thus 2-segmented or which have lost the apical and basal antennomeres and are 1-segmented.\""}
+def: "The cuticular sensilla that is adjacent to the cuticle of an antennomere." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05"}
+is_a: AISM:0004304 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05"}
+relationship: RO:0002220 AISM:0004266 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05"}
+
+[Term]
+id: COLAO:0000144
+name: cuticle of maxillolabial complex {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05", http://purl.obolibrary.org/obo/AISM_0000171="Lawrence, J.F., Ślipiński, A., Seago, A.E., Thayer, M.K., Newton, A.F. & Marvaldi, A.E. (2011) Phylogeny of the Coleoptera based on morphological characters of adults and larvae. Annales Zoologici 61, 1–217.\n\nhttps://doi.org/10.3161/000345411X576725\n\n\"The consolidation of the maxillolabial complex by the partial or complete fusion of various elements has occurred several times in Coleoptera.\""}
+def: "The cuticle of the mouthpart that is composed of the maxilla and the labium." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05"}
+is_a: AISM:0000165 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05"}
+relationship: BFO:0000051 AISM:0000044 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05"}
+relationship: BFO:0000051 AISM:0000087 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05"}
+
+[Term]
+id: COLAO:0000145
+name: maxillolabial sulcus {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence, J.F., Ślipiński, A., Seago, A.E., Thayer, M.K., Newton, A.F. & Marvaldi, A.E. (2011) Phylogeny of the Coleoptera based on morphological characters of adults and larvae. Annales Zoologici 61, 1–217.\n\nhttps://doi.org/10.3161/000345411X576725\n\nSee character 399.", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05"}
+def: "The cuticular sulcus on the cuticle of the maxillolabial complex." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05"}
+is_a: AISM:0000162 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05"}
+relationship: BFO:0000050 COLAO:0000144 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05"} ! cuticle of maxillolabial complex
+
+[Term]
+id: COLAO:0000146
+name: ventral epicranial ridge {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence, J.F., Ślipiński, A., Seago, A.E., Thayer, M.K., Newton, A.F. & Marvaldi, A.E. (2011) Phylogeny of the Coleoptera based on morphological characters of adults and larvae. Annales Zoologici 61, 1–217.\n\nhttps://doi.org/10.3161/000345411X576725\n\n\"Ventral epicranial ridges originate just laterad of the ventral mandibular articulations and extend posteriorly flanking the hypostomal rods or lateral edges of the hypostomal cavity; they are not sclerotized rods but rather the edges of a countersunk housing for the ventral mouthparts or maxillolabial complex.\"", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05"}
+def: "The cuticular ridge on the ventral region of the head capsule that is lateral to the cranio-mandibular articulation." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05"}
+is_a: AISM:0000158 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05"}
+relationship: AISM:0000011 AISM:0000014 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05"}
+relationship: BFO:0000050 AISM:0000019 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05"}
+relationship: BFO:0000050 BSPO:0000084 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05"}
+
+[Term]
+id: COLAO:0000147
+name: lateral abdominal tergal process {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", http://purl.org/dc/terms/isReferencedBy="Lawrence, J.F., Ślipiński, A., Seago, A.E., Thayer, M.K., Newton, A.F. & Marvaldi, A.E. (2011) Phylogeny of the Coleoptera based on morphological characters of adults and larvae. Annales Zoologici 61, 1–217.\n\nhttps://doi.org/10.3161/000345411X576725\n\nSee character 466, Fig. 65D.", creation_date="2023-02-05"}
+def: "The cuticular protrusion that is lateral to an abdominal tergite." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05"}
+is_a: AISM:0000008 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05"}
+relationship: AISM:0000011 AISM:0004057 {creation_date="2023-02-05"}
+
+[Term]
+id: COLAO:0000148
+name: cuticle of urogomphus {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05", http://purl.obolibrary.org/obo/AISM_0000171="Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. \n\nhttps://www.publish.csiro.au/book/6466/\n\n\"The most obvious and consistent feature of tergum IX is the presence of paired urogomphi (sing. urogomphus), whic hmay be articulated or fixed at the base andmay consist of one to several segments. The termurogomphi has been used for almost any paired prominences on tergum IX, with the exception of setae or articulated spines. The structures so designated are not necessarily homologous. The term cerci (sing. cercus) has also been applied to them, but this term should be restricted to appendages on segment X in some other orders, which are unknown in Coleoptera. Other terms that have been applied to urogomphi are pseudocerci and cornuculi.\""}
+def: "The bilaterally paired cuticular protrusion of the abdominal tergite IX." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05"}
+is_a: AISM:0000008 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05"}
+relationship: BFO:0000050 AISM:0004117 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05"}
+relationship: RO:0000053 PATO:0040024 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05"}
+
+[Term]
+id: COLAO:0000149
+name: cuticle of pregomphus {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", http://purl.obolibrary.org/obo/AISM_0000171="Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. \n\nhttps://www.publish.csiro.au/book/6466/\n\n\"Sometimes urogomphi may be accompanied by tubercles or teeth extending onto the surface of the tergum or smaller, paired processes called pregomphi\"", creation_date="2023-02-05"}
+def: "The bilaterally paired cuticular protrusion that is anterior to the urogomphus." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05"}
+is_a: AISM:0000008 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05"}
+relationship: BSPO:0000096 COLAO:0000148 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05"} ! cuticle of urogomphus
+relationship: RO:0000053 PATO:0040024 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05"}
+
+[Term]
+id: COLAO:0000150
+name: ventrally-hinged operculum {creation_date="2025-02-05", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+def: "The insect sclerite that is distal to the abdominal sternite IX." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", http://purl.obolibrary.org/obo/AISM_0000171="Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. \n\nhttps://www.publish.csiro.au/book/6466/\n\n\"In various larvae belonging to the families Dryopidae, Limnichidae (Hyphalinae), Lutrochidae, Elmidae, Ptilodactylidae (Araeopidiinae, Cladotominae), Chelonariidae, Psephenidae (Eubriinae, Psephenoidinae), a ventrally-hinged operculum (Figs 52Z, 65H, J) is formed from sternum X, which articulated with the ventral part of the ninth segment.\"", creation_date="2023-02-05"}
+is_a: AISM:0000003 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05"}
+relationship: BSPO:0000097 AISM:0004119 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05"}
+
+[Term]
+id: COLAO:0000151
+name: cribriform spiracle {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. \n\nhttps://www.publish.csiro.au/book/6466/\n\n\"The cribriformspiracle has themain opening blocked, not by a single division, but by a sieve plate bearing numerous fine perforations. The cuticular area immediately adjoining the sieve plate and usually partly surrounded by it is called the bulla, and it is here that the spiracular scar is located.\"", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05"}
+def: "The insect spiracle composed of a sieve plate of the cribriform spiracle and a spiracular scar." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05"}
+is_a: AISM:0000135 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05"}
+relationship: BFO:0000051 COLAO:0000152 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05"} ! sieve plate of the cribriform spiracle
+relationship: BFO:0000051 COLAO:0000153 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05"} ! spiracular scar
+
+[Term]
+id: COLAO:0000152
+name: sieve plate of the cribriform spiracle {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", http://purl.obolibrary.org/obo/AISM_0000171="Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. \n\nhttps://www.publish.csiro.au/book/6466/\n\n\"The cribriformspiracle has themain opening blocked, not by a single division, but by a sieve plate bearing numerous fine perforations\"", creation_date="2023-02-05"}
+def: "The perforated region of the cuticle that is part of the cribriform spiracle." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05"}
+is_a: AISM:0000174 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05"}
+relationship: BFO:0000050 COLAO:0000151 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05"} ! cribriform spiracle
+relationship: RO:0000053 PATO:0002112 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05"} ! perforate
+
+[Term]
+id: COLAO:0000153
+name: spiracular scar {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", http://purl.obolibrary.org/obo/AISM_0000171="Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. \n\nhttps://www.publish.csiro.au/book/6466/\n\n\"The cuticular area immediately adjoining the sieve plate and usually partly surrounded by it is called the bulla, and it is here that the spiracular scar is located.\"", creation_date="2023-02-05"}
+def: "The insect sclerite that is part of the insect spiracle." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05"}
+is_a: AISM:0000003 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05"}
+relationship: BFO:0000050 AISM:0000135 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05"}
+
+[Term]
+id: PATO:0000001
+name: quality
+def: "A dependent entity that inheres in a bearer by virtue of how the bearer is related to other entities [database_cross_reference: PATOC:GVG]" []
+
+[Term]
+id: PATO:0000052
+is_a: PATO:0000001 ! quality
+
+[Term]
+id: PATO:0000117
+is_a: PATO:0000001 ! quality
+
+[Term]
+id: PATO:0000413
+name: square
+def: "A shape quality inhering in a bearer by virtue of the bearer's having an equal-sided rectangular form. [database_cross_reference: answers.com:answers.com]" []
+is_a: PATO:0000001 ! quality
+
+[Term]
+id: PATO:0000964
+is_a: PATO:0000001 ! quality
+
+[Term]
+id: PATO:0000984
+is_a: PATO:0000001 ! quality
+
+[Term]
+id: PATO:0001031
+is_a: PATO:0000001 ! quality
+
+[Term]
+id: PATO:0001543
+is_a: PATO:0000001 ! quality
+
+[Term]
+id: PATO:0002078
+is_a: PATO:0000001 ! quality
+
+[Term]
+id: PATO:0002112
+name: perforate {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05"}
+def: "A structural quality inhering in a bearer by virtue of the bearer's having a hole or holes, especially a row or array of small holes. [database_cross_reference: answers.com:answers.com]" []
+is_a: PATO:0000001 ! quality
+
+[Term]
+id: PATO:0002227
+name: cup-shaped {creation_date="2023-01-20", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+def: "A concave 3-D shape quality inhering in a bearer by virtue of the bearer's shape form resembling the shape of a cup. [database_cross_reference: url:http://www.thefreedictionary.com/cup-shaped]" []
+is_a: PATO:0000052
+
+[Term]
+id: PATO:0002425
+name: exposed {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05"}
+def: "Open to view or not covered by another entity. [database_cross_reference: PATOC:WD]" []
+is_a: PATO:0000001 ! quality
+
+[Term]
+id: PATO:0040024
+is_a: PATO:0000001 ! quality
+
+[Term]
+id: UBERON:0001062
+name: anatomical entity
+def: "Biological entity that is either an individual member of a biological species or constitutes the structural organization of an individual member of a biological species. [ FMA : 62955 http://orcid.org/0000-0001-9114-8737 ]" []
 

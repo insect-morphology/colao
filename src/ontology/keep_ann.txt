@@ -13,6 +13,7 @@ http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
 http://purl.obolibrary.org/obo/ncbitaxon#has_rank
 http://www.geneontology.org/formats/oboInOwl#hasAlternativeId
 http://www.geneontology.org/formats/oboInOwl#hasDbXref
+http://www.geneontology.org/formats/oboInOwl#note
 http://www.geneontology.org/formats/oboInOwl#taxon
 http://www.geneontology.org/formats/oboInOwl#version
 http://www.w3.org/2000/01/rdf-schema#comment
