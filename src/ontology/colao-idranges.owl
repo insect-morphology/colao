@@ -43,8 +43,8 @@ Datatype: idrange:1
 Datatype: idrange:2
 
     Annotations: 
-        allocatedto: "Sergei Tarasov"
-        ORCID: "https://orcid.org/0000-0001-5237-2330"
+        allocatedto: "Giulio Montanaro"
+        ORCID: "https://orcid.org/0000-0003-0836-1364"
     
     EquivalentTo: 
         xsd:integer[>= COLAO:0000200 , <= COLAO:0000299]
