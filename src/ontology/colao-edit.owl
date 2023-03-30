@@ -14,8 +14,10 @@ Annotation(<http://purl.obolibrary.org/obo/IAO_0000700> "http://purl.obolibrary.
 Annotation(<http://purl.obolibrary.org/obo/IAO_0000700> "http://purl.obolibrary.org/obo/PATO_0000001")
 Annotation(<http://purl.obolibrary.org/obo/IAO_0000700> "http://purl.obolibrary.org/obo/UBERON_0001062")
 Annotation(dce:contributor "Aaron Smith (asmith) https://orcid.org/0000-0002-1286-950X")
+Annotation(dce:contributor "Giulio Montanaro (gmontanaro) https://orcid.org/0000-0003-0836-1364")
 Annotation(dce:contributor "Jennifer C. Girón (jgiron) https://orcid.org/0000-0002-0851-6883")
 Annotation(dce:contributor "Ryan Lumen (rlumen) https://orcid.org/0000-0002-3958-7596")
+Annotation(dce:contributor "Sergei Tarasov (starasov) https://orcid.org/0000-0001-5237-2330")
 Annotation(dce:description "The Coleoptera Anatomy Ontology contains terms used for describing the anatomy and phenotype of beetles in biodiversity research."@en)
 Annotation(dce:title "Coleoptera Anatomy Ontology")
 Annotation(dcterms:license <https://creativecommons.org/licenses/by/4.0/>)
@@ -181,6 +183,44 @@ Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000150>))
 Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000151>))
 Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000152>))
 Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000153>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000200>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000201>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000202>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000203>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000204>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000205>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000206>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000207>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000208>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000209>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000210>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000211>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000212>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000213>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000214>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000215>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000216>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000217>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000218>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000219>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000220>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000221>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000222>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000223>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000224>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000225>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000226>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000227>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000228>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000229>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000230>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000231>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000232>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000233>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000234>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000235>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000236>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000237>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000413>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0002112>))
@@ -210,7 +250,7 @@ AnnotationAssertion(rdfs:label dcterms:isReferencedBy "isReferencedBy"@en)
 #   Classes
 ############################
 
-# Class: <http://purl.obolibrary.org/obo/AISM_0000141> (mesendosternite)
+# Class: <http://purl.obolibrary.org/obo/AISM_0000141> (mesofurca)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Lawrence JF, Beutel RG, Leschen RA, Ślipiński A (2010) Glossary of morphological terms. Handbuch der Zoologie/Handbook of Zoology. Band 4: 9–20. 
 
@@ -219,7 +259,7 @@ https://doi.org/10.1515/9783110911213.9
 \"A pair of internal apodemes formed by invaginations within the mesocoxal cavities and representing the original furca.\""@en) rdfs:label <http://purl.obolibrary.org/obo/AISM_0000141> "mesendosternite"@en)
 SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-01-20") <http://purl.obolibrary.org/obo/AISM_0000141> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/PATO_0040024>))
 
-# Class: <http://purl.obolibrary.org/obo/AISM_0000142> (metendosternite)
+# Class: <http://purl.obolibrary.org/obo/AISM_0000142> (metafurca)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Lawrence JF, Beutel RG, Leschen RA, Ślipiński A (2010) Glossary of morphological terms. Handbuch der Zoologie/Handbook of Zoology. Band 4: 9–20. 
 
@@ -424,7 +464,7 @@ https://doi.org/10.1515/9783110911213.9
 SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000011> <http://purl.obolibrary.org/obo/AISM_0000174>)
 SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000011> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000072> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/COLAO_0000010>)))
 
-# Class: <http://purl.obolibrary.org/obo/COLAO_0000012> (sutural margin)
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000012> (elytral sutural margin)
 
 AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2021-08-27") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000012> "The medial margin of the elytron."@en)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Hansen M (1991) The hydrophiloid beetles. Phylogeny, classification and a revision of the genera (Coleoptera: Hydrophilidae). Biologiske Skrifter 40: 1–367. 
@@ -435,7 +475,8 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "La
 https://www.publish.csiro.au/book/6466/
 
 \"mesal edge of an elytron, which meets the corresponding edge of the opposite elytron\""@en) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/COLAO_0000012> "sutural edge"@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000012> "sutural margin"@en)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000232> "Modified 2023-03-27: added 'elytral'to be specific.
+jgiron https://orcid.org/0000-0002-0851-6883"@en) rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000012> "elytral sutural margin"@en)
 SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000012> <http://purl.obolibrary.org/obo/BSPO_0000683>)
 SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000012> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/COLAO_0000000>))
 
@@ -1200,8 +1241,7 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "La
 
 https://doi.org/10.3161/000345411X576725
 
-\"The cupule, as used here, includes but is not restricted to the functional
-cupule playing a role in the respiration of aquatic hydrophilids and hydraenids. Any cup-like antennomere immediately preceding the club (e.g. that in Silphidae) is also considered to be a cupule.\""@en) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/COLAO_0000085> "cupule"@en)
+\"The cupule, as used here, includes but is not restricted to the functional cupule playing a role in the respiration of aquatic hydrophilids and hydraenids. Any cup-like antennomere immediately preceding the club (e.g. that in Silphidae) is also considered to be a cupule.\""@en) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/COLAO_0000085> "cupule"@en)
 AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-01-20") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000085> "cuticle of cupule"@en)
 SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-01-20") <http://purl.obolibrary.org/obo/COLAO_0000085> <http://purl.obolibrary.org/obo/AISM_0004266>)
 SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-01-20") <http://purl.obolibrary.org/obo/COLAO_0000085> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/PATO_0002227>))
@@ -1333,7 +1373,7 @@ SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6
 
 # Class: <http://purl.obolibrary.org/obo/COLAO_0000097> (anterior longitudinal flange of the metendosternite)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000097> "The cuticular carin on the anterior region of the metendosternite that is parallel to some anterior-posterior axis."@en)
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-01-21") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000097> "The cuticular carina on the anterior region of the metendosternite (metafurca) that is parallel to the anterior-posterior axis."@en)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Velázquez de Castro, A.J. (1998) Morphology and taxonomy of the genus Sitona Germar, 1817.(I): the metendosternite (Coleoptera: Curculionidae). Bollettino del Museo Regionale di Scienze Naturali, Torino XX I.C.E., 109–123.
 
 See page 111."@en) Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-01-21") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/COLAO_0000097> "ventral longitudinal flange"@en)
@@ -1344,7 +1384,7 @@ SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6
 
 # Class: <http://purl.obolibrary.org/obo/COLAO_0000098> (anterior transverse flange of the metendosternite)
 
-AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-01-21") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000098> "The cuticular carina on the anterior region of the metendosternite that is parallel to the left-right axis."@en)
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-01-21") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000098> "The cuticular carina on the anterior region of the metendosternite (metafurca) that is parallel to the left-right axis."@en)
 AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-01-21") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000098> "anterior transverse flange of the metendosternite"@en)
 SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-01-21") <http://purl.obolibrary.org/obo/COLAO_0000098> <http://purl.obolibrary.org/obo/AISM_0000501>)
 SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-01-21") <http://purl.obolibrary.org/obo/COLAO_0000098> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0000142>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/BSPO_0000071>)))
@@ -1916,6 +1956,281 @@ https://www.publish.csiro.au/book/6466/
 \"The cuticular area immediately adjoining the sieve plate and usually partly surrounded by it is called the bulla, and it is here that the spiracular scar is located.\""@en) Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883"@en) Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-02-05"@en) rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000153> "spiracular scar"@en)
 SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-02-05") <http://purl.obolibrary.org/obo/COLAO_0000153> <http://purl.obolibrary.org/obo/AISM_0000003>)
 SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-02-05") <http://purl.obolibrary.org/obo/COLAO_0000153> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0000135>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000200> (anterolateral pronotal apodeme)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-03-27") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000200> "The apodeme that is bilaterally paired and adjacent to the internal side of the anterior region of the pronotum and adjacent to the internal side of the antero-lateral region of the pronotum."@en)
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-01-30") <http://purl.obolibrary.org/obo/IAO_0000232> <http://purl.obolibrary.org/obo/COLAO_0000200> "In Scarabaeinae, an apodeme attached to the anterolateral and to the anterior margins of pronotum."@en)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Tarasov S, Génier F (2015) Innovative Bayesian and Parsimony Phylogeny of Dung Beetles (Coleoptera, Scarabaeidae, Scarabaeinae) Enhanced by Ontology-Based Partitioning of Morphological Characters. PLOS ONE 10: e0116671. https://doi.org/10.1371/journal.pone.0116671 
+
+See character 164: Prothorax, basisternal furca: (0) absent; (1) present (Fig. 45j)."@en) <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/COLAO_0000200> "basisternal furca"@en)
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-03-27") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000200> "anterolateral pronotal apodeme"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-03-27") <http://purl.obolibrary.org/obo/COLAO_0000200> <http://purl.obolibrary.org/obo/AISM_0000188>)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-01-30") <http://purl.obolibrary.org/obo/COLAO_0000200> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/PATO_0040024>))
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-03-27") <http://purl.obolibrary.org/obo/COLAO_0000200> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002220> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000377> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0000059>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/BSPO_0000029>)))))
+SubClassOf(Annotation(dce:contributor "2023-03-27") Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") <http://purl.obolibrary.org/obo/COLAO_0000200> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002220> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000377> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0000059>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/BSPO_0000071>)))))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000201> (elytral interstria 1)
+
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000201> "The elytral interstria that is lateral to the sutural margin."@en)
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000201> "elytral interstria 1"@en)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/COLAO_0000201> <http://purl.obolibrary.org/obo/COLAO_0000018>)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/COLAO_0000201> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AISM_0000011> <http://purl.obolibrary.org/obo/COLAO_0000012>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000202> (elytral stria 1)
+
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000202> "The elytral stria that is lateral to the elytral interstria 1."@en)
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000202> "elytral stria 1"@en)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/COLAO_0000202> <http://purl.obolibrary.org/obo/COLAO_0000017>)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/COLAO_0000202> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AISM_0000011> <http://purl.obolibrary.org/obo/COLAO_0000201>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000203> (elytral interstria 2)
+
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000203> "The elytral interstria that is lateral to the elytral stria 1."@en)
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000203> "elytral interstria 2"@en)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/COLAO_0000203> <http://purl.obolibrary.org/obo/COLAO_0000018>)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/COLAO_0000203> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AISM_0000011> <http://purl.obolibrary.org/obo/COLAO_0000202>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000204> (elytral stria 2)
+
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000204> "The elytral stria that is lateral to the elytral interstria 2."@en)
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000204> "elytral stria 2"@en)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/COLAO_0000204> <http://purl.obolibrary.org/obo/COLAO_0000017>)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/COLAO_0000204> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AISM_0000011> <http://purl.obolibrary.org/obo/COLAO_0000203>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000205> (elytral interstria 3)
+
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000205> "The elytral interstria that is lateral to the elytral stria 2."@en)
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000205> "elytral interstria 3"@en)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/COLAO_0000205> <http://purl.obolibrary.org/obo/COLAO_0000018>)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/COLAO_0000205> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AISM_0000011> <http://purl.obolibrary.org/obo/COLAO_0000204>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000206> (elytral stria 3)
+
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000206> "The elytral stria that is lateral to the elytral interstria 3."@en)
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000206> "elytral stria 3"@en)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/COLAO_0000206> <http://purl.obolibrary.org/obo/COLAO_0000017>)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/COLAO_0000206> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AISM_0000011> <http://purl.obolibrary.org/obo/COLAO_0000205>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000207> (elytral interstria 4)
+
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000207> "The elytral interstria that is lateral to the elytral stria 3."@en)
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000207> "elytral interstria 4"@en)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/COLAO_0000207> <http://purl.obolibrary.org/obo/COLAO_0000018>)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/COLAO_0000207> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AISM_0000011> <http://purl.obolibrary.org/obo/COLAO_0000206>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000208> (elytral stria 4)
+
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000208> "The elytral stria that is lateral to the elytral interstria 4."@en)
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000208> "elytral stria 4"@en)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/COLAO_0000208> <http://purl.obolibrary.org/obo/COLAO_0000017>)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/COLAO_0000208> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AISM_0000011> <http://purl.obolibrary.org/obo/COLAO_0000207>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000209> (elytral interstria 5)
+
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000209> "The elytral interstria that is lateral to the elytral stria 4."@en)
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000209> "elytral interstria 5"@en)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/COLAO_0000209> <http://purl.obolibrary.org/obo/COLAO_0000018>)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/COLAO_0000209> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AISM_0000011> <http://purl.obolibrary.org/obo/COLAO_0000208>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000210> (elytral stria 5)
+
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000210> "The elytral stria that is lateral to the elytral interstria 5."@en)
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000210> "elytral stria 5"@en)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/COLAO_0000210> <http://purl.obolibrary.org/obo/COLAO_0000017>)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/COLAO_0000210> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AISM_0000011> <http://purl.obolibrary.org/obo/COLAO_0000209>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000211> (elytral interstria 6)
+
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000211> "The elytral interstria that is lateral to the elytral stria 5."@en)
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000211> "elytral interstria 6"@en)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/COLAO_0000211> <http://purl.obolibrary.org/obo/COLAO_0000018>)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/COLAO_0000211> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AISM_0000011> <http://purl.obolibrary.org/obo/COLAO_0000210>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000212> (elytral stria 6)
+
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000212> "The elytral stria that is lateral to the elytral interstria 6."@en)
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-09-06") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000212> "elytral stria 6"@en)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/COLAO_0000212> <http://purl.obolibrary.org/obo/COLAO_0000017>)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/COLAO_0000212> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AISM_0000011> <http://purl.obolibrary.org/obo/COLAO_0000211>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000213> (elytral interstria 7)
+
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000213> "The elytral interstria that is lateral to the elytral stria 6."@en)
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000213> "elytral interstria 7"@en)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/COLAO_0000213> <http://purl.obolibrary.org/obo/COLAO_0000018>)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/COLAO_0000213> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AISM_0000011> <http://purl.obolibrary.org/obo/COLAO_0000212>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000214> (elytral stria 7)
+
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000214> "The elytral stria that is lateral to the elytral interstria 7."@en)
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000214> "elytral stria 7"@en)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/COLAO_0000214> <http://purl.obolibrary.org/obo/COLAO_0000017>)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/COLAO_0000214> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AISM_0000011> <http://purl.obolibrary.org/obo/COLAO_0000213>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000215> (elytral interstria 8)
+
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000215> "The elytral interstria that is lateral to the elytral stria 7."@en)
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000215> "elytral interstria 8"@en)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/COLAO_0000215> <http://purl.obolibrary.org/obo/COLAO_0000018>)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/COLAO_0000215> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AISM_0000011> <http://purl.obolibrary.org/obo/COLAO_0000214>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000216> (elytral stria 8)
+
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000216> "The elytral stria that is lateral to the elytral interstria 8."@en)
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000216> "elytral stria 8"@en)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/COLAO_0000216> <http://purl.obolibrary.org/obo/COLAO_0000017>)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/COLAO_0000216> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AISM_0000011> <http://purl.obolibrary.org/obo/COLAO_0000215>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000217> (elytral interstria 9)
+
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000217> "The elytral interstria that is lateral to the elytral stria 8."@en)
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000217> "elytral interstria 9"@en)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/COLAO_0000217> <http://purl.obolibrary.org/obo/COLAO_0000018>)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/COLAO_0000217> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AISM_0000011> <http://purl.obolibrary.org/obo/COLAO_0000216>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000218> (elytral stria 9)
+
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000218> "The elytral stria that is lateral to the elytral interstria 9."@en)
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000218> "elytral stria 9"@en)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/COLAO_0000218> <http://purl.obolibrary.org/obo/COLAO_0000017>)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/COLAO_0000218> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AISM_0000011> <http://purl.obolibrary.org/obo/COLAO_0000217>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000219> (elytral interstria 10)
+
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000219> "The elytral interstria that is lateral to the elytral stria 9."@en)
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000219> "elytral interstria 10"@en)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/COLAO_0000219> <http://purl.obolibrary.org/obo/COLAO_0000018>)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/COLAO_0000219> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AISM_0000011> <http://purl.obolibrary.org/obo/COLAO_0000218>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000220> (elytral stria 10)
+
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000220> "The elytral stria that is lateral to the elytral interstria 10."@en)
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000220> "elytral stria 10"@en)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/COLAO_0000220> <http://purl.obolibrary.org/obo/COLAO_0000017>)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/COLAO_0000220> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AISM_0000011> <http://purl.obolibrary.org/obo/COLAO_0000219>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000221> (elytral interstria 11)
+
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000221> "The elytral interstria that is lateral to the elytral stria 10."@en)
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000221> "elytral interstria 11"@en)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/COLAO_0000221> <http://purl.obolibrary.org/obo/COLAO_0000018>)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/COLAO_0000221> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AISM_0000011> <http://purl.obolibrary.org/obo/COLAO_0000220>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000222> (elytral stria 11)
+
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000222> "The elytral stria that is lateral to the elytral interstria 11."@en)
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000222> "elytral stria 11"@en)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/COLAO_0000222> <http://purl.obolibrary.org/obo/COLAO_0000017>)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/COLAO_0000222> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AISM_0000011> <http://purl.obolibrary.org/obo/COLAO_0000221>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000223> (elytral interstria 12)
+
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000223> "The elytral interstria that is lateral to the elytral stria 11."@en)
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000223> "elytral interstria 12"@en)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/COLAO_0000223> <http://purl.obolibrary.org/obo/COLAO_0000018>)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-09-06") <http://purl.obolibrary.org/obo/COLAO_0000223> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AISM_0000011> <http://purl.obolibrary.org/obo/COLAO_0000222>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000224> (clypeal tooth)
+
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-03-28") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000224> "The cuticular protrusion on the anterior margin of the clypeus."@en)
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-10-30") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000224> "clypeal tooth"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-03-28") <http://purl.obolibrary.org/obo/COLAO_0000224> <http://purl.obolibrary.org/obo/AISM_0000008>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-03-28") <http://purl.obolibrary.org/obo/COLAO_0000224> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000671> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0004019>))))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000225> (medial clypeal tooth)
+
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-10-30") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000225> "The clypeal tooth that is not bilaterally paired and located in the medial region."@en)
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-10-30") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000225> "medial clypeal tooth"@en)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-10-30") <http://purl.obolibrary.org/obo/COLAO_0000225> <http://purl.obolibrary.org/obo/COLAO_0000224>)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-10-30") <http://purl.obolibrary.org/obo/COLAO_0000225> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> ObjectComplementOf(<http://purl.obolibrary.org/obo/PATO_0040024>)))
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-03-28") <http://purl.obolibrary.org/obo/COLAO_0000225> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://purl.obolibrary.org/obo/BSPO_0000083>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000226> (lateral clypeal tooth)
+
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-10-30") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000226> "The clypeal tooth that is bilaterally paired and located in the lateral region."@en)
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-10-30") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000226> "lateral clypeal tooth"@en)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-10-30") <http://purl.obolibrary.org/obo/COLAO_0000226> <http://purl.obolibrary.org/obo/COLAO_0000224>)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-10-30") <http://purl.obolibrary.org/obo/COLAO_0000226> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/PATO_0040024>))
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-03-28") <http://purl.obolibrary.org/obo/COLAO_0000226> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://purl.obolibrary.org/obo/BSPO_0000082>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000227> (lateral clypeal tooth 1)
+
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-10-30") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000227> "The lateral clypeal tooth that is lateral to the medial region."@en)
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-10-30") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000227> "lateral clypeal tooth 1"@en)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-10-30") <http://purl.obolibrary.org/obo/COLAO_0000227> <http://purl.obolibrary.org/obo/COLAO_0000226>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-03-28") <http://purl.obolibrary.org/obo/COLAO_0000227> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AISM_0000011> <http://purl.obolibrary.org/obo/BSPO_0000083>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000228> (lateral clypeal tooth 2)
+
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-10-30") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000228> "The lateral clypeal tooth that is lateral to the lateral clypeal tooth 1."@en)
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-10-30") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000228> "lateral clypeal tooth 2"@en)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-10-30") <http://purl.obolibrary.org/obo/COLAO_0000228> <http://purl.obolibrary.org/obo/COLAO_0000226>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-03-28") <http://purl.obolibrary.org/obo/COLAO_0000228> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AISM_0000011> <http://purl.obolibrary.org/obo/COLAO_0000227>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000229> (lateral clypeal tooth 3)
+
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-10-30") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000229> "The lateral clypeal tooth that is lateral to the lateral clypeal tooth 2."@en)
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-10-30") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000229> "lateral clypeal tooth 3"@en)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-10-30") <http://purl.obolibrary.org/obo/COLAO_0000229> <http://purl.obolibrary.org/obo/COLAO_0000226>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-03-28") <http://purl.obolibrary.org/obo/COLAO_0000229> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AISM_0000011> <http://purl.obolibrary.org/obo/COLAO_0000228>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000230> (cuticle of club antennomere)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-03-28") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000230> "The cuticle of antennomere that is part of the distal region of the cuticle of the antenna and is increased in size."@en)
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-11-06") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000230> "cuticle of club antennomere"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-03-28") <http://purl.obolibrary.org/obo/COLAO_0000230> <http://purl.obolibrary.org/obo/AISM_0004266>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-03-28") <http://purl.obolibrary.org/obo/COLAO_0000230> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0000032>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/BSPO_0000078>)))
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-03-28") <http://purl.obolibrary.org/obo/COLAO_0000230> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/PATO_0000586>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000231> (tibial cuticular tooth)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-03-28") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000231> "The cuticular protrusion of the cuticle of tibia."@en)
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-10-14") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000231> "tibial cuticular tooth"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-03-28") <http://purl.obolibrary.org/obo/COLAO_0000231> <http://purl.obolibrary.org/obo/AISM_0000008>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-03-28") <http://purl.obolibrary.org/obo/COLAO_0000231> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0000075>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000232> (protibial cuticular tooth)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-03-28") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000232> "The cuticular protrusion of the cuticle of protibia."@en)
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-10-14") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000232> "protibial cuticular tooth"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-03-28") <http://purl.obolibrary.org/obo/COLAO_0000232> <http://purl.obolibrary.org/obo/COLAO_0000231>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-03-28") <http://purl.obolibrary.org/obo/COLAO_0000232> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0000067>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000233> (posterior protibial cuticular tooth)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-03-28") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000233> "The protibial cuticular tooth on the posterior margin."@en)
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-10-14") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000233> "posterior protibial cuticular tooth"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-03-28") <http://purl.obolibrary.org/obo/COLAO_0000233> <http://purl.obolibrary.org/obo/COLAO_0000232>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-03-28") <http://purl.obolibrary.org/obo/COLAO_0000233> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/BSPO_0000672>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000234> (posterior protibial cuticular tooth 1)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-03-30") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000234> "The posterior protibial cuticular tooth that is proximal to the distal margin of the tibia."@en)
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-10-14") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000234> "posterior protibial cuticular tooth 1"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-03-28") <http://purl.obolibrary.org/obo/COLAO_0000234> <http://purl.obolibrary.org/obo/COLAO_0000233>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-03-30") <http://purl.obolibrary.org/obo/COLAO_0000234> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSPO_0000100> <http://purl.obolibrary.org/obo/BSPO_0000678>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000235> (posterior protibial cuticular tooth 2)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-03-30") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000235> "The posterior protibial cuticular tooth that is proximal to the posterior protibial cuticular tooth 1."@en)
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-10-14") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000235> "posterior protibial cuticular tooth 2"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-03-28") <http://purl.obolibrary.org/obo/COLAO_0000235> <http://purl.obolibrary.org/obo/COLAO_0000233>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-03-30") <http://purl.obolibrary.org/obo/COLAO_0000235> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSPO_0000100> <http://purl.obolibrary.org/obo/COLAO_0000234>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000236> (posterior protibial cuticular tooth 3)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-03-30") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000236> "The posterior protibial cuticular tooth that is proximal to the posterior protibial cuticular tooth 2."@en)
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-10-14") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000236> "posterior protibial cuticular tooth 3"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-03-28") <http://purl.obolibrary.org/obo/COLAO_0000236> <http://purl.obolibrary.org/obo/COLAO_0000233>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-03-30") <http://purl.obolibrary.org/obo/COLAO_0000236> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSPO_0000100> <http://purl.obolibrary.org/obo/COLAO_0000235>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000237> (posterior protibial cuticular tooth 4)
+
+AnnotationAssertion(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-03-30") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000237> "The posterior protibial cuticular tooth that is proximal to the posterior protibial cuticular tooth 3."@en)
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2022-10-14") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000237> "posterior protibial cuticular tooth 4"@en)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-03-28") <http://purl.obolibrary.org/obo/COLAO_0000237> <http://purl.obolibrary.org/obo/COLAO_0000233>)
+SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-03-30") <http://purl.obolibrary.org/obo/COLAO_0000237> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSPO_0000100> <http://purl.obolibrary.org/obo/COLAO_0000236>))
 
 # Class: <http://purl.obolibrary.org/obo/PATO_0000001> (quality)
 
