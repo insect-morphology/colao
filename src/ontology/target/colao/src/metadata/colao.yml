@@ -25,3 +25,4 @@ entries:
 ## generic fall-through, serve direct from github by default
 - prefix: /
   replacement: https://raw.githubusercontent.com/JCGiron/colao/main/
+

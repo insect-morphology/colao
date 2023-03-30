@@ -1,17 +1,19 @@
 format-version: 1.2
-data-version: colao/releases/2023-02-06/colao-base.owl
+data-version: colao/releases/2023-03-30/colao-base.owl
 ontology: colao/colao-base
 property_value: http://purl.org/dc/elements/1.1/contributor "Aaron Smith (asmith) https://orcid.org/0000-0002-1286-950X" xsd:string
+property_value: http://purl.org/dc/elements/1.1/contributor "Giulio Montanaro (gmontanaro) https://orcid.org/0000-0003-0836-1364" xsd:string
 property_value: http://purl.org/dc/elements/1.1/contributor "Jennifer C. Girón (jgiron) https://orcid.org/0000-0002-0851-6883" xsd:string
 property_value: http://purl.org/dc/elements/1.1/contributor "Ryan Lumen (rlumen) https://orcid.org/0000-0002-3958-7596" xsd:string
+property_value: http://purl.org/dc/elements/1.1/contributor "Sergei Tarasov (starasov) https://orcid.org/0000-0001-5237-2330" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "The Coleoptera Anatomy Ontology contains terms used for describing the anatomy and phenotype of beetles in biodiversity research." xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "Coleoptera Anatomy Ontology" xsd:string
 property_value: http://purl.org/dc/elements/1.1/type IAO:8000001
 property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/by/4.0/
-property_value: IAO:0000700 http://purl.obolibrary.org/obo/AISM_0000174 xsd:string
-property_value: IAO:0000700 http://purl.obolibrary.org/obo/PATO_0000001 xsd:string
-property_value: IAO:0000700 http://purl.obolibrary.org/obo/UBERON_0001062 xsd:string
-property_value: owl:versionInfo "2023-02-06" xsd:string
+property_value: IAO:0000700 "http://purl.obolibrary.org/obo/AISM_0000174" xsd:string
+property_value: IAO:0000700 "http://purl.obolibrary.org/obo/PATO_0000001" xsd:string
+property_value: IAO:0000700 "http://purl.obolibrary.org/obo/UBERON_0001062" xsd:string
+property_value: owl:versionInfo "2023-03-30" xsd:string
 
 [Term]
 id: AISM:0000141
@@ -159,7 +161,7 @@ is_a: AISM:0000174 {http://purl.org/dc/elements/1.1/contributor="jgiron https://
 
 [Term]
 id: COLAO:0000012
-name: sutural margin
+name: elytral sutural margin {http://purl.obolibrary.org/obo/IAO_0000232="Modified 2023-03-27: added 'elytral'to be specific.\njgiron https://orcid.org/0000-0002-0851-6883"}
 def: "The medial margin of the elytron." [] {creation_date="2021-08-27", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
 synonym: "elytral suture" EXACT [] {http://purl.obolibrary.org/obo/AISM_0000171="Hansen M (1991) The hydrophiloid beetles. Phylogeny, classification and a revision of the genera (Coleoptera: Hydrophilidae). Biologiske Skrifter 40: 1–367. \n\n[Fig. 150]"}
 synonym: "sutural edge" EXACT [] {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. \n\nhttps://www.publish.csiro.au/book/6466/\n\n\"mesal edge of an elytron, which meets the corresponding edge of the opposite elytron\""}
@@ -685,7 +687,7 @@ property_value: http://purl.org/dc/elements/1.1/description "The cuticular groov
 [Term]
 id: COLAO:0000085
 name: cuticle of cupule {creation_date="2023-01-20", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
-synonym: "cupule" EXACT [] {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence, J.F., Ślipiński, A., Seago, A.E., Thayer, M.K., Newton, A.F. & Marvaldi, A.E. (2011) Phylogeny of the Coleoptera based on morphological characters of adults and larvae. Annales Zoologici 61, 1–217.\n\nhttps://doi.org/10.3161/000345411X576725\n\n\"The cupule, as used here, includes but is not restricted to the functional\ncupule playing a role in the respiration of aquatic hydrophilids and hydraenids. Any cup-like antennomere immediately preceding the club (e.g. that in Silphidae) is also considered to be a cupule.\""}
+synonym: "cupule" EXACT [] {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence, J.F., Ślipiński, A., Seago, A.E., Thayer, M.K., Newton, A.F. & Marvaldi, A.E. (2011) Phylogeny of the Coleoptera based on morphological characters of adults and larvae. Annales Zoologici 61, 1–217.\n\nhttps://doi.org/10.3161/000345411X576725\n\n\"The cupule, as used here, includes but is not restricted to the functional cupule playing a role in the respiration of aquatic hydrophilids and hydraenids. Any cup-like antennomere immediately preceding the club (e.g. that in Silphidae) is also considered to be a cupule.\""}
 is_a: AISM:0004266 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-20"}
 relationship: RO:0000053 PATO:0002227 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-20"} ! cup-shaped
 
@@ -775,7 +777,7 @@ relationship: RO:0000053 PATO:0040024 {http://purl.org/dc/elements/1.1/contribut
 [Term]
 id: COLAO:0000097
 name: anterior longitudinal flange of the metendosternite {creation_date="2023-01-21", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
-def: "The cuticular carin on the anterior region of the metendosternite that is parallel to some anterior-posterior axis." []
+def: "The cuticular carina on the anterior region of the metendosternite (metafurca) that is parallel to the anterior-posterior axis." [] {creation_date="2023-01-21", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
 synonym: "ventral longitudinal flange" EXACT [] {creation_date="2023-01-21", http://purl.obolibrary.org/obo/AISM_0000171="Velázquez de Castro, A.J. (1998) Morphology and taxonomy of the genus Sitona Germar, 1817.(I): the metendosternite (Coleoptera: Curculionidae). Bollettino del Museo Regionale di Scienze Naturali, Torino XX I.C.E., 109–123.\n\nSee page 111.", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
 is_a: AISM:0000501 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-21"}
 relationship: BFO:0000050 AISM:0000142 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-21"} ! metendosternite
@@ -785,7 +787,7 @@ relationship: parallel_to BSPO:0000013 {http://purl.org/dc/elements/1.1/contribu
 [Term]
 id: COLAO:0000098
 name: anterior transverse flange of the metendosternite {creation_date="2023-01-21", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
-def: "The cuticular carina on the anterior region of the metendosternite that is parallel to the left-right axis." [] {creation_date="2023-01-21", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+def: "The cuticular carina on the anterior region of the metendosternite (metafurca) that is parallel to the left-right axis." [] {creation_date="2023-01-21", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
 is_a: AISM:0000501 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-21"}
 relationship: BFO:0000050 AISM:0000142 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-21"} ! metendosternite
 relationship: BFO:0000050 BSPO:0000071 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-21"}
@@ -1212,6 +1214,276 @@ name: spiracular scar {http://purl.org/dc/elements/1.1/contributor="jgiron https
 def: "The insect sclerite that is part of the insect spiracle." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05"}
 is_a: AISM:0000003 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05"}
 relationship: BFO:0000050 AISM:0000135 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05"}
+
+[Term]
+id: COLAO:0000200
+name: anterolateral pronotal apodeme {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-03-27"}
+def: "The apodeme that is bilaterally paired and adjacent to the internal side of the anterior region of the pronotum and adjacent to the internal side of the antero-lateral region of the pronotum." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-03-27"}
+synonym: "basisternal furca" EXACT [] {http://purl.obolibrary.org/obo/AISM_0000171="Tarasov S, Génier F (2015) Innovative Bayesian and Parsimony Phylogeny of Dung Beetles (Coleoptera, Scarabaeidae, Scarabaeinae) Enhanced by Ontology-Based Partitioning of Morphological Characters. PLOS ONE 10: e0116671. https://doi.org/10.1371/journal.pone.0116671 \n\nSee character 164: Prothorax, basisternal furca: (0) absent; (1) present (Fig. 45j)."}
+is_a: AISM:0000188 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-03-27"}
+relationship: RO:0000053 PATO:0040024 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-01-30"}
+property_value: IAO:0000232 "In Scarabaeinae, an apodeme attached to the anterolateral and to the anterior margins of pronotum." xsd:string {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-01-30"}
+
+[Term]
+id: COLAO:0000201
+name: elytral interstria 1 {creation_date="2022-09-06", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+def: "The elytral interstria that is lateral to the sutural margin." [] {creation_date="2022-09-06", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+is_a: COLAO:0000018 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2022-09-06"} ! elytral interstria
+relationship: AISM:0000011 COLAO:0000012 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2022-09-06"} ! elytral sutural margin
+
+[Term]
+id: COLAO:0000202
+name: elytral stria 1 {creation_date="2022-09-06", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+def: "The elytral stria that is lateral to the elytral interstria 1." [] {creation_date="2022-09-06", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+is_a: COLAO:0000017 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2022-09-06"} ! elytral stria
+relationship: AISM:0000011 COLAO:0000201 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2022-09-06"} ! elytral interstria 1
+
+[Term]
+id: COLAO:0000203
+name: elytral interstria 2 {creation_date="2022-09-06", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+def: "The elytral interstria that is lateral to the elytral stria 1." [] {creation_date="2022-09-06", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+is_a: COLAO:0000018 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2022-09-06"} ! elytral interstria
+relationship: AISM:0000011 COLAO:0000202 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2022-09-06"} ! elytral stria 1
+
+[Term]
+id: COLAO:0000204
+name: elytral stria 2 {creation_date="2022-09-06", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+def: "The elytral stria that is lateral to the elytral interstria 2." [] {creation_date="2022-09-06", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+is_a: COLAO:0000017 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2022-09-06"} ! elytral stria
+relationship: AISM:0000011 COLAO:0000203 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2022-09-06"} ! elytral interstria 2
+
+[Term]
+id: COLAO:0000205
+name: elytral interstria 3 {creation_date="2022-09-06", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+def: "The elytral interstria that is lateral to the elytral stria 2." [] {creation_date="2022-09-06", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+is_a: COLAO:0000018 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2022-09-06"} ! elytral interstria
+relationship: AISM:0000011 COLAO:0000204 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2022-09-06"} ! elytral stria 2
+
+[Term]
+id: COLAO:0000206
+name: elytral stria 3 {creation_date="2022-09-06", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+def: "The elytral stria that is lateral to the elytral interstria 3." [] {creation_date="2022-09-06", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+is_a: COLAO:0000017 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2022-09-06"} ! elytral stria
+relationship: AISM:0000011 COLAO:0000205 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2022-09-06"} ! elytral interstria 3
+
+[Term]
+id: COLAO:0000207
+name: elytral interstria 4 {creation_date="2022-09-06", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+def: "The elytral interstria that is lateral to the elytral stria 3." [] {creation_date="2022-09-06", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+is_a: COLAO:0000018 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2022-09-06"} ! elytral interstria
+relationship: AISM:0000011 COLAO:0000206 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2022-09-06"} ! elytral stria 3
+
+[Term]
+id: COLAO:0000208
+name: elytral stria 4 {creation_date="2022-09-06", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+def: "The elytral stria that is lateral to the elytral interstria 4." [] {creation_date="2022-09-06", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+is_a: COLAO:0000017 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2022-09-06"} ! elytral stria
+relationship: AISM:0000011 COLAO:0000207 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2022-09-06"} ! elytral interstria 4
+
+[Term]
+id: COLAO:0000209
+name: elytral interstria 5 {creation_date="2022-09-06", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+def: "The elytral interstria that is lateral to the elytral stria 4." [] {creation_date="2022-09-06", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+is_a: COLAO:0000018 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2022-09-06"} ! elytral interstria
+relationship: AISM:0000011 COLAO:0000208 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2022-09-06"} ! elytral stria 4
+
+[Term]
+id: COLAO:0000210
+name: elytral stria 5 {creation_date="2022-09-06", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+def: "The elytral stria that is lateral to the elytral interstria 5." [] {creation_date="2022-09-06", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+is_a: COLAO:0000017 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2022-09-06"} ! elytral stria
+relationship: AISM:0000011 COLAO:0000209 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2022-09-06"} ! elytral interstria 5
+
+[Term]
+id: COLAO:0000211
+name: elytral interstria 6 {creation_date="2022-09-06", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+def: "The elytral interstria that is lateral to the elytral stria 5." [] {creation_date="2022-09-06", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+is_a: COLAO:0000018 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2022-09-06"} ! elytral interstria
+relationship: AISM:0000011 COLAO:0000210 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2022-09-06"} ! elytral stria 5
+
+[Term]
+id: COLAO:0000212
+name: elytral stria 6 {creation_date="2023-09-06", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+def: "The elytral stria that is lateral to the elytral interstria 6." [] {creation_date="2022-09-06", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+is_a: COLAO:0000017 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2022-09-06"} ! elytral stria
+relationship: AISM:0000011 COLAO:0000211 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2022-09-06"} ! elytral interstria 6
+
+[Term]
+id: COLAO:0000213
+name: elytral interstria 7 {creation_date="2022-09-06", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+def: "The elytral interstria that is lateral to the elytral stria 6." [] {creation_date="2022-09-06", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+is_a: COLAO:0000018 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2022-09-06"} ! elytral interstria
+relationship: AISM:0000011 COLAO:0000212 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2022-09-06"} ! elytral stria 6
+
+[Term]
+id: COLAO:0000214
+name: elytral stria 7 {creation_date="2022-09-06", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+def: "The elytral stria that is lateral to the elytral interstria 7." [] {creation_date="2022-09-06", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+is_a: COLAO:0000017 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2022-09-06"} ! elytral stria
+relationship: AISM:0000011 COLAO:0000213 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2022-09-06"} ! elytral interstria 7
+
+[Term]
+id: COLAO:0000215
+name: elytral interstria 8 {creation_date="2022-09-06", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+def: "The elytral interstria that is lateral to the elytral stria 7." [] {creation_date="2022-09-06", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+is_a: COLAO:0000018 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2022-09-06"} ! elytral interstria
+relationship: AISM:0000011 COLAO:0000214 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2022-09-06"} ! elytral stria 7
+
+[Term]
+id: COLAO:0000216
+name: elytral stria 8 {creation_date="2022-09-06", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+def: "The elytral stria that is lateral to the elytral interstria 8." [] {creation_date="2022-09-06", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+is_a: COLAO:0000017 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2022-09-06"} ! elytral stria
+relationship: AISM:0000011 COLAO:0000215 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2022-09-06"} ! elytral interstria 8
+
+[Term]
+id: COLAO:0000217
+name: elytral interstria 9 {creation_date="2022-09-06", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+def: "The elytral interstria that is lateral to the elytral stria 8." [] {creation_date="2022-09-06", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+is_a: COLAO:0000018 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2022-09-06"} ! elytral interstria
+relationship: AISM:0000011 COLAO:0000216 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2022-09-06"} ! elytral stria 8
+
+[Term]
+id: COLAO:0000218
+name: elytral stria 9 {creation_date="2022-09-06", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+def: "The elytral stria that is lateral to the elytral interstria 9." [] {creation_date="2022-09-06", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+is_a: COLAO:0000017 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2022-09-06"} ! elytral stria
+relationship: AISM:0000011 COLAO:0000217 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2022-09-06"} ! elytral interstria 9
+
+[Term]
+id: COLAO:0000219
+name: elytral interstria 10 {creation_date="2022-09-06", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+def: "The elytral interstria that is lateral to the elytral stria 9." [] {creation_date="2022-09-06", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+is_a: COLAO:0000018 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2022-09-06"} ! elytral interstria
+relationship: AISM:0000011 COLAO:0000218 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2022-09-06"} ! elytral stria 9
+
+[Term]
+id: COLAO:0000220
+name: elytral stria 10 {creation_date="2022-09-06", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+def: "The elytral stria that is lateral to the elytral interstria 10." [] {creation_date="2022-09-06", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+is_a: COLAO:0000017 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2022-09-06"} ! elytral stria
+relationship: AISM:0000011 COLAO:0000219 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2022-09-06"} ! elytral interstria 10
+
+[Term]
+id: COLAO:0000221
+name: elytral interstria 11 {creation_date="2022-09-06", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+def: "The elytral interstria that is lateral to the elytral stria 10." [] {creation_date="2022-09-06", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+is_a: COLAO:0000018 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2022-09-06"} ! elytral interstria
+relationship: AISM:0000011 COLAO:0000220 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2022-09-06"} ! elytral stria 10
+
+[Term]
+id: COLAO:0000222
+name: elytral stria 11 {creation_date="2022-09-06", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+def: "The elytral stria that is lateral to the elytral interstria 11." [] {creation_date="2022-09-06", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+is_a: COLAO:0000017 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2022-09-06"} ! elytral stria
+relationship: AISM:0000011 COLAO:0000221 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2022-09-06"} ! elytral interstria 11
+
+[Term]
+id: COLAO:0000223
+name: elytral interstria 12 {creation_date="2022-09-06", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+def: "The elytral interstria that is lateral to the elytral stria 11." [] {creation_date="2022-09-06", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+is_a: COLAO:0000018 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2022-09-06"} ! elytral interstria
+relationship: AISM:0000011 COLAO:0000222 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2022-09-06"} ! elytral stria 11
+
+[Term]
+id: COLAO:0000224
+name: clypeal tooth {creation_date="2022-10-30", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+def: "The cuticular protrusion on the anterior margin of the clypeus." [] {creation_date="2023-03-28", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+is_a: AISM:0000008 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-03-28"}
+
+[Term]
+id: COLAO:0000225
+name: medial clypeal tooth {creation_date="2022-10-30", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+def: "The clypeal tooth that is not bilaterally paired and located in the medial region." [] {creation_date="2022-10-30", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+is_a: COLAO:0000224 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2022-10-30"} ! clypeal tooth
+relationship: RO:0001025 BSPO:0000083 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-03-28"}
+
+[Term]
+id: COLAO:0000226
+name: lateral clypeal tooth {creation_date="2022-10-30", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+def: "The clypeal tooth that is bilaterally paired and located in the lateral region." [] {creation_date="2022-10-30", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+is_a: COLAO:0000224 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2022-10-30"} ! clypeal tooth
+relationship: RO:0000053 PATO:0040024 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2022-10-30"}
+relationship: RO:0001025 BSPO:0000082 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-03-28"}
+
+[Term]
+id: COLAO:0000227
+name: lateral clypeal tooth 1 {creation_date="2022-10-30", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+def: "The lateral clypeal tooth that is lateral to the medial region." [] {creation_date="2022-10-30", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+is_a: COLAO:0000226 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2022-10-30"} ! lateral clypeal tooth
+relationship: AISM:0000011 BSPO:0000083 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-03-28"}
+
+[Term]
+id: COLAO:0000228
+name: lateral clypeal tooth 2 {creation_date="2022-10-30", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+def: "The lateral clypeal tooth that is lateral to the lateral clypeal tooth 1." [] {creation_date="2022-10-30", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+is_a: COLAO:0000226 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2022-10-30"} ! lateral clypeal tooth
+relationship: AISM:0000011 COLAO:0000227 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-03-28"} ! lateral clypeal tooth 1
+
+[Term]
+id: COLAO:0000229
+name: lateral clypeal tooth 3 {creation_date="2022-10-30", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+def: "The lateral clypeal tooth that is lateral to the lateral clypeal tooth 2." [] {creation_date="2022-10-30", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+is_a: COLAO:0000226 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2022-10-30"} ! lateral clypeal tooth
+relationship: AISM:0000011 COLAO:0000228 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-03-28"} ! lateral clypeal tooth 2
+
+[Term]
+id: COLAO:0000230
+name: cuticle of club antennomere {creation_date="2022-11-06", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+def: "The cuticle of antennomere that is part of the distal region of the cuticle of the antenna and is increased in size." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-03-28"}
+is_a: AISM:0004266 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-03-28"}
+relationship: BFO:0000050 AISM:0000032 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-03-28"}
+relationship: BFO:0000050 BSPO:0000078 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-03-28"}
+relationship: RO:0000053 PATO:0000586 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-03-28"}
+
+[Term]
+id: COLAO:0000231
+name: tibial cuticular tooth {creation_date="2022-10-14", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+def: "The cuticular protrusion of the cuticle of tibia." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-03-28"}
+is_a: AISM:0000008 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-03-28"}
+relationship: BFO:0000050 AISM:0000075 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-03-28"}
+
+[Term]
+id: COLAO:0000232
+name: protibial cuticular tooth {creation_date="2022-10-14", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+def: "The cuticular protrusion of the cuticle of protibia." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-03-28"}
+is_a: COLAO:0000231 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-03-28"} ! tibial cuticular tooth
+relationship: BFO:0000050 AISM:0000067 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-03-28"}
+
+[Term]
+id: COLAO:0000233
+name: posterior protibial cuticular tooth {creation_date="2022-10-14", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+def: "The protibial cuticular tooth on the posterior margin." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-03-28"}
+is_a: COLAO:0000232 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-03-28"} ! protibial cuticular tooth
+relationship: BFO:0000050 BSPO:0000672 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-03-28"}
+
+[Term]
+id: COLAO:0000234
+name: posterior protibial cuticular tooth 1 {creation_date="2022-10-14", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+def: "The posterior protibial cuticular tooth that is proximal to the distal margin of the tibia." [] {creation_date="2023-03-30", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+is_a: COLAO:0000233 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-03-28"} ! posterior protibial cuticular tooth
+relationship: BSPO:0000100 BSPO:0000678 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-03-30"}
+
+[Term]
+id: COLAO:0000235
+name: posterior protibial cuticular tooth 2 {creation_date="2022-10-14", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+def: "The posterior protibial cuticular tooth that is proximal to the posterior protibial cuticular tooth 1." [] {creation_date="2023-03-30", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+is_a: COLAO:0000233 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-03-28"} ! posterior protibial cuticular tooth
+relationship: BSPO:0000100 COLAO:0000234 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-03-30"} ! posterior protibial cuticular tooth 1
+
+[Term]
+id: COLAO:0000236
+name: posterior protibial cuticular tooth 3 {creation_date="2022-10-14", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+def: "The posterior protibial cuticular tooth that is proximal to the posterior protibial cuticular tooth 2." [] {creation_date="2023-03-30", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+is_a: COLAO:0000233 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-03-28"} ! posterior protibial cuticular tooth
+relationship: BSPO:0000100 COLAO:0000235 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-03-30"} ! posterior protibial cuticular tooth 2
+
+[Term]
+id: COLAO:0000237
+name: posterior protibial cuticular tooth 4 {creation_date="2022-10-14", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+def: "The posterior protibial cuticular tooth that is proximal to the posterior protibial cuticular tooth 3." [] {creation_date="2023-03-30", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+is_a: COLAO:0000233 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-03-28"} ! posterior protibial cuticular tooth
+relationship: BSPO:0000100 COLAO:0000236 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-03-30"} ! posterior protibial cuticular tooth 3
 
 [Term]
 id: PATO:0000001
