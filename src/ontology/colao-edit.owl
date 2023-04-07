@@ -221,13 +221,39 @@ Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000234>))
 Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000235>))
 Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000236>))
 Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000237>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000238>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000239>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000240>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000241>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000242>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000243>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000244>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000245>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000246>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000247>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000248>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000249>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000250>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000251>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000252>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000253>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000254>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000255>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000256>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000257>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000258>))
+Declaration(Class(<http://purl.obolibrary.org/obo/COLAO_0000259>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000040>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000413>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0002112>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0002227>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0002425>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001062>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002176>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000700>))
+Declaration(AnnotationProperty(dce:creator))
+Declaration(AnnotationProperty(dce:date))
 Declaration(AnnotationProperty(dcterms:isReferencedBy))
 ############################
 #   Annotation Properties
@@ -244,13 +270,22 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> dcterms:isRefer
 AnnotationAssertion(rdfs:label dcterms:isReferencedBy "isReferencedBy"@en)
 
 
+############################
+#   Object Properties
+############################
+
+# Object Property: <http://purl.obolibrary.org/obo/RO_0002176> (connects)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002176> "c connects a if and only if there exist some b such that a and b are similar parts of the same system, and c connects b, specifically, c connects a with b. When one structure connects two others it unites some aspect of the function or role they play within the system.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002176> "connects")
+
 
 
 ############################
 #   Classes
 ############################
 
-# Class: <http://purl.obolibrary.org/obo/AISM_0000141> (mesofurca)
+# Class: <http://purl.obolibrary.org/obo/AISM_0000141> (mesendosternite)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Lawrence JF, Beutel RG, Leschen RA, Ślipiński A (2010) Glossary of morphological terms. Handbuch der Zoologie/Handbook of Zoology. Band 4: 9–20. 
 
@@ -259,7 +294,7 @@ https://doi.org/10.1515/9783110911213.9
 \"A pair of internal apodemes formed by invaginations within the mesocoxal cavities and representing the original furca.\""@en) rdfs:label <http://purl.obolibrary.org/obo/AISM_0000141> "mesendosternite"@en)
 SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-01-20") <http://purl.obolibrary.org/obo/AISM_0000141> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/PATO_0040024>))
 
-# Class: <http://purl.obolibrary.org/obo/AISM_0000142> (metafurca)
+# Class: <http://purl.obolibrary.org/obo/AISM_0000142> (metendosternite)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Lawrence JF, Beutel RG, Leschen RA, Ślipiński A (2010) Glossary of morphological terms. Handbuch der Zoologie/Handbook of Zoology. Band 4: 9–20. 
 
@@ -2232,10 +2267,215 @@ AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/000
 SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-03-28") <http://purl.obolibrary.org/obo/COLAO_0000237> <http://purl.obolibrary.org/obo/COLAO_0000233>)
 SubClassOf(Annotation(dce:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-03-30") <http://purl.obolibrary.org/obo/COLAO_0000237> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSPO_0000100> <http://purl.obolibrary.org/obo/COLAO_0000236>))
 
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000238> (accessory endophallite)
+
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-04-04") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000238> "The endophallite that is located in the distal region of the endophallus.")
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-04-04") <http://purl.obolibrary.org/obo/IAO_0000232> <http://purl.obolibrary.org/obo/COLAO_0000238> "An endophallite that is located in the distal region of the endophallus when the endophallus is everted.")
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Tarasov, S. I., & Solodovnikov, A. Y. (2011). Phylogenetic analyses reveal reliable morphological markers to classify mega‐diversity in Onthophagini dung beetles (Coleoptera: Scarabaeidae: Scarabaeinae). Cladistics, 27(5), 490-528. https://doi.org/10.1111/j.1096-0031.2011.00351.x
+
+Page 502, figure 3") Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-04-04") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000238> "accessory endophallite"@it)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-04-04") <http://purl.obolibrary.org/obo/COLAO_0000238> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/AISM_0004066> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000078> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0004063>)))))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000239> (lamella copulatrix)
+
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-04-04") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000239> "The endophallite that is located in the medial region of the endophallus.")
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-04-04") <http://purl.obolibrary.org/obo/IAO_0000232> <http://purl.obolibrary.org/obo/COLAO_0000239> "An endophallite that is located in the medial region of the endophallus when the endophallus is everted.")
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Tarasov, S. I., & Solodovnikov, A. Y. (2011). Phylogenetic analyses reveal reliable morphological markers to classify mega‐diversity in Onthophagini dung beetles (Coleoptera: Scarabaeidae: Scarabaeinae). Cladistics, 27(5), 490-528. https://doi.org/10.1111/j.1096-0031.2011.00351.x
+
+Pages 502-504; figures 3, 8-9") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-04-04") Annotation(rdfs:comment "gmontanaro https://orcid.org/0000-0003-0836-1364") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000239> "lamella copulatrix"@it)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-04-04") <http://purl.obolibrary.org/obo/COLAO_0000239> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/AISM_0004066> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000083> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0004063>)))))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000240> (axial endophallite)
+
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-04-04") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000240> "The basal endophallite that is elongated and lateral to the subaxial and frontolateral peripheral endophallites.")
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Tarasov, S. I., & Solodovnikov, A. Y. (2011). Phylogenetic analyses reveal reliable morphological markers to classify mega‐diversity in Onthophagini dung beetles (Coleoptera: Scarabaeidae: Scarabaeinae). Cladistics, 27(5), 490-528. https://doi.org/10.1111/j.1096-0031.2011.00351.x
+
+Page 502; figures 4-7, 17-18") Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-04-04") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000240> "axial endophallite"@it)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-04-04") <http://purl.obolibrary.org/obo/COLAO_0000240> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/COLAO_0000238> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/PATO_0001154>)))
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-04-04") <http://purl.obolibrary.org/obo/COLAO_0000240> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AISM_0000011> <http://purl.obolibrary.org/obo/COLAO_0000241>))
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-04-04") <http://purl.obolibrary.org/obo/COLAO_0000240> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AISM_0000011> <http://purl.obolibrary.org/obo/COLAO_0000243>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000241> (subaxial endophallite)
+
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-04-04") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000241> "The basal endophallite that is elongated and lateral to the axial and frontolateral peripheral endophallites.")
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Tarasov, S. I., & Solodovnikov, A. Y. (2011). Phylogenetic analyses reveal reliable morphological markers to classify mega‐diversity in Onthophagini dung beetles (Coleoptera: Scarabaeidae: Scarabaeinae). Cladistics, 27(5), 490-528. https://doi.org/10.1111/j.1096-0031.2011.00351.x
+
+Page 502; figures 4-7, 17-18") Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-04-04") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000241> "subaxial endophallite"@it)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-04-04") <http://purl.obolibrary.org/obo/COLAO_0000241> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/COLAO_0000238> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/PATO_0001154>)))
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-04-04") <http://purl.obolibrary.org/obo/COLAO_0000241> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AISM_0000011> <http://purl.obolibrary.org/obo/COLAO_0000240>))
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-04-04") <http://purl.obolibrary.org/obo/COLAO_0000241> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AISM_0000011> <http://purl.obolibrary.org/obo/COLAO_0000243>))
+DisjointClasses(<http://purl.obolibrary.org/obo/COLAO_0000241> <http://purl.obolibrary.org/obo/COLAO_0000242>)
+DisjointClasses(<http://purl.obolibrary.org/obo/COLAO_0000241> <http://purl.obolibrary.org/obo/COLAO_0000243>)
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000242> (superior right peripheral endophallite)
+
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-04-04") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000242> "The basal endophallite that is distal to the axial, subaxial and frontolateral peripheral endophallites.")
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000115> "Tarasov, S. I., & Solodovnikov, A. Y. (2011). Phylogenetic analyses reveal reliable morphological markers to classify mega‐diversity in Onthophagini dung beetles (Coleoptera: Scarabaeidae: Scarabaeinae). Cladistics, 27(5), 490-528. https://doi.org/10.1111/j.1096-0031.2011.00351.x
+
+Page 502; figures 4-7, 17") Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-04-04") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000242> "superior right peripheral endophallite"@it)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-04-04") <http://purl.obolibrary.org/obo/COLAO_0000242> <http://purl.obolibrary.org/obo/COLAO_0000238>)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-04-04") <http://purl.obolibrary.org/obo/COLAO_0000242> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSPO_0000097> <http://purl.obolibrary.org/obo/COLAO_0000240>))
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-04-04") <http://purl.obolibrary.org/obo/COLAO_0000242> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSPO_0000097> <http://purl.obolibrary.org/obo/COLAO_0000241>))
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-04-04") <http://purl.obolibrary.org/obo/COLAO_0000242> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSPO_0000097> <http://purl.obolibrary.org/obo/COLAO_0000243>))
+DisjointClasses(<http://purl.obolibrary.org/obo/COLAO_0000242> <http://purl.obolibrary.org/obo/COLAO_0000243>)
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000243> (frontolateral peripheral endophallite)
+
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-04-04") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000243> "The basal endophallite that is elongated and lateral to the axial and subaxial endophallites.")
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Tarasov, S. I., & Solodovnikov, A. Y. (2011). Phylogenetic analyses reveal reliable morphological markers to classify mega‐diversity in Onthophagini dung beetles (Coleoptera: Scarabaeidae: Scarabaeinae). Cladistics, 27(5), 490-528. https://doi.org/10.1111/j.1096-0031.2011.00351.x
+
+Page 502; figures 4-7, 17, 19") Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-04-04") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000243> "frontolateral peripheral endophallite"@it)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-04-04") <http://purl.obolibrary.org/obo/COLAO_0000243> <http://purl.obolibrary.org/obo/COLAO_0000238>)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-04-04") <http://purl.obolibrary.org/obo/COLAO_0000243> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AISM_0000011> <http://purl.obolibrary.org/obo/COLAO_0000240>))
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-04-04") <http://purl.obolibrary.org/obo/COLAO_0000243> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/AISM_0000011> <http://purl.obolibrary.org/obo/COLAO_0000241>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000244> (cuticle of left paramere)
+
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-04-04") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000244> "The cuticle of the paramere that is located in the left side of the body.")
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-04-04") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000244> "cuticle of left paramere"@it)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-04-04") <http://purl.obolibrary.org/obo/COLAO_0000244> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/AISM_0004064> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://purl.obolibrary.org/obo/BSPO_0000000>)))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000245> (cuticle of right paramere)
+
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-04-04") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000245> "The cuticle of the paramere that is located in the right side of the body.")
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-04-04") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000245> "cuticle of right paramere"@it)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-04-04") <http://purl.obolibrary.org/obo/COLAO_0000245> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/AISM_0004064> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001025> <http://purl.obolibrary.org/obo/BSPO_0000007>)))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000246> (posterior longitudinal hypomeral carina)
+
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-04-04") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000246> "The cuticular carina that is located on the posterior part of the hypomeron and is parallel to the lateral pronotal carina.")
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Tarasov S, Génier F (2015) Innovative Bayesian and Parsimony Phylogeny of Dung Beetles (Coleoptera, Scarabaeidae, Scarabaeinae) Enhanced by Ontology-Based Partitioning of Morphological Characters. PLOS ONE 10: e0116671. https://doi.org/10.1371/journal.pone.0116671. Page 77, figure 45k") Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-04-04") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/COLAO_0000246> "posterior ridge of propleuron")
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-04-04") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000246> "posterior longitudinal hypomeral carina"@it)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-04-04") <http://purl.obolibrary.org/obo/COLAO_0000246> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/AISM_0000501> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000072> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/COLAO_0000003>)))))
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-04-04") <http://purl.obolibrary.org/obo/COLAO_0000246> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/bspo#parallel_to> <http://purl.obolibrary.org/obo/COLAO_0000001>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000247> (raspula)
+
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-04-04") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000247> "The thickened region of the cuticle of the endophallus that has cuticular spines.")
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Medina, C. A., Molano, F., & Scholtz, C. H. (2013). Morphology and terminology of dung beetles (Coleoptera: Scarabaeidae: Scarabaeinae) male genitalia. Zootaxa, 3626(4), 455-476. http://dx.doi.org/10.11646/zootaxa.3626.4.3
+
+Plate 1") Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-04-04") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000247> "raspula"@it)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-04-04") <http://purl.obolibrary.org/obo/COLAO_0000247> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/AISM_0000174> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0004063>)))
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-04-04") <http://purl.obolibrary.org/obo/COLAO_0000247> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/AISM_0000527>))
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-04-04") <http://purl.obolibrary.org/obo/COLAO_0000247> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/PATO_0000591>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000248> (mesometaventral sulcus)
+
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-05-04") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000248> "The cuticular sulcus between the posterior margin of the mesoventrite and the anterior margin of the metaventrite.")
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-05-04") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/COLAO_0000248> "mesometaventral suture")
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-05-04") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000248> "mesometaventral sulcus"@it)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-04-04") <http://purl.obolibrary.org/obo/COLAO_0000248> <http://purl.obolibrary.org/obo/AISM_0000162>)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-04-04") <http://purl.obolibrary.org/obo/COLAO_0000248> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSPO_0000096> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000671> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/COLAO_0000020>))))
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-04-04") <http://purl.obolibrary.org/obo/COLAO_0000248> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSPO_0000099> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000672> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/COLAO_0000019>))))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000249> (basolateral lobe of paramere)
+
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-05-04") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000249> "The cuticular lobe that is part of the proximolateral region of the cuticle of the paramere.")
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Krikken, J., & Huijbregts, J. (2009). Onthophagus pilularius and its close relatives in Sundaland: a taxonomic reappraisal (Coleoptera, Scarabaeidae, Scarabaeinae). Deutsche Entomologische Zeitschrift, 56(1), 41-55. https://doi.org/10.1002/mmnd.200900004
+
+Figures 1-2") Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-05-04") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000249> "basolateral lobe of paramere"@it)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-04-04") <http://purl.obolibrary.org/obo/COLAO_0000249> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/AISM_0004237> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000077> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000082> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0004064>)))))))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000250> (anterior hypomeral carina)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-05-04") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "gmontanaro https://orcid.org/0000-0003-0836-1364") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000250> "The cuticular carina that is located in the hypomeron and that is anteriorly connected to the anterior margin of pronotum and posteriorly connected to the lateral margin of procoxal cavity.")
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Tarasov, S., & Genier, F. (2015). Innovative Bayesian and parsimony phylogeny of dung beetles (Coleoptera, Scarabaeidae, Scarabaeinae) enhanced by ontology-based partitioning of morphological characters. Plos one, 10(3), e0116671. https://doi.org/10.1371/journal.pone.0116671
+
+Table 2, figures 45g, 45h, 45l") Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-05-04") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/COLAO_0000250> "anterior ridge of propleuron")
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Génier, F., & Moretto, P. (2017). Digitonthophagus Balthasar, 1959: taxonomy, systematics, and morphological phylogeny of the genus revealing an African species complex (Coleoptera: Scarabaeidae: Scarabaeinae). Zootaxa, 4248 1, 1-110 . https://doi.org/10.11646/zootaxa.4248.1.1
+
+Page 5") Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-05-04") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000250> "anterior hypomeral carina"@it)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-04-04") <http://purl.obolibrary.org/obo/COLAO_0000250> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/AISM_0000501> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/COLAO_0000003>)))
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-04-04") <http://purl.obolibrary.org/obo/COLAO_0000250> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/uberon/core#anteriorly_connected_to> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000071> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0000059>))))
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-04-04") <http://purl.obolibrary.org/obo/COLAO_0000250> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/uberon/core#posteriorly_connected_to> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000682> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/COLAO_0000009>))))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000251> (basal groove of tergite VIII)
+
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-04") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000251> "The cuticular groove that is parallel and distal to the basal carina of tergite VIII.")
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-04") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000251> "basal groove of tergite VIII")
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-04") <http://purl.obolibrary.org/obo/COLAO_0000251> <http://purl.obolibrary.org/obo/AISM_0000157>)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-04") <http://purl.obolibrary.org/obo/COLAO_0000251> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSPO_0000097> <http://purl.obolibrary.org/obo/COLAO_0000253>))
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-04") <http://purl.obolibrary.org/obo/COLAO_0000251> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/bspo#parallel_to> <http://purl.obolibrary.org/obo/COLAO_0000253>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000252> (interpunctural distance)
+
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-04") <http://purl.obolibrary.org/obo/AISM_0000171> <http://purl.obolibrary.org/obo/COLAO_0000252> "The distance that connects two cuticular punctures.")
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-04") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000252> "interpunctural distance"@it)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-05-04") <http://purl.obolibrary.org/obo/COLAO_0000252> <http://purl.obolibrary.org/obo/PATO_0000040>)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-05-04") <http://purl.obolibrary.org/obo/COLAO_0000252> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002176> <http://purl.obolibrary.org/obo/AISM_0000524>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000253> (basal carina of tergite VIII)
+
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-04") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000253> "The cuticular carina that is located on the anterior region of the 8th tergite and is parallel to the left-right body axis.")
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-04") <http://purl.obolibrary.org/obo/IAO_0000232> <http://purl.obolibrary.org/obo/COLAO_0000253> "In Scarabaeinae, this carina (when present) is located in the proximalmost margin of the surface of the 8th tergite (pygidium) that is not covered by elytra.")
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Tarasov, S. I., & Solodovnikov, A. Y. (2011). Phylogenetic analyses reveal reliable morphological markers to classify mega‐diversity in Onthophagini dung beetles (Coleoptera: Scarabaeidae: Scarabaeinae). Cladistics, 27(5), 490-528. https://doi.org/10.1111/j.1096-0031.2011.00351.x
+ 
+Page 526, character 30") Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-04") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/COLAO_0000253> "pygidium basal ridge")
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-04") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000253> "basal carina of tergite VIII"@it)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-04") <http://purl.obolibrary.org/obo/COLAO_0000253> <http://purl.obolibrary.org/obo/AISM_0000501>)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-04") <http://purl.obolibrary.org/obo/COLAO_0000253> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000071> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0004097>))))
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-04") <http://purl.obolibrary.org/obo/COLAO_0000253> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/bspo#parallel_to> <http://purl.obolibrary.org/obo/BSPO_0000017>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000254> (granulate cuticular puncture)
+
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-04") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000254> "The cuticular puncture that has a cuticular granule on its anterior margin.")
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Orbigny, H. d’ (1913) [1913-1914]. – Synopsis des Onthophagides d’Afrique. Annales de la Société entomologique de France, 82 : 1-742.
+
+Page 4") Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-04") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000254> "granulate cuticular puncture"@it)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-04") <http://purl.obolibrary.org/obo/COLAO_0000254> <http://purl.obolibrary.org/obo/AISM_0000524>)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-04") <http://purl.obolibrary.org/obo/COLAO_0000254> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000671> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/AISM_0000525>))))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000255> (ocellate cuticular puncture)
+
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-04") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000255> "The cuticular puncture that is flattened.")
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Orbigny, H. d’ (1913) [1913-1914]. – Synopsis des Onthophagides d’Afrique. Annales de la Société entomologique de France, 82 : 1-742.
+
+Page 4") Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-04") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000255> "ocellate cuticular puncture"@it)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-04") <http://purl.obolibrary.org/obo/COLAO_0000255> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/AISM_0000524> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000053> <http://purl.obolibrary.org/obo/PATO_0002254>)))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000256> (distal carina of tergite VIII)
+
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-04") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000256> "The cuticular carina that is located along the distal margin of the 8th abdominal tergite.")
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/AISM_0000171> "Marchisio, R., & Zunino, M. E. (2012). Il genere Copris Müller. Tassonomia, filogenesi e note di zoogeografia (Vol. 2, pp. 1-176). world biodiversity association onlus.
+
+Page 26") Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-04") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/COLAO_0000256> "ribordo del margine ventrale del pigidio")
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-04") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000256> "distal carina of tergite VIII"@it)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-04") <http://purl.obolibrary.org/obo/COLAO_0000256> <http://purl.obolibrary.org/obo/AISM_0000501>)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-04") <http://purl.obolibrary.org/obo/COLAO_0000256> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000678> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0004097>))))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000257> (clypeal margin at genoclypeal sulcus)
+
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-04") <http://purl.obolibrary.org/obo/IAO_0000232> <http://purl.obolibrary.org/obo/COLAO_0000257> "Corresponds with the region of the clypeal margin next to the distal end of the genoclypeal sulcus.")
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-04") <http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/COLAO_0000257> "The anatomical margin that is part of the anterior margin of gena and of the posterior margin of clypeus.")
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-04") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000257> "clypeal margin at genoclypeal sulcus"@it)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-04") <http://purl.obolibrary.org/obo/COLAO_0000257> <http://purl.obolibrary.org/obo/BSPO_0000006>)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-04") <http://purl.obolibrary.org/obo/COLAO_0000257> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000071> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000006> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0004026>))))))
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-04") <http://purl.obolibrary.org/obo/COLAO_0000257> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000072> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BSPO_0000006> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0004019>))))))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000258> (carina of vertex)
+
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-04") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000258> "The cuticular carina that is part of the vertex and parallel to the left-right body axis.")
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-04") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000258> "carina of vertex"@it)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-04") <http://purl.obolibrary.org/obo/COLAO_0000258> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/AISM_0000501> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0004025>)))
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-04") <http://purl.obolibrary.org/obo/COLAO_0000258> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/bspo#parallel_to> <http://purl.obolibrary.org/obo/BSPO_0000017>))
+
+# Class: <http://purl.obolibrary.org/obo/COLAO_0000259> (clypeal carina)
+
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-04") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COLAO_0000259> "The cuticular carina that is located in the clypeus and is parallel to the left-right body axis.")
+AnnotationAssertion(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-04") rdfs:label <http://purl.obolibrary.org/obo/COLAO_0000259> "clypeal carina"@it)
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-04") <http://purl.obolibrary.org/obo/COLAO_0000259> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/AISM_0000501> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/AISM_0004019>)))
+SubClassOf(Annotation(dce:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(<http://www.geneontology.org/formats/oboInOwl#creation_date> "2023-06-04") <http://purl.obolibrary.org/obo/COLAO_0000259> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/bspo#parallel_to> <http://purl.obolibrary.org/obo/BSPO_0000017>))
+
 # Class: <http://purl.obolibrary.org/obo/PATO_0000001> (quality)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PATO_0000001> "A dependent entity that inheres in a bearer by virtue of how the bearer is related to other entities [database_cross_reference: PATOC:GVG]"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PATO_0000001> "quality"@en)
+
+# Class: <http://purl.obolibrary.org/obo/PATO_0000040> (distance)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PATO_0000040> "A quality that is the extent of space between two entities. [database_cross_reference: PATOC:GVG]")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PATO_0000040> "distance")
+SubClassOf(<http://purl.obolibrary.org/obo/PATO_0000040> <http://purl.obolibrary.org/obo/PATO_0000001>)
 
 # Class: <http://purl.obolibrary.org/obo/PATO_0000052> (shape)
 
