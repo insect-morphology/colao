@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: colao/releases/2023-03-30/colao-base.owl
+data-version: colao/releases/2023-04-08/colao-base.owl
 ontology: colao/colao-base
 property_value: http://purl.org/dc/elements/1.1/contributor "Aaron Smith (asmith) https://orcid.org/0000-0002-1286-950X" xsd:string
 property_value: http://purl.org/dc/elements/1.1/contributor "Giulio Montanaro (gmontanaro) https://orcid.org/0000-0003-0836-1364" xsd:string
@@ -13,7 +13,7 @@ property_value: http://purl.org/dc/terms/license https://creativecommons.org/lic
 property_value: IAO:0000700 "http://purl.obolibrary.org/obo/AISM_0000174" xsd:string
 property_value: IAO:0000700 "http://purl.obolibrary.org/obo/PATO_0000001" xsd:string
 property_value: IAO:0000700 "http://purl.obolibrary.org/obo/UBERON_0001062" xsd:string
-property_value: owl:versionInfo "2023-03-30" xsd:string
+property_value: owl:versionInfo "2023-04-08" xsd:string
 
 [Term]
 id: AISM:0000141
@@ -316,7 +316,7 @@ relationship: BSPO:0000096 AISM:0004052 {http://purl.org/dc/elements/1.1/contrib
 [Term]
 id: COLAO:0000033
 name: frontal carina
-def: "The carina on the frons that is dorsal to the antennal foramen" [] {creation_date="2021-09-15", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+def: "The carina on the frons that is dorsal to the antennal foramen." [] {creation_date="2021-09-15", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
 synonym: "frontal ridge" EXACT [] {http://purl.obolibrary.org/obo/AISM_0000171="Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. \n\nhttps://www.publish.csiro.au/book/6466/\n\n\"conceal antennal insertions from above; may extend mesally and unite at midline or extend posteriorly as supraorbital ridges\""}
 is_a: AISM:0000501 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
 relationship: BFO:0000050 AISM:0004020 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
@@ -1486,9 +1486,167 @@ is_a: COLAO:0000233 {http://purl.org/dc/elements/1.1/contributor="jgiron https:/
 relationship: BSPO:0000100 COLAO:0000236 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-03-30"} ! posterior protibial cuticular tooth 3
 
 [Term]
+id: COLAO:0000238
+name: accessory endophallite {http://purl.obolibrary.org/obo/AISM_0000171="Tarasov, S. I., & Solodovnikov, A. Y. (2011). Phylogenetic analyses reveal reliable morphological markers to classify mega‐diversity in Onthophagini dung beetles (Coleoptera: Scarabaeidae: Scarabaeinae). Cladistics, 27(5), 490-528. https://doi.org/10.1111/j.1096-0031.2011.00351.x\n\nPage 502, figure 3", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-04-04"}
+def: "The endophallite that is located in the distal region of the endophallus." [] {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-04-04"}
+property_value: IAO:0000232 "An endophallite that is located in the distal region of the endophallus when the endophallus is everted." xsd:string {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-04-04"}
+
+[Term]
+id: COLAO:0000239
+name: lamella copulatrix {comment="gmontanaro https://orcid.org/0000-0003-0836-1364", http://purl.obolibrary.org/obo/AISM_0000171="Tarasov, S. I., & Solodovnikov, A. Y. (2011). Phylogenetic analyses reveal reliable morphological markers to classify mega‐diversity in Onthophagini dung beetles (Coleoptera: Scarabaeidae: Scarabaeinae). Cladistics, 27(5), 490-528. https://doi.org/10.1111/j.1096-0031.2011.00351.x\n\nPages 502-504; figures 3, 8-9", creation_date="2023-04-04"}
+def: "The endophallite that is located in the medial region of the endophallus." [] {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-04-04"}
+is_a: AISM:0004066 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-04-04"}
+property_value: IAO:0000232 "An endophallite that is located in the medial region of the endophallus when the endophallus is everted." xsd:string {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-04-04"}
+
+[Term]
+id: COLAO:0000240
+name: axial endophallite {http://purl.obolibrary.org/obo/AISM_0000171="Tarasov, S. I., & Solodovnikov, A. Y. (2011). Phylogenetic analyses reveal reliable morphological markers to classify mega‐diversity in Onthophagini dung beetles (Coleoptera: Scarabaeidae: Scarabaeinae). Cladistics, 27(5), 490-528. https://doi.org/10.1111/j.1096-0031.2011.00351.x\n\nPage 502; figures 4-7, 17-18", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-04-04"}
+def: "The accessory endophallite that is elongated and lateral to the subaxial and frontolateral peripheral endophallites." [] {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-04-04"}
+relationship: AISM:0000011 COLAO:0000241 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-04-04"} ! subaxial endophallite
+relationship: AISM:0000011 COLAO:0000243 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-04-04"} ! frontolateral peripheral endophallite
+
+[Term]
+id: COLAO:0000241
+name: subaxial endophallite {http://purl.obolibrary.org/obo/AISM_0000171="Tarasov, S. I., & Solodovnikov, A. Y. (2011). Phylogenetic analyses reveal reliable morphological markers to classify mega‐diversity in Onthophagini dung beetles (Coleoptera: Scarabaeidae: Scarabaeinae). Cladistics, 27(5), 490-528. https://doi.org/10.1111/j.1096-0031.2011.00351.x\n\nPage 502; figures 4-7, 17-18", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-04-04"}
+def: "The accessory endophallite that is elongated and lateral to the axial and frontolateral peripheral endophallites." [] {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-04-04"}
+is_a: COLAO:0000238 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-04-04"} ! accessory endophallite
+disjoint_from: COLAO:0000242 ! superior right peripheral endophallite
+disjoint_from: COLAO:0000243 ! frontolateral peripheral endophallite
+relationship: AISM:0000011 COLAO:0000240 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-04-04"} ! axial endophallite
+relationship: AISM:0000011 COLAO:0000243 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-04-04"} ! frontolateral peripheral endophallite
+relationship: RO:0000053 PATO:0001154 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-04-04"}
+
+[Term]
+id: COLAO:0000242
+name: superior right peripheral endophallite {http://purl.obolibrary.org/obo/AISM_0000171="Tarasov, S. I., & Solodovnikov, A. Y. (2011). Phylogenetic analyses reveal reliable morphological markers to classify mega‐diversity in Onthophagini dung beetles (Coleoptera: Scarabaeidae: Scarabaeinae). Cladistics, 27(5), 490-528. https://doi.org/10.1111/j.1096-0031.2011.00351.x\n\nPage 502; figures 4-7, 17", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-04-04"}
+def: "The accessory endophallite that is distal to the axial, subaxial, and frontolateral peripheral endophallites." [] {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-04-04"}
+is_a: COLAO:0000238 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-04-04"} ! accessory endophallite
+disjoint_from: COLAO:0000243 ! frontolateral peripheral endophallite
+relationship: BSPO:0000097 COLAO:0000240 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-04-04"} ! axial endophallite
+relationship: BSPO:0000097 COLAO:0000241 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-04-04"} ! subaxial endophallite
+relationship: BSPO:0000097 COLAO:0000243 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-04-04"} ! frontolateral peripheral endophallite
+
+[Term]
+id: COLAO:0000243
+name: frontolateral peripheral endophallite {http://purl.obolibrary.org/obo/AISM_0000171="Tarasov, S. I., & Solodovnikov, A. Y. (2011). Phylogenetic analyses reveal reliable morphological markers to classify mega‐diversity in Onthophagini dung beetles (Coleoptera: Scarabaeidae: Scarabaeinae). Cladistics, 27(5), 490-528. https://doi.org/10.1111/j.1096-0031.2011.00351.x\n\nPage 502; figures 4-7, 17, 19", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-04-04"}
+def: "The accessory endophallite that is elongated and lateral to the axial and subaxial endophallites." [] {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-04-04"}
+is_a: COLAO:0000238 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-04-04"} ! accessory endophallite
+relationship: AISM:0000011 COLAO:0000240 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-04-04"} ! axial endophallite
+relationship: AISM:0000011 COLAO:0000241 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-04-04"} ! subaxial endophallite
+
+[Term]
+id: COLAO:0000244
+name: cuticle of left paramere {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-04-04"}
+def: "The cuticle of the paramere that is located in the left side of the body." [] {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-04-04"}
+
+[Term]
+id: COLAO:0000245
+name: cuticle of right paramere {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-04-04"}
+def: "The cuticle of the paramere that is located in the right side of the body." [] {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-04-04"}
+
+[Term]
+id: COLAO:0000246
+name: posterior longitudinal hypomeral carina {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-04-04"}
+def: "The cuticular carina that is located on the posterior region of the hypomeron and is parallel to the lateral pronotal carina." [] {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-04-04"}
+synonym: "posterior ridge of propleuron" EXACT [] {http://purl.obolibrary.org/obo/AISM_0000171="Tarasov S, Génier F (2015) Innovative Bayesian and Parsimony Phylogeny of Dung Beetles (Coleoptera, Scarabaeidae, Scarabaeinae) Enhanced by Ontology-Based Partitioning of Morphological Characters. PLOS ONE 10: e0116671. https://doi.org/10.1371/journal.pone.0116671. Page 77, figure 45k", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-04-04"}
+relationship: parallel_to COLAO:0000001 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-04-04"} ! lateral pronotal carina
+
+[Term]
+id: COLAO:0000247
+name: raspula {http://purl.obolibrary.org/obo/AISM_0000171="Medina, C. A., Molano, F., & Scholtz, C. H. (2013). Morphology and terminology of dung beetles (Coleoptera: Scarabaeidae: Scarabaeinae) male genitalia. Zootaxa, 3626(4), 455-476. http://dx.doi.org/10.11646/zootaxa.3626.4.3\n\n\"The submedial area can be covered by small or large spines or setae that can be arranged in structures that have the appearance of brushes with thick and long spikes, or are formed by large scales or bristles. These structures are known as raspules (Zunino 1972), or brushes of the internal sac (Medina et al. 2003).\" Plate 1, Fig. 3.", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-04-04"}
+def: "The thickened region of the cuticle of the endophallus that has cuticular spines." [] {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-04-04"}
+relationship: BFO:0000051 AISM:0000527 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-04-04"}
+relationship: RO:0000053 PATO:0000591 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-04-04"}
+
+[Term]
+id: COLAO:0000248
+name: mesometaventral sulcus {creation_date="2023-05-04", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+def: "The cuticular sulcus at the posterior margin of the mesoventrite and the anterior margin of the metaventrite." [] {creation_date="2023-05-04", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+synonym: "mesometaventral suture" EXACT [] {creation_date="2023-05-04", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+is_a: AISM:0000162 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-04-04"}
+
+[Term]
+id: COLAO:0000249
+name: basolateral lobe of paramere {http://purl.obolibrary.org/obo/AISM_0000171="Krikken, J., & Huijbregts, J. (2009). Onthophagus pilularius and its close relatives in Sundaland: a taxonomic reappraisal (Coleoptera, Scarabaeidae, Scarabaeinae). Deutsche Entomologische Zeitschrift, 56(1), 41-55. https://doi.org/10.1002/mmnd.200900004\n\nFigures 1-2", creation_date="2023-05-04", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+def: "The cuticular lobe that is part of the proximolateral region of the cuticle of the paramere." [] {creation_date="2023-05-04", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+
+[Term]
+id: COLAO:0000250
+name: anterior hypomeral carina {http://purl.obolibrary.org/obo/AISM_0000171="Génier, F., & Moretto, P. (2017). Digitonthophagus Balthasar, 1959: taxonomy, systematics, and morphological phylogeny of the genus revealing an African species complex (Coleoptera: Scarabaeidae: Scarabaeinae). Zootaxa, 4248 1, 1-110 . https://doi.org/10.11646/zootaxa.4248.1.1\n\nPage 5", creation_date="2023-05-04", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+def: "The cuticular carina that is located in the hypomeron and that is anteriorly connected to the anterior margin of pronotum and posteriorly connected to the lateral margin of procoxal cavity." [] {creation_date="2023-05-04", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+synonym: "anterior ridge of propleuron" EXACT [] {http://purl.obolibrary.org/obo/AISM_0000171="Tarasov, S., & Genier, F. (2015). Innovative Bayesian and parsimony phylogeny of dung beetles (Coleoptera, Scarabaeidae, Scarabaeinae) enhanced by ontology-based partitioning of morphological characters. Plos one, 10(3), e0116671. https://doi.org/10.1371/journal.pone.0116671\n\nTable 2, figures 45g, 45h, 45l", creation_date="2023-05-04", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+
+[Term]
+id: COLAO:0000251
+name: basal groove of tergite VIII {creation_date="2023-06-04", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+def: "The cuticular groove that is parallel and distal to the basal carina of tergite VIII." [] {creation_date="2023-06-04", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+is_a: AISM:0000157 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-06-04"}
+relationship: BSPO:0000097 COLAO:0000253 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-06-04"} ! proximal carina of tergite VIII
+relationship: parallel_to COLAO:0000253 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-06-04"} ! proximal carina of tergite VIII
+
+[Term]
+id: COLAO:0000252
+name: interpunctural distance {creation_date="2023-06-04", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+def: "The distance between two cuticular punctures." [] {creation_date="2023-06-04", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+is_a: PATO:0000040 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-05-04"} ! distance
+relationship: RO:0002176 AISM:0000524 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-05-04"} ! connects
+
+[Term]
+id: COLAO:0000253
+name: proximal carina of tergite VIII {creation_date="2023-06-04", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+def: "The cuticular carina that is located on the proximal margin of the 8th tergite and is parallel to the left-right body axis." [] {creation_date="2023-06-04", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+synonym: "pygidium basal ridge" EXACT [] {creation_date="2023-06-04", http://purl.obolibrary.org/obo/AISM_0000171="Tarasov, S. I., & Solodovnikov, A. Y. (2011). Phylogenetic analyses reveal reliable morphological markers to classify mega‐diversity in Onthophagini dung beetles (Coleoptera: Scarabaeidae: Scarabaeinae). Cladistics, 27(5), 490-528. https://doi.org/10.1111/j.1096-0031.2011.00351.x\n \nPage 526, character 30", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+is_a: AISM:0000501 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-06-04"}
+relationship: parallel_to BSPO:0000017 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-06-04"} ! left-right axis
+property_value: IAO:0000232 "In Scarabaeinae, this carina (when present) is located in the proximalmost margin of the surface of the 8th tergite (pygidium) that is not covered by elytra." xsd:string {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-06-04"}
+
+[Term]
+id: COLAO:0000254
+name: granulate cuticular puncture {creation_date="2023-06-04", http://purl.obolibrary.org/obo/AISM_0000171="Orbigny, H. d’ (1913) [1913-1914]. Synopsis des Onthophagides d’Afrique. Annales de la Société entomologique de France, 82 : 1-742.\nhttps://www.biodiversitylibrary.org/page/8239919\n\n\"la ponctuation peut être râpeuse ou granuleuse, c'est-à-dire composée de points dont le bord antérieur s'élève en une aspérité irrégulière, ou en un granule arrondi qui ordinaireauent échancre plus ou moins ce bord antérieur\" p. 4", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+def: "The cuticular puncture that has a cuticular granule on its anterior margin." [] {creation_date="2023-06-04", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+is_a: AISM:0000524 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-06-04"}
+
+[Term]
+id: COLAO:0000255
+name: ocellate cuticular puncture {creation_date="2023-06-04", http://purl.obolibrary.org/obo/AISM_0000171="Orbigny, H. d’ (1913) [1913-1914]. Synopsis des Onthophagides d’Afrique. Annales de la Société entomologique de France, 82 : 1-742.\n\nhttps://www.biodiversitylibrary.org/page/8239919\n\n\"... soit grands et à fond plat, ou ocellés, c'est-à-dire grands et à fond convexe, ou ombiliqués, c'est-à-dire grands, peu profonds et ayant dans l'intérieur un petit point plus profond\" p. 4", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+def: "The cuticular puncture that is flattened." [] {creation_date="2023-06-04", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+
+[Term]
+id: COLAO:0000256
+name: distal carina of tergite VIII {creation_date="2023-06-04", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+def: "The cuticular carina that is located along the distal margin of abdominal tergite VIII." [] {creation_date="2023-06-04", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+synonym: "ribordo del margine ventrale del pigidio" EXACT [] {creation_date="2023-06-04", http://purl.obolibrary.org/obo/AISM_0000171="Marchisio, R., & Zunino, M. E. (2012). Il genere Copris Müller. Tassonomia, filogenesi e note di zoogeografia (Vol. 2, pp. 1-176). world biodiversity association onlus.\n\nPage 26", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+is_a: AISM:0000501 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-06-04"}
+
+[Term]
+id: COLAO:0000257
+name: clypeal margin at genoclypeal sulcus {creation_date="2023-06-04", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+is_a: BSPO:0000006 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-06-04"} ! anatomical margin
+property_value: IAO:0000232 "Corresponds with the region of the clypeal margin next to the distal end of the genoclypeal sulcus." xsd:string {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-06-04"}
+creation_date: The anatomical margin that is part of the anterior margin of the gena and of the lateral region of the posterior margin of the clypeus. {creation_date="2023-06-04", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+
+[Term]
+id: COLAO:0000258
+name: carina of vertex {creation_date="2023-06-04", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+def: "The cuticular carina that is part of the vertex and parallel to the left-right body axis." [] {creation_date="2023-06-04", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+relationship: parallel_to BSPO:0000017 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-06-04"} ! left-right axis
+
+[Term]
+id: COLAO:0000259
+name: clypeal carina {creation_date="2023-06-04", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+def: "The cuticular carina that is part of the clypeus and is parallel to the left-right body axis." [] {creation_date="2023-06-04", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+relationship: parallel_to BSPO:0000017 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-06-04"} ! left-right axis
+
+[Term]
 id: PATO:0000001
 name: quality
 def: "A dependent entity that inheres in a bearer by virtue of how the bearer is related to other entities [database_cross_reference: PATOC:GVG]" []
+
+[Term]
+id: PATO:0000040
+name: distance
+def: "A quality that is the extent of space between two entities. [database_cross_reference: PATOC:GVG]" []
+is_a: PATO:0000001 ! quality
 
 [Term]
 id: PATO:0000052
@@ -1550,4 +1708,9 @@ is_a: PATO:0000001 ! quality
 id: UBERON:0001062
 name: anatomical entity
 def: "Biological entity that is either an individual member of a biological species or constitutes the structural organization of an individual member of a biological species. [ FMA : 62955 http://orcid.org/0000-0001-9114-8737 ]" []
+
+[Typedef]
+id: RO:0002176
+name: connects
+def: "c connects a if and only if there exist some b such that a and b are similar parts of the same system, and c connects b, specifically, c connects a with b. When one structure connects two others it unites some aspect of the function or role they play within the system." []
 
