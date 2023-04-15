@@ -11,7 +11,7 @@ More information can be found at https://github.com/insect-morphology/colao
 
 This repository is managed by [Jennifer C. Girón](https://github.com/JCGiron).
 
-**Suggested citation:** Girón, J. C., Lumen, R., Montanaro, G., Tarasov, S. & Smith, A. 2023. The Coleoptera Anatomy Ontology (COLAO) (Version v2023-04-07). GitHub repository. [http://doi.org/10.5281/zenodo.4777299](https://doi.org/10.5281/zenodo.4777299).
+**Suggested citation:** Girón, J. C., Lumen, R., Montanaro, G., Tarasov, S. & Smith, A. 2023. The Coleoptera Anatomy Ontology (COLAO) (Version v2023-04-15). GitHub repository. [http://doi.org/10.5281/zenodo.4777299](https://doi.org/10.5281/zenodo.4777299).
 
 ## Versions
 
