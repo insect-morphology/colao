@@ -48,6 +48,18 @@ Datatype: idrange:2
     
     EquivalentTo: 
         xsd:integer[>= COLAO:0000200 , <= COLAO:0000299]
+        
+
+AnnotationProperty: allocatedto:
+
+Datatype: idrange:3
+
+	Annotations: 
+        allocatedto: “Sergei Tarasov”
+        ORCID: "https://orcid.org/0000-0001-5237-2330"
+    
+    EquivalentTo: 
+        xsd:integer[>= COLAO:0000300 , <= COLAO:0000399]
     
     
 Datatype: xsd:integer
