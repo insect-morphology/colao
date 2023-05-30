@@ -273,6 +273,7 @@ This annotation property is on the label of a class in owl.</owl:annotatedTarget
     <!-- http://purl.obolibrary.org/obo/AISM_0000011 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/AISM_0000011">
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/AISM_0000012"/>
         <obo:IAO_0000115 xml:lang="en">X lateral to y if x is further from the midsagittal plane than y.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">lateral_to</rdfs:label>
     </owl:ObjectProperty>
@@ -695,6 +696,21 @@ This annotation property is on the label of a class in owl.</owl:annotatedTarget
         <rdfs:label>attached to</rdfs:label>
         <rdfs:label xml:lang="en">attached to</rdfs:label>
     </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002374 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002374">
+        <rdfs:label>derived from ancestral fusion of</rdfs:label>
+    </owl:ObjectProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/RO_0002374"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>derived from ancestral fusion of</owl:annotatedTarget>
+        <x_1.1:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</x_1.1:contributor>
+        <oboI:creation_date>2023-05-30</oboI:creation_date>
+    </owl:Axiom>
     
 
 
@@ -1405,6 +1421,12 @@ https://doi.org/10.1515/9783110264043
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/AISM_0000014"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/AISM_0000002"/>
+        <x_1.1:contributor>imiko https://orcid.org/0000-0003-2938-9075</x_1.1:contributor>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/AISM_0000014"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
         <owl:annotatedTarget>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -1473,12 +1495,6 @@ https://doi.org/10.1515/9783110264043
         <owl:annotatedTarget xml:lang="en">insect cranio-mandibular articulation</owl:annotatedTarget>
         <obo:IAO_0000232 xml:lang="en">Modified 2023-02-05: specified insect.
 jgiron https://orcid.org/0000-0002-0851-6883</obo:IAO_0000232>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/AISM_0000014"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/AISM_0000002"/>
-        <x_1.1:contributor>imiko https://orcid.org/0000-0003-2938-9075</x_1.1:contributor>
     </owl:Axiom>
     
 
@@ -66062,6 +66078,160 @@ Table 2, figures 45g, 45h, 45l</obo:AISM_0000171>
 Page 5</obo:AISM_0000171>
         <x_1.1:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</x_1.1:contributor>
         <oboI:creation_date>2023-05-04</oboI:creation_date>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/COLAO_0000251 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COLAO_0000251">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/AISM_0000005"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BSPO_0000071"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000003"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000096"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000250"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>The cuticular depression in the anterior region of the hypomeron that is anterior to the anterior hypomeral carina.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">anterior hypomeral depression</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000251"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/AISM_0000005"/>
+        <x_1.1:creator>gmontanaro https://orcid.org/0000-0003-0836-1364</x_1.1:creator>
+        <oboI:creation_date>2023-05-30</oboI:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000251"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BSPO_0000071"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000003"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:annotatedTarget>
+        <x_1.1:creator>gmontanaro https://orcid.org/0000-0003-0836-1364</x_1.1:creator>
+        <oboI:creation_date>2023-05-30</oboI:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000251"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000096"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000250"/>
+            </owl:Restriction>
+        </owl:annotatedTarget>
+        <x_1.1:creator>gmontanaro https://orcid.org/0000-0003-0836-1364</x_1.1:creator>
+        <oboI:creation_date>2023-05-30</oboI:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000251"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The cuticular depression in the anterior region of the hypomeron that is anterior to the anterior hypomeral carina.</owl:annotatedTarget>
+        <x_1.1:creator>gmontanaro https://orcid.org/0000-0003-0836-1364</x_1.1:creator>
+        <oboI:creation_date>2023-05-30</oboI:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000251"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget xml:lang="en">anterior hypomeral depression</owl:annotatedTarget>
+        <obo:AISM_0000171>Genier, F., &amp; Moretto, P. (2017). Digitonthophagus Balthasar, 1959: taxonomy, systematics, and morphological phylogeny of the genus revealing an African species complex (Coleoptera: Scarabaeidae: Scarabaeinae). Zootaxa, 4248(1), 1-110.
+https://doi.org/10.11646/zootaxa.4248.1.1
+
+Page 5, figure 1</obo:AISM_0000171>
+        <x_1.1:creator>gmontanaro https://orcid.org/0000-0003-0836-1364</x_1.1:creator>
+        <oboI:creation_date>2023-05-30</oboI:creation_date>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/COLAO_0000252 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COLAO_0000252">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000238"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002374"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/COLAO_0000240"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/COLAO_0000241"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>The endophallite formed by the fusion of ancestral axial and subaxial endophallites.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">fused axial and subaxial endophallites</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000252"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000238"/>
+        <x_1.1:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</x_1.1:contributor>
+        <oboI:creation_date>2023-05-30</oboI:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000252"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002374"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/COLAO_0000240"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/COLAO_0000241"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:annotatedTarget>
+        <x_1.1:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</x_1.1:contributor>
+        <oboI:creation_date>2023-05-30</oboI:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000252"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The endophallite formed by the fusion of ancestral axial and subaxial endophallites.</owl:annotatedTarget>
+        <x_1.1:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</x_1.1:contributor>
+        <oboI:creation_date>2023-05-30</oboI:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000252"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget xml:lang="en">fused axial and subaxial endophallites</owl:annotatedTarget>
+        <x_1.1:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</x_1.1:contributor>
+        <oboI:creation_date>2023-05-30</oboI:creation_date>
     </owl:Axiom>
     
 
