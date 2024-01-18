@@ -13,7 +13,7 @@
      xmlns:x_1.1="http://purl.org/dc/elements/1.1/"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/colao.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/colao/releases/2023-04-08/colao.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/colao/releases/2024-01-18/imports/aism_import.owl"/>
         <obo:IAO_0000700>http://purl.obolibrary.org/obo/AISM_0000174</obo:IAO_0000700>
         <obo:IAO_0000700>http://purl.obolibrary.org/obo/PATO_0000001</obo:IAO_0000700>
         <obo:IAO_0000700>http://purl.obolibrary.org/obo/UBERON_0001062</obo:IAO_0000700>
@@ -25,7 +25,6 @@
         <x_1.1:description xml:lang="en">The Coleoptera Anatomy Ontology contains terms used for describing the anatomy and phenotype of beetles in biodiversity research.</x_1.1:description>
         <x_1.1:title>Coleoptera Anatomy Ontology</x_1.1:title>
         <term:license rdf:resource="https://creativecommons.org/licenses/by/4.0"/>
-        <owl:versionInfo>2023-04-08</owl:versionInfo>
     </owl:Ontology>
     
 
