@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: colao/releases/2024-01-18/colao-base.owl
+data-version: colao/releases/2024-02-13/colao-base.owl
 ontology: colao/colao-base
 property_value: http://purl.org/dc/elements/1.1/contributor "Aaron Smith (asmith) https://orcid.org/0000-0002-1286-950X" xsd:string
 property_value: http://purl.org/dc/elements/1.1/contributor "Giulio Montanaro (gmontanaro) https://orcid.org/0000-0003-0836-1364" xsd:string
@@ -13,7 +13,7 @@ property_value: http://purl.org/dc/terms/license https://creativecommons.org/lic
 property_value: IAO:0000700 "http://purl.obolibrary.org/obo/AISM_0000174" xsd:string
 property_value: IAO:0000700 "http://purl.obolibrary.org/obo/PATO_0000001" xsd:string
 property_value: IAO:0000700 "http://purl.obolibrary.org/obo/UBERON_0001062" xsd:string
-property_value: owl:versionInfo "2024-01-18" xsd:string
+property_value: owl:versionInfo "2024-02-13" xsd:string
 
 [Term]
 id: AISM:0000000
@@ -5814,6 +5814,7 @@ relationship: RO:0000053 PATO:0040024 ! bearer of bilaterally paired
 [Term]
 id: COLAO:0000081
 name: frontoclypeus {AISM:0000171="Lawrence, J.F., Ślipiński, A., Seago, A.E., Thayer, M.K., Newton, A.F. & Marvaldi, A.E. (2011) Phylogeny of the Coleoptera based on morphological characters of adults and larvae. Annales Zoologici 61, 1–217. \n\nhttps://doi.org/10.3161/000345411X576725", IAO:0000232="Not quite defined, but used in Lawrence et al. 2011 in characters 2 and 31 for adults, character 369 for larvae.", creation_date="2023-01-20", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+def: "The region of cuticle that is part of the head capsule, posterior to the labrum and composed of clypeus and frons." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883 2023-03-30", creation_date="2024-02-13"}
 is_a: AISM:0000174 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! region of cuticle
 relationship: BFO:0000050 AISM:0000019 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-20"} ! part of head capsule
 relationship: BFO:0000051 AISM:0004019 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-20"} ! has part clypeus
@@ -5840,26 +5841,25 @@ relationship: RO:0000053 PATO:0040024 {http://purl.org/dc/elements/1.1/contribut
 [Term]
 id: COLAO:0000084
 name: periarticular groove {creation_date="2023-01-20", AISM:0000171="Antunes-Carvalho, C., Yavorskaya, M., Gnaspini, P., Ribera, I., Hammel, J.U. & Beutel, R.G. (2017) Cephalic anatomy and three-dimensional reconstruction of the head of Catops ventricosus (Weise, 1877) (Coleoptera: Leiodidae: Cholevinae). Organisms Diversity & Evolution 17, 199–212.\n\nhttps://doi.org/10.1007/s13127-016-0305-3\n\n\"A distal periarticular gutter bearing sensilla is present on antennomeres 7, 9, and 10, visible through a narrow slit-like opening on the apical surface of these segments\"", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
+def: "The cuticular groove on the distal side of the cuticle of an antennomere that bears cuticular sensillae." [] {creation_date="2023-01-20", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
 synonym: "periarticular gutter" EXACT [] {AISM:0000171="Antunes-Carvalho, C., Ribera, I., Beutel, R.G. & Gnaspini, P. (2019) Morphology-based phylogenetic reconstruction of Cholevinae (Coleoptera: Leiodidae): a new view on higher-level relationships. Cladistics 35, 1–41. \n\nhttps://doi.org/10.1111/cla.12230\n\n\"A periarticular gutter bearing sensilla is usually present on antennomeres 7, 9 and 10, but it is lacking on the reduced antennomere 8\""}
 is_a: AISM:0000157 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-20"} ! cuticular groove
 relationship: BFO:0000050 AISM:0004266 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-20"} ! part of antennomere
 relationship: BFO:0000050 BSPO:0000062 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-20"} ! part of distal side
 relationship: RO:0000053 AISM:0004304 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-20"} ! bearer of cuticular sensilla
-property_value: http://purl.org/dc/elements/1.1/description "The cuticular groove on the distal side of the cuticle of an antennomere that bears cuticular sensillae." xsd:string {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-20"}
 
 [Term]
 id: COLAO:0000085
-name: cupule {creation_date="2023-01-20", IAO:0000232="Modified 2023-04-15: removed ‘cuticle of’ from label.\nstarasov https://orcid.org/0000-0001-5237-2330", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
-synonym: "cupule" EXACT [] {AISM:0000171="Lawrence, J.F., Ślipiński, A., Seago, A.E., Thayer, M.K., Newton, A.F. & Marvaldi, A.E. (2011) Phylogeny of the Coleoptera based on morphological characters of adults and larvae. Annales Zoologici 61, 1–217.\n\nhttps://doi.org/10.3161/000345411X576725\n\n\"The cupule, as used here, includes but is not restricted to the functional cupule playing a role in the respiration of aquatic hydrophilids and hydraenids. Any cup-like antennomere immediately preceding the club (e.g. that in Silphidae) is also considered to be a cupule.\""}
+name: cupule {creation_date="2023-01-20", IAO:0000232="Modified 2023-04-15: removed ‘cuticle of’ from label.\nstarasov https://orcid.org/0000-0001-5237-2330", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", AISM:0000171="Lawrence, J.F., Ślipiński, A., Seago, A.E., Thayer, M.K., Newton, A.F. & Marvaldi, A.E. (2011) Phylogeny of the Coleoptera based on morphological characters of adults and larvae. Annales Zoologici 61, 1–217.\n\nhttps://doi.org/10.3161/000345411X576725\n\n\"The cupule, as used here, includes but is not restricted to the functional cupule playing a role in the respiration of aquatic hydrophilids and hydraenids. Any cup-like antennomere immediately preceding the club (e.g. that in Silphidae) is also considered to be a cupule.\""}
+def: "The antennomere that is cup-shaped." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883 2023-03-30", creation_date="2024-02-13"}
 is_a: AISM:0004266 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-20"} ! antennomere
 relationship: RO:0000053 PATO:0002227 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-20"} ! bearer of cup-shaped
 property_value: IAO:0000589 "cuticle of cupule" xsd:string {creation_date="2023-04-15"}
 
 [Term]
 id: COLAO:0000086
-name: mala {creation_date="2023-01-20", IAO:0000232="Modified 2023-04-15: removed ‘cuticle of’ from label.\nstarasov https://orcid.org/0000-0001-5237-2330", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"}
-def: "The cuticle of the mouthpart composed at leat by the cuticle of the galea." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05"}
-synonym: "mala" EXACT [] {AISM:0000171="Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. \n\nhttps://www.publish.csiro.au/book/6466/\n\n\"The major evolutionary trends exhibited by the maxillary apex include: (1) loss of the basal segment of the galea and its basal articulation resulting in two fixed lobes; (2) loss of one lobe, usually the lacinia, resulting in a single process, often referred to as a mala; (3) basal fusion and then complete fusion of galea and lacinia, resulting in a combined structure, also called a mala; and (4) loss of both apical lobes, so that only the palp arises from the palpifer or apex of the stipes.\""}
+name: mala {creation_date="2023-01-20", IAO:0000232="Modified 2023-04-15: removed ‘cuticle of’ from label.\nstarasov https://orcid.org/0000-0001-5237-2330", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", AISM:0000171="Lawrence J, Ślipiński A (2013) Adult morphology. In: Australian beetles volume 1: morphology, classification and keys. CSIRO Publishing, 30–63. \n\nhttps://www.publish.csiro.au/book/6466/\n\n\"The major evolutionary trends exhibited by the maxillary apex include: (1) loss of the basal segment of the galea and its basal articulation resulting in two fixed lobes; (2) loss of one lobe, usually the lacinia, resulting in a single process, often referred to as a mala; (3) basal fusion and then complete fusion of galea and lacinia, resulting in a combined structure, also called a mala; and (4) loss of both apical lobes, so that only the palp arises from the palpifer or apex of the stipes.\""}
+def: "The cuticle of the mouthpart composed at least by the cuticle of the galea." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05"}
 is_a: AISM:0000165 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-20"} ! mouthpart
 relationship: BFO:0000051 AISM:0000023 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-20"} ! has part galea
 property_value: IAO:0000589 "cuticle of mala" xsd:string {creation_date="2023-04-15"}
@@ -6002,9 +6002,11 @@ relationship: BSPO:0000100 COLAO:0000101 {http://purl.org/dc/elements/1.1/contri
 [Term]
 id: COLAO:0000104
 name: radial bar of the beetle wing {AISM:0000171="Lawrence, J.F., Ślipiński, A., Seago, A.E., Thayer, M.K., Newton, A.F. & Marvaldi, A.E. (2011) Phylogeny of the Coleoptera based on morphological characters of adults and larvae. Annales Zoologici 61, 1–217.\n\nhttps://doi.org/10.3161/000345411X576725\n\n\"The anterior wing strut or radial bar (ScP plus RA-RA1+2)\"", http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-22"}
+def: "The insect wing vein composed of the radial anterior branch 1+2 (RA1+2) of the beetle wing and the subcosta posterior (ScP) of the beetle wing." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883 2023-03-30", creation_date="2024-02-13"}
 synonym: "anterior wing strut" EXACT [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-22"}
 is_a: AISM:0004243 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-22"} ! insect wing vein
-relationship: BFO:0000051 AISM:0004257 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-22"} ! has part subcostal vein of the insect wing
+relationship: BFO:0000051 COLAO:0000109 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-22"} ! has part subcosta posterior (ScP) of the beetle wing
+relationship: BFO:0000051 COLAO:0000112 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883 2023-03-30", creation_date="2024-02-13"} ! has part radial anterior branch 1+2 (RA1+2) of the beetle wing
 
 [Term]
 id: COLAO:0000105
@@ -6017,8 +6019,11 @@ relationship: BSPO:0000099 COLAO:0000111 {http://purl.org/dc/elements/1.1/contri
 
 [Term]
 id: COLAO:0000106
-name: triangular folding area of the beetle wing
-is_a: AISM:0004244 ! insect wing fold
+name: triangular folding area of the beetle wing {AISM:0000171="Kukalová-Peck, J. & Lawrence, J.F. (1993) Evolution of the hind wing in Coleoptera. The Canadian Entomologist 125, 181–258.\n\nhttps://doi.org/10.4039/Ent125181-2\n\n\"Central Folding. Central folding occurs in a variably large area proximal to the limits of the radial cell, r4, and the medial hook or oblong cell (Fig. 12), which has been designated as the central field.\""}
+def: "The insect wing fold that is proximal to the radial cross-vein r4 and anterior to the oblongum cell of the beetle wing." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883 2023-03-30", creation_date="2024-02-13"}
+is_a: AISM:0004244 {creation_date="2024-02-13"} ! insect wing fold
+relationship: BSPO:0000096 COLAO:0000136 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883 2023-03-30", creation_date="2024-02-13"} ! anterior to oblongum cell of the beetle wing
+relationship: BSPO:0000100 COLAO:0000122 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883 2023-03-30", creation_date="2024-02-13"} ! proximal to radial cross-vein r4
 
 [Term]
 id: COLAO:0000107
@@ -6106,9 +6111,10 @@ relationship: BSPO:0000099 COLAO:0000117 {http://purl.org/dc/elements/1.1/contri
 [Term]
 id: COLAO:0000119
 name: radial posterior branch 3+4 (RP3+4) of the beetle wing {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-22"}
-def: "The posterior branch of the beetle wing vein that is part of the radial posterior (RP) vein of the beetle wing." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-22"}
+def: "The posterior branch of the beetle wing vein that is part of the radial posterior (RP) vein of the beetle wing and posterior to radial posterior branch 2 (RP2) of the beetle wing." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", http://purl.org/dc/elements/1.1/contributor="Modified 2024-02-13: added posterior to RP2\njgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-22"}
 is_a: COLAO:0000115 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-22"} ! posterior branch of the beetle wing vein
 relationship: BFO:0000050 COLAO:0000111 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-01-22"} ! part of radial posterior (RP) vein of the beetle wing
+relationship: BSPO:0000099 COLAO:0000118 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883 2023-03-30", creation_date="2024-02-13"} ! posterior to radial posterior branch 2 (RP2) of the beetle wing
 
 [Term]
 id: COLAO:0000120
@@ -6290,6 +6296,7 @@ relationship: BSPO:0000097 COLAO:0000102 {http://purl.org/dc/elements/1.1/contri
 [Term]
 id: COLAO:0000142
 name: abdominal ventrite {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883", creation_date="2023-02-05"}
+def: "The sclerite that is part of the insect abdomen, part of the medial region and the ventral region and is exposed." [] {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883 2023-03-30", creation_date="2024-02-13"}
 is_a: AISM:0000003 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! insect sclerite
 relationship: BFO:0000050 AISM:0000109 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! part of insect abdomen
 relationship: BFO:0000050 BSPO:0000083 {http://purl.org/dc/elements/1.1/contributor="jgiron https://orcid.org/0000-0002-0851-6883"} ! part of medial region
@@ -6644,7 +6651,7 @@ relationship: BSPO:0000096 COLAO:0000250 {http://purl.org/dc/elements/1.1/creato
 [Term]
 id: COLAO:0000252
 name: fused axial and subaxial endophallites {creation_date="2023-05-30", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
-def: "The endophallite formed by the fusion of ancestral axial and subaxial endophallites." [] {creation_date="2023-05-30", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+def: "The accessory endophallite formed by the fusion of ancestral axial and subaxial endophallites." [] {creation_date="2023-05-30", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
 is_a: COLAO:0000238 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-05-30"} ! accessory endophallite
 
 [Term]
@@ -6658,7 +6665,7 @@ relationship: parallel_to BSPO:0000013 {http://purl.org/dc/elements/1.1/contribu
 [Term]
 id: COLAO:0000267
 name: antennal club {creation_date="2023-05-04", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
-def: "The part of the antenna that is distal to the antennal funicle and composed by flagellomeres with increased size." [] {creation_date="2023-05-04", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+def: "The distal region of the antenna that is composed by flagellomeres with increased size." [] {creation_date="2023-05-04", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
 
 [Term]
 id: COLAO:0000392
@@ -6675,7 +6682,7 @@ is_a: BSPO:0000006 {http://purl.org/dc/elements/1.1/contributor="gmontanaro http
 [Term]
 id: COLAO:0000394
 name: elytron with 9 striae {creation_date="2023-12-03", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
-def: "The elytron that has part elytral striae 1-9." [] {creation_date="2023-12-03", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+def: "The elytron that has parts elytral striae 1-9." [] {creation_date="2023-12-03", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
 is_a: COLAO:0000000 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-12-03"} ! elytron
 relationship: BFO:0000051 COLAO:0000202 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-12-03"} ! has part elytral stria 1
 relationship: BFO:0000051 COLAO:0000204 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-12-03"} ! has part elytral stria 2

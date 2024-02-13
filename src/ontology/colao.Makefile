@@ -10,8 +10,8 @@ mirror/aism-base.owl:
 tmp/seed_aism_base.txt: mirror/aism-base.owl
 	@if [ $(IMP) = true ]; then $(ROBOT) query -i $< -q ../sparql/terms.sparql $@; fi
 imports/aism_import.owl: mirror/aism.owl tmp/seed_aism_base.txt
-	@if [ $(IMP) = true ]; then $(ROBOT) remove -i $< -T tmp/seed_aism_base.txt --select complement --select "classes individuals" \
-		remove --exclude-terms keep_ann.txt --select annotation-properties \
-		remove --exclude-terms keep_obp.txt --select object-properties \
+	if [ $(IMP) = true ]; then $(ROBOT) remove -i $< -T tmp/seed_aism_base.txt --select complement --select "classes individuals" \
+		remove -T keep_obp.txt --select complement --select object-properties --signature true \
+		remove -T keep_ann.txt --select complement --select annotation-properties --signature true \
 		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@; fi
 .PRECIOUS: aism_import.owl
