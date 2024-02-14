@@ -13,7 +13,7 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/colao.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/colao/releases/2024-02-13/colao.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/colao/releases/2024-02-14/colao.owl"/>
         <obo:IAO_0000700>http://purl.obolibrary.org/obo/AISM_0000174</obo:IAO_0000700>
         <obo:IAO_0000700>http://purl.obolibrary.org/obo/PATO_0000001</obo:IAO_0000700>
         <obo:IAO_0000700>http://purl.obolibrary.org/obo/UBERON_0001062</obo:IAO_0000700>
@@ -25,7 +25,7 @@
         <dc:description xml:lang="en">The Coleoptera Anatomy Ontology contains terms used for describing the anatomy and phenotype of beetles in biodiversity research.</dc:description>
         <dc:title>Coleoptera Anatomy Ontology</dc:title>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0"/>
-        <owl:versionInfo>2024-02-13</owl:versionInfo>
+        <owl:versionInfo>2024-02-14</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -50368,15 +50368,344 @@ See character 164: Prothorax, basisternal furca: (0) absent; (1) present (Fig. 4
     
 
 
+    <!-- http://purl.obolibrary.org/obo/COLAO_0000224 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COLAO_0000224">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000006"/>
+        <rdfs:subClassOf rdf:nodeID="genid7668"/>
+        <rdfs:subClassOf rdf:nodeID="genid7678"/>
+        <obo:IAO_0000115 xml:lang="en">The anatomical margin that is formed by the anterior region of the anterolateral pronotal margin and by the lateral region of the anterior pronotal margin.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">anterolateral pronotal angle</rdfs:label>
+    </owl:Class>
+    <owl:Restriction rdf:nodeID="genid7668">
+        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+        <owl:someValuesFrom>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BSPO_0000071"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BSPO_0000045"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0000059"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:someValuesFrom>
+    </owl:Restriction>
+    <owl:Restriction rdf:nodeID="genid7678">
+        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+        <owl:someValuesFrom>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BSPO_0000082"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BSPO_0000671"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0000059"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:someValuesFrom>
+    </owl:Restriction>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000224"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000006"/>
+        <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
+        <oboInOwl:creation_date>2023-05-10</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000224"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:nodeID="genid7668"/>
+        <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
+        <oboInOwl:creation_date>2023-05-10</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000224"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:nodeID="genid7678"/>
+        <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
+        <oboInOwl:creation_date>2023-05-10</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000224"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The anatomical margin that is formed by the anterior region of the anterolateral pronotal margin and by the lateral region of the anterior pronotal margin.</owl:annotatedTarget>
+        <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
+        <oboInOwl:creation_date>2023-05-10</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000224"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget xml:lang="en">anterolateral pronotal angle</owl:annotatedTarget>
+        <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
+        <oboInOwl:creation_date>2023-05-10</oboInOwl:creation_date>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/COLAO_0000225 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COLAO_0000225">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000006"/>
+        <rdfs:subClassOf rdf:nodeID="genid7691"/>
+        <rdfs:subClassOf rdf:nodeID="genid7701"/>
+        <obo:IAO_0000115 xml:lang="en">The anatomical margin that is formed by the posterior region of the posterolateral pronotal margin and by the lateral region of the posterior pronotal margin.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">posterolateral pronotal angle</rdfs:label>
+    </owl:Class>
+    <owl:Restriction rdf:nodeID="genid7691">
+        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+        <owl:someValuesFrom>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BSPO_0000072"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BSPO_0000047"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0000059"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:someValuesFrom>
+    </owl:Restriction>
+    <owl:Restriction rdf:nodeID="genid7701">
+        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+        <owl:someValuesFrom>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BSPO_0000082"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BSPO_0000672"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0000059"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:someValuesFrom>
+    </owl:Restriction>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000225"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000006"/>
+        <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
+        <oboInOwl:creation_date>2023-05-10</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000225"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:nodeID="genid7691"/>
+        <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
+        <oboInOwl:creation_date>2023-05-10</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000225"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:nodeID="genid7701"/>
+        <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
+        <oboInOwl:creation_date>2023-05-10</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000225"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The anatomical margin that is formed by the posterior region of the posterolateral pronotal margin and by the lateral region of the posterior pronotal margin.</owl:annotatedTarget>
+        <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
+        <oboInOwl:creation_date>2023-05-10</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000225"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget xml:lang="en">posterolateral pronotal angle</owl:annotatedTarget>
+        <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
+        <oboInOwl:creation_date>2023-05-10</oboInOwl:creation_date>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/COLAO_0000226 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COLAO_0000226">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000000"/>
+        <rdfs:subClassOf rdf:nodeID="genid7714"/>
+        <rdfs:subClassOf rdf:nodeID="genid7716"/>
+        <rdfs:subClassOf rdf:nodeID="genid7718"/>
+        <rdfs:subClassOf rdf:nodeID="genid7720"/>
+        <rdfs:subClassOf rdf:nodeID="genid7722"/>
+        <rdfs:subClassOf rdf:nodeID="genid7724"/>
+        <rdfs:subClassOf rdf:nodeID="genid7726"/>
+        <rdfs:subClassOf rdf:nodeID="genid7728"/>
+        <rdfs:subClassOf rdf:nodeID="genid7730"/>
+        <obo:IAO_0000115 xml:lang="en">The elytron that has parts elytral striae 1-9.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">elytron with 9 striae</rdfs:label>
+    </owl:Class>
+    <owl:Restriction rdf:nodeID="genid7714">
+        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000202"/>
+    </owl:Restriction>
+    <owl:Restriction rdf:nodeID="genid7716">
+        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000204"/>
+    </owl:Restriction>
+    <owl:Restriction rdf:nodeID="genid7718">
+        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000206"/>
+    </owl:Restriction>
+    <owl:Restriction rdf:nodeID="genid7720">
+        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000208"/>
+    </owl:Restriction>
+    <owl:Restriction rdf:nodeID="genid7722">
+        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000210"/>
+    </owl:Restriction>
+    <owl:Restriction rdf:nodeID="genid7724">
+        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000212"/>
+    </owl:Restriction>
+    <owl:Restriction rdf:nodeID="genid7726">
+        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000214"/>
+    </owl:Restriction>
+    <owl:Restriction rdf:nodeID="genid7728">
+        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000216"/>
+    </owl:Restriction>
+    <owl:Restriction rdf:nodeID="genid7730">
+        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000218"/>
+    </owl:Restriction>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000226"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000000"/>
+        <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
+        <oboInOwl:creation_date>2023-12-03</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000226"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:nodeID="genid7714"/>
+        <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
+        <oboInOwl:creation_date>2023-12-03</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000226"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:nodeID="genid7716"/>
+        <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
+        <oboInOwl:creation_date>2023-12-03</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000226"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:nodeID="genid7718"/>
+        <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
+        <oboInOwl:creation_date>2023-12-03</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000226"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:nodeID="genid7720"/>
+        <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
+        <oboInOwl:creation_date>2023-12-03</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000226"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:nodeID="genid7722"/>
+        <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
+        <oboInOwl:creation_date>2023-12-03</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000226"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:nodeID="genid7724"/>
+        <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
+        <oboInOwl:creation_date>2023-12-03</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000226"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:nodeID="genid7726"/>
+        <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
+        <oboInOwl:creation_date>2023-12-03</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000226"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:nodeID="genid7728"/>
+        <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
+        <oboInOwl:creation_date>2023-12-03</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000226"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:nodeID="genid7730"/>
+        <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
+        <oboInOwl:creation_date>2023-12-03</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000226"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The elytron that has parts elytral striae 1-9.</owl:annotatedTarget>
+        <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
+        <oboInOwl:creation_date>2023-12-03</oboInOwl:creation_date>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000226"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget xml:lang="en">elytron with 9 striae</owl:annotatedTarget>
+        <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
+        <oboInOwl:creation_date>2023-12-03</oboInOwl:creation_date>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/COLAO_0000238 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COLAO_0000238">
-        <rdfs:subClassOf rdf:nodeID="genid7667"/>
+        <rdfs:subClassOf rdf:nodeID="genid7734"/>
         <obo:IAO_0000115 xml:lang="en">The endophallite that is located in the distal region of the endophallus.</obo:IAO_0000115>
         <obo:IAO_0000232 xml:lang="en">An endophallite that is located in the distal region of the endophallus when the endophallus is everted.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">accessory endophallite</rdfs:label>
     </owl:Class>
-    <owl:Class rdf:nodeID="genid7667">
+    <owl:Class rdf:nodeID="genid7734">
         <owl:intersectionOf rdf:parseType="Collection">
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/AISM_0004066"/>
             <owl:Restriction>
@@ -50398,7 +50727,7 @@ See character 164: Prothorax, basisternal furca: (0) absent; (1) present (Fig. 4
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000238"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid7667"/>
+        <owl:annotatedTarget rdf:nodeID="genid7734"/>
         <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
         <oboInOwl:creation_date>2023-04-04</oboInOwl:creation_date>
     </owl:Axiom>
@@ -50433,12 +50762,12 @@ Page 502, figure 3</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COLAO_0000239">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/AISM_0004066"/>
-        <rdfs:subClassOf rdf:nodeID="genid7680"/>
+        <rdfs:subClassOf rdf:nodeID="genid7747"/>
         <obo:IAO_0000115 xml:lang="en">The endophallite that is located in the medial region of the endophallus.</obo:IAO_0000115>
         <obo:IAO_0000232>An endophallite that is located in the medial region of the endophallus when the endophallus is everted.</obo:IAO_0000232>
         <rdfs:label xml:lang="en">lamella copulatrix</rdfs:label>
     </owl:Class>
-    <owl:Restriction rdf:nodeID="genid7680">
+    <owl:Restriction rdf:nodeID="genid7747">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
         <owl:someValuesFrom>
             <owl:Class>
@@ -50462,7 +50791,7 @@ Page 502, figure 3</obo:AISM_0000171>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000239"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid7680"/>
+        <owl:annotatedTarget rdf:nodeID="genid7747"/>
         <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
         <oboInOwl:creation_date>2023-04-04</oboInOwl:creation_date>
     </owl:Axiom>
@@ -50496,13 +50825,13 @@ Pages 502-504; figures 3, 8-9</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/COLAO_0000240 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COLAO_0000240">
-        <rdfs:subClassOf rdf:nodeID="genid7689"/>
-        <rdfs:subClassOf rdf:nodeID="genid7694"/>
-        <rdfs:subClassOf rdf:nodeID="genid7696"/>
+        <rdfs:subClassOf rdf:nodeID="genid7756"/>
+        <rdfs:subClassOf rdf:nodeID="genid7761"/>
+        <rdfs:subClassOf rdf:nodeID="genid7763"/>
         <obo:IAO_0000115 xml:lang="en">The accessory endophallite that is elongated and lateral to the subaxial and frontolateral peripheral endophallites.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">axial endophallite</rdfs:label>
     </owl:Class>
-    <owl:Class rdf:nodeID="genid7689">
+    <owl:Class rdf:nodeID="genid7756">
         <owl:intersectionOf rdf:parseType="Collection">
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/COLAO_0000238"/>
             <owl:Restriction>
@@ -50511,32 +50840,32 @@ Pages 502-504; figures 3, 8-9</obo:AISM_0000171>
             </owl:Restriction>
         </owl:intersectionOf>
     </owl:Class>
-    <owl:Restriction rdf:nodeID="genid7694">
+    <owl:Restriction rdf:nodeID="genid7761">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/AISM_0000011"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000241"/>
     </owl:Restriction>
-    <owl:Restriction rdf:nodeID="genid7696">
+    <owl:Restriction rdf:nodeID="genid7763">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/AISM_0000011"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000243"/>
     </owl:Restriction>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000240"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid7689"/>
+        <owl:annotatedTarget rdf:nodeID="genid7756"/>
         <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
         <oboInOwl:creation_date>2023-04-04</oboInOwl:creation_date>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000240"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid7694"/>
+        <owl:annotatedTarget rdf:nodeID="genid7761"/>
         <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
         <oboInOwl:creation_date>2023-04-04</oboInOwl:creation_date>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000240"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid7696"/>
+        <owl:annotatedTarget rdf:nodeID="genid7763"/>
         <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
         <oboInOwl:creation_date>2023-04-04</oboInOwl:creation_date>
     </owl:Axiom>
@@ -50564,23 +50893,23 @@ Page 502; figures 4-7, 17-18</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COLAO_0000241">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000238"/>
-        <rdfs:subClassOf rdf:nodeID="genid7701"/>
-        <rdfs:subClassOf rdf:nodeID="genid7703"/>
-        <rdfs:subClassOf rdf:nodeID="genid7705"/>
+        <rdfs:subClassOf rdf:nodeID="genid7768"/>
+        <rdfs:subClassOf rdf:nodeID="genid7770"/>
+        <rdfs:subClassOf rdf:nodeID="genid7772"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000242"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000243"/>
         <obo:IAO_0000115 xml:lang="en">The accessory endophallite that is elongated and lateral to the axial and frontolateral peripheral endophallites.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">subaxial endophallite</rdfs:label>
     </owl:Class>
-    <owl:Restriction rdf:nodeID="genid7701">
+    <owl:Restriction rdf:nodeID="genid7768">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/AISM_0000011"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000240"/>
     </owl:Restriction>
-    <owl:Restriction rdf:nodeID="genid7703">
+    <owl:Restriction rdf:nodeID="genid7770">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/AISM_0000011"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000243"/>
     </owl:Restriction>
-    <owl:Restriction rdf:nodeID="genid7705">
+    <owl:Restriction rdf:nodeID="genid7772">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001154"/>
     </owl:Restriction>
@@ -50594,21 +50923,21 @@ Page 502; figures 4-7, 17-18</obo:AISM_0000171>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000241"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid7701"/>
+        <owl:annotatedTarget rdf:nodeID="genid7768"/>
         <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
         <oboInOwl:creation_date>2023-04-04</oboInOwl:creation_date>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000241"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid7703"/>
+        <owl:annotatedTarget rdf:nodeID="genid7770"/>
         <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
         <oboInOwl:creation_date>2023-04-04</oboInOwl:creation_date>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000241"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid7705"/>
+        <owl:annotatedTarget rdf:nodeID="genid7772"/>
         <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
         <oboInOwl:creation_date>2023-04-04</oboInOwl:creation_date>
     </owl:Axiom>
@@ -50636,22 +50965,22 @@ Page 502; figures 4-7, 17-18</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COLAO_0000242">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000238"/>
-        <rdfs:subClassOf rdf:nodeID="genid7710"/>
-        <rdfs:subClassOf rdf:nodeID="genid7712"/>
-        <rdfs:subClassOf rdf:nodeID="genid7714"/>
+        <rdfs:subClassOf rdf:nodeID="genid7777"/>
+        <rdfs:subClassOf rdf:nodeID="genid7779"/>
+        <rdfs:subClassOf rdf:nodeID="genid7781"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000243"/>
         <obo:IAO_0000115 xml:lang="en">The accessory endophallite that is distal to the axial, subaxial, and frontolateral peripheral endophallites.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">superior right peripheral endophallite</rdfs:label>
     </owl:Class>
-    <owl:Restriction rdf:nodeID="genid7710">
+    <owl:Restriction rdf:nodeID="genid7777">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000097"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000240"/>
     </owl:Restriction>
-    <owl:Restriction rdf:nodeID="genid7712">
+    <owl:Restriction rdf:nodeID="genid7779">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000097"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000241"/>
     </owl:Restriction>
-    <owl:Restriction rdf:nodeID="genid7714">
+    <owl:Restriction rdf:nodeID="genid7781">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000097"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000243"/>
     </owl:Restriction>
@@ -50665,21 +50994,21 @@ Page 502; figures 4-7, 17-18</obo:AISM_0000171>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000242"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid7710"/>
+        <owl:annotatedTarget rdf:nodeID="genid7777"/>
         <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
         <oboInOwl:creation_date>2023-04-04</oboInOwl:creation_date>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000242"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid7712"/>
+        <owl:annotatedTarget rdf:nodeID="genid7779"/>
         <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
         <oboInOwl:creation_date>2023-04-04</oboInOwl:creation_date>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000242"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid7714"/>
+        <owl:annotatedTarget rdf:nodeID="genid7781"/>
         <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
         <oboInOwl:creation_date>2023-04-04</oboInOwl:creation_date>
     </owl:Axiom>
@@ -50707,16 +51036,16 @@ Page 502; figures 4-7, 17</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COLAO_0000243">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000238"/>
-        <rdfs:subClassOf rdf:nodeID="genid7719"/>
-        <rdfs:subClassOf rdf:nodeID="genid7721"/>
+        <rdfs:subClassOf rdf:nodeID="genid7786"/>
+        <rdfs:subClassOf rdf:nodeID="genid7788"/>
         <obo:IAO_0000115 xml:lang="en">The accessory endophallite that is elongated and lateral to the axial and subaxial endophallites.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">frontolateral peripheral endophallite</rdfs:label>
     </owl:Class>
-    <owl:Restriction rdf:nodeID="genid7719">
+    <owl:Restriction rdf:nodeID="genid7786">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/AISM_0000011"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000240"/>
     </owl:Restriction>
-    <owl:Restriction rdf:nodeID="genid7721">
+    <owl:Restriction rdf:nodeID="genid7788">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/AISM_0000011"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000241"/>
     </owl:Restriction>
@@ -50730,14 +51059,14 @@ Page 502; figures 4-7, 17</obo:AISM_0000171>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000243"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid7719"/>
+        <owl:annotatedTarget rdf:nodeID="genid7786"/>
         <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
         <oboInOwl:creation_date>2023-04-04</oboInOwl:creation_date>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000243"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid7721"/>
+        <owl:annotatedTarget rdf:nodeID="genid7788"/>
         <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
         <oboInOwl:creation_date>2023-04-04</oboInOwl:creation_date>
     </owl:Axiom>
@@ -50764,13 +51093,13 @@ Page 502; figures 4-7, 17, 19</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/COLAO_0000246 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COLAO_0000246">
-        <rdfs:subClassOf rdf:nodeID="genid7725"/>
-        <rdfs:subClassOf rdf:nodeID="genid7734"/>
+        <rdfs:subClassOf rdf:nodeID="genid7792"/>
+        <rdfs:subClassOf rdf:nodeID="genid7801"/>
         <obo:IAO_0000115 xml:lang="en">The cuticular carina that is located on the posterior region of the hypomeron and is parallel to the lateral pronotal carina.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym xml:lang="en">posterior ridge of propleuron</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">posterior longitudinal hypomeral carina</rdfs:label>
     </owl:Class>
-    <owl:Class rdf:nodeID="genid7725">
+    <owl:Class rdf:nodeID="genid7792">
         <owl:intersectionOf rdf:parseType="Collection">
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/AISM_0000501"/>
             <owl:Restriction>
@@ -50789,21 +51118,21 @@ Page 502; figures 4-7, 17, 19</obo:AISM_0000171>
             </owl:Restriction>
         </owl:intersectionOf>
     </owl:Class>
-    <owl:Restriction rdf:nodeID="genid7734">
+    <owl:Restriction rdf:nodeID="genid7801">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bspo#parallel_to"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000001"/>
     </owl:Restriction>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000246"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid7725"/>
+        <owl:annotatedTarget rdf:nodeID="genid7792"/>
         <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
         <oboInOwl:creation_date>2023-04-04</oboInOwl:creation_date>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000246"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid7734"/>
+        <owl:annotatedTarget rdf:nodeID="genid7801"/>
         <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
         <oboInOwl:creation_date>2023-04-04</oboInOwl:creation_date>
     </owl:Axiom>
@@ -50835,13 +51164,13 @@ Page 502; figures 4-7, 17, 19</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/COLAO_0000247 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COLAO_0000247">
-        <rdfs:subClassOf rdf:nodeID="genid7739"/>
-        <rdfs:subClassOf rdf:nodeID="genid7744"/>
-        <rdfs:subClassOf rdf:nodeID="genid7746"/>
+        <rdfs:subClassOf rdf:nodeID="genid7806"/>
+        <rdfs:subClassOf rdf:nodeID="genid7811"/>
+        <rdfs:subClassOf rdf:nodeID="genid7813"/>
         <obo:IAO_0000115 xml:lang="en">The thickened region of the cuticle of the endophallus that has cuticular spines.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">raspula</rdfs:label>
     </owl:Class>
-    <owl:Class rdf:nodeID="genid7739">
+    <owl:Class rdf:nodeID="genid7806">
         <owl:intersectionOf rdf:parseType="Collection">
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/AISM_0000174"/>
             <owl:Restriction>
@@ -50850,32 +51179,32 @@ Page 502; figures 4-7, 17, 19</obo:AISM_0000171>
             </owl:Restriction>
         </owl:intersectionOf>
     </owl:Class>
-    <owl:Restriction rdf:nodeID="genid7744">
+    <owl:Restriction rdf:nodeID="genid7811">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0000527"/>
     </owl:Restriction>
-    <owl:Restriction rdf:nodeID="genid7746">
+    <owl:Restriction rdf:nodeID="genid7813">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000591"/>
     </owl:Restriction>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000247"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid7739"/>
+        <owl:annotatedTarget rdf:nodeID="genid7806"/>
         <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
         <oboInOwl:creation_date>2023-04-04</oboInOwl:creation_date>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000247"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid7744"/>
+        <owl:annotatedTarget rdf:nodeID="genid7811"/>
         <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
         <oboInOwl:creation_date>2023-04-04</oboInOwl:creation_date>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000247"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid7746"/>
+        <owl:annotatedTarget rdf:nodeID="genid7813"/>
         <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
         <oboInOwl:creation_date>2023-04-04</oboInOwl:creation_date>
     </owl:Axiom>
@@ -50903,13 +51232,13 @@ Page 502; figures 4-7, 17, 19</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COLAO_0000248">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/AISM_0000162"/>
-        <rdfs:subClassOf rdf:nodeID="genid7751"/>
-        <rdfs:subClassOf rdf:nodeID="genid7757"/>
+        <rdfs:subClassOf rdf:nodeID="genid7818"/>
+        <rdfs:subClassOf rdf:nodeID="genid7824"/>
         <obo:IAO_0000115 xml:lang="en">The cuticular sulcus at the posterior margin of the mesoventrite and the anterior margin of the metaventrite.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym xml:lang="en">mesometaventral suture</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">mesometaventral sulcus</rdfs:label>
     </owl:Class>
-    <owl:Restriction rdf:nodeID="genid7751">
+    <owl:Restriction rdf:nodeID="genid7818">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000096"/>
         <owl:someValuesFrom>
             <owl:Class>
@@ -50923,7 +51252,7 @@ Page 502; figures 4-7, 17, 19</obo:AISM_0000171>
             </owl:Class>
         </owl:someValuesFrom>
     </owl:Restriction>
-    <owl:Restriction rdf:nodeID="genid7757">
+    <owl:Restriction rdf:nodeID="genid7824">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000099"/>
         <owl:someValuesFrom>
             <owl:Class>
@@ -50947,14 +51276,14 @@ Page 502; figures 4-7, 17, 19</obo:AISM_0000171>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000248"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid7751"/>
+        <owl:annotatedTarget rdf:nodeID="genid7818"/>
         <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
         <oboInOwl:creation_date>2023-04-04</oboInOwl:creation_date>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000248"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid7757"/>
+        <owl:annotatedTarget rdf:nodeID="genid7824"/>
         <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
         <oboInOwl:creation_date>2023-04-04</oboInOwl:creation_date>
     </owl:Axiom>
@@ -50985,11 +51314,11 @@ Page 502; figures 4-7, 17, 19</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/COLAO_0000249 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COLAO_0000249">
-        <rdfs:subClassOf rdf:nodeID="genid7766"/>
+        <rdfs:subClassOf rdf:nodeID="genid7833"/>
         <obo:IAO_0000115 xml:lang="en">The cuticular lobe that is part of the proximolateral region of the cuticle of the paramere.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">basolateral lobe of paramere</rdfs:label>
     </owl:Class>
-    <owl:Class rdf:nodeID="genid7766">
+    <owl:Class rdf:nodeID="genid7833">
         <owl:intersectionOf rdf:parseType="Collection">
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/AISM_0004237"/>
             <owl:Restriction>
@@ -51021,7 +51350,7 @@ Page 502; figures 4-7, 17, 19</obo:AISM_0000171>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000249"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid7766"/>
+        <owl:annotatedTarget rdf:nodeID="genid7833"/>
         <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
         <oboInOwl:creation_date>2023-04-04</oboInOwl:creation_date>
     </owl:Axiom>
@@ -51048,14 +51377,14 @@ Figures 1-2</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/COLAO_0000250 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COLAO_0000250">
-        <rdfs:subClassOf rdf:nodeID="genid7781"/>
-        <rdfs:subClassOf rdf:nodeID="genid7786"/>
-        <rdfs:subClassOf rdf:nodeID="genid7792"/>
+        <rdfs:subClassOf rdf:nodeID="genid7848"/>
+        <rdfs:subClassOf rdf:nodeID="genid7853"/>
+        <rdfs:subClassOf rdf:nodeID="genid7859"/>
         <obo:IAO_0000115 xml:lang="en">The cuticular carina that is located in the hypomeron and that is anteriorly connected to the anterior margin of pronotum and posteriorly connected to the lateral margin of procoxal cavity.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym xml:lang="en">anterior ridge of propleuron</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">anterior hypomeral carina</rdfs:label>
     </owl:Class>
-    <owl:Class rdf:nodeID="genid7781">
+    <owl:Class rdf:nodeID="genid7848">
         <owl:intersectionOf rdf:parseType="Collection">
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/AISM_0000501"/>
             <owl:Restriction>
@@ -51064,7 +51393,7 @@ Figures 1-2</obo:AISM_0000171>
             </owl:Restriction>
         </owl:intersectionOf>
     </owl:Class>
-    <owl:Restriction rdf:nodeID="genid7786">
+    <owl:Restriction rdf:nodeID="genid7853">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon/core#anteriorly_connected_to"/>
         <owl:someValuesFrom>
             <owl:Class>
@@ -51078,7 +51407,7 @@ Figures 1-2</obo:AISM_0000171>
             </owl:Class>
         </owl:someValuesFrom>
     </owl:Restriction>
-    <owl:Restriction rdf:nodeID="genid7792">
+    <owl:Restriction rdf:nodeID="genid7859">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon/core#posteriorly_connected_to"/>
         <owl:someValuesFrom>
             <owl:Class>
@@ -51095,21 +51424,21 @@ Figures 1-2</obo:AISM_0000171>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000250"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid7781"/>
+        <owl:annotatedTarget rdf:nodeID="genid7848"/>
         <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
         <oboInOwl:creation_date>2023-04-04</oboInOwl:creation_date>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000250"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid7786"/>
+        <owl:annotatedTarget rdf:nodeID="genid7853"/>
         <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
         <oboInOwl:creation_date>2023-04-04</oboInOwl:creation_date>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000250"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid7792"/>
+        <owl:annotatedTarget rdf:nodeID="genid7859"/>
         <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
         <oboInOwl:creation_date>2023-04-04</oboInOwl:creation_date>
     </owl:Axiom>
@@ -51147,12 +51476,12 @@ Page 5</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COLAO_0000251">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/AISM_0000005"/>
-        <rdfs:subClassOf rdf:nodeID="genid7802"/>
-        <rdfs:subClassOf rdf:nodeID="genid7808"/>
+        <rdfs:subClassOf rdf:nodeID="genid7869"/>
+        <rdfs:subClassOf rdf:nodeID="genid7875"/>
         <obo:IAO_0000115 xml:lang="en">The cuticular depression in the anterior region of the hypomeron that is anterior to the anterior hypomeral carina.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">anterior hypomeral depression</rdfs:label>
     </owl:Class>
-    <owl:Restriction rdf:nodeID="genid7802">
+    <owl:Restriction rdf:nodeID="genid7869">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
         <owl:someValuesFrom>
             <owl:Class>
@@ -51166,7 +51495,7 @@ Page 5</obo:AISM_0000171>
             </owl:Class>
         </owl:someValuesFrom>
     </owl:Restriction>
-    <owl:Restriction rdf:nodeID="genid7808">
+    <owl:Restriction rdf:nodeID="genid7875">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000096"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000250"/>
     </owl:Restriction>
@@ -51180,14 +51509,14 @@ Page 5</obo:AISM_0000171>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000251"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid7802"/>
+        <owl:annotatedTarget rdf:nodeID="genid7869"/>
         <dc:creator>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:creator>
         <oboInOwl:creation_date>2023-05-30</oboInOwl:creation_date>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000251"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid7808"/>
+        <owl:annotatedTarget rdf:nodeID="genid7875"/>
         <dc:creator>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:creator>
         <oboInOwl:creation_date>2023-05-30</oboInOwl:creation_date>
     </owl:Axiom>
@@ -51216,11 +51545,11 @@ Page 5, figure 1</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COLAO_0000252">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000238"/>
-        <rdfs:subClassOf rdf:nodeID="genid7813"/>
+        <rdfs:subClassOf rdf:nodeID="genid7880"/>
         <obo:IAO_0000115 xml:lang="en">The accessory endophallite formed by the fusion of ancestral axial and subaxial endophallites.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">fused axial and subaxial endophallites</rdfs:label>
     </owl:Class>
-    <owl:Restriction rdf:nodeID="genid7813">
+    <owl:Restriction rdf:nodeID="genid7880">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002374"/>
         <owl:someValuesFrom>
             <owl:Class>
@@ -51241,7 +51570,7 @@ Page 5, figure 1</obo:AISM_0000171>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000252"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid7813"/>
+        <owl:annotatedTarget rdf:nodeID="genid7880"/>
         <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
         <oboInOwl:creation_date>2023-05-30</oboInOwl:creation_date>
     </owl:Axiom>
@@ -51266,13 +51595,13 @@ Page 5, figure 1</obo:AISM_0000171>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COLAO_0000263">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/AISM_0000157"/>
-        <rdfs:subClassOf rdf:nodeID="genid7821"/>
-        <rdfs:subClassOf rdf:nodeID="genid7827"/>
+        <rdfs:subClassOf rdf:nodeID="genid7888"/>
+        <rdfs:subClassOf rdf:nodeID="genid7894"/>
         <obo:IAO_0000115 xml:lang="en">The cuticular groove that is located in the medial region of pronotum and is parallel to the antero-posterior body axis.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>longitudinal groove</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">longitudinal pronotal groove</rdfs:label>
     </owl:Class>
-    <owl:Restriction rdf:nodeID="genid7821">
+    <owl:Restriction rdf:nodeID="genid7888">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
         <owl:someValuesFrom>
             <owl:Class>
@@ -51286,7 +51615,7 @@ Page 5, figure 1</obo:AISM_0000171>
             </owl:Class>
         </owl:someValuesFrom>
     </owl:Restriction>
-    <owl:Restriction rdf:nodeID="genid7827">
+    <owl:Restriction rdf:nodeID="genid7894">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bspo#parallel_to"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000013"/>
     </owl:Restriction>
@@ -51300,14 +51629,14 @@ Page 5, figure 1</obo:AISM_0000171>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000263"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid7821"/>
+        <owl:annotatedTarget rdf:nodeID="genid7888"/>
         <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
         <oboInOwl:creation_date>2023-05-06</oboInOwl:creation_date>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000263"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid7827"/>
+        <owl:annotatedTarget rdf:nodeID="genid7894"/>
         <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
         <oboInOwl:creation_date>2023-05-06</oboInOwl:creation_date>
     </owl:Axiom>
@@ -51343,12 +51672,12 @@ page 38</obo:AISM_0000171>
     <!-- http://purl.obolibrary.org/obo/COLAO_0000267 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COLAO_0000267">
-        <rdfs:subClassOf rdf:nodeID="genid7832"/>
-        <rdfs:subClassOf rdf:nodeID="genid7838"/>
+        <rdfs:subClassOf rdf:nodeID="genid7899"/>
+        <rdfs:subClassOf rdf:nodeID="genid7905"/>
         <obo:IAO_0000115 xml:lang="en">The distal region of the antenna that is composed by flagellomeres with increased size.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">antennal club</rdfs:label>
     </owl:Class>
-    <owl:Restriction rdf:nodeID="genid7832">
+    <owl:Restriction rdf:nodeID="genid7899">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
         <owl:someValuesFrom>
             <owl:Class>
@@ -51362,7 +51691,7 @@ page 38</obo:AISM_0000171>
             </owl:Class>
         </owl:someValuesFrom>
     </owl:Restriction>
-    <owl:Restriction rdf:nodeID="genid7838">
+    <owl:Restriction rdf:nodeID="genid7905">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
         <owl:someValuesFrom>
             <owl:Class>
@@ -51379,14 +51708,14 @@ page 38</obo:AISM_0000171>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000267"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid7832"/>
+        <owl:annotatedTarget rdf:nodeID="genid7899"/>
         <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
         <oboInOwl:creation_date>2023-05-04</oboInOwl:creation_date>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000267"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid7838"/>
+        <owl:annotatedTarget rdf:nodeID="genid7905"/>
         <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
         <oboInOwl:creation_date>2023-05-04</oboInOwl:creation_date>
     </owl:Axiom>
@@ -51403,335 +51732,6 @@ page 38</obo:AISM_0000171>
         <owl:annotatedTarget xml:lang="en">antennal club</owl:annotatedTarget>
         <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
         <oboInOwl:creation_date>2023-05-04</oboInOwl:creation_date>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/COLAO_0000392 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COLAO_0000392">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000006"/>
-        <rdfs:subClassOf rdf:nodeID="genid7847"/>
-        <rdfs:subClassOf rdf:nodeID="genid7857"/>
-        <obo:IAO_0000115 xml:lang="en">The anatomical margin that is formed by the anterior region of the anterolateral pronotal margin and by the lateral region of the anterior pronotal margin.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">anterolateral pronotal angle</rdfs:label>
-    </owl:Class>
-    <owl:Restriction rdf:nodeID="genid7847">
-        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-        <owl:someValuesFrom>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BSPO_0000071"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BSPO_0000045"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0000059"/>
-                                    </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:someValuesFrom>
-    </owl:Restriction>
-    <owl:Restriction rdf:nodeID="genid7857">
-        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-        <owl:someValuesFrom>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BSPO_0000082"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BSPO_0000671"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0000059"/>
-                                    </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:someValuesFrom>
-    </owl:Restriction>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000392"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000006"/>
-        <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
-        <oboInOwl:creation_date>2023-05-10</oboInOwl:creation_date>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000392"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid7847"/>
-        <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
-        <oboInOwl:creation_date>2023-05-10</oboInOwl:creation_date>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000392"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid7857"/>
-        <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
-        <oboInOwl:creation_date>2023-05-10</oboInOwl:creation_date>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000392"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">The anatomical margin that is formed by the anterior region of the anterolateral pronotal margin and by the lateral region of the anterior pronotal margin.</owl:annotatedTarget>
-        <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
-        <oboInOwl:creation_date>2023-05-10</oboInOwl:creation_date>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000392"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
-        <owl:annotatedTarget xml:lang="en">anterolateral pronotal angle</owl:annotatedTarget>
-        <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
-        <oboInOwl:creation_date>2023-05-10</oboInOwl:creation_date>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/COLAO_0000393 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COLAO_0000393">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000006"/>
-        <rdfs:subClassOf rdf:nodeID="genid7870"/>
-        <rdfs:subClassOf rdf:nodeID="genid7880"/>
-        <obo:IAO_0000115 xml:lang="en">The anatomical margin that is formed by the posterior region of the posterolateral pronotal margin and by the lateral region of the posterior pronotal margin.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">posterolateral pronotal angle</rdfs:label>
-    </owl:Class>
-    <owl:Restriction rdf:nodeID="genid7870">
-        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-        <owl:someValuesFrom>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BSPO_0000072"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BSPO_0000047"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0000059"/>
-                                    </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:someValuesFrom>
-    </owl:Restriction>
-    <owl:Restriction rdf:nodeID="genid7880">
-        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-        <owl:someValuesFrom>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BSPO_0000082"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BSPO_0000672"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AISM_0000059"/>
-                                    </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:someValuesFrom>
-    </owl:Restriction>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000393"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/BSPO_0000006"/>
-        <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
-        <oboInOwl:creation_date>2023-05-10</oboInOwl:creation_date>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000393"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid7870"/>
-        <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
-        <oboInOwl:creation_date>2023-05-10</oboInOwl:creation_date>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000393"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid7880"/>
-        <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
-        <oboInOwl:creation_date>2023-05-10</oboInOwl:creation_date>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000393"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">The anatomical margin that is formed by the posterior region of the posterolateral pronotal margin and by the lateral region of the posterior pronotal margin.</owl:annotatedTarget>
-        <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
-        <oboInOwl:creation_date>2023-05-10</oboInOwl:creation_date>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000393"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
-        <owl:annotatedTarget xml:lang="en">posterolateral pronotal angle</owl:annotatedTarget>
-        <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
-        <oboInOwl:creation_date>2023-05-10</oboInOwl:creation_date>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/COLAO_0000394 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COLAO_0000394">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000000"/>
-        <rdfs:subClassOf rdf:nodeID="genid7893"/>
-        <rdfs:subClassOf rdf:nodeID="genid7895"/>
-        <rdfs:subClassOf rdf:nodeID="genid7897"/>
-        <rdfs:subClassOf rdf:nodeID="genid7899"/>
-        <rdfs:subClassOf rdf:nodeID="genid7901"/>
-        <rdfs:subClassOf rdf:nodeID="genid7903"/>
-        <rdfs:subClassOf rdf:nodeID="genid7905"/>
-        <rdfs:subClassOf rdf:nodeID="genid7907"/>
-        <rdfs:subClassOf rdf:nodeID="genid7909"/>
-        <obo:IAO_0000115 xml:lang="en">The elytron that has parts elytral striae 1-9.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">elytron with 9 striae</rdfs:label>
-    </owl:Class>
-    <owl:Restriction rdf:nodeID="genid7893">
-        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000202"/>
-    </owl:Restriction>
-    <owl:Restriction rdf:nodeID="genid7895">
-        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000204"/>
-    </owl:Restriction>
-    <owl:Restriction rdf:nodeID="genid7897">
-        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000206"/>
-    </owl:Restriction>
-    <owl:Restriction rdf:nodeID="genid7899">
-        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000208"/>
-    </owl:Restriction>
-    <owl:Restriction rdf:nodeID="genid7901">
-        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000210"/>
-    </owl:Restriction>
-    <owl:Restriction rdf:nodeID="genid7903">
-        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000212"/>
-    </owl:Restriction>
-    <owl:Restriction rdf:nodeID="genid7905">
-        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000214"/>
-    </owl:Restriction>
-    <owl:Restriction rdf:nodeID="genid7907">
-        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000216"/>
-    </owl:Restriction>
-    <owl:Restriction rdf:nodeID="genid7909">
-        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000218"/>
-    </owl:Restriction>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000394"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000000"/>
-        <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
-        <oboInOwl:creation_date>2023-12-03</oboInOwl:creation_date>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000394"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid7893"/>
-        <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
-        <oboInOwl:creation_date>2023-12-03</oboInOwl:creation_date>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000394"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid7895"/>
-        <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
-        <oboInOwl:creation_date>2023-12-03</oboInOwl:creation_date>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000394"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid7897"/>
-        <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
-        <oboInOwl:creation_date>2023-12-03</oboInOwl:creation_date>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000394"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid7899"/>
-        <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
-        <oboInOwl:creation_date>2023-12-03</oboInOwl:creation_date>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000394"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid7901"/>
-        <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
-        <oboInOwl:creation_date>2023-12-03</oboInOwl:creation_date>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000394"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid7903"/>
-        <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
-        <oboInOwl:creation_date>2023-12-03</oboInOwl:creation_date>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000394"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid7905"/>
-        <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
-        <oboInOwl:creation_date>2023-12-03</oboInOwl:creation_date>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000394"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid7907"/>
-        <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
-        <oboInOwl:creation_date>2023-12-03</oboInOwl:creation_date>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000394"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid7909"/>
-        <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
-        <oboInOwl:creation_date>2023-12-03</oboInOwl:creation_date>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000394"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">The elytron that has parts elytral striae 1-9.</owl:annotatedTarget>
-        <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
-        <oboInOwl:creation_date>2023-12-03</oboInOwl:creation_date>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/COLAO_0000394"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
-        <owl:annotatedTarget xml:lang="en">elytron with 9 striae</owl:annotatedTarget>
-        <dc:contributor>gmontanaro https://orcid.org/0000-0003-0836-1364</dc:contributor>
-        <oboInOwl:creation_date>2023-12-03</oboInOwl:creation_date>
     </owl:Axiom>
     
 
