@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: colao/releases/2024-02-13/colao-full.owl
+data-version: colao/releases/2024-02-14/colao-full.owl
 ontology: colao/colao-full
 property_value: http://purl.org/dc/elements/1.1/contributor "Aaron Smith (asmith) https://orcid.org/0000-0002-1286-950X" xsd:string
 property_value: http://purl.org/dc/elements/1.1/contributor "Giulio Montanaro (gmontanaro) https://orcid.org/0000-0003-0836-1364" xsd:string
@@ -12,7 +12,7 @@ property_value: http://purl.org/dc/terms/license https://creativecommons.org/lic
 property_value: IAO:0000700 "http://purl.obolibrary.org/obo/AISM_0000174" xsd:string
 property_value: IAO:0000700 "http://purl.obolibrary.org/obo/PATO_0000001" xsd:string
 property_value: IAO:0000700 "http://purl.obolibrary.org/obo/UBERON_0001062" xsd:string
-property_value: owl:versionInfo "2024-02-13" xsd:string
+property_value: owl:versionInfo "2024-02-14" xsd:string
 
 [Term]
 id: AISM:0000000
@@ -6560,6 +6560,33 @@ is_a: COLAO:0000018 {http://purl.org/dc/elements/1.1/contributor="gmontanaro htt
 relationship: AISM:0000011 COLAO:0000222 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2022-09-06"} ! lateral_to elytral stria 11
 
 [Term]
+id: COLAO:0000224
+name: anterolateral pronotal angle {creation_date="2023-05-10", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+def: "The anatomical margin that is formed by the anterior region of the anterolateral pronotal margin and by the lateral region of the anterior pronotal margin." [] {creation_date="2023-05-10", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+is_a: BSPO:0000006 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-05-10"} ! anatomical margin
+
+[Term]
+id: COLAO:0000225
+name: posterolateral pronotal angle {creation_date="2023-05-10", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+def: "The anatomical margin that is formed by the posterior region of the posterolateral pronotal margin and by the lateral region of the posterior pronotal margin." [] {creation_date="2023-05-10", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+is_a: BSPO:0000006 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-05-10"} ! anatomical margin
+
+[Term]
+id: COLAO:0000226
+name: elytron with 9 striae {creation_date="2023-12-03", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+def: "The elytron that has parts elytral striae 1-9." [] {creation_date="2023-12-03", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
+is_a: COLAO:0000000 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-12-03"} ! elytron
+relationship: BFO:0000051 COLAO:0000202 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-12-03"} ! has part elytral stria 1
+relationship: BFO:0000051 COLAO:0000204 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-12-03"} ! has part elytral stria 2
+relationship: BFO:0000051 COLAO:0000206 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-12-03"} ! has part elytral stria 3
+relationship: BFO:0000051 COLAO:0000208 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-12-03"} ! has part elytral stria 4
+relationship: BFO:0000051 COLAO:0000210 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-12-03"} ! has part elytral stria 5
+relationship: BFO:0000051 COLAO:0000212 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-12-03"} ! has part elytral stria 6
+relationship: BFO:0000051 COLAO:0000214 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-12-03"} ! has part elytral stria 7
+relationship: BFO:0000051 COLAO:0000216 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-12-03"} ! has part elytral stria 8
+relationship: BFO:0000051 COLAO:0000218 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-12-03"} ! has part elytral stria 9
+
+[Term]
 id: COLAO:0000238
 name: accessory endophallite {AISM:0000171="Tarasov, S. I., & Solodovnikov, A. Y. (2011). Phylogenetic analyses reveal reliable morphological markers to classify mega‐diversity in Onthophagini dung beetles (Coleoptera: Scarabaeidae: Scarabaeinae). Cladistics, 27(5), 490-528. https://doi.org/10.1111/j.1096-0031.2011.00351.x\n\nPage 502, figure 3", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-04-04"}
 def: "The endophallite that is located in the distal region of the endophallus." [] {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-04-04"}
@@ -6665,33 +6692,6 @@ relationship: parallel_to BSPO:0000013 {http://purl.org/dc/elements/1.1/contribu
 id: COLAO:0000267
 name: antennal club {creation_date="2023-05-04", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
 def: "The distal region of the antenna that is composed by flagellomeres with increased size." [] {creation_date="2023-05-04", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
-
-[Term]
-id: COLAO:0000392
-name: anterolateral pronotal angle {creation_date="2023-05-10", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
-def: "The anatomical margin that is formed by the anterior region of the anterolateral pronotal margin and by the lateral region of the anterior pronotal margin." [] {creation_date="2023-05-10", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
-is_a: BSPO:0000006 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-05-10"} ! anatomical margin
-
-[Term]
-id: COLAO:0000393
-name: posterolateral pronotal angle {creation_date="2023-05-10", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
-def: "The anatomical margin that is formed by the posterior region of the posterolateral pronotal margin and by the lateral region of the posterior pronotal margin." [] {creation_date="2023-05-10", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
-is_a: BSPO:0000006 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-05-10"} ! anatomical margin
-
-[Term]
-id: COLAO:0000394
-name: elytron with 9 striae {creation_date="2023-12-03", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
-def: "The elytron that has parts elytral striae 1-9." [] {creation_date="2023-12-03", http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364"}
-is_a: COLAO:0000000 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-12-03"} ! elytron
-relationship: BFO:0000051 COLAO:0000202 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-12-03"} ! has part elytral stria 1
-relationship: BFO:0000051 COLAO:0000204 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-12-03"} ! has part elytral stria 2
-relationship: BFO:0000051 COLAO:0000206 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-12-03"} ! has part elytral stria 3
-relationship: BFO:0000051 COLAO:0000208 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-12-03"} ! has part elytral stria 4
-relationship: BFO:0000051 COLAO:0000210 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-12-03"} ! has part elytral stria 5
-relationship: BFO:0000051 COLAO:0000212 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-12-03"} ! has part elytral stria 6
-relationship: BFO:0000051 COLAO:0000214 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-12-03"} ! has part elytral stria 7
-relationship: BFO:0000051 COLAO:0000216 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-12-03"} ! has part elytral stria 8
-relationship: BFO:0000051 COLAO:0000218 {http://purl.org/dc/elements/1.1/contributor="gmontanaro https://orcid.org/0000-0003-0836-1364", creation_date="2023-12-03"} ! has part elytral stria 9
 
 [Term]
 id: PATO:0000001

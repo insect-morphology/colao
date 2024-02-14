@@ -13,7 +13,7 @@ Prefix(ncbitaxon:=<http://purl.obolibrary.org/obo/ncbitaxon#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/colao.owl>
-<http://purl.obolibrary.org/obo/colao/releases/2024-02-13/colao.owl>
+<http://purl.obolibrary.org/obo/colao/releases/2024-02-14/colao.owl>
 Annotation(obo:IAO_0000700 "http://purl.obolibrary.org/obo/AISM_0000174")
 Annotation(obo:IAO_0000700 "http://purl.obolibrary.org/obo/PATO_0000001")
 Annotation(obo:IAO_0000700 "http://purl.obolibrary.org/obo/UBERON_0001062")
@@ -25,7 +25,7 @@ Annotation(dc:contributor "Sergei Tarasov (starasov) https://orcid.org/0000-0001
 Annotation(dc:description "The Coleoptera Anatomy Ontology contains terms used for describing the anatomy and phenotype of beetles in biodiversity research."@en)
 Annotation(dc:title "Coleoptera Anatomy Ontology")
 Annotation(terms:license <https://creativecommons.org/licenses/by/4.0>)
-Annotation(owl:versionInfo "2024-02-13")
+Annotation(owl:versionInfo "2024-02-14")
 
 Declaration(Class(obo:AISM_0000000))
 Declaration(Class(obo:AISM_0000002))
@@ -839,6 +839,9 @@ Declaration(Class(obo:COLAO_0000220))
 Declaration(Class(obo:COLAO_0000221))
 Declaration(Class(obo:COLAO_0000222))
 Declaration(Class(obo:COLAO_0000223))
+Declaration(Class(obo:COLAO_0000224))
+Declaration(Class(obo:COLAO_0000225))
+Declaration(Class(obo:COLAO_0000226))
 Declaration(Class(obo:COLAO_0000238))
 Declaration(Class(obo:COLAO_0000239))
 Declaration(Class(obo:COLAO_0000240))
@@ -854,9 +857,6 @@ Declaration(Class(obo:COLAO_0000251))
 Declaration(Class(obo:COLAO_0000252))
 Declaration(Class(obo:COLAO_0000263))
 Declaration(Class(obo:COLAO_0000267))
-Declaration(Class(obo:COLAO_0000392))
-Declaration(Class(obo:COLAO_0000393))
-Declaration(Class(obo:COLAO_0000394))
 Declaration(Class(obo:PATO_0000001))
 Declaration(Class(obo:PATO_0000040))
 Declaration(Class(obo:PATO_0000052))
@@ -1672,7 +1672,7 @@ SubClassOf(Annotation(dc:contributor "imiko https://orcid.org/0000-0003-2938-907
 SubClassOf(Annotation(dc:contributor "imiko https://orcid.org/0000-0003-2938-9075") obo:AISM_0000040 ObjectComplementOf(ObjectSomeValuesFrom(obo:RO_0002371 obo:UBERON_0014895)))
 SubClassOf(Annotation(dc:contributor "imiko https://orcid.org/0000-0003-2938-9075") obo:AISM_0000040 ObjectSomeValuesFrom(obo:AISM_0000079 obo:AISM_0000004))
 
-# Class: obo:AISM_0000041 (cuticular scale)
+# Class: obo:AISM_0000041 (squama)
 
 AnnotationAssertion(Annotation(dc:contributor "imiko https://orcid.org/0000-0003-2938-9075") Annotation(oboInOwl:creation_date "2020-11-11") obo:IAO_0000115 obo:AISM_0000041 "The seta that is flat.")
 AnnotationAssertion(Annotation(terms:modified "2021-12-10") rdfs:label obo:AISM_0000041 "cuticular scale"@en)
@@ -10158,6 +10158,37 @@ AnnotationAssertion(Annotation(dc:contributor "gmontanaro https://orcid.org/0000
 SubClassOf(Annotation(dc:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(oboInOwl:creation_date "2022-09-06") obo:COLAO_0000223 obo:COLAO_0000018)
 SubClassOf(Annotation(dc:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(oboInOwl:creation_date "2022-09-06") obo:COLAO_0000223 ObjectSomeValuesFrom(obo:AISM_0000011 obo:COLAO_0000222))
 
+# Class: obo:COLAO_0000224 (anterolateral pronotal angle)
+
+AnnotationAssertion(Annotation(dc:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(oboInOwl:creation_date "2023-05-10") obo:IAO_0000115 obo:COLAO_0000224 "The anatomical margin that is formed by the anterior region of the anterolateral pronotal margin and by the lateral region of the anterior pronotal margin."@en)
+AnnotationAssertion(Annotation(dc:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(oboInOwl:creation_date "2023-05-10") rdfs:label obo:COLAO_0000224 "anterolateral pronotal angle"@en)
+SubClassOf(Annotation(dc:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(oboInOwl:creation_date "2023-05-10") obo:COLAO_0000224 obo:BSPO_0000006)
+SubClassOf(Annotation(dc:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(oboInOwl:creation_date "2023-05-10") obo:COLAO_0000224 ObjectSomeValuesFrom(obo:BFO_0000051 ObjectIntersectionOf(obo:BSPO_0000071 ObjectSomeValuesFrom(obo:BFO_0000050 ObjectIntersectionOf(obo:BSPO_0000045 ObjectSomeValuesFrom(obo:BFO_0000050 obo:AISM_0000059))))))
+SubClassOf(Annotation(dc:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(oboInOwl:creation_date "2023-05-10") obo:COLAO_0000224 ObjectSomeValuesFrom(obo:BFO_0000051 ObjectIntersectionOf(obo:BSPO_0000082 ObjectSomeValuesFrom(obo:BFO_0000050 ObjectIntersectionOf(obo:BSPO_0000671 ObjectSomeValuesFrom(obo:BFO_0000050 obo:AISM_0000059))))))
+
+# Class: obo:COLAO_0000225 (posterolateral pronotal angle)
+
+AnnotationAssertion(Annotation(dc:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(oboInOwl:creation_date "2023-05-10") obo:IAO_0000115 obo:COLAO_0000225 "The anatomical margin that is formed by the posterior region of the posterolateral pronotal margin and by the lateral region of the posterior pronotal margin."@en)
+AnnotationAssertion(Annotation(dc:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(oboInOwl:creation_date "2023-05-10") rdfs:label obo:COLAO_0000225 "posterolateral pronotal angle"@en)
+SubClassOf(Annotation(dc:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(oboInOwl:creation_date "2023-05-10") obo:COLAO_0000225 obo:BSPO_0000006)
+SubClassOf(Annotation(dc:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(oboInOwl:creation_date "2023-05-10") obo:COLAO_0000225 ObjectSomeValuesFrom(obo:BFO_0000051 ObjectIntersectionOf(obo:BSPO_0000072 ObjectSomeValuesFrom(obo:BFO_0000050 ObjectIntersectionOf(obo:BSPO_0000047 ObjectSomeValuesFrom(obo:BFO_0000050 obo:AISM_0000059))))))
+SubClassOf(Annotation(dc:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(oboInOwl:creation_date "2023-05-10") obo:COLAO_0000225 ObjectSomeValuesFrom(obo:BFO_0000051 ObjectIntersectionOf(obo:BSPO_0000082 ObjectSomeValuesFrom(obo:BFO_0000050 ObjectIntersectionOf(obo:BSPO_0000672 ObjectSomeValuesFrom(obo:BFO_0000050 obo:AISM_0000059))))))
+
+# Class: obo:COLAO_0000226 (elytron with 9 striae)
+
+AnnotationAssertion(Annotation(dc:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(oboInOwl:creation_date "2023-12-03") obo:IAO_0000115 obo:COLAO_0000226 "The elytron that has parts elytral striae 1-9."@en)
+AnnotationAssertion(Annotation(dc:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(oboInOwl:creation_date "2023-12-03") rdfs:label obo:COLAO_0000226 "elytron with 9 striae"@en)
+SubClassOf(Annotation(dc:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(oboInOwl:creation_date "2023-12-03") obo:COLAO_0000226 obo:COLAO_0000000)
+SubClassOf(Annotation(dc:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(oboInOwl:creation_date "2023-12-03") obo:COLAO_0000226 ObjectSomeValuesFrom(obo:BFO_0000051 obo:COLAO_0000202))
+SubClassOf(Annotation(dc:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(oboInOwl:creation_date "2023-12-03") obo:COLAO_0000226 ObjectSomeValuesFrom(obo:BFO_0000051 obo:COLAO_0000204))
+SubClassOf(Annotation(dc:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(oboInOwl:creation_date "2023-12-03") obo:COLAO_0000226 ObjectSomeValuesFrom(obo:BFO_0000051 obo:COLAO_0000206))
+SubClassOf(Annotation(dc:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(oboInOwl:creation_date "2023-12-03") obo:COLAO_0000226 ObjectSomeValuesFrom(obo:BFO_0000051 obo:COLAO_0000208))
+SubClassOf(Annotation(dc:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(oboInOwl:creation_date "2023-12-03") obo:COLAO_0000226 ObjectSomeValuesFrom(obo:BFO_0000051 obo:COLAO_0000210))
+SubClassOf(Annotation(dc:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(oboInOwl:creation_date "2023-12-03") obo:COLAO_0000226 ObjectSomeValuesFrom(obo:BFO_0000051 obo:COLAO_0000212))
+SubClassOf(Annotation(dc:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(oboInOwl:creation_date "2023-12-03") obo:COLAO_0000226 ObjectSomeValuesFrom(obo:BFO_0000051 obo:COLAO_0000214))
+SubClassOf(Annotation(dc:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(oboInOwl:creation_date "2023-12-03") obo:COLAO_0000226 ObjectSomeValuesFrom(obo:BFO_0000051 obo:COLAO_0000216))
+SubClassOf(Annotation(dc:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(oboInOwl:creation_date "2023-12-03") obo:COLAO_0000226 ObjectSomeValuesFrom(obo:BFO_0000051 obo:COLAO_0000218))
+
 # Class: obo:COLAO_0000238 (accessory endophallite)
 
 AnnotationAssertion(Annotation(dc:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(oboInOwl:creation_date "2023-04-04") obo:IAO_0000115 obo:COLAO_0000238 "The endophallite that is located in the distal region of the endophallus."@en)
@@ -10307,37 +10338,6 @@ AnnotationAssertion(Annotation(dc:contributor "gmontanaro https://orcid.org/0000
 AnnotationAssertion(Annotation(dc:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(oboInOwl:creation_date "2023-05-04") rdfs:label obo:COLAO_0000267 "antennal club"@en)
 SubClassOf(Annotation(dc:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(oboInOwl:creation_date "2023-05-04") obo:COLAO_0000267 ObjectSomeValuesFrom(obo:BFO_0000050 ObjectIntersectionOf(obo:BSPO_0000078 ObjectSomeValuesFrom(obo:BFO_0000050 obo:AISM_0000032))))
 SubClassOf(Annotation(dc:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(oboInOwl:creation_date "2023-05-04") obo:COLAO_0000267 ObjectSomeValuesFrom(obo:BFO_0000051 ObjectIntersectionOf(obo:AISM_0000116 ObjectSomeValuesFrom(obo:RO_0000053 obo:PATO_0000586))))
-
-# Class: obo:COLAO_0000392 (anterolateral pronotal angle)
-
-AnnotationAssertion(Annotation(dc:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(oboInOwl:creation_date "2023-05-10") obo:IAO_0000115 obo:COLAO_0000392 "The anatomical margin that is formed by the anterior region of the anterolateral pronotal margin and by the lateral region of the anterior pronotal margin."@en)
-AnnotationAssertion(Annotation(dc:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(oboInOwl:creation_date "2023-05-10") rdfs:label obo:COLAO_0000392 "anterolateral pronotal angle"@en)
-SubClassOf(Annotation(dc:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(oboInOwl:creation_date "2023-05-10") obo:COLAO_0000392 obo:BSPO_0000006)
-SubClassOf(Annotation(dc:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(oboInOwl:creation_date "2023-05-10") obo:COLAO_0000392 ObjectSomeValuesFrom(obo:BFO_0000051 ObjectIntersectionOf(obo:BSPO_0000071 ObjectSomeValuesFrom(obo:BFO_0000050 ObjectIntersectionOf(obo:BSPO_0000045 ObjectSomeValuesFrom(obo:BFO_0000050 obo:AISM_0000059))))))
-SubClassOf(Annotation(dc:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(oboInOwl:creation_date "2023-05-10") obo:COLAO_0000392 ObjectSomeValuesFrom(obo:BFO_0000051 ObjectIntersectionOf(obo:BSPO_0000082 ObjectSomeValuesFrom(obo:BFO_0000050 ObjectIntersectionOf(obo:BSPO_0000671 ObjectSomeValuesFrom(obo:BFO_0000050 obo:AISM_0000059))))))
-
-# Class: obo:COLAO_0000393 (posterolateral pronotal angle)
-
-AnnotationAssertion(Annotation(dc:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(oboInOwl:creation_date "2023-05-10") obo:IAO_0000115 obo:COLAO_0000393 "The anatomical margin that is formed by the posterior region of the posterolateral pronotal margin and by the lateral region of the posterior pronotal margin."@en)
-AnnotationAssertion(Annotation(dc:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(oboInOwl:creation_date "2023-05-10") rdfs:label obo:COLAO_0000393 "posterolateral pronotal angle"@en)
-SubClassOf(Annotation(dc:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(oboInOwl:creation_date "2023-05-10") obo:COLAO_0000393 obo:BSPO_0000006)
-SubClassOf(Annotation(dc:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(oboInOwl:creation_date "2023-05-10") obo:COLAO_0000393 ObjectSomeValuesFrom(obo:BFO_0000051 ObjectIntersectionOf(obo:BSPO_0000072 ObjectSomeValuesFrom(obo:BFO_0000050 ObjectIntersectionOf(obo:BSPO_0000047 ObjectSomeValuesFrom(obo:BFO_0000050 obo:AISM_0000059))))))
-SubClassOf(Annotation(dc:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(oboInOwl:creation_date "2023-05-10") obo:COLAO_0000393 ObjectSomeValuesFrom(obo:BFO_0000051 ObjectIntersectionOf(obo:BSPO_0000082 ObjectSomeValuesFrom(obo:BFO_0000050 ObjectIntersectionOf(obo:BSPO_0000672 ObjectSomeValuesFrom(obo:BFO_0000050 obo:AISM_0000059))))))
-
-# Class: obo:COLAO_0000394 (elytron with 9 striae)
-
-AnnotationAssertion(Annotation(dc:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(oboInOwl:creation_date "2023-12-03") obo:IAO_0000115 obo:COLAO_0000394 "The elytron that has parts elytral striae 1-9."@en)
-AnnotationAssertion(Annotation(dc:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(oboInOwl:creation_date "2023-12-03") rdfs:label obo:COLAO_0000394 "elytron with 9 striae"@en)
-SubClassOf(Annotation(dc:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(oboInOwl:creation_date "2023-12-03") obo:COLAO_0000394 obo:COLAO_0000000)
-SubClassOf(Annotation(dc:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(oboInOwl:creation_date "2023-12-03") obo:COLAO_0000394 ObjectSomeValuesFrom(obo:BFO_0000051 obo:COLAO_0000202))
-SubClassOf(Annotation(dc:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(oboInOwl:creation_date "2023-12-03") obo:COLAO_0000394 ObjectSomeValuesFrom(obo:BFO_0000051 obo:COLAO_0000204))
-SubClassOf(Annotation(dc:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(oboInOwl:creation_date "2023-12-03") obo:COLAO_0000394 ObjectSomeValuesFrom(obo:BFO_0000051 obo:COLAO_0000206))
-SubClassOf(Annotation(dc:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(oboInOwl:creation_date "2023-12-03") obo:COLAO_0000394 ObjectSomeValuesFrom(obo:BFO_0000051 obo:COLAO_0000208))
-SubClassOf(Annotation(dc:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(oboInOwl:creation_date "2023-12-03") obo:COLAO_0000394 ObjectSomeValuesFrom(obo:BFO_0000051 obo:COLAO_0000210))
-SubClassOf(Annotation(dc:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(oboInOwl:creation_date "2023-12-03") obo:COLAO_0000394 ObjectSomeValuesFrom(obo:BFO_0000051 obo:COLAO_0000212))
-SubClassOf(Annotation(dc:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(oboInOwl:creation_date "2023-12-03") obo:COLAO_0000394 ObjectSomeValuesFrom(obo:BFO_0000051 obo:COLAO_0000214))
-SubClassOf(Annotation(dc:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(oboInOwl:creation_date "2023-12-03") obo:COLAO_0000394 ObjectSomeValuesFrom(obo:BFO_0000051 obo:COLAO_0000216))
-SubClassOf(Annotation(dc:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(oboInOwl:creation_date "2023-12-03") obo:COLAO_0000394 ObjectSomeValuesFrom(obo:BFO_0000051 obo:COLAO_0000218))
 
 # Class: obo:PATO_0000001 (quality)
 
