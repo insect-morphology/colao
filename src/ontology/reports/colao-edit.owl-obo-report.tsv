@@ -1,13 +1,2 @@
 Level	Rule Name	Subject	Property	Value
-ERROR	duplicate_definition	radial posterior branch 1 (RP1) of the beetle wing	definition	The posterior branch of the beetle wing vein that is part of the radial posterior (RP) vein of the beetle wing.@en
-ERROR	duplicate_definition	radial posterior branch 3+4 (RP3+4) of the beetle wing	definition	The posterior branch of the beetle wing vein that is part of the radial posterior (RP) vein of the beetle wing.@en
-WARN	duplicate_label_synonym	cupule	has exact synonym	cupule@en
-WARN	duplicate_label_synonym	mala	has exact synonym	mala@en
 WARN	missing_definition	deflexed	definition	
-WARN	missing_definition	frontoclypeus	definition	
-WARN	missing_definition	periarticular groove	definition	
-WARN	missing_definition	cupule	definition	
-WARN	missing_definition	radial bar of the beetle wing	definition	
-WARN	missing_definition	triangular folding area of the beetle wing	definition	
-WARN	missing_definition	abdominal ventrite	definition	
-WARN	missing_definition	clypeal margin at genoclypeal sulcus	definition	

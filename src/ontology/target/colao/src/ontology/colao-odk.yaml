@@ -5,4 +5,4 @@ repo: colao
 import_group:
   products:
     - id: aism
-      mirror_from: https://raw.githubusercontent.com/insect-morphology/aism/master/aism.owl
+      mirror_from: https://raw.githubusercontent.com/insect-morphology/aism/main/aism.owl
