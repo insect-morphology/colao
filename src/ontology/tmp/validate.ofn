@@ -13,7 +13,7 @@ Prefix(ncbitaxon:=<http://purl.obolibrary.org/obo/ncbitaxon#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/colao.owl>
-<http://purl.obolibrary.org/obo/colao/releases/2024-02-14/colao.owl>
+<http://purl.obolibrary.org/obo/colao/releases/2024-06-21/colao.owl>
 Annotation(obo:IAO_0000700 "http://purl.obolibrary.org/obo/AISM_0000174")
 Annotation(obo:IAO_0000700 "http://purl.obolibrary.org/obo/PATO_0000001")
 Annotation(obo:IAO_0000700 "http://purl.obolibrary.org/obo/UBERON_0001062")
@@ -25,7 +25,7 @@ Annotation(dc:contributor "Sergei Tarasov (starasov) https://orcid.org/0000-0001
 Annotation(dc:description "The Coleoptera Anatomy Ontology contains terms used for describing the anatomy and phenotype of beetles in biodiversity research."@en)
 Annotation(dc:title "Coleoptera Anatomy Ontology")
 Annotation(terms:license <https://creativecommons.org/licenses/by/4.0>)
-Annotation(owl:versionInfo "2024-02-14")
+Annotation(owl:versionInfo "2024-06-21")
 
 Declaration(Class(obo:AISM_0000000))
 Declaration(Class(obo:AISM_0000002))
@@ -815,6 +815,9 @@ Declaration(Class(obo:COLAO_0000150))
 Declaration(Class(obo:COLAO_0000151))
 Declaration(Class(obo:COLAO_0000152))
 Declaration(Class(obo:COLAO_0000153))
+Declaration(Class(obo:COLAO_0000154))
+Declaration(Class(obo:COLAO_0000155))
+Declaration(Class(obo:COLAO_0000156))
 Declaration(Class(obo:COLAO_0000200))
 Declaration(Class(obo:COLAO_0000201))
 Declaration(Class(obo:COLAO_0000202))
@@ -1672,7 +1675,7 @@ SubClassOf(Annotation(dc:contributor "imiko https://orcid.org/0000-0003-2938-907
 SubClassOf(Annotation(dc:contributor "imiko https://orcid.org/0000-0003-2938-9075") obo:AISM_0000040 ObjectComplementOf(ObjectSomeValuesFrom(obo:RO_0002371 obo:UBERON_0014895)))
 SubClassOf(Annotation(dc:contributor "imiko https://orcid.org/0000-0003-2938-9075") obo:AISM_0000040 ObjectSomeValuesFrom(obo:AISM_0000079 obo:AISM_0000004))
 
-# Class: obo:AISM_0000041 (squama)
+# Class: obo:AISM_0000041 (cuticular scale)
 
 AnnotationAssertion(Annotation(dc:contributor "imiko https://orcid.org/0000-0003-2938-9075") Annotation(oboInOwl:creation_date "2020-11-11") obo:IAO_0000115 obo:AISM_0000041 "The seta that is flat.")
 AnnotationAssertion(Annotation(terms:modified "2021-12-10") rdfs:label obo:AISM_0000041 "cuticular scale"@en)
@@ -8520,7 +8523,7 @@ https://www.publish.csiro.au/book/6466/
 
 \"the anterolateral portion of the [elytral] disc; usually somewhat elevated and angulate; embraces the mesopleuron\""@en) rdfs:label obo:COLAO_0000015 "elytral humerus"@en)
 SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") obo:COLAO_0000015 obo:AISM_0000174)
-SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") obo:COLAO_0000015 ObjectIntersectionOf(obo:BSPO_0000071 obo:BSPO_0000082 ObjectSomeValuesFrom(obo:BFO_0000050 obo:COLAO_0000000)))
+SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") obo:COLAO_0000015 ObjectIntersectionOf(obo:BSPO_0000029 ObjectSomeValuesFrom(obo:BFO_0000050 obo:COLAO_0000000)))
 
 # Class: obo:COLAO_0000016 (elytral puncture)
 
@@ -8972,7 +8975,7 @@ SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-68
 
 # Class: obo:COLAO_0000054 (labral seta)
 
-AnnotationAssertion(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(oboInOwl:creation_date "2022-06-20") obo:IAO_0000115 obo:COLAO_0000054 "The cuticular seta on the dorsal region the cuticle of the labrum."@en)
+AnnotationAssertion(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(oboInOwl:creation_date "2022-06-20") obo:IAO_0000115 obo:COLAO_0000054 "The cuticular seta on the dorsal region of the cuticle of the labrum."@en)
 AnnotationAssertion(Annotation(terms:isReferencedBy "Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150."@en) oboInOwl:hasExactSynonym obo:COLAO_0000054 "labral bristle"@en)
 AnnotationAssertion(rdfs:label obo:COLAO_0000054 "labral seta"@en)
 SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(oboInOwl:creation_date "2022-06-20") obo:COLAO_0000054 obo:AISM_0000039)
@@ -9096,14 +9099,14 @@ SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-68
 
 # Class: obo:COLAO_0000068 (galeal seta)
 
-AnnotationAssertion(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(oboInOwl:creation_date "2022-06-23") obo:IAO_0000115 obo:COLAO_0000068 "The cuticular seta on the dorsal region the cuticle of the galea."@en)
+AnnotationAssertion(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(oboInOwl:creation_date "2022-06-23") obo:IAO_0000115 obo:COLAO_0000068 "The cuticular seta on the dorsal region of the cuticle of the galea."@en)
 AnnotationAssertion(Annotation(terms:isReferencedBy "Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150."@en) Annotation(oboInOwl:creation_date "2022-06-23") rdfs:label obo:COLAO_0000068 "galeal seta"@en)
 SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(oboInOwl:creation_date "2022-06-23") obo:COLAO_0000068 obo:AISM_0000039)
 SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(oboInOwl:creation_date "2022-06-23") obo:COLAO_0000068 ObjectSomeValuesFrom(obo:RO_0002220 ObjectIntersectionOf(obo:BSPO_0000079 ObjectSomeValuesFrom(obo:BFO_0000050 obo:AISM_0000023))))
 
 # Class: obo:COLAO_0000069 (lacinial seta)
 
-AnnotationAssertion(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(oboInOwl:creation_date "2022-06-23") obo:IAO_0000115 obo:COLAO_0000069 "The cuticular seta on the dorsal region the cuticle of the lacinia."@en)
+AnnotationAssertion(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(oboInOwl:creation_date "2022-06-23") obo:IAO_0000115 obo:COLAO_0000069 "The cuticular seta on the dorsal region of the cuticle of the lacinia."@en)
 AnnotationAssertion(Annotation(terms:isReferencedBy "Doyen, J.T. (1966) The skeletal anatomy of Tenebrio molitor (Coleoptera: Tenebrionidae). Miscellaneous Publications of the Entomological Society of America 5, 103–150."@en) Annotation(oboInOwl:creation_date "2022-06-23") rdfs:label obo:COLAO_0000069 "lacinial seta"@en)
 SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(oboInOwl:creation_date "2022-06-23") obo:COLAO_0000069 obo:AISM_0000039)
 SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(oboInOwl:creation_date "2022-06-23") obo:COLAO_0000069 ObjectSomeValuesFrom(obo:RO_0002220 ObjectIntersectionOf(obo:BSPO_0000079 ObjectSomeValuesFrom(obo:BFO_0000050 obo:AISM_0000026))))
@@ -9984,6 +9987,27 @@ https://www.publish.csiro.au/book/6466/
 \"The cuticular area immediately adjoining the sieve plate and usually partly surrounded by it is called the bulla, and it is here that the spiracular scar is located.\""@en) Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883"@en) Annotation(oboInOwl:creation_date "2023-02-05"@en) rdfs:label obo:COLAO_0000153 "spiracular scar"@en)
 SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(oboInOwl:creation_date "2023-02-05") obo:COLAO_0000153 obo:AISM_0000003)
 SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(oboInOwl:creation_date "2023-02-05") obo:COLAO_0000153 ObjectSomeValuesFrom(obo:BFO_0000050 obo:AISM_0000135))
+
+# Class: obo:COLAO_0000154 (costate elytral interstria)
+
+AnnotationAssertion(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(oboInOwl:creation_date "2021-08-30") obo:IAO_0000115 obo:COLAO_0000154 "The elytral stria with elevated surface."@en)
+AnnotationAssertion(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(oboInOwl:creation_date "2024-06-20") rdfs:label obo:COLAO_0000154 "costate elytral interstria"@en)
+SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") obo:COLAO_0000154 obo:COLAO_0000018)
+SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") obo:COLAO_0000154 ObjectSomeValuesFrom(obo:RO_0000053 obo:AISM_0000008))
+
+# Class: obo:COLAO_0000155 (genal seta)
+
+AnnotationAssertion(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(oboInOwl:creation_date "2022-06-23") obo:IAO_0000115 obo:COLAO_0000155 "The cuticular seta on the external side of the cuticle of the gena that is posterior or ventral to the compound eye."@en)
+AnnotationAssertion(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(oboInOwl:creation_date "2024-06-20") rdfs:label obo:COLAO_0000155 "genal seta"@en)
+SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(oboInOwl:creation_date "2024-06-20") obo:COLAO_0000155 obo:AISM_0000039)
+SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(oboInOwl:creation_date "2024-06-20") obo:COLAO_0000155 ObjectSomeValuesFrom(obo:RO_0000053 ObjectUnionOf(ObjectSomeValuesFrom(obo:BSPO_0000099 obo:AISM_0000088) ObjectSomeValuesFrom(obo:BSPO_0000102 obo:AISM_0000088))))
+SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(oboInOwl:creation_date "2024-06-20") obo:COLAO_0000155 ObjectSomeValuesFrom(obo:RO_0002220 ObjectIntersectionOf(obo:BSPO_0000378 ObjectSomeValuesFrom(obo:BFO_0000050 obo:AISM_0000023))))
+
+# Class: obo:COLAO_0000156 (lateral pronotal margin)
+
+AnnotationAssertion(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(oboInOwl:creation_date "2024-06-20") obo:IAO_0000115 obo:COLAO_0000156 "The lateral margin of the pronotum"@en)
+AnnotationAssertion(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(oboInOwl:creation_date "2024-06-20") rdfs:label obo:COLAO_0000156 "lateral pronotal margin"@en)
+SubClassOf(Annotation(dc:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(oboInOwl:creation_date "2024-06-20") obo:COLAO_0000156 ObjectIntersectionOf(obo:BSPO_0000682 ObjectSomeValuesFrom(obo:BFO_0000050 obo:AISM_0000059)))
 
 # Class: obo:COLAO_0000200 (anterolateral pronotal apodeme)
 

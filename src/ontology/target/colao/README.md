@@ -1,5 +1,5 @@
 
-![Build Status](https://github.com/JCGiron/colao/workflows/CI/badge.svg)
+![Build Status](https://github.com/JCGiron/colao/actions/workflows/qc.yml/badge.svg)
 # Coleoptera Anatomy Ontology
 
 Description: None
