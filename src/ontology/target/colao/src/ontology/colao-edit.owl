@@ -11,7 +11,9 @@ Prefix(dcterms:=<http://purl.org/dc/terms/>)
 
 Ontology(<http://purl.obolibrary.org/obo/colao.owl>
 
+
 Import(<http://purl.obolibrary.org/obo/colao/imports/aism_import.owl>)
+
 
 
 Annotation(dcterms:description "None")

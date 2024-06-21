@@ -1,2 +1,897 @@
 ?cls	?def	?xrefs
-<http://purl.obolibrary.org/obo/COLAO_00000000>		
+<http://purl.obolibrary.org/obo/AISM_0000116>	"The cuticle of the mere that is part of the antenna."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000072>	"The bilaterally paired cuticular sulcus on the posterior region of the pronotum."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000250>	"The cuticular carina that is located in the hypomeron and that is anteriorly connected to the anterior margin of pronotum and posteriorly connected to the lateral margin of procoxal cavity."@en	
+<http://purl.obolibrary.org/obo/AISM_0002053>	"The cranio-labial muscle that is attached to the submentum and the prementum."@en	
+<http://purl.obolibrary.org/obo/AISM_0000019>	"The sclerite of the insect head that is attached to the neck membrane and the oral foraminal conjunctiva, bears the eye cuticle and surrounds the brain"@en	
+<http://purl.obolibrary.org/obo/AISM_0000168>	"The sclerite of the salivarium."@en	
+<http://purl.obolibrary.org/obo/AISM_0004233>	"The conjunctiva of the mesothorax that joins the mesosternum and the mesocoxa."@en	
+<http://purl.obolibrary.org/obo/AISM_0000067>	"The cuticle of the segment of a fore leg attached to the distal margin of the profemur by the profemoro-protibial conjunctiva and to the proximal margin of the protarsus by the protibio-protarsal conjunctiva."@en	
+<http://purl.obolibrary.org/obo/AISM_0002018>	"The cranio-mandibular muscle that is attached to the gena and the insect mandible."@en	
+<http://purl.obolibrary.org/obo/AISM_0000189>	"The seta that is conical."@en	
+<http://purl.obolibrary.org/obo/AISM_0002005>	"The cranio-antennal muscle that is attached to the dorsal or anterior tentorial arm and the proximal margin of the scapus."@en	
+<http://purl.obolibrary.org/obo/AISM_0004069>	"The region of cuticle that is connected to the oviduct, the bursa copulatrix and the gonocoxa VIII, and is adjacent to the gonopore."@en	
+<http://purl.obolibrary.org/obo/AISM_0000161>	"The ridge that is in the sagittal line of the ventral part thorax."	
+<http://purl.obolibrary.org/obo/AISM_0004083>	"The region of cuticle that is continuous with the genital chamber."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000025>	"The discrimen of the mesoventrite."@en	
+<http://purl.obolibrary.org/obo/AISM_0002027>	"The insect cranio-maxillar muscle that is attached to the gena and the cardo."@en	
+<http://purl.obolibrary.org/obo/AISM_0004107>	"The abdominal sternite of the preabdomen that is attached to the posterior margin of the abdominal sternite IV by the abdominal sternite IV-abdominal sternite V conjunctiva and to the anterior margin of the abdominal sternite VI by the abdominal sternite V-abdominal sternite VI conjunctiva."@en	
+<http://purl.obolibrary.org/obo/AISM_0002081>	"The dorsoventral thoracic muscle that extends between the profurca and the lateral region of the prophragma."@en	
+<http://purl.obolibrary.org/obo/AISM_0004313>	"The bilaterally paired cuticular protrusion that contains insect tracheae."@en	
+<http://purl.obolibrary.org/obo/PATO_0002112>	"A structural quality inhering in a bearer by virtue of the bearer's having a hole or holes, especially a row or array of small holes. [database_cross_reference: answers.com:answers.com]"@en	
+<http://purl.obolibrary.org/obo/PATO_0000404>	"A shape quality inhering in a bearer by virtue of the bearer's being curled or wound (especially in concentric rings or spirals)."	
+<http://purl.obolibrary.org/obo/BSPO_0000064>		
+<http://purl.obolibrary.org/obo/PATO_0002227>	"A concave 3-D shape quality inhering in a bearer by virtue of the bearer's shape form resembling the shape of a cup. [database_cross_reference: url:http://www.thefreedictionary.com/cup-shaped]"@en	
+<http://purl.obolibrary.org/obo/AISM_0004254>	"The insect wing fold that is posterior to the postcubitus and separates the costal field and the anal field."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000156>	"The lateral margin of the pronotum"@en	
+<http://purl.obolibrary.org/obo/AISM_0000054>	"The trochantin that is located on the ventro-lateral region of the mesothorax and is attached to a mesocoxa and surrounded by the basal mesocoxal conjunctiva."@en	
+<http://purl.obolibrary.org/obo/AISM_0004296>	"The insect abdominal segment that is posterior to the insect abdominal segment VIII and composed of abdominal tergite IX and abdominal sternite IX."@en	"http://flybase.org/cgi-bin/cvreport.pl?cvterm=FBbt:00000030"
+<http://purl.obolibrary.org/obo/AISM_0000027>	"The region of cuticle that corresponds with an evagination of the cuticle and the single layer epidermis (epidermal fold). The cuticular evagination usually corresponds to a cuticular protrusion (convexity on the surface of the cuticle)."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000063>	"The apodeme adjacent to the proximo-lateral region of the cuticle of the insect mandible."@en	
+<http://purl.obolibrary.org/obo/AISM_0004010>	"The conjunctiva of the insect maxilla that connects the stipes and the palpifer."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000083>	"Each of the bilaterally paired regions of cuticle on the postero-medial region of the hypomeron."@en	
+<http://purl.obolibrary.org/obo/AISM_0004167>	"The conjunctiva of the postabdomen that joins the abdominal tergite X and each paraproct."@en	
+<http://purl.obolibrary.org/obo/AISM_0002057>	"The cranio-labial muscle that is attached to the prementum and the labial palpus."@en	
+<http://purl.obolibrary.org/obo/AISM_0004123>	"The conjunctiva of the insect abdomen that connects the abdominal sternite VIII and the abdominal sternite IX."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000049>	"The cranio-mandibular articulation of the head capsule at the anterior region of the postgena"@en	
+<http://purl.obolibrary.org/obo/COLAO_0000080>	"Each of the bilaterally paired hypopharyngeal sclerites on the medial region of the hypopharynx."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000155>	"The cuticular seta on the external side of the cuticle of the gena that is posterior or ventral to the compound eye."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000217>	"The elytral interstria that is lateral to the elytral stria 8."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000092>	"The sulcus of the mesoventrite that is transverse (parallel to the left-right axis)."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000001>	"The carina of the pronotum that separates the pronotal disc from the hypomeron."@en	
+<http://purl.obolibrary.org/obo/AISM_0000107>	"The cuticular region that is anterior (distal) to the neck membrane (encircled by the neck membrane) and contains the head capsule, the antenna, the eyes, mouthparts and surrounds the brain."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000213>	"The elytral interstria that is lateral to the elytral stria 6."@en	
+<http://purl.obolibrary.org/obo/AISM_0002010>	"The cranio-labral muscle that is attached to the frontoclypeal ridge and the labrum."@en	
+<http://purl.obolibrary.org/obo/AISM_0002086>	"The insect abdominal muscle that runs along the lateral region, parallel to the dorsal-ventral axis."@en	
+<http://purl.obolibrary.org/obo/PATO_0000407>	"A quality inhering in a bearer by virtue of the bearer's having a horizontal surface without a slope, tilt, or curvature."	
+<http://purl.obolibrary.org/obo/BSPO_0000084>	"Anatomical region ventrally located on the body or body part."	"FBql:00005843"
+<http://purl.obolibrary.org/obo/PATO_0002254>	"A quality inhering in a bearer by virtue of the bearer's surface becoming more extended in a plane."	
+<http://purl.obolibrary.org/obo/AISM_0004214>	"The insect thoracic muscle that is attached to a furca and to a coxa."@en	
+<http://purl.obolibrary.org/obo/AISM_0004156>	"The sulcus of the pleuron delimiting the dorsal region of the preepisternum and the ventral region of the anepisternum."@en	
+<http://purl.obolibrary.org/obo/AISM_0004035>	"The sclerite on the ventral region of the head capsule that is limited laterally by the gular ridges, posteriorly by the foramen occipitale and anteriorly by the submentum."@en	
+<http://purl.obolibrary.org/obo/AISM_0004015>	"The conjunctiva of the labium that connects the prementum and the paraglossa."@en	
+<http://purl.obolibrary.org/obo/AISM_0000524>	"The cuticular fovea that is small."@en	
+<http://purl.obolibrary.org/obo/AISM_0004165>	"The bilaterally paired region of the cuticle of the postabdomen located between the epiproct and the paraproct"@en	
+<http://purl.obolibrary.org/obo/AISM_0002025>	"The cranio-mandibular muscle that extends between the anterior tentorial arm and the dorso-medial region of the insect mandible."@en	
+<http://purl.obolibrary.org/obo/AISM_0004021>	"The ridge along the dorsal and lateral regions of the head capsule that is adjacent to the foramen occipitale."@en	
+<http://purl.obolibrary.org/obo/AISM_0002054>	"The cranio-labial muscle that is attached to the submentum and the mentum."@en	
+<http://purl.obolibrary.org/obo/PATO_0000587>	"A size quality which is relatively low."	
+<http://purl.obolibrary.org/obo/AISM_0004140>	"The part of the sternum that is attached to the posterior margin of the spinasternum."@en	
+<http://purl.obolibrary.org/obo/PATO_0001573>	"A symmetry quality inhering in a bearer by virtue of the bearer's having equal dimensions or measurements."	
+<http://purl.obolibrary.org/obo/COLAO_0000029>	"The antero-medial region of the metaventrite in contact with the mesoventral process."@en	
+<http://purl.obolibrary.org/obo/AISM_0000032>	"The cuticle of the appendage of the head capsule that is connected by the  antenniferal-scapal conjunctiva to the cuticle of the scapus, which is connected by the scapal-pedicellar conjunctiva to the cuticle of the pedicellus; the cuticle of the pedicellus is connected by the pedicellar-first flagellomeral conjunctiva to the cuticle of the first flagellomere; the cuticle of the first flagellomere is connected by interflagellomeral conjunctiva to the next cuticle of flagellomere. Further cuticle of flagellomeres are connected to each other by interflagellomeral conjunctiva."@en	
+<http://purl.obolibrary.org/obo/AISM_0000046>	"The conjunctiva of the insect thorax joining the prothorax and the mesothorax."@en	
+<http://purl.obolibrary.org/obo/AISM_0002007>	"The cranio-antennal muscle that is attached to the dorsal or dorsolateral regions of the scapus and the lateral or dorsolateral regions of the pedicellus."@en	
+<http://purl.obolibrary.org/obo/UBERON_0034926>		
+<http://purl.obolibrary.org/obo/BSPO_0000045>	"Anatomical margin that is located on the antero-lateral region of the body or body part."	
+<http://purl.obolibrary.org/obo/AISM_0004139>	"The part of the sternum that is attached to the posterior margin of the furcasternum and to the anterior margin of the poststernite."@en	
+<http://purl.obolibrary.org/obo/AISM_0004240>	"The cuticular suture composed of both the coronal suture and paired frontal sutures."@en	
+<http://purl.obolibrary.org/obo/AISM_0002003>	"The cranio-antennal muscle that is attached to the dorsal or anterior tentorial arm and the proximo-dorsal margin of the scapus."@en	
+<http://purl.obolibrary.org/obo/AISM_0004007>	"The conjunctiva of the head capsule that connects the antennifer and the scapus."@en	
+<http://purl.obolibrary.org/obo/AISM_0000003>	"The region of the insect cuticle that is less flexible than the neighboring conjunctiva(e) (conjunctiva(e) that the sclerite is continuous with."@en	"http://purl.obolibrary.org/obo/UBERON_6004475 http://purl.obolibrary.org/obo/HAO_0000909 http://flybase.org/cgi-bin/fbcvq.html?query=FBbt:00004475"
+<http://purl.obolibrary.org/obo/AISM_0002067>	"The insect thoracic muscle that runs parallel to the dorsal-ventral axis."@en	
+<http://purl.obolibrary.org/obo/AISM_0004153>	"The epipleurite that is adjacent to the notum, is attached to the coxa via muscle, is surrounded by the noto-pleural conjunctiva, and is posterior to the first axillary sclerite."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000048>	"The region of the cuticle corresponding to the postero-lateral region of the postclypeus"@en	
+<http://purl.obolibrary.org/obo/AISM_0002040>	"The cuticle of the maxillary palpomere that is attached to the distal margin of the maxillary palpomere III and to the proximal margin of the maxillary palpomere V."@en	
+<http://purl.obolibrary.org/obo/AISM_0004045>	"The dorsolateral region of the head capsule that is posterior to the postoccipital ridge"@en	
+<http://purl.obolibrary.org/obo/COLAO_0000242>	"The accessory endophallite that is distal to the axial, subaxial, and frontolateral peripheral endophallites."@en	
+<http://purl.obolibrary.org/obo/AISM_0004096>	"The conjunctiva of the insect abdomen that connects the abdominal tergite VI and the abdominal tergite VII."@en	
+<http://purl.obolibrary.org/obo/BSPO_0000678>	"Anatomical margin that is located on the distal side of the body or body part."	
+<http://purl.obolibrary.org/obo/AISM_0004068>	"The paired sclerite of the postabdomen that is attached to the abdominal sternite VII by the abdominal sternite VII-gonocoxa conjunctiva and is articulated with abdominal tergite IX. It is attached at the base of gonostylus VIII and adjacent to the gonopore."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000267>	"The distal region of the antenna that is composed by flagellomeres with increased size."@en	
+<http://purl.obolibrary.org/obo/AISM_0004124>	"The conjunctiva of the insect abdomen that connects the abdominal sternite IX and the abdominal sternite X."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000123>	"The posterior branch of the beetle wing vein that is posterior to the medial bar of the beetle wing."@en	
+<http://purl.obolibrary.org/obo/AISM_0004053>	"The sense organ of the insect head that is covered by eye cuticle."@en	
+<http://purl.obolibrary.org/obo/AISM_0004275>	"The sclerite that is continuous with the hypopharynx."@en	
+<http://purl.obolibrary.org/obo/AISM_0000163>	"The longitudinal (parallel to antero-posterior axis) sulcus that corresponds to the discrimenal lamella."@en	
+<http://purl.obolibrary.org/obo/AISM_0004082>	"The conjunctiva between the insect thorax and the insect abdomen that connects the posterior margin of the metanotum to the anterior margin of the abdominal tergite I."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000241>	"The accessory endophallite that is elongated and lateral to the axial and frontolateral peripheral endophallites."@en	
+<http://purl.obolibrary.org/obo/BSPO_0000061>		"FBql:00005852 FBcv:0000066"
+<http://purl.obolibrary.org/obo/AISM_0004282>	"The thoracic foramen that is at the anterior margin of the cuticle of the metathorax."@en	
+<http://purl.obolibrary.org/obo/AISM_0004274>	"The ectodermal gland continuous with the proximal region of the cuticle of the cardo."@en	
+<http://purl.obolibrary.org/obo/UBERON_0000161>	"Anatomical conduit that connects two adjacent body spaces (or a body space with the space surrounding the organism)[FMA,modified]."	"SCTID:91837002 FMA:3724 http://www.snomedbrowser.com/Codes/Details/91837002"
+<http://purl.obolibrary.org/obo/AISM_0004003>	"The sclerite of the cuticle of labium that is cmposed of the submentum and the mentum, which are connected by the submental-mental conjunctiva"@en	
+<http://purl.obolibrary.org/obo/AISM_0004051>	"The region of the cuticle that is composed of the clypeus and the labrum."@en	
+<http://purl.obolibrary.org/obo/AISM_0004178>	"The conjunctiva that encircles the tibia by joining the distal margin of the femur and the proximal margin of the tibia."@en	
+<http://purl.obolibrary.org/obo/AISM_0000152>	"The somatic muscle that inserts in the metafemur."@en	
+<http://purl.obolibrary.org/obo/UBERON_6007289>	"Region of integument of a tagma.\nhttp://flybase.org/cgi-bin/fbcvq.html?query=FBbt:00007289"@en	"FBbt:00007289"
+<http://purl.obolibrary.org/obo/AISM_0004241>	"The region of cuticle that is behind the compound eye."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000226>	"The elytron that has parts elytral striae 1-9."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000015>	"The region of cuticle on the antero-lateral region of the elytron."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000077>	"The bilaterally paired sclerites on the antero-dorsal region of the hypopharyngeal suspensorium."@en	
+<http://purl.obolibrary.org/obo/AISM_0004235>	"The region of cuticle that is continuous with glandular epithelial cells."@en	
+<http://purl.obolibrary.org/obo/AISM_0000103>	"The conjunctiva that encircles the mesocoxa and connects it to the ventral and lateral regions of the mesothorax."@en	
+<http://purl.obolibrary.org/obo/BSPO_0000672>	"Anatomical margin that is located on the posterior side of the body or body part."	
+<http://purl.obolibrary.org/obo/AISM_0004150>	"The region of cuticle of the dorso-lateral region of the pterothorax that is surrounded by the noto-pleural conjunctiva and articulated with the epimeron."@en	
+<http://purl.obolibrary.org/obo/AISM_0004090>	"Is the abdominal tergite of the preabdomen that is attached to the posterior margin of the abdominal tergite III by the abdominal tergite III-abdominal tergite IV conjunctiva and to the anterior margin of the abdominal tergite V by the abdominal tergite IV-abdominal tergite V conjunctiva."@en	
+<http://purl.obolibrary.org/obo/AISM_0002009>	"The cranio-labral muscle that is attached to the frons and the labrum."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000099>	"The cuticular protrusion on the ventro-lateral region of the metendosternite that is distal to the metendosternal lamina and proximal to the metendosternal arm."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000100>	"The cuticular tendon on the antero-dorsal regionof the metendosternal lamina."@en	
+<http://purl.obolibrary.org/obo/AISM_0000063>	"The ring sclerite that is part of an appendage and is attached to muscle."@en	
+<http://purl.obolibrary.org/obo/AISM_0002079>	"The dorsoventral thoracic muscle that extends between the antero-lateral region of the pronotum and the medial region of the propleuron."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000153>	"The insect sclerite that is part of the insect spiracle."@en	
+<http://purl.obolibrary.org/obo/AISM_0000121>	"The sclerite on the ventral region of the mesothorax that bears the mesofurca and is attached to the mesopleuro-mesosternal conjunctiva."@en	
+<http://purl.obolibrary.org/obo/AISM_0000200>	"The paired sclerite of the postabdomen that is attached to the abdominal tergite IX by the abdominal tergite IX-gonocoxa IX conjunctiva and is articulated with abdominal tergite IX."@en	
+<http://purl.obolibrary.org/obo/AISM_0004023>	"The foramen of the head capsule that connects with the neck membrane and is divided by the tentorial bridge into alaforamen and neuroforamen."@en	
+<http://purl.obolibrary.org/obo/AISM_0004039>	"The apophysis of the tentorium that is connected to an anterior tentorial arm."@en	
+<http://purl.obolibrary.org/obo/AISM_0004229>	"The conjunctiva of the insect thorax that joins the mesonotum and the metanotum."@en	
+<http://purl.obolibrary.org/obo/PATO_0040024>	"The bearer of this quality has_part n=2 of the indicated entity type, where n is unpaired for a comparable organism."	
+<http://purl.obolibrary.org/obo/AISM_0004266>	"The cuticle of a mere that is part of the cuticle of the antenna."@en	
+<http://purl.obolibrary.org/obo/AISM_0000534>	"The cuticular depression constituted by conjunctiva that is elongated."@en	
+<http://purl.obolibrary.org/obo/PATO_0002078>	"A quality inhering in a bearer by virtue of the bearer's having an empty space or cavity within."	
+<http://purl.obolibrary.org/obo/AISM_0000109>	"The region of the cuticle that is posterior to the thorax."	
+<http://purl.obolibrary.org/obo/AISM_0002044>	"The insect cranio-maxillar muscle that is attached to the third maxillar palpomere and  the fourth maxillar palpomere."@en	
+<http://purl.obolibrary.org/obo/AISM_0002061>	"The somatic muscle that is attached to the head capsule and the tentorium."@en	
+<http://purl.obolibrary.org/obo/AISM_0002026>	"The somatic muscle that is attached to the head capsule and the insect maxilla."@en	
+<http://purl.obolibrary.org/obo/AISM_0004287>	"The insect body segment that is part of the insect abdomen."@en	"http://flybase.org/cgi-bin/cvreport.pl?cvterm=FBbt:00000021"
+<http://purl.obolibrary.org/obo/COLAO_0000116>	"The posterior branch of the beetle wing vein that is part of the radial anterior (RA) vein of the beetle wing."@en	
+<http://purl.obolibrary.org/obo/AISM_0004168>	"The cuticle of the segment of a leg attached to the distal margin of the coxa by the coxal-trochanteral conjunctiva and to the proximal margin of the femur by the trochantero-femoral conjunctiva."@en	
+<http://purl.obolibrary.org/obo/AISM_0004314>	"The insect spiracle that is part of the insect thorax."@en	
+<http://purl.obolibrary.org/obo/AISM_0000117>	"The cuticle of the first flagellomere of the antenna, attached to the pedicel by the pedicel-first flagellomere conjunctiva."@en	
+<http://purl.obolibrary.org/obo/AISM_0002043>	"The insect cranio-maxillar muscle that is attached to the second maxillar palpomere and  the third maxillar palpomere."@en	
+<http://purl.obolibrary.org/obo/AISM_0004256>	"The insect wing vein that is posterior to the subcosta and anterior to the media."@en	
+<http://purl.obolibrary.org/obo/AISM_0004255>	"The insect wing vein that is posterior to the cubitus and anterior to the anal fold or the anal vein."@en	
+<http://purl.obolibrary.org/obo/AISM_0004006>	"The sclerite of the cuticle of labium that is attached to the prementum by the premental-palpigeral conjunctiva and to the cuticle of labial palpus by the palpigero-palpal conjunctiva."@en	
+<http://purl.obolibrary.org/obo/AISM_0004204>	"The insect thoracic muscle that attaches to the notum and to the trochantin."@en	
+<http://purl.obolibrary.org/obo/AISM_0004270>	"The region of the cuticle that is proximal and medial on the cuticle of the insect mandible."@en	
+<http://purl.obolibrary.org/obo/BSPO_0000671>	"Anatomical margin that is located on the anterior side of a body or body part."	
+<http://purl.obolibrary.org/obo/AISM_0004067>	"The region of the cuticle in the postabdomen that is attached to the genital chamber."@en	
+<http://purl.obolibrary.org/obo/AISM_0004260>	"The sclerite that is part of the pretarsus."@en	
+<http://purl.obolibrary.org/obo/AISM_0000196>	"The cuticular pit that correspods to the tentorium."@en	
+<http://purl.obolibrary.org/obo/AISM_0002050>	"The cranio-labial muscle that is attached to the postoccipital phragma and  the prementum."@en	
+<http://purl.obolibrary.org/obo/AISM_0002034>	"The insect cranio-maxillar muscle that is attached to the stipes and the galea."@en	
+<http://purl.obolibrary.org/obo/AISM_0000177>	"The orifice that is contained by the cuticle and connects the inside of the insect with the outside, is tubular, and whose diameter is smaller than 100 nm."@en	
+<http://purl.obolibrary.org/obo/AISM_0004049>	"The region of cuticle comprising the posterior region of the clypeus."@en	
+<http://purl.obolibrary.org/obo/AISM_0000022>	"The axillary sclerite that is part of the dorsal region of the basal wing conjunctiva and is anterior to the third axillary sclerite."@en	
+<http://purl.obolibrary.org/obo/UBERON_0000020>	"An organ that is capable of transducing sensory stimulus to the nervous system."	"UMLS:C0935626 AEO:0000094 http://www.snomedbrowser.com/Codes/Details/244485009 BSA:0000121 EHDAA:500 VHOG:0001407 BTO:0000202 NCIT:C33224 EMAPA:35955 CALOHA:TS-2043 MESH:D012679 GAID:63 http://linkedlifedata.com/resource/umls/id/C0935626 EHDAA2:0001824 WBbt:0006929 FBbt:00005155 HAO:0000930 SCTID:244485009 MA:0000017"
+<http://purl.obolibrary.org/obo/AISM_0004041>	"The arthropod foramen that is part of the foramen occipitale and located below the tentorial bridge."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000101>	"The region of the beetle wing that is distal to the central region of the beetle wing."@en	
+<http://purl.obolibrary.org/obo/BSPO_0000677>	"Anatomical margin that is located on the proximal region of the body or body part."	
+<http://purl.obolibrary.org/obo/AISM_0004234>	"The pouch that is circular."@en	
+<http://purl.obolibrary.org/obo/AISM_0000167>	"The region of cuticle where two sclerites meet."@en	
+<http://purl.obolibrary.org/obo/AISM_0000038>	"The cuticle of the paired insect wing that is continuous with the metanotum."@en	
+<http://purl.obolibrary.org/obo/AISM_0000002>	"The region of cuticle that is composed two articular surfaces that are adjacent to each other."@en	
+<http://purl.obolibrary.org/obo/AISM_0004286>	"The insect body segment that is part of the insect thorax."@en	"http://flybase.org/cgi-bin/cvreport.pl?cvterm=FBbt:00000016"
+<http://purl.obolibrary.org/obo/AISM_0002058>	"The somatic muscle that is attached to the head capsule and the hypopharynx."@en	
+<http://purl.obolibrary.org/obo/AISM_0004196>	"The cuticle of the appendage of the hind leg that is attached to the metatarsus by the metatarso-metapretarsal conjunctiva."@en	
+<http://purl.obolibrary.org/obo/AISM_0004064>	"The cuticle of the paired cuticular evagination of the postabdomen that is attached to the cuticle of phallobase by the phallobasal-parameral conjunctiva and to the cuticle of aedeagus by the paramero-aedeagal conjunctiva."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000152>	"The perforated region of the cuticle that is part of the cribriform spiracle."@en	
+<http://purl.obolibrary.org/obo/AISM_0000201>	"The conjunctiva of the postabdomen that connects the abdominal tergite IX and the gonocoxa IX."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000202>	"The elytral stria that is lateral to the elytral interstria 1."@en	
+<http://purl.obolibrary.org/obo/AISM_0000097>	"The conjunctiva of the metathorax that joins the metapleuron and the metacoxa."	
+<http://purl.obolibrary.org/obo/AISM_0004080>	"The sulcus that coincides with the precoxal ridge."@en	
+<http://purl.obolibrary.org/obo/AISM_0004055>	"The region of cuticle of the insect abdomen that is posteriorly connected to the postabdomen."@en	
+<http://purl.obolibrary.org/obo/AISM_0002013>	"The cranio-labral muscle that extends betwen the sides of  the labrum."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000009>	"The concave part of the prosternum that receives the procoxa."@en	
+<http://purl.obolibrary.org/obo/CL_0000150>	"A specialized epithelial cell that is capable of synthesizing and secreting certain biomolecules."	"FMA:86494 CALOHA:TS-2085"
+<http://purl.obolibrary.org/obo/PATO_0001171>	"An elasticity quality inhering in a bearer by virtue of the bearer's ability to recover its size and shape after deformation in any way."	
+<http://purl.obolibrary.org/obo/AISM_0004191>	"The conjunctiva that encircles the propretarsus by joining the distal margin of the distalmost protarsomere and the proximal margin of the propretarsus."@en	
+<http://purl.obolibrary.org/obo/AISM_0004195>	"The cuticle of the appendage of the mid leg that is attached to the mesotarsus by the mesotarso-mesopretarsal conjunctiva."@en	
+<http://purl.obolibrary.org/obo/UBERON_0001134>	"Muscle tissue that consists primarily of skeletal muscle fibers."	"NCIT:C13050 Wikipedia:Skeletal_striated_muscle MA:0002439 EMAPA:32716 SCTID:426215008 http://linkedlifedata.com/resource/umls/id/C0242692 FMA:14069 http://en.wikipedia.org/wiki/Skeletal_striated_muscle UMLS:C0242692 http://www.snomedbrowser.com/Codes/Details/426215008"
+<http://purl.obolibrary.org/obo/COLAO_0000138>	"The posterior branch of the anal wing vein that is posterior to the anal anterior branch 3+4 (AA3+4) of the beetle wing."@en	
+<http://purl.obolibrary.org/obo/AISM_0004308>	"The cuticular protrusion that is part of the pretarsus, ventral to the tarsal claws."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000038>	"The spine on the distal margin of the tibia."@en	
+<http://purl.obolibrary.org/obo/AISM_0004142>	"The region of the cuticle on the lateral region of the prothorax that is attached to the pronotum and the prosternum, and is attached to the procoxa by the procoxal muscle and the basal procoxal conjunctiva."@en	
+<http://purl.obolibrary.org/obo/AISM_0000128>	"The region of cuticle that corresponds to the evagination of the single layer epithelium."@en	
+<http://purl.obolibrary.org/obo/AISM_0004078>	"The region of the cuticle that is part of the oviduct and connected to the bursa copulatrix."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000112>	"The anterior branch of the beetle wing vein that is part of the radial anterior (RA) vein of the beetle wing."@en	
+<http://purl.obolibrary.org/obo/AISM_0004001>	"The sclerite of the insect maxilla that is attached to the cuticle of stipes by the stipito-palpiferal conjunctiva and to the cuticle of maxillary palpus by the palpifero-palpal conjunctiva."@en	
+<http://purl.obolibrary.org/obo/AISM_0000021>	"Is the abdominal tergite of the preabdomen that is attached to the posterior margin of the tergum by the metanoto-abdominal tergite I conjunctiva and to the anterior margin of the abdominal tergite II by the abdominal tergite I-abdominal tergite II conjunctiva."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000094>	"The region of cuticle that constitutes the ventro-medial region of the metendosternite."@en	
+<http://purl.obolibrary.org/obo/AISM_0002042>	"The insect cranio-maxillar muscle that is attached to the first maxillar palpomere and  the second maxillar palpomere."@en	
+<http://purl.obolibrary.org/obo/BSPO_0000047>	"Anatomical margin that is located on the postero-lateral region of the body or body part."	
+<http://purl.obolibrary.org/obo/AISM_0000134>	"The branching cuticular invagination that corresponds to the invagination of the membrane of a single cell and does not contain taenidia."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000087>	"The insect sclerite that includes the gula and the submentum."@en	
+<http://purl.obolibrary.org/obo/AISM_0002008>	"The cranio-antennal muscle that is attached to the scapus and the pedicellus."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000020>	"The sclerite on the ventral region of the metathorax, limited by the pleurosternal sulci and medial to the metanepisternum and metepimeron."@en	
+<http://purl.obolibrary.org/obo/AISM_0000090>	"The apodeme of elastic cuticle that is continuous with somatic muscle."@en	
+<http://purl.obolibrary.org/obo/AISM_0004101>	"The conjunctiva of the metathorax that joins the metapleura and the metasternum."@en	
+<http://purl.obolibrary.org/obo/AISM_0000144>	"The apophysis that is located ventromedially on the thorax and is connected to the coxa via muscles."	
+<http://purl.obolibrary.org/obo/UBERON_0001001>	"A cuticular covering that is composed primarily of chitin. The main structural component of arthropod cuticle is a polysaccharide, chitin, composed of N-acetylglucosamine units, together with proteins and lipids[WP]."	"MIAA:0000150 http://en.wikipedia.org/wiki/Arthropod_exoskeleton EFO:0000944 FBbt:00004970 MAT:0000150 HAO:0000240"
+<http://purl.obolibrary.org/obo/AISM_0004213>	"The insect thoracic muscle that attaches to the pleuron and to a coxa."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000252>	"The accessory endophallite formed by the fusion of ancestral axial and subaxial endophallites."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000073>	"The setose cuticle on the medial region of the hypopharynx."@en	
+<http://purl.obolibrary.org/obo/AISM_0004232>	"The sclerite on the ventral region of the metathorax that bears the metafurca and is attached to the metapleuro-metasternal conjunctiva."@en	
+<http://purl.obolibrary.org/obo/AISM_0004247>	"The insect wing vein of the costal field that is anterior to the subcosta."@en	
+<http://purl.obolibrary.org/obo/AISM_0004224>	"The axillary sclerite that is on the ventral region of the basal wing conjunctiva."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000126>	"The first anterior branch of the cubital vein, which is posterior to the medial posterior branch 3+4 (MP3+4) of the beetle wing."@en	
+<http://purl.obolibrary.org/obo/AISM_0000014>	"The articulation between the mandible and the cranium."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000128>	"The anterior branch of the cubital vein that is composed of the first and second cubital anterior branches of the beetle wing."@en	
+<http://purl.obolibrary.org/obo/AISM_0004243>	"The region of cuticle of the insect wing that is less flexible than the wing conjunctiva."@en	
+<http://purl.obolibrary.org/obo/AISM_0004091>	"Is the abdominal tergite of the preabdomen that is attached to the posterior margin of the abdominal tergite IV by the abdominal tergite IV-abdominal tergite V conjunctiva and to the anterior margin of the abdominal tergite VI by the abdominal tergite V-abdominal tergite VI conjunctiva."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000218>	"The elytral stria that is lateral to the elytral interstria 9."@en	
+<http://purl.obolibrary.org/obo/AISM_0004128>	"The dorsal region of the cuticle of the insect thorax that is attached to the dorsal margin of the pleuron."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000059>	"The epipharyngeal sclerite on the posterior region of the epipharynx."@en	
+<http://purl.obolibrary.org/obo/AISM_0004149>	"The region of cuticle of the dorso-lateral region of the pterothorax that is surrounded by the noto-pleural conjunctiva and articulated with the episternum."@en	
+<http://purl.obolibrary.org/obo/AISM_0000194>	"The tentorial pit that correspods to the anterior (dorsal in prognathous head) end of the tentorium."	
+<http://purl.obolibrary.org/obo/AISM_0004012>	"The conjunctiva of the insect maxilla that connects the palpifer and the maxillary palpus."@en	
+<http://purl.obolibrary.org/obo/AISM_0000065>	"The cuticle of the segment of the hind leg that is attached to the latero-ventral region of the metathorax by the basal metacoxal conjunctiva and to the metatrochanter by the metacoxal-metatrochanteral conjunctiva."@en	
+<http://purl.obolibrary.org/obo/UBERON_0000047>	"An eye with one concave chamber. Note that 'simple' does not imply a reduced level of complexity or acuity."	"Wikipedia:Eye#Simple_eyes TGMA:0000729 http://en.wikipedia.org/wiki/Eye#Simple_eyes"
+<http://purl.obolibrary.org/obo/AISM_0000149>	"The somatic muscle that inserts in the pretarsus."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000074>	"The bilaterally paired sclerites composing the ventral region of the hypopharyngeal suspensorium."@en	
+<http://purl.obolibrary.org/obo/AISM_0004002>	"The conjunctiva of the labium that connects the mentum and the prementum."@en	
+<http://purl.obolibrary.org/obo/AISM_0004269>	"The region of the cuticle that is distal and medial on the cuticle of the insect mandible."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000210>	"The elytral stria that is lateral to the elytral interstria 5."@en	
+<http://purl.obolibrary.org/obo/AISM_0002037>	"The cuticle of the maxillary palpomere that is attached to the distal margin of the palpiger and to the proximal margin of the maxillary palpomere II."@en	
+<http://purl.obolibrary.org/obo/AISM_0002012>	"The apodeme at either side of the proximal margin of the labrum."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000146>	"The cuticular ridge on the ventral region of the head capsule that is lateral to the cranio-mandibular articulation."@en	
+<http://purl.obolibrary.org/obo/AISM_0002063>	"The insect cranio-antennal muscle that is attached to the tentorial bridge and the tentorium."@en	
+<http://purl.obolibrary.org/obo/AISM_0004212>	"The insect thoracic muscle that extends between the notum (or tergum) and the trochanter."@en	
+<http://purl.obolibrary.org/obo/AISM_0004016>	"The conjunctiva of the labium that connects the prementum and the glossa."@en	
+<http://purl.obolibrary.org/obo/AISM_0004182>	"The conjunctiva that encircles the tarsus by joining the distal margin of the tibia and the proximal margin of the tarsus."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000054>	"The cuticular seta on the dorsal region of the cuticle of the labrum."@en	
+<http://purl.obolibrary.org/obo/AISM_0000110>	"The conjunctiva of the insect maxilla that connects the cardo and the stipes."@en	
+<http://purl.obolibrary.org/obo/AISM_0004056>	"The region of cuticle of the insect abdomen that is anteriorly connected to the preabdomen."@en	
+<http://purl.obolibrary.org/obo/AISM_0000104>	"The conjunctiva that encircles the metacoxa and connects it to the ventral and lateral regions of the metathorax."@en	
+<http://purl.obolibrary.org/obo/AISM_0004221>	"The noto-pleural conjunctiva that joins the metanotum and the metapleuron."@en	
+<http://purl.obolibrary.org/obo/AISM_0004188>	"The cuticle of the segment of the leg that is composed of metatarsomeres connected to each other by intertarsomeral conjunctiva. The first metatarsomere is connected to the distal margin of the metatibia by the metatibio-metatarsal conjunctiva and the last metatarsomere is connected to the proximal margin of the metapretarsus by the metatarso-metapretarsal conjunctiva."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000030>	"The concave region of abdominal sternites II and III that receive the metacoxa."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000051>	"The cuticular carina that is parallel to the medial margin of the eye"@en	
+<http://purl.obolibrary.org/obo/PATO_0001543>	"A physical quality inhering in a bearer by virtue of the bearer's disposition to being turned, bowed, or twisted without breaking."	
+<http://purl.obolibrary.org/obo/AISM_0000120>	"The conjunctiva of the prothorax that joins the propleuron and the procoxa."@en	
+<http://purl.obolibrary.org/obo/PATO_0002219>	"A quality inhering in a bearer that is shaped in the form of a fan."	
+<http://purl.obolibrary.org/obo/AISM_0002055>	"The cranio-labial muscle that is attached to the prementum and the paraglossa."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000200>	"The apodeme that is bilaterally paired and adjacent to the internal side of the anterior region of the pronotum and adjacent to the internal side of the antero-lateral region of the pronotum."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000069>	"The cuticular seta on the dorsal region of the cuticle of the lacinia."@en	
+<http://purl.obolibrary.org/obo/AISM_0000127>	"The cuticular evagination that corresponds to the evagination on the membrane of a single cell and not to the evagination of a cell layer."	
+<http://purl.obolibrary.org/obo/AISM_0000147>	"The somatic muscle that inserts in the femur."@en	
+<http://purl.obolibrary.org/obo/AISM_0002033>	"The insect cranio-maxillar muscle that is attached to the stipes and the lacinia."@en	
+<http://purl.obolibrary.org/obo/AISM_0004094>	"The conjunctiva of the insect abdomen that connects the abdominal tergite V and the abdominal tergite VI."@en	
+<http://purl.obolibrary.org/obo/AISM_0000045>	"The conjunctiva of the insect thorax that connects the mesothorax and the metathorax."@en	
+<http://purl.obolibrary.org/obo/AISM_0000166>	"The insect articulation between the propleuron and the procoxa."@en	
+<http://purl.obolibrary.org/obo/AISM_0002006>	"The cranio-antennal muscle that is attached to the frons and the pedicellus."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000247>	"The thickened region of the cuticle of the endophallus that has cuticular spines."@en	
+<http://purl.obolibrary.org/obo/AISM_0004238>	"The ectodermal gland that is composed of multiple cells."@en	
+<http://purl.obolibrary.org/obo/AISM_0002064>	"The somatic muscle that is part of the insect leg."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000071>	"The cuticular seta on the ventral region of the cuticle of the paraglossa."@en	
+<http://purl.obolibrary.org/obo/AISM_0004184>	"The conjunctiva that encircles the mesotarsus by joining the distal margin of the mesotibia and the proximal margin of the mesotarsus."@en	
+<http://purl.obolibrary.org/obo/AISM_0000140>	"The coiled ridge in the wall of the trachea."@en	
+<http://purl.obolibrary.org/obo/PATO_0000001>	"A dependent entity that inheres in a bearer by virtue of how the bearer is related to other entities [database_cross_reference: PATOC:GVG]"@en	
+<http://purl.obolibrary.org/obo/COLAO_0000240>	"The accessory endophallite that is elongated and lateral to the subaxial and frontolateral peripheral endophallites."@en	
+<http://purl.obolibrary.org/obo/AISM_0000070>	"The cuticle of the segment of a fore leg attached to the distal margin of the protrochanter by the protrochantero-profemoral conjunctiva and to the proximal margin of the protibia by the profemoro-protibial conjunctiva."@en	
+<http://purl.obolibrary.org/obo/AISM_0002060>	"The cranio-hypopharyngeal muscle that is attached to the anterior tentorial arm and the suspensorium."@en	
+<http://purl.obolibrary.org/obo/AISM_0004172>	"The cuticle of the segment of a mid leg attached to the distal margin of the mesocoxa by the mesocoxal-mesotrochanteral conjunctiva and to the proximal margin of the mesofemur by the mesotrochantero-mesofemoral conjunctiva."@en	
+<http://purl.obolibrary.org/obo/BSPO_0000029>	"Anatomical region that overlaps the anterior and lateral regions of a body or body part."	
+<http://purl.obolibrary.org/obo/AISM_0000087>	"The cuticle of the mouthpart appendage composed of the cuticle of submentum, which is attached by the submental-mental conjunctiva to the cuticle of mentum, which is attached by the mental-premental conjunctiva to the cuticle of prementum, which is attached to the cuticle of palpiger by the premental-palpigeral conjunctiva, the cuticle of paraglossa by the premental-paraglossal conjunctiva, and the cuticle of glossa by the premental-glossal conjunctiva; the cuticle of palpiger is attached by the palpigero-palpal conjunctiva to the cuticle of labial palpus."@en	
+<http://purl.obolibrary.org/obo/AISM_0004037>	"The apophysis of the tentorium that originates from each posterior tentorial pit."@en	
+<http://purl.obolibrary.org/obo/AISM_0000198>	"The arthropod foramen of the head capsule that contains the antennifer and surrounds the scapus via the antenniferal-scapal conjunctiva."@en	
+<http://purl.obolibrary.org/obo/AISM_0004008>	"Is the conjunctiva of the antenna that connects a flagellomere and other flagellomere."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000142>	"The sclerite that is part of the insect abdomen, part of the medial region and the ventral region and is exposed."@en	
+<http://purl.obolibrary.org/obo/AISM_0002049>	"The phragma that is continuous with the postocciput."@en	
+<http://purl.obolibrary.org/obo/AISM_0002028>	"The insect cranio-maxillar muscle that is attached to the gena and the lacinia."@en	
+<http://purl.obolibrary.org/obo/AISM_0004198>	"The region of the cuticle of the postabdomen that is paired and connected to the anterior region of the gonocoxa IX."@en	
+<http://purl.obolibrary.org/obo/AISM_0004147>	"The sclerite that is on the lateral region of the notum and is adjacent to the wing."@en	
+<http://purl.obolibrary.org/obo/BSPO_0000377>	"Anatomical surface that is located on the proximal side of the body or body part."	"FBql:00005852"
+<http://purl.obolibrary.org/obo/AISM_0004057>	"The sclerite of the insect abdomen that is dorsal and medial."@en	
+<http://purl.obolibrary.org/obo/AISM_0000053>	"The sclerite that is continuous with the basal mesocoxal conjunctiva and the basal wing conjunctiva and contains the mesofurca."@en	
+<http://purl.obolibrary.org/obo/AISM_0004290>	"The insect abdominal segment that is posterior to the insect abdominal segment II and composed of abdominal tergite III and abdominal sternite III."@en	"http://flybase.org/cgi-bin/cvreport.pl?cvterm=FBbt:00000024"
+<http://purl.obolibrary.org/obo/AISM_0000000>	"The projection of the inner surface of the cuticle."@en	
+<http://purl.obolibrary.org/obo/AISM_0004033>	"The lateral region of the head capsule that is adjacent to the foramen occipitale"@en	
+<http://purl.obolibrary.org/obo/CL_0000362>	"An epithelial cell of the integument (the outer layer of an organism)."	"FMA:62411 MESH:D000078404 CALOHA:TS-0283 BTO:0001470"
+<http://purl.obolibrary.org/obo/AISM_0004248>	"The anterior region of the insect wing."@en	
+<http://purl.obolibrary.org/obo/AISM_0004190>	"The cuticle of the segment of the leg that is composed of protarsomeres connected to each other by intertarsomeral conjunctiva. The first protarsomere is connected to the distal margin of the protibia by the protibio-protarsal conjunctiva and the last protarsomere is connected to the proximal margin of the propretarsus by the protarso-propretarsal conjunctiva."@en	
+<http://purl.obolibrary.org/obo/AISM_0004060>	"The sclerite of the postabdomen that is attached to the posterior margin of the abdominal tergite X by the abdominal tergite X-epiproct conjunctiva."@en	
+<http://purl.obolibrary.org/obo/AISM_0004216>	"The insect thoracic muscle that extends between two furcae."@en	
+<http://purl.obolibrary.org/obo/PATO_0000040>	"A quality that is the extent of space between two entities. [database_cross_reference: PATOC:GVG]"	
+<http://purl.obolibrary.org/obo/AISM_0004133>	"The sclerite of the insect thorax that is part of the pleuron and anterior to the pleural ridge and attached to the anterior margin of the epimeron."@en	
+<http://purl.obolibrary.org/obo/AISM_0004252>	"The insect wing vein that is posterior to some radius and anterior to some cubitus."@en	
+<http://purl.obolibrary.org/obo/AISM_0000098>	"The conjuctiva that is continuous with the posterior margin of the head capsule and with the anterior margin of the prothorax, and bears cervical sclerites."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000011>	"The region of the cuticle on the posterior region of the mesoscutellum."@en	
+<http://purl.obolibrary.org/obo/AISM_0004112>	"The conjunctiva of the insect abdomen that connects the abdominal sternite III and the abdominal sternite IV."@en	
+<http://purl.obolibrary.org/obo/AISM_0004099>	"The sclerite of the insect thorax or the insect abdomen that is on the lateral region of the notum."@en	
+<http://purl.obolibrary.org/obo/AISM_0004278>	"The thoracic foramen that is at the posterior margin of the cuticle of the prothorax."@en	
+<http://purl.obolibrary.org/obo/BSPO_0000017>		
+<http://purl.obolibrary.org/obo/COLAO_0000239>	"The endophallite that is located in the medial region of the endophallus."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000034>	"The concave region of the cuticle on the lateral or ventral region of the head capsule that is adjacent to the antennal foramen."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000205>	"The elytral interstria that is lateral to the elytral stria 2."@en	
+<http://purl.obolibrary.org/obo/AISM_0002047>	"The cranio-labial muscle that is attached to the postoccipital phragma and  the glossa."@en	
+<http://purl.obolibrary.org/obo/AISM_0004085>	"Is the abdominal tergite of the preabdomen that is attached to the posterior margin of the abdominal tergite I by the abdominal tergite I-abdominal tergite II conjunctiva and to the anterior margin of the abdominal tergite III by the abdominal tergite II-abdominal tergite III conjunctiva."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000139>	"The posterior branch of the anal wing vein that is posterior to the anal posterior branch 3 (AP3) of the beetle wing."@en	
+<http://purl.obolibrary.org/obo/AISM_0004225>	"The phragma of the metanotum that attaches to muscles attached to the mesonotum."@en	
+<http://purl.obolibrary.org/obo/AISM_0004209>	"The insect thoracic muscle that extends between the pronotum and the mesonotum."@en	
+<http://purl.obolibrary.org/obo/AISM_0004210>	"The insect thoracic muscle that extends between the mesonotum and the metanotum."@en	
+<http://purl.obolibrary.org/obo/AISM_0002019>	"The hypopharyngeal sclerite on the proximal region of the hypopharynx."@en	
+<http://purl.obolibrary.org/obo/BSPO_0000679>	"Anatomical margin that is located on the dorsal side of body or body part."	
+<http://purl.obolibrary.org/obo/AISM_0004158>	"The region of cuticle on the postero-ventral region of the episternum that is posterior to the anapleural sulcus."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000036>	"The subantennal groove on the rostrum that is posterior to the antennal foramen."@en	
+<http://purl.obolibrary.org/obo/AISM_0000037>	"The cuticle of the paired insect wing that is continuous with the mesonotum."@en	
+<http://purl.obolibrary.org/obo/AISM_0000526>	"The cuticular protrusion of a sclerite that is rounded (circular)."@en	
+<http://purl.obolibrary.org/obo/AISM_0002078>	"The dorsoventral thoracic muscle of the prothorax that is attached to the anterior margin of a cervical sclerite and the dorso-lateral region of the postocciput."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000137>	"The posterior branch of the anal vein that is composed of the first and second anal posterior branches of the beetle wing."@en	
+<http://purl.obolibrary.org/obo/AISM_0000048>	"The cuticle of the appendage of the cuticle of labium composed of the cuticle of glossa and cuticle of paraglossa jointly."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000136>	"The insect wing vein composed of the medial bar, the radial posterior branch 3+4, and the radial-medial cross vein."@en	
+<http://purl.obolibrary.org/obo/AISM_0000101>	"The conjunctiva that is attached to the pronotum and the mesopectus."@en	
+<http://purl.obolibrary.org/obo/BSPO_0000378>	"Anatomical surface that is located on the distal side of the body or body part."	"FBql:00005853"
+<http://purl.obolibrary.org/obo/COLAO_0000243>	"The accessory endophallite that is elongated and lateral to the axial and subaxial endophallites."@en	
+<http://purl.obolibrary.org/obo/AISM_0000016>	"The articulation between the scapus and the cranium."	
+<http://purl.obolibrary.org/obo/AISM_0004127>	"The region of the cuticle of the pterothorax that bears the hind legs and the hind wings."@en	
+<http://purl.obolibrary.org/obo/AISM_0004148>	"The sclerite of the pterothorax that is attached to some muscle."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000035>	"The region of cuticle of the insect head that is proximal to the mouthparts and composed of frons and clypeus."@en	
+<http://purl.obolibrary.org/obo/AISM_0004026>	"The lateral region of the head capsule, connected dorsally to the sides of the vertex."@en	
+<http://purl.obolibrary.org/obo/AISM_0004116>	"The conjunctiva of the insect abdomen that connects the abdominal sternite VII and the abdominal sternite VIII."@en	
+<http://purl.obolibrary.org/obo/AISM_0004036>	"Each ridge on the ventral region of the head capsule marking the sides of the gula."@en	
+<http://purl.obolibrary.org/obo/AISM_0002029>	"The insect cranio-maxillar muscle that is attached to the tentorium and the cardo."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000007>	"The sulcus separating the lateral region of the notum and the lateral region of the sternum."@en	
+<http://purl.obolibrary.org/obo/AISM_0004249>	"The insect wing vein that is posterior to the media and anterior to the postcubitus."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000012>	"The medial margin of the elytron."@en	
+<http://purl.obolibrary.org/obo/AISM_0000118>	"The conjunctiva of the antenna that connects the pedicellus and the first flagellomere."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000047>	"The cranio-mandibular articulation of the head capsule on the ventral region of the clypealia"@en	
+<http://purl.obolibrary.org/obo/AISM_0004250>	"The insect wing region that is posterior to the jugal fold."@en	
+<http://purl.obolibrary.org/obo/UBERON_0000046>	"Eye-spots which may be set into a pit to reduce the angles of light that enters and affects the eyespot, to allow the organism to deduce the angle of incoming light."	"http://en.wikipedia.org/wiki/Stemma"
+<http://purl.obolibrary.org/obo/BSPO_0000077>	"Anatomical region proximally located on the body or body part."	"FBql:00005852"
+<http://purl.obolibrary.org/obo/AISM_0000020>	"The axillary sclerite that is on the dorsal region of the basal wing conjunctiva and lateral to the first axillary sclerite."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000144>	"The cuticle of the mouthpart that is composed of the maxilla and the labium."@en	
+<http://purl.obolibrary.org/obo/AISM_0004141>	"The sclerite that is surrounded by the neck membrane."@en	
+<http://purl.obolibrary.org/obo/BSPO_0000013>	"An axis that extends through an organism from head end to opposite end of body or tail."	
+<http://purl.obolibrary.org/obo/COLAO_0000214>	"The elytral stria that is lateral to the elytral interstria 7."@en	
+<http://purl.obolibrary.org/obo/AISM_0000073>	"The ring sclerite that is part of an appendage and is not attached to somatic muscle."@en	
+<http://purl.obolibrary.org/obo/AISM_0004257>	"The insect wing vein that is posterior to the costa and anterior to the radius."@en	
+<http://purl.obolibrary.org/obo/AISM_0004297>	"The insect abdominal segment that is posterior to the insect abdominal segment IX and composed of abdominal tergite X and abdominal sternite X."@en	"http://flybase.org/cgi-bin/cvreport.pl?cvterm=FBbt:00000031"
+<http://purl.obolibrary.org/obo/COLAO_0000064>	"The apodeme adjacent to the proximo-medial region of the cuticle of the insect mandible."@en	
+<http://purl.obolibrary.org/obo/AISM_0004207>	"The tergo-trochantinal muscle that is attached to the metanotum and the metatrochantin."@en	
+<http://purl.obolibrary.org/obo/AISM_0004160>	"The region of cuticle on the ventral region of the epimeron."@en	
+<http://purl.obolibrary.org/obo/AISM_0004155>	"The region of cuticle on the antero-ventral region of the episternum that is anterior to the anapleural sulcus."@en	
+<http://purl.obolibrary.org/obo/AISM_0002002>	"The cranio-antennal muscle that is attached to the dorsal tentorial arm and the proximal margin of the scapus."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000248>	"The cuticular sulcus at the posterior margin of the mesoventrite and the anterior margin of the metaventrite."@en	
+<http://purl.obolibrary.org/obo/AISM_0002036>	"The cuticle of the mere that is part of the maxillary palpus."@en	
+<http://purl.obolibrary.org/obo/AISM_0002045>	"The insect cranio-maxillar muscle that is attached to the fourth maxillar palpomere and  the fifth maxillar palpomere."@en	
+<http://purl.obolibrary.org/obo/PATO_0002539>	"A shape quality inhering in a bearer by virtue of the bearer's having a shape like a ring (a circular shape enclosing a space)."	
+<http://purl.obolibrary.org/obo/COLAO_0000078>	"The proximal region of the cuticle of the galea that is adjacent to the distal margin of the mediostipes."@en	
+<http://purl.obolibrary.org/obo/AISM_0004087>	"Is the abdominal tergite of the preabdomen that is attached to the posterior margin of the abdominal tergite II by the abdominal tergite II-abdominal tergite III conjunctiva and to the anterior margin of the abdominal tergite IV by the abdominal tergite III-abdominal tergite IV conjunctiva."@en	
+<http://purl.obolibrary.org/obo/AISM_0000172>	"The conjunctiva is encircled by a tarsomere that encircles another tarsomere."@en	
+<http://purl.obolibrary.org/obo/AISM_0000089>	"The resilin rich region that connects two sclerites."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000057>	"The sclerite of the epipharynx."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000133>	"The anterior branch of the anal wing vein that is posterior to the anal anterior branch 3 (AA3) of the beetle wing."@en	
+<http://purl.obolibrary.org/obo/AISM_0004076>	"The region of the cuticle of the postabdomen that is paired and connected to the anterior region of the gonocoxa VIII."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000201>	"The elytral interstria that is lateral to the sutural margin."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000223>	"The elytral interstria that is lateral to the elytral stria 11."@en	
+<http://purl.obolibrary.org/obo/AISM_0004223>	"The axillary sclerite that is connected via muscle to the mesopleuron and is  posterior to the first axillary sclerite."@en	
+<http://purl.obolibrary.org/obo/AISM_0000192>	"The insect cranial muscle that is attached to the tentorium and to the antenna."@en	
+<http://purl.obolibrary.org/obo/AISM_0004121>	"The conjunctiva of the insect abdomen that connects the abdominal tergite VIII and the abdominal tergite IX."@en	
+<http://purl.obolibrary.org/obo/PATO_0002228>	"A tapered shape quality inhering in a bearer by virtue of the bearer's tapering gradually to a sharp point."	
+<http://purl.obolibrary.org/obo/AISM_0004272>	"The region of cuticle on the lateral region of the cuticle of stipes, adjacent to the distal margin of the cuticle of the cardo, to the proximal margin of the cuticle of the palpifer, and adjacent to the proximal margin of the mediostipes."@en	
+<http://purl.obolibrary.org/obo/AISM_0004152>	"The epipleurite that is adjacent to the anepisternum, is attached to the pleuron via muscle, is surrounded by the noto-pleural conjunctiva, and is anterior to the first axillary sclerite."@en	
+<http://purl.obolibrary.org/obo/AISM_0000034>	"The cuticle of the paired appendage of the prothorax that is anterior to the cuticle of a mid leg and composed of cuticle of procoxa, cuticle of protrochanter, cuticle of profemur, cuticle of protibia, cuticle of protarsus, and cuticle of propretarsus."@en	
+<http://purl.obolibrary.org/obo/BSPO_0000684>	"Anatomical margin that is located on the ventral side of the body or body part."	
+<http://purl.obolibrary.org/obo/AISM_0000115>	"The cuticle of the segment of the antenna that is attached to the scapus by the scapal-pedicellar conjunctiva and to the first flagellomere by the pedicel-first flagellomere conjunctiva."@en	
+<http://purl.obolibrary.org/obo/AISM_0000162>	"The cuticular depression (concavity on cuticle surface) that corresponds with a cuticular ridge (an elongate cuticular invagination)."	
+<http://purl.obolibrary.org/obo/AISM_0004200>	"The conjunctiva of the postabdomen that joins the parameres and the aedeagus."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000022>	"The anepisternum on the anterior region of the metapleuron and lateral to the metaventrite."@en	
+<http://purl.obolibrary.org/obo/AISM_0004265>	"The cuticular sulcus that is adjacent to the subgena and coincides with the subgenal ridge."@en	
+<http://purl.obolibrary.org/obo/AISM_0004237>	"The cuticular evagination that is largely membranous."@en	
+<http://purl.obolibrary.org/obo/AISM_0004097>	"Is the abdominal tergite of the postabdomen that is attached to the posterior margin of the abdominal tergite VII by the abdominal tergite VII-abdominal tergite VIII conjunctiva and to the anterior margin of the abdominal tergite IX by the abdominal tergite VIII-abdominal tergite IX conjunctiva."@en	
+<http://purl.obolibrary.org/obo/AISM_0004066>	"The region of cuticle of the endophallus that is thicker."@en	
+<http://purl.obolibrary.org/obo/AISM_0000008>	"The region of the cuticle that corresponds to a convex surface."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000008>	"The part of the prosternum that is medial to the procoxae."@en	
+<http://purl.obolibrary.org/obo/AISM_0000083>	"The somatic muscle that is attached to the head capsule and the labium."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000222>	"The elytral stria that is lateral to the elytral interstria 11."@en	
+<http://purl.obolibrary.org/obo/AISM_0004163>	"The sclerite attached to the spinasternum."@en	
+<http://purl.obolibrary.org/obo/AISM_0004040>	"The arthropod foramen that is part of the foramen occipitale and is located above the tentorial bridge."@en	
+<http://purl.obolibrary.org/obo/AISM_0004093>	"Is the abdominal tergite of the preabdomen that is attached to the posterior margin of the abdominal tergite V by the abdominal tergite V-abdominal tergite VI conjunctiva and to the anterior margin of the abdominal tergite VII by the abdominal tergite VI-abdominal tergite VII conjunctiva."@en	
+<http://purl.obolibrary.org/obo/AISM_0000130>	"The seta that has one opening distally."@en	
+<http://purl.obolibrary.org/obo/AISM_0004005>	"The sclerite of the labium that is anteriorly attached to the mentum by the submental-mental conjunctiva."@en	
+<http://purl.obolibrary.org/obo/CARO_0000008>	"A one dimensional, immaterial anatomical entity."	
+<http://purl.obolibrary.org/obo/AISM_0004004>	"The sclerite of the labium that is anterior to the submentum and posterior to the prementum, and attached to the prementum by the mental-premental conjunctiva."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000204>	"The elytral stria that is lateral to the elytral interstria 2."@en	
+<http://purl.obolibrary.org/obo/AISM_0004027>	"The lateral region of the head capsule that connects dorsally to the ventral side of the gena and ventrally to the mandible."@en	
+<http://purl.obolibrary.org/obo/AISM_0004166>	"The region of cuticle of the insect thorax that contains the mesothorax and the metathorax and bears the mid legs, the hind legs and the wings."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000016>	"A puncture on an elytron."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000208>	"The elytral stria that is lateral to the elytral interstria 4."@en	
+<http://purl.obolibrary.org/obo/UBERON_0014895>	"A muscle structure of invertebrates whose origin and insertion sites are in basal side of the epidermis or structures derived from it. The simplest somatic muscles consist of a single cell and associated extracellular structures."	"HAO:0001922"
+<http://purl.obolibrary.org/obo/AISM_0004079>	"The region of the cuticle that is part of the oviduct and attached to the spermatheca."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000017>	"The groove on an elytron that is longitidinal (parallel to the anterior-posterior axis)."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000042>	"The apodeme on the anterior margin of the tegmen."@en	
+<http://purl.obolibrary.org/obo/AISM_0000135>	"The region of the cuticle that is continuous to the proximal region of a trachea and can be closed by muscles."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000120>	"The insect wing vein that is adjacent to another insect wing vein."@en	
+<http://purl.obolibrary.org/obo/AISM_0000193>	"The cuticular depression that corresponds to an apophysis."	
+<http://purl.obolibrary.org/obo/AISM_0004103>	"The conjunctiva of the insect abdomen that connects the abdominal sternite I and the abdominal sternite II."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000140>	"The posterior branch of the anal wing vein that is composed of the anal posterior branch 3 (AP3) and the anal posterior branch 4 (AP4) of the beetle wing."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000121>	"The cross-vein of the beetle wing that is proximal to the radial cell of the beetle wing."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000251>	"The cuticular depression in the anterior region of the hypomeron that is anterior to the anterior hypomeral carina."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000076>	"The hypopharyngeal sclerite on the antero-medial region of the hypopharynx."@en	
+<http://purl.obolibrary.org/obo/AISM_0000126>	"The conjunctiva that corresponds to one epithelial cell and surrounds a sclerotized unicellular cuticular evagination."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000147>	"The cuticular protrusion that is lateral to an abdominal tergite."@en	
+<http://purl.obolibrary.org/obo/AISM_0004173>	"The cuticle of the segment of a hind leg attached to the distal margin of the metacoxa by the metacoxal-metatrochanteral conjunctiva and to the proximal margin of the metafemur by the metatrochantero-metafemoral conjunctiva."@en	
+<http://purl.obolibrary.org/obo/AISM_0004295>	"The insect abdominal segment that is posterior to the insect abdominal segment VII and composed of abdominal tergite VIII and abdominal sternite VIII."@en	"http://flybase.org/cgi-bin/cvreport.pl?cvterm=FBbt:00000029"
+<http://purl.obolibrary.org/obo/AISM_0004017>	"The conjunctiva of the labium that connects the palpiger and the labial palpus."@en	
+<http://purl.obolibrary.org/obo/AISM_0004264>	"The region of cuticle that is posterior to the cuticle of the labrum."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000062>	"The insect articulation on the ventro-lateral region of the cuticle of the insect mandible."@en	
+<http://purl.obolibrary.org/obo/AISM_0002011>	"The cranio-labral muscle that is attached to the frons and the tormae."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000150>	"The insect sclerite that is distal to the abdominal sternite IX."@en	
+<http://purl.obolibrary.org/obo/AISM_0004073>	"The proximal apodemes of the aedeagus."@en	
+<http://purl.obolibrary.org/obo/AISM_0004118>	"Is the abdominal tergite of the postabdomen that is attached to the posterior margin of the abdominal tergite IX by the abdominal tergite IX-abdominal tergite X conjunctiva and to the anterior margin of the epiproct and paraproct."@en	
+<http://purl.obolibrary.org/obo/AISM_0002021>	"The cranio-mandibular muscle that is attached to the suspensorium and the insect mandible."@en	
+<http://purl.obolibrary.org/obo/AISM_0000061>	"The sclerite on the ventral region of the prothorax that bears the profurca and is attached to the propleuro-prosternal conjunctiva."@en	
+<http://purl.obolibrary.org/obo/AISM_0004145>	"The sclerite of the notum that is attached to the posterior margin of the prescutum and to the anterior margin of the scutellum."@en	
+<http://purl.obolibrary.org/obo/AISM_0000114>	"The conjunctiva of the antenna that connects the scapus and the pedicellus."@en	
+<http://purl.obolibrary.org/obo/AISM_0002066>	"The insect thoracic muscle that is not fan-shaped and runs along the dorsal region, parallel to the anterior-posterior axis."@en	
+<http://purl.obolibrary.org/obo/AISM_0000532>	"The cuticular evagination constituted by conjunctiva that is circular."@en	
+<http://purl.obolibrary.org/obo/AISM_0004193>	"The conjunctiva that encircles the metapretarsus by joining the distal margin of the distalmost metatarsomere and the proximal margin of the metapretarsus."@en	
+<http://purl.obolibrary.org/obo/PATO_0001571>	"A size quality inhering in a bearer by virtue of the bearer's being made wider or larger in all dimensions."	
+<http://purl.obolibrary.org/obo/AISM_0004072>	"The seta that is elongated."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000004>		
+<http://purl.obolibrary.org/obo/BSPO_0000010>		
+<http://purl.obolibrary.org/obo/AISM_0004181>	"The conjunctiva that encircles the metatibia by joining the distal margin of the metafemur and the proximal margin of the metatibia."@en	
+<http://purl.obolibrary.org/obo/AISM_0000113>	"The cuticle of the segment of the antenna that is connected to the head capsule and the antennifer by the basal antennal conjunctiva and to the pedicellus by the scapal-pedicellar conjunctiva."@en	
+<http://purl.obolibrary.org/obo/AISM_0002017>	"The cranio-mandibular muscle that extends between the gena and the lateral margin of the insect mandible."@en	
+<http://purl.obolibrary.org/obo/AISM_0004020>	"The region of cuticle of the head capsule that is located posterior to the clypeus and delimited by the frontal suture."@en	
+<http://purl.obolibrary.org/obo/PATO_0002021>	"A convex 3-D shape quality inhering in a bearer by virtue of the bearer's resembling a cone (a 3-D shape with a round cross section that tapers)."	"Image:http://upload.wikimedia.org/wikipedia/commons/d/d2/Cone_3d.png"
+<http://purl.obolibrary.org/obo/AISM_0000080>	"The somatic muscle that is attached to the head capsule."@en	
+<http://purl.obolibrary.org/obo/BSPO_0000000>	"The side of an organism that is left of the sagittal plane."	
+<http://purl.obolibrary.org/obo/AISM_0004028>	"The region of the cuticle of the head capsule that coincides with an ecdysial line."@en	
+<http://purl.obolibrary.org/obo/AISM_0002039>	"The cuticle of the maxillary palpomere that is attached to the distal margin of the maxillary palpomere II and to the proximal margin of the maxillary palpomere IV."@en	
+<http://purl.obolibrary.org/obo/AISM_0004300>	"The insect body segment that corresponds to the mesothorax and is posterior to the insect prothoracic segment."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000052>	"The cuticular groove of the head capsule that runs parallel to the left-right axis, adjacent to the vertex and the occiput"@en	
+<http://purl.obolibrary.org/obo/COLAO_0000108>	"The anterior region of the subcostal vein of the insect wing."@en	
+<http://purl.obolibrary.org/obo/AISM_0004180>	"The conjunctiva that encircles the mesotibia by joining the distal margin of the mesofemur and the proximal margin of the mesotibia."@en	
+<http://purl.obolibrary.org/obo/AISM_0000108>	"The region of cuticle that is connected to some muscles of the fore and hind legs and is posterior to the neck membrane and aterior to the first abdominal spiracle."	
+<http://purl.obolibrary.org/obo/COLAO_0000117>	"The posterior branch of the beetle wing vein that is part of the radial posterior (RP) vein of the beetle wing."@en	
+<http://purl.obolibrary.org/obo/AISM_0000088>	"The elastic cuticle of the head capsule that is transparent and covers the eye."@en	
+<http://purl.obolibrary.org/obo/AISM_0004239>	"The region of cuticle on the posterodorsal region of the head capsule that is posterior to the occipital ridge and anterior to the postoccipital ridge."@en	
+<http://purl.obolibrary.org/obo/AISM_0004304>	"The region of cuticle that is attached to arthropod sensillum."@en	
+<http://purl.obolibrary.org/obo/PATO_0001031>	"A physical quality inhering in a bearer by virtue of the bearer's disposition to recover its size and shape after deformation in any way."	
+<http://purl.obolibrary.org/obo/COLAO_0000032>	"The region of cuticle that is anterior to the compound eye"@en	
+<http://purl.obolibrary.org/obo/AISM_0000173>	"The conjunctiva that encircles the coxa and connects them to the ventral and lateral thoracic regions."	
+<http://purl.obolibrary.org/obo/AISM_0002024>	"The cranio-mandibular muscle that is attached to the anterior tentorial arm and the insect mandible."@en	
+<http://purl.obolibrary.org/obo/BSPO_0000035>	"Anatomical region that overlaps the posterior and ventral regions of a body or body part."	
+<http://purl.obolibrary.org/obo/AISM_0004251>	"The insect wing vein in the jugal field, posterior to the jugal fold or to the anal veins."@en	
+<http://purl.obolibrary.org/obo/UBERON_0001555>	"A tube extending from the mouth to the anus."	"BILA:0000083 FBbt:00003125 AAO:0010023 FMA:45615 EHDAA2:0000726 EMAPA:16247 galen:AlimentaryTract TAO:0000112 BTO:0000545 TGMA:0001819 VHOG:0000309 WBbt:0005743 ZFA:0000112 BTO:0000511 EHDAA:518 UMLS:C0017189 http://linkedlifedata.com/resource/umls/id/C0017189 MA:0000917 NCIT:C34082"
+<http://purl.obolibrary.org/obo/COLAO_0000238>	"The endophallite that is located in the distal region of the endophallus."@en	
+<http://purl.obolibrary.org/obo/AISM_0004280>	"The thoracic foramen that is at the posterior margin of the cuticle of the mesothorax."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000003>	"The lateral region of the pronotum that is deflexed and laterally limited by the lateral pronotal carina."@en	
+<http://purl.obolibrary.org/obo/UBERON_0000165>	"The proximal portion of the digestive tract, containing the oral cavity and bounded by the oral opening. In vertebrates, this extends to the pharynx and includes gums, lips, tongue and parts of the palate. Typically also includes the teeth, except where these occur elsewhere (e.g. pharyngeal jaws) or protrude from the mouth (tusks)."	"SCTID:21082005 CALOHA:TS-1315 galen:Mouth BTO:0001090 ZFA:0000547 MESH:D009055 MAT:0000038 FMA:49184 Wikipedia:Mouth MA:0002474 EFO:0000825 BTO:0004698 http://purl.obolibrary.org/obo/uberon/images/lamprey_sucker_rosava_3238889218.jpg http://purl.obolibrary.org/obo/uberon/images/lamprey_sucker_rosava_3238889218.jpg TAO:0000547 EHDAA:542 AAO:0010355 VHOG:0000280 ZFA:0000590 http://en.wikipedia.org/wiki/Mouth EHDAA2:0001326 MIAA:0000038 TGMA:0000131 http://www.snomedbrowser.com/Codes/Details/21082005 TAO:0000590 GAID:75 FBbt:00003126 EMAPA:16262 VHOG:0000812 TADS:0000040 MA:0000341 XAO:0003029"
+<http://purl.obolibrary.org/obo/AISM_0004086>	"The conjunctiva of the insect abdomen that connects the abdominal tergite I and the abdominal tergite II."@en	
+<http://purl.obolibrary.org/obo/PATO_0000402>	"A branchiness quality inhering in a bearer by virtue of the bearer's having branches."	
+<http://purl.obolibrary.org/obo/BSPO_0000683>	"Anatomical margin that is located on the medial side of the body or body part."	
+<http://purl.obolibrary.org/obo/PATO_0000915>	"A 1-D extent quality which is equal to the dimension through an object as opposed to its length or width."	
+<http://purl.obolibrary.org/obo/AISM_0000050>	"The cuticle of the paired appendage of the labium, and part of the ligula, that is attached to the cuticle of prementum by the premental-paraglossal conjunctiva."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000215>	"The elytral interstria that is lateral to the elytral stria 7."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000211>	"The elytral interstria that is lateral to the elytral stria 5."@en	
+<http://purl.obolibrary.org/obo/AISM_0000076>	"The cuticle of the segment of a leg attached to the distal margin of the trochanter by the trochantero-femoral conjunctiva and to the proximal margin of the tibia by the femoro-tibial conjunctiva."@en	
+<http://purl.obolibrary.org/obo/AISM_0004176>	"The conjunctiva that encircles the mesofemur by joining the distal margin of the mesotrochanter and the proximal margin of the mesofemur."@en	
+<http://purl.obolibrary.org/obo/AISM_0000531>	"The cuticular evagination constituted by conjunctiva that is elongated."@en	
+<http://purl.obolibrary.org/obo/AISM_0002072>	"The dorsal longitudinal thoracic muscle that is attached to the pronotum and the postocciput."@en	
+<http://purl.obolibrary.org/obo/AISM_0004205>	"The tergo-trochantinal muscle that is attached to the pronotum and the protrochantin."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000219>	"The elytral interstria that is lateral to the elytral stria 9."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000104>	"The insect wing vein composed of the radial anterior branch 1+2 (RA1+2) of the beetle wing and the subcosta posterior (ScP) of the beetle wing."@en	
+<http://purl.obolibrary.org/obo/PATO_0000964>	"A optical quality inhering in a bearer by virtue of the bearer's lacking opacity."	
+<http://purl.obolibrary.org/obo/PATO_0001748>	"A shape quality in which a portion of the outermost boundary of an entity folds in space such that a portion that was originally convex is now concave."	
+<http://purl.obolibrary.org/obo/AISM_0000125>	"The conjunctiva of the hind leg joining the distal margin of a metacoxa and the proximal margin of a metatrochanter."@en	
+<http://purl.obolibrary.org/obo/AISM_0004125>	"The region of the cuticle of the insect thorax that is anteriorly connected to the head by the neck membrane, posteriorly connected to the mesothorax by the prothorax-mesothorax conjunctiva, and contains the pronotum, the propeluron, the prosternum and one pair of legs."@en	
+<http://purl.obolibrary.org/obo/AISM_0004263>	"The conjunctiva that is part of the head capsule and is continuous with the epipharynx and the hypopharynx."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000079>	"The distal region of the cuticle of the galea that is adjacent to the distal margin of the basigalea."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000056>	"The region of the cuticle on the postero-lateral region of the torma."@en	
+<http://purl.obolibrary.org/obo/PATO_0001355>	"A shape quality that obtains by virtue of the bearer having inward facing edges; having a surface or boundary that curves or bulges outward, as the exterior of a sphere."	
+<http://purl.obolibrary.org/obo/COLAO_0000065>	"The apodeme that is adjacent to the proximo-dorsal region of the cuticle of the cardo."@en	
+<http://purl.obolibrary.org/obo/AISM_0004014>	"The conjunctiva of the labium that connects the prementum and the palpiger."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000114>	"The insect wing vein thet is anterior to the posterior branch of the beetle wing vein."@en	
+<http://purl.obolibrary.org/obo/AISM_0004043>	"The region of the head capsule that is continuous with the postgena and adjacent to the foramen occipitale."@en	
+<http://purl.obolibrary.org/obo/UBERON_0005157>	"An epithelial sheet bent on a linear axis."	
+<http://purl.obolibrary.org/obo/AISM_0000005>	"The region of the cuticle that corresponds to a concave surface."@en	
+<http://purl.obolibrary.org/obo/AISM_0004305>		"http://purl.obolibrary.org/obo/HAO_0001098"
+<http://purl.obolibrary.org/obo/AISM_0002004>	"The cranio-antennal muscle that extends between the dorsal or anterior tentorial arm and the proximo-lateral margin of the scapus."@en	
+<http://purl.obolibrary.org/obo/PATO_0001154>	"A quality inhering in a bearer by virtue of the bearer's length being notably higher than its width."	
+<http://purl.obolibrary.org/obo/AISM_0004301>	"The paired sclerite of the postabdomen, attached to either the abdominal tergite VIII or IX."@en	
+<http://purl.obolibrary.org/obo/AISM_0004115>	"The conjunctiva of the insect abdomen that connects the abdominal sternite VI and the abdominal sternite VII."@en	
+<http://purl.obolibrary.org/obo/AISM_0004134>	"The sclerite of the insect thorax that is part of the pleuron and posterior to the pleural ridge and attached to the posterior margin of the episternum."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000037>	"The spur on the distal margin of the tibia."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000091>	"The elytral puncture that is relatively large, square, and transparent."@en	
+<http://purl.obolibrary.org/obo/AISM_0000096>	"The conjunctiva of the prothorax that joins the prosternum and the procoxa."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000088>	"The cuticular internal depression that is medial to the gular sulci."@en	
+<http://purl.obolibrary.org/obo/AISM_0004019>	"The region of the head capsule that is anterior to the frons and is attached to the labrum by the clypeo-labral conjunctiva"@en	
+<http://purl.obolibrary.org/obo/AISM_0004276>	"The arthropod foramen that is part of the cuticle of the insect thorax."@en	
+<http://purl.obolibrary.org/obo/AISM_0000105>	"The conjunctiva of the insect head that is connected to the oral foraminal conjunctiva and to the distal margin of the labrum."@en	
+<http://purl.obolibrary.org/obo/PR_Q9V7U0>	"A protein that is a translation product of the resilin gene in fruit fly."	"UniProtKB:Q9V7U0"
+<http://purl.obolibrary.org/obo/COLAO_0000125>	"The cross-vein thet is adjacent to the medial bar and to the medial posterior branch 3+4 of the beetle wing."@en	
+<http://purl.obolibrary.org/obo/PATO_0001873>	"A convex 3-D shape quality inhering in a bearer by virtue of the bearer's exhibiting a consistently-sized round cross section."	
+<http://purl.obolibrary.org/obo/COLAO_0000046>	"The cuticular sulcus that is the lateral region of the frontoclypeal sulcus."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000102>	"The insect wing vein that is anterior to the central field of the beetle wing, distal to the radial bar of the beetle wing, and proximal to the apical field of the beetle wing."@en	
+<http://purl.obolibrary.org/obo/AISM_0000077>	"The cuticle of the segment of the leg that is attached to the latero-ventral region of the insect thorax by the basal coxal conjunctiva and to the trochanter by the coxal-trochanteral conjunctiva."@en	
+<http://purl.obolibrary.org/obo/AISM_0002062>	"The insect cranio-antennal muscle that is attached to the tentorial bridge and the frons."@en	
+<http://purl.obolibrary.org/obo/AISM_0002085>	"The somatic muscle that is part of the insect abdomen."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000148>	"The bilaterally paired cuticular protrusion of the abdominal tergite IX."@en	
+<http://purl.obolibrary.org/obo/BFO_0000009>		
+<http://purl.obolibrary.org/obo/AISM_0000131>	"The seta that has multiple cuticular pores (openings of class III exocrine glands)."@en	
+<http://purl.obolibrary.org/obo/AISM_0000033>	"The cuticle of the flat, paired appendage on the dorso-lateral region of the pterothorax."@en	
+<http://purl.obolibrary.org/obo/AISM_0004201>	"The conjunctiva of the postabdomen that joins the phallobase and the parameres."@en	
+<http://purl.obolibrary.org/obo/AISM_0000501>	"The protrusion on a sclerite that is elongated."	
+<http://purl.obolibrary.org/obo/PATO_0001857>	"A shape quality in a bearer by virtue of the bearer's curving inward."	
+<http://purl.obolibrary.org/obo/COLAO_0000070>	"The sclerite on the lateral margin the cuticle of the lacinia."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000045>	"The ventral region of the eye cuticle."@en	
+<http://purl.obolibrary.org/obo/AISM_0004262>	"The sulcus that coincides with the frontoclypeal ridge and separates the frons from the clypeus."@en	
+<http://purl.obolibrary.org/obo/AISM_0004044>	"The ridge of the head capsule that encircles the antennal foramen."@en	
+<http://purl.obolibrary.org/obo/AISM_0002059>	"The cranio-hypopharyngeal muscle that is attached to the frons and  the suspensorium."@en	
+<http://purl.obolibrary.org/obo/AISM_0000086>	"The somatic muscle that inserts in the coxa."@en	
+<http://purl.obolibrary.org/obo/AISM_0004236>	"The ectodermal gland that is composed of one cell"@en	
+<http://purl.obolibrary.org/obo/AISM_0004137>	"The part of the sternum that is attached to the posterior margin of the presternum and to the anterior margin of the furcasternum."@en	
+<http://purl.obolibrary.org/obo/AISM_0000023>	"The cuticle of the appendage of the insect maxilla that is attached to the stipes by the stipito-galeal conjunctiva."@en	
+<http://purl.obolibrary.org/obo/AISM_0004108>	"The abdominal sternite of the preabdomen that is attached to the posterior margin of the abdominal sternite V by the abdominal sternite V-abdominal sternite VI conjunctiva and to the anterior margin of the abdominal sternite VII by the abdominal sternite VI-abdominal sternite VII conjunctiva."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000021>	"The anepisternum on the anterior region of the mesopleuron and lateral to the mesoventrite."@en	
+<http://purl.obolibrary.org/obo/AISM_0004258>	"The proximal region of the insect wing."@en	
+<http://purl.obolibrary.org/obo/AISM_0000143>	"The furca of the prothorax that is attached to the procoxa via muscle."@en	
+<http://purl.obolibrary.org/obo/AISM_0004102>	"The conjunctiva between the insect thorax and the insect abdomen that connects the posterior margin of the metasterum to the anterior margin of the abdominal sternite I."@en	
+<http://purl.obolibrary.org/obo/UBERON_0034925>	"A collection of anatomical structures that are alike in terms of their morphology or developmental origin."	
+<http://purl.obolibrary.org/obo/COLAO_0000143>	"The cuticular sensilla that is adjacent to the cuticle of an antennomere."@en	
+<http://purl.obolibrary.org/obo/AISM_0000074>	"The cuticle of the mere that is part of the tarsus."@en	
+<http://purl.obolibrary.org/obo/AISM_0000094>	"The conjunctiva of the insect thorax that joins the mesopleuron and the metapleuron."@en	
+<http://purl.obolibrary.org/obo/AISM_0000142>	"The furca of the metathorax that is attached to the metacoxa via muscle."@en	
+<http://purl.obolibrary.org/obo/BSPO_0000073>	"Anatomical region located on the apical end on the body or body part. [ BSPO : wd ]"@en	
+<http://purl.obolibrary.org/obo/AISM_0004273>	"The region of cuticle on the medial region of the cuticle of stipes, adjacent to the distal margin of the cuticle of the basistipes, and to the proximal margin of the cuticle of the galea and the lacinia."@en	
+<http://purl.obolibrary.org/obo/AISM_0004306>		
+<http://purl.obolibrary.org/obo/AISM_0002073>	"The dorsal longitudinal thoracic muscle that is attached to the prophragma and the cervical sclerite."@en	
+<http://purl.obolibrary.org/obo/AISM_0000169>	"The notum or sclerite on the dorsal region of the metathorax that is posterior to the mesonotum, connected via the metanoto-metapleural conjuntiva to the dorsal margin of the metapleuron, that is not adjacent to the metacoxa, but attached to it by the metacoxal muscle."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000113>	"The insect wing vein of the costal field that is anterior to the costal vein of the insect wing."@en	
+<http://purl.obolibrary.org/obo/AISM_0004048>	"The ridge that runs along the posterior region of the head capsule."@en	
+<http://purl.obolibrary.org/obo/AISM_0004189>	"The cuticle of the segment of the mid leg that is composed of mesotarsomeres connected to each other by intertarsomeral conjunctiva. The first mesotarsomere is connected to the distal margin of the mesotibia by the mesotibio-mesotarsal conjunctiva and the last mesotarsomere is connected to the proximal margin of the mesopretarsus by the mesotarso-mesopretarsal conjunctiva."@en	
+<http://purl.obolibrary.org/obo/AISM_0004281>	"The thoracic foramen that is at the posterior margin of the cuticle of the metathorax."@en	
+<http://purl.obolibrary.org/obo/AISM_0004174>	"The conjunctiva that encircles the femur by joining the distal margin of the trochanter and the proximal margin of the femur."@en	
+<http://purl.obolibrary.org/obo/AISM_0004074>	"The region of the cuticle thar is proximally attached to the gonopore."@en	
+<http://purl.obolibrary.org/obo/AISM_0004143>	"The sclerite of the notum that is attached to the posterior margin of the scutellum."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000041>	"The phallobase that is fused to the parameres."@en	
+<http://purl.obolibrary.org/obo/AISM_0000156>	"The cuticular depression that is circular."@en	
+<http://purl.obolibrary.org/obo/AISM_0002041>	"The cuticle of the maxillary palpomere that is attached to the distal margin of the maxillary palpomere IV."@en	
+<http://purl.obolibrary.org/obo/AISM_0000039>	"The unicellular cuticular evagination that constitutes a sclerite with its base surrounded by socket membrane."@en	
+<http://purl.obolibrary.org/obo/AISM_0000138>	"The cuticular invagination that is hollow."@en	
+<http://purl.obolibrary.org/obo/AISM_0002038>	"The cuticle of the maxillary palpomere that is attached to the distal margin of the maxillary palpomere I and to the proximal margin of the maxillary palpomere III."@en	
+<http://purl.obolibrary.org/obo/AISM_0004170>	"The conjunctiva of the leg joining the distal margin of a coxa and the proximal margin of a femur."@en	
+<http://purl.obolibrary.org/obo/AISM_0004222>	"The conjunctiva of the insect thorax that joins the notum and the pleuron."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000050>	"The insect articulation of the head capsule at the postero-medial region of the postgena"@en	
+<http://purl.obolibrary.org/obo/COLAO_0000010>	"The scutellum of the mesothorax."@en	
+<http://purl.obolibrary.org/obo/BSPO_0000682>	"Anatomical margin that is located on the lateral side of the body or body part."	
+<http://purl.obolibrary.org/obo/AISM_0004061>	"The paired sclerite of the insect abdomen that is attached to the lateral margin of the abdominal tergite X by the abdominal tergite X-paraproct conjunctiva."@en	
+<http://purl.obolibrary.org/obo/AISM_0002080>	"The dorsoventral thoracic muscle that extends between the tentorium and the prophragma."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000225>	"The anatomical margin that is formed by the posterior region of the posterolateral pronotal margin and by the lateral region of the posterior pronotal margin."@en	
+<http://purl.obolibrary.org/obo/AISM_0004261>	"The cuticular protrusion that is part of the pretarsus, ventral to the tarsal claws and medial to the pulvilli (if present)."@en	
+<http://purl.obolibrary.org/obo/PATO_0000411>	"A shape quality inhering in a bearer by virtue of the bearer's being such that every part of the surface or the circumference is equidistant from the center."	
+<http://purl.obolibrary.org/obo/AISM_0004283>	"The insect region of integument that is continuous with conjunctiva and attached to somatic muscle."@en	"http://purl.obolibrary.org/obo/HAO_0000929 http://flybase.org/cgi-bin/fbcvq.html?query=FBbt:00000003"
+<http://purl.obolibrary.org/obo/AISM_0002051>	"The cranio-labial muscle that is attached to the posterior tentorial arm and the prementum."@en	
+<http://purl.obolibrary.org/obo/AISM_0004175>	"The conjunctiva that encircles the profemur by joining the distal margin of the protrochanter and the proximal margin of the profemur."@en	
+<http://purl.obolibrary.org/obo/AISM_0004011>	"The conjunctiva of the insect maxilla that connects the stipes and the galea."@en	
+<http://purl.obolibrary.org/obo/AISM_0002076>	"The phragma of the mesonotum that attaches to muscles attached to the pronotum."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000106>	"The insect wing fold that is proximal to the radial cross-vein r4 and anterior to the oblongum cell of the beetle wing."@en	
+<http://purl.obolibrary.org/obo/AISM_0004129>	"The region of cuticle on the lateral region of the insect thorax that is attached to the notum and the sternum and is attached to the coxae by skeletal muscle tissue and the basal coxal conjunctiva."@en	
+<http://purl.obolibrary.org/obo/AISM_0002084>	"The dorsoventral thoracic muscle that extends between the profurca and the mesonotum."@en	
+<http://purl.obolibrary.org/obo/AISM_0000153>	"The somatic muscle that inserts in the protibia."@en	
+<http://purl.obolibrary.org/obo/PATO_0000052>	"A morphological quality inhering in a bearer by virtue of the bearer's ratios of distances between its features (points, edges, surfaces and also holes etc)."	
+<http://purl.obolibrary.org/obo/AISM_0004077>	"The region of cuticle of the postabdomen that is distal to the genital chamber."@en	
+<http://purl.obolibrary.org/obo/AISM_0000069>	"The cuticle of the segment of a hind leg attached to the distal margin of the metafemur by the metafemoro-metatibial conjunctiva and to the proximal margin of the metatarsus by the metatibio-metatarsal conjunctiva."@en	
+<http://purl.obolibrary.org/obo/BSPO_0000080>	"Anatomical region that overlaps the dorsal and lateral regions of a body or body part."	"FBql:00005845"
+<http://purl.obolibrary.org/obo/COLAO_0000130>	"The anterior branch of the anal vein that is composed of the first and second anal anterior branches of the beetle wing."@en	
+<http://purl.obolibrary.org/obo/AISM_0000062>	"The sclerite that is cylindrical and encircles and is encircled by conjunctiva."@en	
+<http://purl.obolibrary.org/obo/AISM_0004032>	"The ridge of the head capsule that separates the gena and the subgena."@en	
+<http://purl.obolibrary.org/obo/AISM_0004065>	"The region of cuticle of the postabdomen that is attached to the abdominal sternite IX by the abdominal sternite IX-phallobase conjunctiva and to the paramere by the phallobasal-parameral conjunctiva."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000043>	"The sclerite of the paraproct that is elongated."@en	
+<http://purl.obolibrary.org/obo/AISM_0004192>	"The conjunctiva that encircles the mesopretarsus by joining the distal margin of the distalmost mesotarsomere and the proximal margin of the mesopretarsus."@en	
+<http://purl.obolibrary.org/obo/AISM_0000525>	"The cuticular protrusion of a sclerite that is small."@en	
+<http://purl.obolibrary.org/obo/AISM_0000157>	"The cuticular depression that does not correspond to an epithelial fold."@en	
+<http://purl.obolibrary.org/obo/AISM_0004227>	"The insect thoracic muscle that extends between the metafurca and an abdominal sternite."@en	
+<http://purl.obolibrary.org/obo/AISM_0004042>	"The posterior region of the head capsule that is continuous with the posterior region of the gena and is anterior to the postoccipital ridge."@en	
+<http://purl.obolibrary.org/obo/AISM_0004206>	"The tergo-trochantinal muscle that is attached to the mesonotum and the mesotrochantin."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000040>	"The endophallite that is elongated."@en	
+<http://purl.obolibrary.org/obo/AISM_0000158>	"The invagination on a sclerite that is elongated."	
+<http://purl.obolibrary.org/obo/AISM_0000042>	"The cuticle of the mouthpart and appendage that is attached to the clypeus by the clypeo-labral conjunctiva and to the proximal margin of the epipharynx."@en	
+<http://purl.obolibrary.org/obo/AISM_0004092>	"The conjunctiva of the insect abdomen that connects the abdominal tergite IV and the abdominal tergite V."@en	
+<http://purl.obolibrary.org/obo/AISM_0004267>	"The cuticular sulcus that coincides with the postoccipital ridge and is posterior to the occiput and anterior to the postocciput"@en	
+<http://purl.obolibrary.org/obo/AISM_0004268>	"The cuticular sulcus that coincides with the gular ridge, separating the gula fron the gena"@en	
+<http://purl.obolibrary.org/obo/AISM_0004312>	"The region of the insect wing that is posterior to the radial field of the insect wing."@en	
+<http://purl.obolibrary.org/obo/AISM_0000174>	"The insect region of integument that is part of the chitin-based cuticle."@en	
+<http://purl.obolibrary.org/obo/AISM_0004187>	"The conjunctiva that encircles the pretarsus by joining the distal margin of the distalmost tarsomere and the proximal margin of the pretarsus."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000066>	"The cardo process of the medial region."@en	
+<http://purl.obolibrary.org/obo/AISM_0004009>	"The conjunctiva of the insect maxilla that connects the stipes and the lacinia."@en	
+<http://purl.obolibrary.org/obo/AISM_0004038>	"The apophysis of the tentorium that is connected to an anterior tentorial pit."@en	
+<http://purl.obolibrary.org/obo/AISM_0000015>	"The articulation between the cardo and the cranium."@en	
+<http://purl.obolibrary.org/obo/BSPO_0000027>	"Anatomical region that overlaps the anterior and ventral regions of a body or body part."	
+<http://purl.obolibrary.org/obo/AISM_0000178>	"The solid cuticular protrusion that coincides with only one epidermal cell (smaller than the diameter of the epidermal cell)."@en	
+<http://purl.obolibrary.org/obo/AISM_0000185>	"The hairlike seta that is short and thick walled."@en	
+<http://purl.obolibrary.org/obo/AISM_0004219>	"The noto-pleural conjunctiva that joins the mesonotum and the mesopleuron."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000031>	"The sulcus of the metaventrite that is transverse (parallel to the left-right axis)."@en	
+<http://purl.obolibrary.org/obo/AISM_0000141>	"The furca of the mesothorax that is attached to the mesocoxa via muscle."@en	
+<http://purl.obolibrary.org/obo/AISM_0004120>	"The conjunctiva of the postabdomen that joins the abdominal tergite X and the epiproct."@en	
+<http://purl.obolibrary.org/obo/AISM_0004285>	"The insect body segment that is part of the insect head."@en	"https://flybase.org/cgi-bin/cvreport.pl?cvterm=FBbt:00000006"
+<http://purl.obolibrary.org/obo/AISM_0002035>	"The insect cranio-maxillar muscle that is attached to the stipes and the maxillary palpus."@en	
+<http://purl.obolibrary.org/obo/AISM_0004050>	"The region of the cuticle comprising the anterior region of the clypeus."@en	
+<http://purl.obolibrary.org/obo/CL_0000066>	"A cell that is usually found in a two-dimensional sheet with a free surface. The cell has a cytoskeleton that allows for tight cell to cell contact and for cell polarity where apical part is directed towards the lumen and the basal part to the basal lamina."	"FMA:66768 CALOHA:TS-2026 FBbt:00000124 CARO:0000077 WBbt:0003672 BTO:0000414"
+<http://purl.obolibrary.org/obo/AISM_0004299>	"The insect body segment that corresponds to the mesothorax and is posterior to the insect prothoracic segment."@en	
+<http://purl.obolibrary.org/obo/AISM_0000029>	"The evagination of the cuticle that is musculated (connected to the body via muscles)."	
+<http://purl.obolibrary.org/obo/PATO_0000117>	"A morphology quality inhering in a bearer by virtue of the bearer's physical magnitude."	
+<http://purl.obolibrary.org/obo/AISM_0004111>	"The conjunctiva of the insect abdomen that connects the abdominal sternite II and the abdominal sternite III."@en	
+<http://purl.obolibrary.org/obo/AISM_0004122>	"The conjunctiva of the insect abdomen that connects the abdominal tergite IX and the abdominal tergite X."@en	
+<http://purl.obolibrary.org/obo/AISM_0000066>	"The cuticle of the segment of the fore leg that is attached to the latero-ventral region of the prothorax by the basal procoxal conjunctiva and to the protrochanter by the procoxal-protrochanteral conjunctiva."@en	
+<http://purl.obolibrary.org/obo/AISM_0004186>	"The region of the cuticle on the lateral region of the mesothorax that is attached to the mesonotum and the mesosternum, and is attached to the mesocoxa by the mesocoxal muscle and the basal mesocoxal conjunctiva."@en	
+<http://purl.obolibrary.org/obo/AISM_0002031>	"The ridge that is part of the stipes."@en	
+<http://purl.obolibrary.org/obo/AISM_0002088>	"The insect abdominal muscle that runs along the dorsal region, parallel to the anterior-posterior axis."@en	
+<http://purl.obolibrary.org/obo/UBERON_0000955>	"The brain is the center of the nervous system in all vertebrate, and most invertebrate, animals. Some primitive animals such as jellyfish and starfish have a decentralized nervous system without a brain, while sponges lack any nervous system at all. In vertebrates, the brain is located in the head, protected by the skull and close to the primary sensory apparatus of vision, hearing, balance, taste, and smell[WP]."	"ZFA:0000008 GAID:571 BIRNLEX:796 MBA:8 EHDAA:2641 BAMS:Br EHDAA:6485 XAO:0000010 http://www.snomedbrowser.com/Codes/Details/258335003 galen:Brain MIAA:0000098 EMAPA:16894 neuronames:21 FMA:50801 ABA:Brain http://linkedlifedata.com/resource/umls/id/C1269537 UMLS:C1269537 BILA:0000135 EHDAA2:0000183 EFO:0000302 MAT:0000098 DHBA:10155 UMLS:C0006104 BAMS:Brain TAO:0000008 AAO:0010478 HBA:4005 EV:0100164 NCIT:C12439 MA:0000168 http://en.wikipedia.org/wiki/Brain FBbt:00005095 MESH:D001921 SCTID:258335003 Wikipedia:Brain BTO:0000142 PBA:3999 VHOG:0000157 MBA:997 CALOHA:TS-0095 http://linkedlifedata.com/resource/umls/id/C0006104"
+<http://purl.obolibrary.org/obo/BSPO_0000070>	"A 3D region in space without well-defined compartmental boundaries; for example, the dorsal region of an ectoderm."	"FBql:00005841"
+<http://purl.obolibrary.org/obo/AISM_0000044>	"The cuticle of the mouthpart appendage of the head capsule, between the cuticle of the insect mandible and the cuticle of the labium, composed of cuticle of cardo, which is attached to the cuticle of stipes by the cardo-stipital conjunctiva; the cuticle of stipes, which is attached to the cuticle of galea by the stipito-galeal conjunctiva, to the cuticle of lacinia by the stipito-lacinial conjunctiva, and to the cuticle of palpifer by the stipito-palpiferal conjunctiva; the cuticle of palpifer is attached to the cuticle of maxillary palpus by the palpifero-palpal conjunctiva."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000118>	"The posterior branch of the beetle wing vein that is part of the radial posterior (RP) vein of the beetle wing and posterior to the radial posterior branch 1 (RP1) of the beetle wing."@en	
+<http://purl.obolibrary.org/obo/AISM_0002070>	"The insect thoracic muscle that is not fan-shaped and runs along the ventral region, parallel to the anterior-posterior axis."@en	
+<http://purl.obolibrary.org/obo/AISM_0002087>	"The insect abdominal muscle that runs along the ventral region, parallel to the anterior-posterior axis."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000067>	"The cardo process of the lateral region."@en	
+<http://purl.obolibrary.org/obo/PATO_0001369>	"A shape quality inhering in a colony by virtue of the bearer's appearing above the medium surface with terraced edges."	
+<http://purl.obolibrary.org/obo/AISM_0000093>	"The conjunctiva of the insect head that is attached to the salivarium and to the oral foraminal conjunctiva."@en	
+<http://purl.obolibrary.org/obo/AISM_0000018>	"The sclerite of the insect maxilla that is attached to the head capsule by the oral foraminal conjunctiva and to the cuticle of stipes by the stipito-cardinal conjunctiva."@en	
+<http://purl.obolibrary.org/obo/AISM_0004309>	"The medial cuticular protrusion of the pretarsus."@en	
+<http://purl.obolibrary.org/obo/AISM_0002065>	"The somatic muscle that is part of the insect thorax."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000149>	"The bilaterally paired cuticular protrusion that is anterior to the urogomphus."@en	
+<http://purl.obolibrary.org/obo/AISM_0000195>	"The tentorial pit that correspods to the posterior (ventral in prognathous head) end of the tentorium."	
+<http://purl.obolibrary.org/obo/COLAO_0000093>	"The apodeme of the mesendosternite."@en	
+<http://purl.obolibrary.org/obo/AISM_0000043>	"The cuticle of the mouthpart and sclerite between the cuticle of the labrum and the cuticle of the insect maxilla that is attached to the head capsule by the oral foraminal conjunctiva and the cranio-mandibular muscle."@en	
+<http://purl.obolibrary.org/obo/AISM_0000112>	"The conjunctiva that encircles the base of the antenna (scape) and is encircled by the head capsule as the antennal foramen."@en	
+<http://purl.obolibrary.org/obo/AISM_0002052>	"The cranio-labial muscle that is attached to the posterior tentorial arm and the paraglossa."@en	
+<http://purl.obolibrary.org/obo/AISM_0002023>	"The cranio-mandibular muscle that extends between the anterior tentorial arm and the proximal-ventral margin of the insect mandible."@en	
+<http://purl.obolibrary.org/obo/BSPO_0000082>	"Anatomical region laterally located on the body or body part."	"FBql:00005844"
+<http://purl.obolibrary.org/obo/AISM_0000099>	"The conjunctiva of the insect head that connects the head capsule and the mouthparts."@en	
+<http://purl.obolibrary.org/obo/UBERON_0004175>	"The internal genitalia are the internal sex organs such as the uterine tube, the uterus and the vagina in female mammals, and the testis, seminal vesicle, ejaculatory duct and prostate in male mammals."	"FMA:45652"
+<http://purl.obolibrary.org/obo/BSPO_0000083>	"Anatomical region medially located on the body or body part."	"FBql:00005847"
+<http://purl.obolibrary.org/obo/PATO_0001571>	"A size quality inhering in a bearer by virtue of the bearer's being made wider or larger in all dimensions. [database_cross_reference: WordNet:WordNet]"@en	
+<http://purl.obolibrary.org/obo/AISM_0000024>	"The cuticle of the paired appendage of the labium that is attached to the palpiger by the palpigero-palpal conjunctiva."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000097>	"The cuticular carina on the anterior region of the metendosternite (metafurca) that is parallel to the anterior-posterior axis."@en	
+<http://purl.obolibrary.org/obo/AISM_0004126>	"The region of the cuticle of the pterothorax that bears mid legs and fore wings."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000096>	"The bilaterally paired region of cuticle on the dorso-lateral region of the metendosternite that is proximal to the metendosternal arm."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000019>	"The sclerite on the ventral region of the mesothorax, limited by the pleurosternal sulci and medial to the mesanepisternum and mesepimeron."@en	
+<http://purl.obolibrary.org/obo/AISM_0004151>	"The sclerite of the insect thorax that is surrounded by the noto-pleural conjunctiva and is adjacent to the wing."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000132>	"The anterior branch of the anal wing vein that is posterior to the anal anterior branch 1+2 and cubital anterior branch 3+4 (AA1+2+CuA3+4) of the beetle wing."@en	
+<http://purl.obolibrary.org/obo/AISM_0004161>	"The sclerite that is surrounded by the basal wing conjunctiva."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000209>	"The elytral interstria that is lateral to the elytral stria 4."@en	
+<http://purl.obolibrary.org/obo/AISM_0000119>	"The region of the cuticle on the lateral region of the metathorax that is attached to the metanotum and the metasternum, and is attached to the metacoxa by the metacoxal muscle and the basal metacoxal conjunctiva."@en	
+<http://purl.obolibrary.org/obo/AISM_0004063>	"The cuticular invagination of the postabdomen that is attached distally to the gonopore and basally to the aedeagus."@en	
+<http://purl.obolibrary.org/obo/BSPO_0000072>	"Anatomical region posteriorly located on the body or body part."	"FBql:00005849"
+<http://purl.obolibrary.org/obo/BSPO_0000026>	"Anatomical region that overlaps the anterior and dorsal regions of a body or body part. [ BSPO : wd ]"@en	
+<http://purl.obolibrary.org/obo/BSPO_0000078>	"Anatomical region distally located on the body or body part."	"FBql:00005853"
+<http://purl.obolibrary.org/obo/AISM_0000058>	"The sclerite that is posterior to the pronotum and receives the site of attachment of the dilutor muscle of the first thoracic spiracle."@en	
+<http://purl.obolibrary.org/obo/AISM_0004246>	"The insect wing vein of the anal field that is posterior to the anal fold or the postcubitus and anterior to the jugal fold or the jugal veins."@en	
+<http://purl.obolibrary.org/obo/AISM_0004211>	"The insect thoracic muscle that extends between the notum (or tergum) and the coxa."@en	
+<http://purl.obolibrary.org/obo/AISM_0000095>	"The conjunctiva of the mesothorax that joins the metasternum and the metacoxa."	
+<http://purl.obolibrary.org/obo/AISM_0000041>	"The seta that is flat."	
+<http://purl.obolibrary.org/obo/AISM_0000068>	"The cuticle of the segment of a mid leg attached to the distal margin of the mesofemur by the mesofemoro-mesotibial conjunctiva and to the proximal margin of the mesotarsus by the mesotibio-mesotarsal conjunctiva."@en	
+<http://purl.obolibrary.org/obo/AISM_0002014>	"The cranio-mandibular muscle that is attached to the head capsule and the insect mandible."@en	
+<http://purl.obolibrary.org/obo/AISM_0000136>	"The cuticular ivagination that is branched into umerous branches."	
+<http://purl.obolibrary.org/obo/AISM_0004171>	"The cuticle of the segment of a fore leg attached to the distal margin of the procoxa by the procoxal-protrochanteral conjunctiva and to the proximal margin of the profemur by the protrochantero-profemoral conjunctiva."@en	
+<http://purl.obolibrary.org/obo/AISM_0004288>	"The insect body segment that is part of the insect abdomen and is posterior to the insect metathoracic segment."@en	"http://flybase.org/cgi-bin/cvreport.pl?cvterm=FBbt:00000022"
+<http://purl.obolibrary.org/obo/AISM_0004113>	"The conjunctiva of the insect abdomen that connects the abdominal sternite IV and the abdominal sternite V."@en	
+<http://purl.obolibrary.org/obo/PATO_0000413>	"A shape quality inhering in a bearer by virtue of the bearer's having an equal-sided rectangular form. [database_cross_reference: answers.com:answers.com]"@en	
+<http://purl.obolibrary.org/obo/AISM_0004162>	"The ridge that is anterior to a coxa, demarcated by the anapleural sulcus."@en	
+<http://purl.obolibrary.org/obo/AISM_0000085>	"The coxal muscle of the mesocoxa."@en	
+<http://purl.obolibrary.org/obo/AISM_0004242>	"The region of cuticle of the insect wing that contains wing veins, folds, and conjunctiva."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000018>	"The region of the cuticle of the elytral disc that is adjacent to an elytral stria."@en	
+<http://purl.obolibrary.org/obo/AISM_0000052>	"The notum or sclerite on the dorsal region of the mesothorax that is posterior to the pronotum, connected via the mesonoto-mesopleural conjuntiva to the dorsal margin of the mesopleuron, that is not adjacent to the mesocoxa, but attached to it by the mesocoxal muscle."@en	
+<http://purl.obolibrary.org/obo/AISM_0004119>	"The abdominal sternite of the postabdomen that is attached to the posterior margin of the abdominal sternite VIII by the abdominal sternite VIII-abdominal sternite IX conjunctiva and to the anterior margin of the abdominal sternite X by the abdominal sternite IX-abdominal sternite X conjunctiva."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000026>	"The discrimen of the metaventrite."@en	
+<http://purl.obolibrary.org/obo/BSPO_0000079>	"Anatomical region dorsally located on the body or body part."	"FBql:00005842"
+<http://purl.obolibrary.org/obo/AISM_0000082>	"The somatic muscle that is attached to the head capsule and the insect mandible."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000090>	"The region of cuticle on the postero-lateral region of the propleuron."@en	
+<http://purl.obolibrary.org/obo/AISM_0000191>	"The solid, paired, branching cuticular invagination of the head capsule that is attached to the antenna and the mouthparts via muscles."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000127>	"The second anterior branch of the cubital vein that is posterior to the first cubital anterior branch of the beetle wing (CuA1)."@en	
+<http://purl.obolibrary.org/obo/AISM_0004226>	"The insect thoracic muscle that extends between the mesophragma and the abdominal tergite I."@en	
+<http://purl.obolibrary.org/obo/AISM_0002056>	"The cranio-labial muscle that is attached to the prementum and the glossa."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000216>	"The elytral stria that is lateral to the elytral interstria 8."@en	
+<http://purl.obolibrary.org/obo/AISM_0004202>	"The conjunctiva of the prothorax that joins the propleura and the prosternum."@en	
+<http://purl.obolibrary.org/obo/AISM_0004062>	"The cuticular evagination of the postabdomen that is distal and attached to the cuticle of parameres by the paramero-aedeagal conjunctiva and is connected to the endophallus."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000028>	"The postero-medial region of the mesoventrite in contact with the metaventral process."@en	
+<http://purl.obolibrary.org/obo/AISM_0000160>	"The invagination of the cuticle that is largely membranous."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000002>	"The medial region of the pronotum."@en	
+<http://purl.obolibrary.org/obo/UBERON_0001134>	""	"NCIT:C13050 Wikipedia:Skeletal_striated_muscle MA:0002439 EMAPA:32716 SCTID:426215008 http://linkedlifedata.com/resource/umls/id/C0242692 FMA:14069 http://en.wikipedia.org/wiki/Skeletal_striated_muscle UMLS:C0242692 http://www.snomedbrowser.com/Codes/Details/426215008"
+<http://purl.obolibrary.org/obo/AISM_0000111>	"The cuticle of the sclerite of the insect maxilla that is attached to the cuticle of cardo by the cardo-stipital conjunctiva, attached to the cuticle of lacinia by the stipito-lacinial conjunctiva, attached to the cuticle of palpifer by the stipito-palpiferal conjunctiva, and attached to the cuticle of galea by the stipito-galeal conjunctiva."@en	
+<http://purl.obolibrary.org/obo/AISM_0004230>	"The conjunctiva of the mesothorax that joins the mesopleuron and the mesocoxa."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000105>	"The medial vein that is posterior to the radial posterior (RP) vein of the beetle wing."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000124>	"The medial vein that is distal to the medial bar of the beetle wing."@en	
+<http://purl.obolibrary.org/obo/AISM_0000004>	"The region of the insect cuticle that is more flexible than the neighboring sclerite(s) [sclerite(s) that the conjunctiva is continuous with]."@en	"http://purl.obolibrary.org/obo/HAO_0000221"
+<http://purl.obolibrary.org/obo/COLAO_0000103>	"The region of the beetle wing that is distal to the radial field of the insect wing, anterior to the medial field of the insect wing, and proximal to the apical field of the beetle wing."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000129>	"The anterior branch of the cubital vein that is posterior to the cubital anterior branch 1+2 (CuA1+2) of the beetle wing."@en	
+<http://purl.obolibrary.org/obo/AISM_0004284>	"The insect region of integument that has a ring sclerirte, continuous with ring conjunctiva, and attached to somatic muscle."@en	
+<http://purl.obolibrary.org/obo/AISM_0004034>	"The ridge of the head capsule that separates the clypeus and the frons."@en	
+<http://purl.obolibrary.org/obo/AISM_0000154>	"The somatic muscle that inserts in the mesotibia."@en	
+<http://purl.obolibrary.org/obo/AISM_0004046>	"The region of the head capsule that comprises the posterior region of the subgena."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000068>	"The cuticular seta on the dorsal region of the cuticle of the galea."@en	
+<http://purl.obolibrary.org/obo/BSPO_0000085>	"Anatomical region that overlaps the ventral and lateral regions of a body or body part."	"FBql:00005846"
+<http://purl.obolibrary.org/obo/AISM_0004089>	"The conjunctiva of the insect abdomen that connects the abdominal tergite III and the abdominal tergite IV."@en	
+<http://purl.obolibrary.org/obo/AISM_0004135>	"The sclerite that is located on the ventro-lateral region of the insect thorax and is attached to a coxa."@en	
+<http://purl.obolibrary.org/obo/AISM_0004117>	"Is the abdominal tergite of the postabdomen that is attached to the posterior margin of the abdominal tergite VIII by the abdominal tergite VIII-abdominal tergite IX conjunctiva and to the anterior margin of the abdominal tergite X by the abdominal tergite IX-abdominal tergite X conjunctiva."@en	
+<http://purl.obolibrary.org/obo/AISM_0002030>	"The insect cranio-maxillar muscle that is attached to the tentorium and the stipital ridge."@en	
+<http://purl.obolibrary.org/obo/AISM_0000040>	"The multicellular evagination of the cuticle that corresponds to an epithelial fold, composed of some sclerite that is encricled by a conjunctiva (moveable)."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000119>	"The posterior branch of the beetle wing vein that is part of the radial posterior (RP) vein of the beetle wing and posterior to radial posterior branch 2 (RP2) of the beetle wing."@en	
+<http://purl.obolibrary.org/obo/AISM_0000133>	"The multiporous sensillum that is flat."@en	
+<http://purl.obolibrary.org/obo/AISM_0004228>	"The phragma of the abdominal tergite I that attaches to muscles attached to the metanotum."@en	
+<http://purl.obolibrary.org/obo/UBERON_0001002>	"Tough but flexible, non-mineral outer coverings of an organism, or parts of an organism, that provide protection. Cuticles are non-homologous, differing in their origin, structure and chemical composition[WP]."	"BTO:0001600 http://en.wikipedia.org/wiki/Cuticle"
+<http://purl.obolibrary.org/obo/COLAO_0000024>	"The epimeron on the posterior region of the metapleuron and lateral to the metaventrite."@en	
+<http://purl.obolibrary.org/obo/AISM_0000091>	"The branching invagination of elastic cuticle that is cylindrical and contains taenidia."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000005>	"The sulcus that separates the dorsal region of the pleuron from the lateral region of the notum."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000122>	"The cross-vein of the beetle wing that is adjacent to the postero-medial region of the radial cell of the beetle wing."@en	
+<http://purl.obolibrary.org/obo/AISM_0004146>	"The sclerite of the notum that is attached to the posterior margin of the scutum."@en	
+<http://purl.obolibrary.org/obo/AISM_0002082>	"The dorsoventral thoracic muscle that extends between the posterior region (occipital region) of the head capsule and the profurca."@en	
+<http://purl.obolibrary.org/obo/AISM_0000528>	"The region of cuticle that bears an anatomical collection that is composed of granules."@en	
+<http://purl.obolibrary.org/obo/AISM_0004217>	"The insect thoracic muscle that extends between the profurca and the mesofurca."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000081>	"The region of cuticle that is part of the head capsule, posterior to the labrum and composed of clypeus and frons."@en	
+<http://purl.obolibrary.org/obo/AISM_0000036>	"The cuticle of the paired appendage of the metathorax that is posterior to the cuticle of a mid leg and composed of cuticle of metacoxa, cuticle of metatrochanter, cuticle of metafemur, cuticle of metatibia, cuticle of metatarsus, and cuticle of metapretarsus."@en	
+<http://purl.obolibrary.org/obo/AISM_0004054>	"Are apophyses of the tentorium originating at each anterior tentorial arm."@en	
+<http://purl.obolibrary.org/obo/AISM_0000159>	"The conjunctiva in the head capsule that forms a pouch between the hypopharynx and the labium and bears the exocrine gland duct."@en	
+<http://purl.obolibrary.org/obo/AISM_0004244>	"The region of cuticle of the insect wing that is more flexible than the wing conjunctiva."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000224>	"The anatomical margin that is formed by the anterior region of the anterolateral pronotal margin and by the lateral region of the anterior pronotal margin."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000053>	"The cuticular sulcus between the submentum and the postgena"@en	
+<http://purl.obolibrary.org/obo/AISM_0004013>	"The conjunctiva of the labium that connects the submentum and the mentum."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000075>	"Each of the bilaterally paired hypopharyngeal sclerites on the antero-lateral region of the hypopharynx."@en	
+<http://purl.obolibrary.org/obo/AISM_0004311>	"The region of the insect wing that is posterior to the medial field of the insect wing."@en	
+<http://purl.obolibrary.org/obo/AISM_0000026>	"The cuticle of the appendage of the insect maxilla that is attached to the cuticle of stipes by the stipito-lacinial conjunctiva."@en	
+<http://purl.obolibrary.org/obo/AISM_0004298>	"The insect body segment that corresponds to the prothorax and is posterior to the insect cephalic segment."@en	
+<http://purl.obolibrary.org/obo/UBERON_0001062>	"Biological entity that is either an individual member of a biological species or constitutes the structural organization of an individual member of a biological species. [ FMA : 62955 http://orcid.org/0000-0001-9114-8737 ]"@en	
+<http://purl.obolibrary.org/obo/AISM_0004030>	"The longitudinal cuticular suture that is on the vertex and is connected to the frontal suture."@en	
+<http://purl.obolibrary.org/obo/AISM_0004100>	"The abdominal sternite of the preabdomen that is attached to the posterior margin of the metasternum by the metasterno-abdominal sternite I conjunctiva and to the anterior margin of the abdominal sternite II by the abdominal sternite I-abdominal sternite II conjunctiva."@en	
+<http://purl.obolibrary.org/obo/AISM_0000064>	"The cuticle of the segment of the mid leg that is attached to the latero-ventral region of the mesothorax by the basal mesocoxal conjunctiva and to the mesotrochanter by the mesocoxal-mesotrochanteral conjunctiva."@en	
+<http://purl.obolibrary.org/obo/AISM_0004220>	"The noto-pleural conjunctiva that joins the pronotum and the propleuron."@en	
+<http://purl.obolibrary.org/obo/AISM_0004253>	"The insect wing fold that separates the anal field and the jugal field."@en	
+<http://purl.obolibrary.org/obo/BSPO_0000016>	"An axis that is approximately perpendicular to the anterior-posterior axis and that extends through the horizontal plane of the body."	
+<http://purl.obolibrary.org/obo/AISM_0002071>	"The dorsal longitudinal thoracic muscle that is attached to the prophragma and the postocciput."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000039>	"The apodeme on the anterior margin of abdominal sternite VIII."@en	
+<http://purl.obolibrary.org/obo/AISM_0004197>	"The orifice on the postabdomen at the posterior margin of the digestive tract, connected to the epiproct and paraprocti."@en	
+<http://purl.obolibrary.org/obo/AISM_0004131>	"The sclerite that is part of the pleuron."@en	
+<http://purl.obolibrary.org/obo/AISM_0000007>	"The region of cuticle with higher content of resilin."@en	
+<http://purl.obolibrary.org/obo/AISM_0000081>	"The somatic muscle that is attached to the head capsule and the antenna."@en	
+<http://purl.obolibrary.org/obo/AISM_0000527>	"The cuticular protrusion of a sclerite that is sharp."@en	
+<http://purl.obolibrary.org/obo/AISM_0004088>	"The conjunctiva of the insect abdomen that connects the abdominal tergite II and the abdominal tergite III."@en	
+<http://purl.obolibrary.org/obo/AISM_0004024>	"The apophysis of the tentorium originating from each posterior tentorial arm."@en	
+<http://purl.obolibrary.org/obo/AISM_0004293>	"The insect abdominal segment that is posterior to the insect abdominal segment V and composed of abdominal tergite VI and abdominal sternite VI."@en	"http://flybase.org/cgi-bin/cvreport.pl?cvterm=FBbt:00000027"
+<http://purl.obolibrary.org/obo/COLAO_0000055>	"The region of the cuticle of the torma that is elongated and parallel to the left-right axis."@en	
+<http://purl.obolibrary.org/obo/BSPO_0000028>		
+<http://purl.obolibrary.org/obo/AISM_0004183>	"The conjunctiva that encircles the protarsus by joining the distal margin of the protibia and the proximal margin of the protarsus."@en	
+<http://purl.obolibrary.org/obo/AISM_0004114>	"The conjunctiva of the insect abdomen that connects the abdominal sternite V and the abdominal sternite VI."@en	
+<http://purl.obolibrary.org/obo/AISM_0004104>	"The abdominal tergite of the preabdomen that is attached to the posterior margin of the abdominal sternite I by the abdominal sternite I-abdominal sternite II conjunctiva and to the anterior margin of the abdominal sternite III by the abdominal sternite II-abdominal sternite III conjunctiva."@en	
+<http://purl.obolibrary.org/obo/BSPO_0000007>	"The side of an organism that is right of the sagittal plane."	
+<http://purl.obolibrary.org/obo/COLAO_0000145>	"The cuticular sulcus on the cuticle of the maxillolabial complex."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000058>	"The epipharyngeal sclerite on the anterior region of the epipharynx."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000246>	"The cuticular carina that is located on the posterior region of the hypomeron and is parallel to the lateral pronotal carina."@en	
+<http://purl.obolibrary.org/obo/BSPO_0000062>	"Anatomical side that is distally located on an organism or structure."	"FBql:00005853 FBcv:0000058"
+<http://purl.obolibrary.org/obo/AISM_0004132>	"The ridge between the epimeron and the episternum in either the mesothorax or the metathorax."@en	
+<http://purl.obolibrary.org/obo/AISM_0004291>	"The insect abdominal segment that is posterior to the insect abdominal segment III and composed of abdominal tergite IV and abdominal sternite IV."@en	"http://flybase.org/cgi-bin/cvreport.pl?cvterm=FBbt:00000025"
+<http://purl.obolibrary.org/obo/AISM_0000137>	"The branching cuticular invagination that is located between the mid and hindgut."@en	"http://purl.obolibrary.org/obo/UBERON_0001054"
+<http://purl.obolibrary.org/obo/AISM_0004059>	"The conjunctiva of the insect abdomen that surrounds the spiracles."@en	
+<http://purl.obolibrary.org/obo/AISM_0000060>	"The cuticle of the mere that is part of the labial palpus."@en	
+<http://purl.obolibrary.org/obo/AISM_0000071>	"The cuticle of the segment of a mid leg attached to the distal margin of the mesotrochanter by the mesotrochantero-mesofemoral conjunctiva and to the proximal margin of the mesotibia by the mesofemoro-mesotibial conjunctiva."@en	
+<http://purl.obolibrary.org/obo/AISM_0004315>	"The insect spiracle that is part of the insect abdomen."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000110>	"The anterior region of the radial vein of the insect wing."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000207>	"The elytral interstria that is lateral to the elytral stria 3."@en	
+<http://purl.obolibrary.org/obo/AISM_0000057>	"The sclerite of the labium that is connected to the mentum by the mental-premental conjunctiva, to the palpiger by the premental-palpigeral conjunctiva, to the paraglossa by the premental-paraglossal conjunctiva, and to the glossa by the premental-glossal conjunctiva."@en	
+<http://purl.obolibrary.org/obo/AISM_0004110>	"The abdominal sternite of the postabdomen that is attached to the posterior margin of the abdominal sternite VII by the abdominal sternite VII-abdominal sternite VIII conjunctiva. In males it is attached to the anterior margin of the abdominal sternite IX by the abdominal sternite VIII-abdominal sternite IX conjunctiva. In females it is attached to the anterior margin of the gonocoxa."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000006>	"The sulcus that separates the ventral region of the pleuron from the lateral region of the sternum."@en	
+<http://www.w3.org/2002/07/owl#Nothing>		
+<http://purl.obolibrary.org/obo/AISM_0000106>	"The conjunctiva that encircles the procoxa and connects it to the ventral and lateral regions of the prothorax."@en	
+<http://purl.obolibrary.org/obo/AISM_0004231>	"The conjunctiva of the mesothorax that joins the mesopleura and the mesosternum."@en	
+<http://purl.obolibrary.org/obo/BSPO_0000112>	"The region corresponding to the ventral region of the entity, towards the midline."	
+<http://purl.obolibrary.org/obo/AISM_0004203>	"The conjunctiva of the pterothorax that surrounds the wing."@en	
+<http://purl.obolibrary.org/obo/BSPO_0000006>		
+<http://purl.obolibrary.org/obo/COLAO_0000027>	"The concave part of the ventral region of the pterothorax that receives the mesocoxa."@en	
+<http://purl.obolibrary.org/obo/AISM_0002022>	"The cranio-mandibular muscle that is attached to the dorsal tentorial arm and the proximal margin of the insect mandible."@en	
+<http://purl.obolibrary.org/obo/AISM_0000028>	"The cuticular protrusion that does not correspond to an evagination."@en	
+<http://purl.obolibrary.org/obo/AISM_0000190>	"The cuticular protrusion of the head capsule thag is continuous with the antenniferal-scapal conjunctiva and adjacent to the cuticle of the scapus"@en	
+<http://purl.obolibrary.org/obo/AISM_0004071>	"The seta that is flattened."@en	
+<http://purl.obolibrary.org/obo/UBERON_0002536>	"Sense organ embedded in the integument and consisting of one or a cluster of sensory neurons and associated sensory structures, support cells and glial cells forming a single organised unit with a largely bona-fide boundary.[FBbt]."	"TGMA:0000540 HAO:0000933 MIAA:0000163 Wikipedia:Sensillum BTO:0001237 MAT:0000163 FBbt:00007152 http://en.wikipedia.org/wiki/Sensillum EFO:0000939"
+<http://purl.obolibrary.org/obo/COLAO_0000115>	"The insect wing vein thet is posterior to the anterior branch of the beetle wing vein."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000141>	"The insect sclerite on the apical field of the beetle wing that is distal to the radial cell."@en	
+<http://purl.obolibrary.org/obo/AISM_0004271>	"The cuticular lobe of the cuticle of the insect mandible between the mandibular molar lobe and the mandibular incisor lobe."@en	
+<http://purl.obolibrary.org/obo/AISM_0000150>	"The somatic muscle that inserts in the profemur."@en	
+<http://purl.obolibrary.org/obo/AISM_0000084>	"The somatic muscle that is attached to the head capsule and the labrum."@en	
+<http://purl.obolibrary.org/obo/AISM_0000146>	"The coxal muscle of the metacoxa."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000098>	"The cuticular carina on the anterior region of the metendosternite (metafurca) that is parallel to the left-right axis."@en	
+<http://purl.obolibrary.org/obo/AISM_0004199>	"The cuticle of the mere that is part of the cercus."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000263>	"The cuticular groove that is located in the medial region of pronotum and is parallel to the antero-posterior body axis."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000061>	"The insect articulation on the dorso-lateral region of the cuticle of the insect mandible."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000111>	"The posterior region of the radial vein of the insect wing."@en	
+<http://purl.obolibrary.org/obo/UBERON_0000018>	"A light sensing organ composed of ommatidia."	"HAO:0000217 TGMA:0000024 FBbt:00004508 BTO:0001921 http://en.wikipedia.org/wiki/Compound_eye Wikipedia:Compound_eye"
+<http://purl.obolibrary.org/obo/AISM_0002069>	"The insect thoracic muscle that extends between the sternum and the pleura."@en	
+<http://purl.obolibrary.org/obo/AISM_0000072>	"The cuticle of the segment of a hind leg attached to the distal margin of the metatrochanter by the metatrochantero-metafemoral conjunctiva and to the proximal margin of the metatibia by the metafemoro-metatibial conjunctiva."@en	
+<http://purl.obolibrary.org/obo/AISM_0004185>	"The conjunctiva that encircles the metatarsus by joining the distal margin of the metatibia and the proximal margin of the metatarsus."@en	
+<http://purl.obolibrary.org/obo/AISM_0004157>	"The anatomical line of weakness of the cuticle that allows molting and coincides with a suture."@en	
+<http://purl.obolibrary.org/obo/AISM_0004022>	"The ridge of the head capsule surrounding the eye cuticle."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000134>	"The anterior branch of the cubital vein that is composed of the third and fourth anal anterior branches of the beetle wing."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000212>	"The elytral stria that is lateral to the elytral interstria 6."@en	
+<http://purl.obolibrary.org/obo/AISM_0004289>	"The insect abdominal segment that is posterior to the insect abdominal segment I and composed of abdominal tergite II and abdominal sternite II."@en	"http://flybase.org/cgi-bin/cvreport.pl?cvterm=FBbt:00000023"
+<http://purl.obolibrary.org/obo/AISM_0004292>	"The insect abdominal segment that is posterior to the insect abdominal segment IV and composed of abdominal tergite V and abdominal sternite V."@en	"http://flybase.org/cgi-bin/cvreport.pl?cvterm=FBbt:00000026"
+<http://purl.obolibrary.org/obo/AISM_0000530>	"The region of the cuticle that bears an anatomical collection that is composed of setae."@en	
+<http://purl.obolibrary.org/obo/AISM_0004159>	"The region of the cuticle on the dorsal region of the epimeron."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000014>	"The region of cuticle on the lateral region of the elytron."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000082>	"The cuticular ridge on the cuticle of the prothorax that coincides with the notosternal sulcus."@en	
+<http://purl.obolibrary.org/obo/AISM_0004098>	"The conjunctiva of the insect abdomen that connects the abdominal tergite VII and the abdominal tergite VIII."@en	
+<http://purl.obolibrary.org/obo/AISM_0002074>	"The dorsal longitudinal thoracic muscle that is attached to the cervical sclerite and the postocciput."@en	
+<http://purl.obolibrary.org/obo/AISM_0004218>	"The insect thoracic muscle that extends between the mesofurca and the metafurca."@en	
+<http://purl.obolibrary.org/obo/AISM_0004095>	"Is the abdominal tergite of the preabdomen that is attached to the posterior margin of the abdominal tergite VI by the abdominal tergite VI-abdominal tergite VII conjunctiva and to the anterior margin of the abdominal tergite VIII by the abdominal tergite VII-abdominal tergite VIII conjunctiva."@en	
+<http://purl.obolibrary.org/obo/AISM_0000155>	"The somatic muscle that inserts in the metatibia."@en	
+<http://purl.obolibrary.org/obo/AISM_0004303>		
+<http://purl.obolibrary.org/obo/AISM_0000006>	"The region of cuticle that corresponds with an invagination of the single layer epidermis (epidermal fold). The cuticular invagination sometimes corresponds to a cuticular depression (concavity on the surface of the cuticle)."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000060>	"The setose cuticle of the epipharynx that is posterior to the anterior epipharyngeal sclerite."@en	
+<http://purl.obolibrary.org/obo/AISM_0000049>	"The cuticle of the appendage of the labium, and part of the ligula, that is attached to the prementum by the premental-glossal conjunctiva."@en	
+<http://purl.obolibrary.org/obo/CL_0000000>	"A material entity of anatomical origin (part of or deriving from an organism) that has as its parts a maximally connected cell compartment surrounded by a plasma membrane."	"CALOHA:TS-2035 MESH:D002477 XAO:0003012 VHOG:0001533 GO:0005623 FBbt:00007002 FMA:68646 WBbt:0004017 KUPO:0000002"
+<http://purl.obolibrary.org/obo/AISM_0004179>	"The conjunctiva that encircles the protibia by joining the distal margin of the profemur and the proximal margin of the protibia."@en	
+<http://purl.obolibrary.org/obo/AISM_0000529>	"The region of cuticle that bears an anatomical collection that is composed of punctures."@en	
+<http://purl.obolibrary.org/obo/AISM_0000031>	"The cuticle of the paired appendage of the insect thorax that is composed of coxa, trochanter, femur, tibia, tarsus, and pretarsus."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000151>	"The insect spiracle composed of a sieve plate of the cribriform spiracle and a spiracular scar."@en	
+<http://purl.obolibrary.org/obo/AISM_0004208>	"The insect thoracic muscle that extends between two nota (or terga)."@en	
+<http://purl.obolibrary.org/obo/AISM_0000102>	"The conjunctiva that encircles a ring sclerite."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000221>	"The elytral interstria that is lateral to the elytral stria 10."@en	
+<http://purl.obolibrary.org/obo/AISM_0000047>	"The cuticle of the appendage of the insect leg that is attached to the cuticle of tarsus by the tarso-pretarsal conjunctiva."@en	
+<http://purl.obolibrary.org/obo/AISM_0004029>	"The cuticular suture that surrounds the frons and is connected to the coronal suture."@en	
+<http://purl.obolibrary.org/obo/AISM_0000188>	"The solid cuticular invagination of a sclerite."@en	
+<http://purl.obolibrary.org/obo/AISM_0004105>	"The abdominal sternite of the preabdomen that is attached to the posterior margin of the abdominal sternite II by the abdominal sternite II-abdominal sternite III conjunctiva and to the anterior margin of the abdominal sternite IV by the abdominal sternite III-abdominal sternite IV conjunctiva."@en	
+<http://purl.obolibrary.org/obo/AISM_0000035>	"The cuticle of the paired appendage of the mesothorax that is posterior to the cuticle of a fore leg, anterior to the cuticle of a hind leg, and composed of cuticle of mesocoxa, cuticle of mesotrochanter, cuticle of mesofemur, cuticle of mesotibia, cuticle of mesotarsus, and cuticle of mesopretarsus."@en	
+<http://purl.obolibrary.org/obo/AISM_0000100>	"The conjunctiva of the insect thorax that joins the pronotum and the mesonotum."@en	
+<http://purl.obolibrary.org/obo/AISM_0004130>	"The ventral region of the cuticle of the insect thorax that is attached to the ventral margin of the pleuron."@en	
+<http://purl.obolibrary.org/obo/AISM_0004169>	"The cuticle of the segment of the leg that is composed of tarsomeres connected to each other by intertarsomeral conjunctiva. The first tarsomere is connected to the distal margin of the tibia by the tibio-tarsal conjunctiva and last tarsomere is connected to the proximal margin of the pretarsus by the tarso-pretarsal conjunctiva."@en	
+<http://purl.obolibrary.org/obo/AISM_0004302>		
+<http://purl.obolibrary.org/obo/AISM_0000124>	"The conjunctiva of the mid leg joining the distal margin of a mesocoxa and the proximal margin of a mesotrochanter."@en	
+<http://purl.obolibrary.org/obo/AISM_0002075>	"The dorsal longitudinal thoracic muscle that is attached to the pronotum and the prophragma."@en	
+<http://purl.obolibrary.org/obo/AISM_0004177>	"The conjunctiva that encircles the metafemur by joining the distal margin of the metatrochanter and the proximal margin of the metafemur."@en	
+<http://purl.obolibrary.org/obo/AISM_0004018>	"The conjunctiva of the insect maxilla that connects the clypeus and the labrum."@en	
+<http://purl.obolibrary.org/obo/AISM_0000170>	"The sclerite that is continuous with the basal metacoxal conjunctiva and the basal wing conjunctiva and contains the metafurca."@en	
+<http://purl.obolibrary.org/obo/AISM_0004052>	"The sense organ of the insect head that is covered by the eye cuticle."@en	
+<http://purl.obolibrary.org/obo/AISM_0002068>	"The insect thoracic muscle that extends between the notum (or tergum) and the pleura."@en	
+<http://purl.obolibrary.org/obo/BSPO_0000069>	"Anatomical region that overlaps the dorsal and medial regions of the body or body part."	
+<http://purl.obolibrary.org/obo/AISM_0004047>	"The ridge composing the posterior region of the subgenal ridge."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000220>	"The elytral stria that is lateral to the elytral interstria 10."@en	
+<http://purl.obolibrary.org/obo/AISM_0004081>	"The cuticular protrusion of the pleuron that is connected lateraly to the notum."@en	
+<http://purl.obolibrary.org/obo/AISM_0000075>	"The cuticle of the segment of a leg attached to the distal margin of the femur by the femoro-tibial conjunctiva and to the proximal margin of the tarsus by the tibio-tarsal conjunctiva."@en	
+<http://purl.obolibrary.org/obo/AISM_0000151>	"The somatic muscle that inserts in the mesofemur."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000095>	"The bilaterally paired dorso-lateral apodeme of the metendosternite that is distal to the metendosternal lamina."@en	
+<http://purl.obolibrary.org/obo/AISM_0000056>	"The trochantin that is located on the ventro-lateral region of the metathorax and is attached to a metacoxa and surrounded by the basal metacoxal conjunctiva."@en	
+<http://purl.obolibrary.org/obo/PATO_0001419>	"A shape quality inhering in a bearer by virtue of the bearer's terminating in a point or edge."	
+<http://purl.obolibrary.org/obo/AISM_0004154>	"The dorsal region of the episternum that is dorsal to the anapleural sulcus."	
+<http://purl.obolibrary.org/obo/AISM_0000148>	"The somatic muscle that inserts in the tibia."@en	
+<http://purl.obolibrary.org/obo/PATO_0000984>	"A porosity quality inhering in a bearer by virtue of the bearer's being capable of admitting the passage of gas or liquid through pores or interstices."	
+<http://purl.obolibrary.org/obo/AISM_0002032>	"The insect cranio-maxillar muscle that is attached to the tentorium and the stipes."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000154>	"The elytral stria with elevated surface."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000000>	"The sclerotized fore wing of beetles."@en	
+<http://purl.obolibrary.org/obo/PATO_0002425>	"Open to view or not covered by another entity. [database_cross_reference: PATOC:WD]"@en	
+<http://purl.obolibrary.org/obo/COLAO_0000206>	"The elytral stria that is lateral to the elytral interstria 3."@en	
+<http://purl.obolibrary.org/obo/AISM_0004075>	"The orifice in the postabdomen that marks the opening of the reproductive system."@en	
+<http://purl.obolibrary.org/obo/AISM_0004194>	"The cuticle of the appendage of the fore leg that is attached to the protarsus by the protarso-propretarsal conjunctiva."@en	
+<http://purl.obolibrary.org/obo/AISM_0000165>	"The cuticle of the appendage of the insect head that is encircled by the oral foraminal conjunctiva."@en	
+<http://purl.obolibrary.org/obo/AISM_0002048>	"The internal apodeme that is continuous with the cuticle of the notum and is attached to a dorsal longitudinal muscle."@en	
+<http://purl.obolibrary.org/obo/BSPO_0000071>	"Anatomical region anteriorly located on the body or body part."	"FBql:00005848"
+<http://purl.obolibrary.org/obo/AISM_0002083>	"The dorsal longitudinal thoracic muscle that extends between the medial region of the prophragma and the medial region of the mesophragma."@en	
+<http://purl.obolibrary.org/obo/AISM_0004058>	"The sclerite of the insect abdomen that is ventral and medial."@en	
+<http://purl.obolibrary.org/obo/BSPO_0000417>	"Anatomical plane that divides a bilateral body into left and right parts, not necessarily of even size."	"FMA:11361"
+<http://purl.obolibrary.org/obo/AISM_0004031>	"The ridge of the head capsule comprising the posterior region of the subgenal ridge."@en	
+<http://purl.obolibrary.org/obo/AISM_0000051>	"The cuticle of the appendage of the insect maxilla that is attached to the cuticle of palpifer by the palpifero-palpal conjunctiva."@en	
+<http://purl.obolibrary.org/obo/AISM_0004084>	"The conjunctiva of the insect abdomen that joins the abdominal sternite VIII and the gonocoxa VIII."@en	
+<http://purl.obolibrary.org/obo/AISM_0004138>	"The part of the sternum that is attached to the posterior margin of the basisternum and to the anterior margin of the spinasternum."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000135>	"The cross-vein of the beetle wing that is adjacent to the radial posterior vein and to the medial spur of the beetle wing."@en	
+<http://purl.obolibrary.org/obo/AISM_0004106>	"The abdominal sternite of the preabdomen that is attached to the posterior margin of the abdominal sternite III by the abdominal sternite III-abdominal sternite IV conjunctiva and to the anterior margin of the abdominal sternite V by the abdominal sternite IV-abdominal sternite V conjunctiva."@en	
+<http://purl.obolibrary.org/obo/AISM_0000186>	"The cuticular seta that is elongated and acuminate."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000044>	"The dorsal region of the eye cuticle."@en	
+<http://purl.obolibrary.org/obo/AISM_0004070>	"The cuticle of the appendage of the abdominal sternite VIII that is part of the ovipositor."@en	
+<http://purl.obolibrary.org/obo/AISM_0004277>	"The thoracic foramen that is at the anterior margin of the cuticle of the prothorax."@en	
+<http://purl.obolibrary.org/obo/AISM_0000187>	"Seta that is located in the middle of a depression with narrowed external opening."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000249>	"The cuticular lobe that is part of the proximolateral region of the cuticle of the paramere."@en	
+<http://purl.obolibrary.org/obo/AISM_0004307>	"The cuticular seta that is adjacent to the cuticle of the pretarsus."@en	
+<http://purl.obolibrary.org/obo/AISM_0000197>	"The foramen encircled by a sclerite."@en	
+<http://purl.obolibrary.org/obo/AISM_0004025>	"The dorsal region of the head capsule that surrounds the coronal suture, and is connected laterally to the genae."@en	
+<http://purl.obolibrary.org/obo/AISM_0000132>	"The multiporous plate that is elongated."@en	
+<http://purl.obolibrary.org/obo/AISM_0000145>	"The coxal muscle of the procoxa."@en	
+<http://purl.obolibrary.org/obo/AISM_0000059>	"The notum or sclerite on the dorsal region of the prothorax that is attached to cranial muscles, procoxal muscles, contiuous posterioirly with the neck membrane and with pronoto-propleural conjunctiva and not adjacent (not touching) to the procoxa."@en	
+<http://purl.obolibrary.org/obo/AISM_0000017>	"The articulation between the head and the neck."@en	
+<http://purl.obolibrary.org/obo/PATO_0000591>	"A thickness which is relatively high."	
+<http://purl.obolibrary.org/obo/COLAO_0000203>	"The elytral interstria that is lateral to the elytral stria 1."@en	
+<http://purl.obolibrary.org/obo/AISM_0004215>	"The insect thoracic muscle that is attached to a furca and to a trochanter."@en	
+<http://purl.obolibrary.org/obo/AISM_0004294>	"The insect abdominal segment that is posterior to the insect abdominal segment VI and composed of abdominal tergite VII and abdominal sternite VII."@en	"http://flybase.org/cgi-bin/cvreport.pl?cvterm=FBbt:00000028"
+<http://purl.obolibrary.org/obo/COLAO_0000023>	"The epimeron on the posterior region of the mesopleuron."@en	
+<http://purl.obolibrary.org/obo/AISM_0004109>	"The abdominal sternite of the preabdomen that is attached to the posterior margin of the abdominal sternite VI by the abdominal sternite VI-abdominal sternite VII conjunctiva and to the anterior margin of the abdominal sternite VIII by the abdominal sternite VII-abdominal sternite VIII conjunctiva."@en	
+<http://purl.obolibrary.org/obo/AISM_0004310>	"The region of the insect wing that is posterior to the costal field of the insect wing."@en	
+<http://purl.obolibrary.org/obo/AISM_0000123>	"The conjunctiva of the fore leg joining the distal margin of a procoxa and the proximal margin of a protrochanter."@en	
+<http://purl.obolibrary.org/obo/AISM_0004279>	"The thoracic foramen that is at the anterior margin of the cuticle of the mesothorax."@en	
+<http://purl.obolibrary.org/obo/AISM_0004144>	"The sclerite of the notum that is attached to the anterior margin of the scutum."@en	
+<http://purl.obolibrary.org/obo/UBERON_6007284>	"A region of cuticle and its underlying epidermis."	"FBbt:00007284"
+<http://purl.obolibrary.org/obo/COLAO_0000089>	"The protrochantin that is fused with the propleuron."@en	
+<http://purl.obolibrary.org/obo/AISM_0000013>	"A part or structure that is produced by evagination."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000085>	"The antennomere that is cup-shaped."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000107>	"The region of the beetle wing that is distal to the axillary region of the insect wing and proximal to the costal vein of the insect wing."@en	
+<http://purl.obolibrary.org/obo/AISM_0004136>	"The part of the sternum that is attached to the anterior margin of the basisternum."@en	
+<http://purl.obolibrary.org/obo/AISM_0000523>	"Dorsal part of postabdomen"	
+<http://purl.obolibrary.org/obo/AISM_0004259>	"The insect wing fold that is distal to the axillary region."@en	
+<http://purl.obolibrary.org/obo/UBERON_0000993>	"A tube or collection of tubes in an animal from the ovaries to the outside of the body."	"UMLS:C0029954 EFO:0000974 MESH:D010057 XAO:0003052 EMAPA:18984 http://en.wikipedia.org/wiki/Oviduct BTO:0000980 http://linkedlifedata.com/resource/umls/id/C0029954 ZFA:0000560 TAO:0000560 VHOG:0001136 Wikipedia:Oviduct MAT:0000126 MIAA:0000126 AAO:0010533 BSA:0000083 NCIT:C77957 GAID:366"
+<http://purl.obolibrary.org/obo/COLAO_0000131>	"The anterior branch of the anal vein that is composed of the anal anterior branch 1+2 and the cubital anterior branch 3+4 of the beetle wing."@en	
+<http://purl.obolibrary.org/obo/AISM_0004245>	"The posterior region of the insect wing."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000086>	"The cuticle of the mouthpart composed at least by the cuticle of the galea."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000013>	"The region of the cuticle on the dorsal region of an elytron."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000033>	"The carina on the frons that is dorsal to the antennal foramen."@en	
+<http://purl.obolibrary.org/obo/PATO_0000586>	"A size quality which is relatively high."	
+<http://purl.obolibrary.org/obo/AISM_0000055>	"The trochantin that is located on the ventro-lateral region of the prothorax and is attached to a procoxa and surrounded by the basal procoxal conjunctiva."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000109>	"The posterior region of the subcostal vein of the insect wing."@en	
+<http://purl.obolibrary.org/obo/COLAO_0000084>	"The cuticular groove on the distal side of the cuticle of an antennomere that bears cuticular sensillae."@en	
+<http://purl.obolibrary.org/obo/PATO_0000592>	"A thickness which is relatively low."	
