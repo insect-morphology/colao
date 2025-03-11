@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/colao/releases/2024-03-16/imports/aism_import.owl" uri="imports/aism_import.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/colao/releases/2024-01-18/imports/aism_import.owl" uri="imports/aism_import.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/colao/releases/2024-01-18/imports/aism_import.owl" uri="imports/aism_import.owl"/>
     <group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public" xml:base="">
